@@ -75,7 +75,7 @@ class DistributedSellbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
         if not self.validate(avId, avId in self.involvedToons, 'DistributedSellbotBossAI.hitBoss from unknown avatar'):
             return
         self.validate(avId, bossDamage == 1, 'invalid bossDamage %s' % bossDamage)
-        bossDamage = int(round(bossDamage * self.pieDamageMult))
+        bossDamage = 40
         if bossDamage < 1:
             return
         currState = self.getCurrentOrNextState()

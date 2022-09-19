@@ -193,6 +193,7 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         self.recoverStartTime = recoverStartTime
         taskName = 'RecoverBossDamage'
         taskMgr.remove(taskName)
+        self.updateHealthBar()
         if self.bossDamageMovie:
             if self.bossDamage >= self.bossMaxDamage:
                 self.bossDamageMovie.resumeUntil(self.bossDamageMovie.getDuration())
@@ -892,6 +893,8 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         self.bossDamageToMovie = self.bossDamageMovie.getDuration() / self.bossMaxDamage
         self.bossDamageMovie.setT(self.bossDamage * self.bossDamageToMovie)
         base.playMusic(self.battleThreeMusic, looping=1, volume=0.9)
+        self.generateHealthBar()
+        self.updateHealthBar()
 
     def __doneBattleThree(self):
         self.setState('NearVictory')
@@ -1162,10 +1165,14 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         if pieCode == ToontownGlobals.PieCodeBossInsides:
             if toon == localAvatar:
                 self.d_hitBossInsides()
+                self.showHpText(-30, scale=5, bonus=1)
+                self.d_hitBoss(30)
             self.flashRed()
         elif pieCode == ToontownGlobals.PieCodeBossCog:
             if toon == localAvatar:
-                self.d_hitBoss(1)
+                self.d_hitBoss(40)
+                self.showHpText(-40, scale=5)
+                self.updateHealthBar()
             if self.dizzy:
                 self.flashRed()
                 self.doAnimate('hit', now=1)
@@ -1223,10 +1230,10 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         gearRoot.setTag('attackCode', str(ToontownGlobals.BossCogStrafeAttack))
         gearModel = self.getGearFrisbee()
         gearModel.setScale(0.1)
-        t = self.getBossDamage() / 100.0
+        t = 1.0
         gearTrack = Parallel()
         numGears = int(4 + 6 * t + 0.5)
-        time = 5.0 - 4.0 * t
+        time = 10
         spread = 60 * math.pi / 180.0
         if direction == 1:
             spread = -spread
@@ -1241,7 +1248,7 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
             x = dist * math.sin(angle)
             y = dist * math.cos(angle)
             h = random.uniform(-720, 720)
-            gearTrack.append(Sequence(Wait(i * rate), Func(node.show), Parallel(node.posInterval(1, Point3(x, y, 0), fluid=1), node.hprInterval(1, VBase3(h, 0, 0), fluid=1), Sequence(SoundInterval(self.strafeSfx[i], volume=0.2, node=self), duration=0)), Func(node.detachNode)))
+            gearTrack.append(Sequence(Wait(i * rate), Func(node.show), Parallel(node.posInterval(1, Point3(x, y, 0), fluid=1), node.hprInterval(1, VBase3(h, 0, 0), fluid=1)), Func(node.detachNode)))
 
         seq = Sequence(Func(door.request, 'open'), Wait(0.7), gearTrack, Func(door.request, 'close'))
         self.__cleanupStrafe()
