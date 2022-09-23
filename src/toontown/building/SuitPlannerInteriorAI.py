@@ -91,7 +91,7 @@ class SuitPlannerInteriorAI:
     def __genNormalSuitType(self, lvl):
         if self.dbg_defaultSuitType != None:
             return self.dbg_defaultSuitType
-        return SuitDNA.getRandomSuitType(lvl)
+        return SuitDNA.getRandomSuitTypeSuitInterior(lvl)
 
     def __genLevelList(self, bldgLevel, currFloor, numFloors):
         bldgInfo = SuitBuildingGlobals.SuitBuildingInfo[bldgLevel]
@@ -125,11 +125,11 @@ class SuitPlannerInteriorAI:
         return lvlList
 
     def __setupSuitInfo(self, suit, bldgTrack, suitLevel, suitType):
-        suitName, skeleton = simbase.air.suitInvasionManager.getInvadingCog()
+        suitName, skeleton, revives = simbase.air.suitInvasionManager.getInvadingCog()
         if suitName and self.respectInvasions:
             suitType = SuitDNA.getSuitType(suitName)
             bldgTrack = SuitDNA.getSuitDept(suitName)
-            suitLevel = min(max(suitLevel, suitType), suitType + 4)
+            suitLevel = min(max(suitLevel, suitType), suitType + 6)
         dna = SuitDNA.SuitDNA()
         dna.newSuitRandom(suitType, bldgTrack)
         suit.dna = dna

@@ -23,67 +23,100 @@ def pickFromFreqList(freqList):
 
 def getActualFromRelativeLevel(name, relLevel):
     data = SuitAttributes[name]
-    actualLevel = data['level'] + relLevel
+    actualLevel = data["level"] + relLevel
     return actualLevel
 
 
-def getSuitVitals(name, level = -1):
+def getSuitVitals(name, level=-1):
     data = SuitAttributes[name]
     if level == -1:
-        level = pickFromFreqList(data['freq'])
+        level = pickFromFreqList(data["freq"])
     dict = {}
-    dict['level'] = getActualFromRelativeLevel(name, level)
-    if dict['level'] == 11:
+    dict["level"] = getActualFromRelativeLevel(name, level)
+    if dict["level"] == 11:
         level = 0
-    dict['hp'] = data['hp'][level]
-    dict['def'] = data['def'][level]
-    attacks = data['attacks']
+    try:
+        dict["hp"] = data["hp"][level]
+        dict["def"] = data["def"][level]
+    except:
+        dict["hp"] = (dict["level"] + 1) * (dict["level"] + 2)
+        dict["def"] = data["def"][4] + 5
+        if dict["def"] > 85:
+           dict["def"] = 85
+
+    attacks = data["attacks"]
     alist = []
     for a in attacks:
         adict = {}
         name = a[0]
-        adict['name'] = name
-        adict['animName'] = SuitAttacks[name][0]
-        adict['hp'] = a[1][level]
-        adict['acc'] = a[2][level]
-        adict['freq'] = a[3][level]
-        adict['group'] = SuitAttacks[name][1]
+        adict["name"] = name
+        adict["animName"] = SuitAttacks[name][0]
+        try:
+            adict["hp"] = a[1][level]
+            adict["acc"] = a[2][level]
+            adict["freq"] = a[3][level]
+        except:
+            adict["hp"] = a[1][0]
+            for i in range(level):
+                adict["hp"] += 3
+            if level + 1 > level + 4:
+                if adict["hp"] < a[1][4]:
+                    adict["hp"] = a[1][4] + 3
+            adict["acc"] = a[2][4] + 5
+            if adict["acc"] > 95:
+                adict["acc"] = 95
+            
+            #find how many attacks are in the list and set the feq to add up to 100%
+            
+            numAttacks = len(a[3])    
+            
+            adict["freq"] = 100 / numAttacks
+            
+                
+
+        adict["group"] = SuitAttacks[name][1]
         alist.append(adict)
 
-    dict['attacks'] = alist
+    dict["attacks"] = alist
     return dict
 
 
 def pickSuitAttack(attacks, suitLevel):
     attackNum = None
     randNum = random.randint(0, 99)
-    notify.debug('pickSuitAttack: rolled %d' % randNum)
+    notify.debug("pickSuitAttack: rolled %d" % randNum)
     count = 0
     index = 0
     total = 0
     for c in attacks:
-        total = total + c[3][suitLevel]
+        try:
+            total = total + c[3][suitLevel]
+        except:
+            total = total + c[3][4]
 
     for c in attacks:
-        count = count + c[3][suitLevel]
+        try:
+            count = count + c[3][suitLevel]
+        except:
+            count = count + c[3][4]
         if randNum < count:
             attackNum = index
-            notify.debug('picking attack %d' % attackNum)
+            notify.debug("picking attack %d" % attackNum)
             break
         index = index + 1
 
-    configAttackName = simbase.config.GetString('attack-type', 'random')
-    if configAttackName == 'random':
+    configAttackName = simbase.config.GetString("attack-type", "random")
+    if configAttackName == "random":
         return attackNum
-    elif configAttackName == 'sequence':
-        for i in xrange(len(attacks)):
+    elif configAttackName == "sequence":
+        for i in range(len(attacks)):
             if attacks[i] not in debugAttackSequence:
                 debugAttackSequence[attacks[i]] = 1
                 return i
 
         return attackNum
     else:
-        for i in xrange(len(attacks)):
+        for i in range(len(attacks)):
             if attacks[i][0] == configAttackName:
                 return i
 
@@ -91,22 +124,35 @@ def pickSuitAttack(attacks, suitLevel):
     return
 
 
-def getSuitAttack(suitName, suitLevel, attackNum = -1):
-    attackChoices = SuitAttributes[suitName]['attacks']
+def getSuitAttack(suitName, suitLevel, attackNum=-1):
+    attackChoices = SuitAttributes[suitName]["attacks"]
     if attackNum == -1:
-        notify.debug('getSuitAttack: picking attacking for %s' % suitName)
+        notify.debug("getSuitAttack: picking attacking for %s" % suitName)
         attackNum = pickSuitAttack(attackChoices, suitLevel)
     attack = attackChoices[attackNum]
     adict = {}
-    adict['suitName'] = suitName
+    adict["suitName"] = suitName
     name = attack[0]
-    adict['name'] = name
-    adict['id'] = SuitAttacks.keys().index(name)
-    adict['animName'] = SuitAttacks[name][0]
-    adict['hp'] = attack[1][suitLevel]
-    adict['acc'] = attack[2][suitLevel]
-    adict['freq'] = attack[3][suitLevel]
-    adict['group'] = SuitAttacks[name][1]
+    adict["name"] = name
+    adict["id"] = list(SuitAttacks.keys()).index(name)
+    adict["animName"] = SuitAttacks[name][0]
+    try:
+        adict["hp"] = attack[1][suitLevel]
+        adict["acc"] = attack[2][suitLevel]
+        adict["freq"] = attack[3][suitLevel]
+    except:
+        adict["hp"] = attack[1][0]
+        for i in range(suitLevel):
+            adict["hp"] += 3
+        if suitLevel + 1 > 12:
+            if adict["hp"] < adict["hp"][4]:
+                adict["hp"] = adict["hp"][4] + 3
+        adict["acc"] = attack[2][4] + 5
+        if adict["acc"] > 95:
+            adict["acc"] = 95
+        
+        adict["freq"] = attack[3][0]
+    adict["group"] = SuitAttacks[name][1]
     return adict
 
 

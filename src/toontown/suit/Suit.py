@@ -31,6 +31,7 @@ AllSuitsBattle = (('drop-react', 'anvil-drop'),
  ('landing', 'landing'),
  ('reach', 'walknreach'),
  ('rake-react', 'rake'),
+ ('lured', 'lured'),
  ('hypnotized', 'hypnotize'),
  ('soak', 'soak'))
 SuitsCEOBattle = (('sit', 'sit'),

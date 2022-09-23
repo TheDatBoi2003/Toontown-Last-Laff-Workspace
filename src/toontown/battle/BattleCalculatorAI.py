@@ -245,7 +245,10 @@ class BattleCalculatorAI:
     def __targetDefense(self, suit, atkTrack):
         if atkTrack == HEAL:
             return 0
-        suitDef = SuitBattleGlobals.SuitAttributes[suit.dna.name]['def'][suit.getLevel()]
+        try:
+            suitDef = SuitBattleGlobals.SuitAttributes[suit.dna.name]['def'][suit.getLevel()]
+        except:
+            suitDef = 55
         return -suitDef
 
     def __createToonTargetList(self, attackIndex):
@@ -1130,8 +1133,11 @@ class BattleCalculatorAI:
         atkType = self.battle.suitAttacks[attackIndex][SUIT_ATK_COL]
         atkInfo = SuitBattleGlobals.getSuitAttack(theSuit.dna.name, theSuit.getLevel(), atkType)
         atkAcc = atkInfo['acc']
-        suitAcc = SuitBattleGlobals.SuitAttributes[theSuit.dna.name]['acc'][theSuit.getLevel()]
-        acc = atkAcc
+        try:
+            suitAcc = SuitBattleGlobals.SuitAttributes[theSuit.dna.name]['acc'][theSuit.getLevel()]
+        except:
+            suitAcc = 85
+        acc = suitAcc
         randChoice = random.randint(0, 99)
         if self.notify.getDebug():
             self.notify.debug('Suit attack rolled ' + str(randChoice) + ' to hit with an accuracy of ' + str(acc) + ' (attackAcc: ' + str(atkAcc) + ' suitAcc: ' + str(suitAcc) + ')')

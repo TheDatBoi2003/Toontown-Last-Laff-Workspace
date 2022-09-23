@@ -7,6 +7,7 @@ from toontown.battle.BattleBase import *
 import CogDisguiseGlobals
 from toontown.toonbase.ToontownBattleGlobals import getMintCreditMultiplier
 from direct.showbase.PythonUtil import addListsByValue
+from toontown.chat import ResistanceChat
 
 class DistributedMintBattleAI(DistributedLevelBattleAI.DistributedLevelBattleAI):
     notify = DirectNotifyGlobal.directNotify.newCategory('DistributedMintBattleAI')
@@ -31,15 +32,19 @@ class DistributedMintBattleAI(DistributedLevelBattleAI.DistributedLevelBattleAI)
         amount = ToontownGlobals.MintCogBuckRewards[self.level.mintId]
         index = ToontownGlobals.cogHQZoneId2deptIndex(self.level.mintId)
         extraMerits[index] = amount
+        self.rewardId = ResistanceChat.getRandomId()
         for toon in toons:
             recovered, notRecovered = self.air.questManager.recoverItems(toon, self.suitsKilled, self.getTaskZoneId())
             self.toonItems[toon.doId][0].extend(recovered)
             self.toonItems[toon.doId][1].extend(notRecovered)
+            toon.toonUp(10)
             meritArray = self.air.promotionMgr.recoverMerits(toon, self.suitsKilled, self.getTaskZoneId(), getMintCreditMultiplier(self.getTaskZoneId()), extraMerits=extraMerits)
             if toon.doId in self.helpfulToons:
                 self.toonMerits[toon.doId] = addListsByValue(self.toonMerits[toon.doId], meritArray)
             else:
                 self.notify.debug('toon %d not helpful list, skipping merits' % toon.doId)
+            if self.bossBattle:
+                toon.addResistanceMessage(self.rewardId)
 
     def enterMintReward(self):
         self.joinableFsm.request('Unjoinable')

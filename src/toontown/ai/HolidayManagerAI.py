@@ -16,6 +16,8 @@ class HolidayManagerAI:
             for holiday in holidays.split(', '):
                 holidayId = int(holiday)
                 if holidayId not in self.currentHolidays:
+                    if holidayId == 26:
+                        self.air.suitInvasionManager.startInvasion('b', 1000000, 0, 1)
                     self.currentHolidays[holidayId] = True
 
         if self.currentHolidays:

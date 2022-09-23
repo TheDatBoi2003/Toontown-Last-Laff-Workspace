@@ -100,7 +100,7 @@ CEVirtual = 14
 MaxHpLimit = 137
 MaxCarryLimit = 80
 MaxQuestCarryLimit = 4
-MaxCogSuitLevel = 50 - 1
+MaxCogSuitLevel = 12 - 1
 CogSuitHPLevels = (15 - 1,
  20 - 1,
  30 - 1,
@@ -250,8 +250,8 @@ MockupFactoryId = 0
 MintNumFloors = {CashbotMintIntA: 20,
  CashbotMintIntB: 20,
  CashbotMintIntC: 20}
-CashbotMintCogLevel = 10
-CashbotMintSkelecogLevel = 11
+CashbotMintCogLevel = 11
+CashbotMintSkelecogLevel = 12
 CashbotMintBossLevel = 12
 MintNumBattles = {CashbotMintIntA: 4,
  CashbotMintIntB: 6,

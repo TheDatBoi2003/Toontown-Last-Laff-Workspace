@@ -35,11 +35,14 @@ class DistributedCountryClubBattleAI(DistributedLevelBattleAI.DistributedLevelBa
             recovered, notRecovered = self.air.questManager.recoverItems(toon, self.suitsKilled, self.getTaskZoneId())
             self.toonItems[toon.doId][0].extend(recovered)
             self.toonItems[toon.doId][1].extend(notRecovered)
+            toon.toonUp(20)
             meritArray = self.air.promotionMgr.recoverMerits(toon, self.suitsKilled, self.getTaskZoneId(), getCountryClubCreditMultiplier(self.getTaskZoneId()), extraMerits=extraMerits)
             if toon.doId in self.helpfulToons:
                 self.toonMerits[toon.doId] = addListsByValue(self.toonMerits[toon.doId], meritArray)
             else:
                 self.notify.debug('toon %d not helpful list, skipping merits' % toon.doId)
+            if self.bossBattle:
+                toon.addPinkSlips(1)
 
     def enterCountryClubReward(self):
         self.joinableFsm.request('Unjoinable')

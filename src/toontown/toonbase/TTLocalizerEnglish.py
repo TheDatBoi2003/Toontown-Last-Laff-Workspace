@@ -5648,12 +5648,12 @@ BossBattleNeedMorePies = 'You need to get more pies!'
 BossBattleHowToGetPies = 'Jump up to touch the cage to get pies.'
 BossBattleHowToThrowPies = 'Press the Delete key to throw pies!'
 CagedToonYippee = 'Yippee!'
-CagedToonThankYou = "It's great to be free!\x07Thanks for all your help!\x07I am in your debt.\x07Here's my card. If you ever need a hand in battle, give a shout!\x07Just click on your SOS button."
+CagedToonThankYou = "I knew you could do it!\x07You have my thank you, as well as the Toon Resistance's!\x07I have been in your debt, ever sense you started your journey.\x07Here's my card. If you ever need a hand in battle, give a shout!\x07Just click on your SOS button.\x07Here, also have this gift for your trouble\x07It's a couple of my friends you can call!."
 CagedToonPromotion = "\x07Say--that V.P. Cog left behind your promotion papers.\x07I'll file them for you on the way out, so you'll get your promotion!"
 CagedToonLastPromotion = "\x07Wow, you've reached level %s on your Cog suit!\x07Cogs don't get promoted higher than that.\x07You can't upgrade your Cog suit anymore, but you can certainly keep rescuing Toons!"
 CagedToonHPBoost = "\x07You've rescued a lot of Toons from this HQ.\x07The Toon Council has decided to give you another Laff point. Congratulations!"
 CagedToonMaxed = '\x07I see that you have a level %s Cog suit. Very impressive!\x07On behalf of the Toon Council, thank you for coming back to rescue more Toons!'
-CagedToonGoodbye = 'See ya!'
+CagedToonGoodbye = 'Good Luck!'
 CagedToonBattleThree = {10: 'Nice jump, %(toon)s.  Here are some pies!',
  11: 'Hi, %(toon)s!  Have some pies!',
  12: "Hey there, %(toon)s!  You've got some pies now!",

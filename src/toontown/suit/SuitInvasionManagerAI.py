@@ -8,13 +8,13 @@ class SuitInvasionManagerAI:
 
     def __init__(self, air):
         self.air = air
-        self.invadingCog = (None, 0)
+        self.invadingCog = (None, 0, 0)
         self.numSuits = 0
         self.suits = 0
         self.invading = False
 
-    def setInvadingCog(self, suitName, skeleton):
-        self.invadingCog = (suitName, skeleton)
+    def setInvadingCog(self, suitName, skeleton, v2):
+        self.invadingCog = (suitName, skeleton, v2)
 
     def getInvadingCog(self):
         self.suits += 1
@@ -37,27 +37,27 @@ class SuitInvasionManagerAI:
             return
 
         self.air.newsManager.d_setInvasionStatus(ToontownGlobals.SuitInvasionEnd, self.invadingCog[0], self.numSuits,
-                                                 self.invadingCog[1])
+                                                 self.invadingCog[1], self.invadingCog[2])
         if task:
             task.remove()
         else:
             taskMgr.remove('invasion-timeout')
 
-        self.setInvadingCog(None, 0)
+        self.setInvadingCog(None, 0, 0)
         self.numSuits = 0
         self.suits = 0
         self.invading = False
         self._spGetOut()
 
-    def startInvasion(self, cogType, numCogs, skeleton):
+    def startInvasion(self, cogType, numCogs, skeleton, v2):
         if self.getInvading():
             return False
 
         self.numSuits = numCogs
-        self.setInvadingCog(cogType, skeleton)
+        self.setInvadingCog(cogType, skeleton, v2)
         self.invading = True
         self.air.newsManager.d_setInvasionStatus(ToontownGlobals.SuitInvasionBegin, self.invadingCog[0], self.numSuits,
-                                                 self.invadingCog[1])
+                                                 self.invadingCog[1], self.invadingCog[2])
         self._spGetOut()
         timePerSuit = config.GetFloat('invasion-time-per-suit', 1.2)
         taskMgr.doMethodLater(self.numSuits * timePerSuit, self.stopInvasion, 'invasion-timeout')

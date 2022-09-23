@@ -2,7 +2,7 @@ from otp.avatar import Avatar
 from otp.avatar.Avatar import teleportNotify
 import ToonDNA
 from direct.task.Task import Task
-from toontown.suit import SuitDNA
+from toontown.suit import SuitDNA, Suit
 from direct.actor import Actor
 import string
 from ToonHead import *
@@ -2726,12 +2726,11 @@ class Toon(Avatar.Avatar, ToonHead):
             return Sequence(Func(self.nametag3d.show), self.__doToonGhostColorScale(None, lerpTime, keepDefault=1))
         return Sequence()
 
-    def putOnSuit(self, suitType, setDisplayName = True, rental = False):
+    def putOnSuit(self, suitType, setDisplayName=True, rental=False):
         if self.isDisguised:
             self.takeOffSuit()
         if launcher and not launcher.getPhaseComplete(5):
             return
-        from toontown.suit import Suit
         deptIndex = suitType
         suit = Suit.Suit()
         dna = SuitDNA.SuitDNA()
@@ -2754,21 +2753,8 @@ class Toon(Avatar.Avatar, ToonHead):
         suit.initializeDropShadow()
         suit.setPos(self.getPos())
         suit.setHpr(self.getHpr())
-        for part in suit.getHeadParts():
-            part.hide()
-
-        suitHeadNull = suit.find('**/joint_head')
-        toonHead = self.getPart('head', '1000')
-        Emote.globalEmote.disableAll(self)
         toonGeom = self.getGeomNode()
         toonGeom.hide()
-        worldScale = toonHead.getScale(render)
-        self.headOrigScale = toonHead.getScale()
-        headPosNode = hidden.attachNewNode('headPos')
-        toonHead.reparentTo(headPosNode)
-        toonHead.setPos(0, 0, 0.2)
-        headPosNode.reparentTo(suitHeadNull)
-        headPosNode.setScale(render, worldScale)
         suitGeom = suit.getGeomNode()
         suitGeom.reparentTo(self)
         if rental == True:
@@ -2805,8 +2791,8 @@ class Toon(Avatar.Avatar, ToonHead):
             suitDept = SuitDNA.suitDepts.index(SuitDNA.getSuitDept(suitType))
             suitName = SuitBattleGlobals.SuitAttributes[suitType]['name']
             self.nametag.setDisplayName(TTLocalizer.SuitBaseNameWithLevel % {'name': name,
-             'dept': suitName,
-             'level': self.cogLevels[suitDept] + 1})
+                                                                             'dept': suitName,
+                                                                             'level': self.cogLevels[suitDept] + 1})
             self.nametag.setNameWordwrap(9.0)
 
     def takeOffSuit(self):
@@ -2818,10 +2804,7 @@ class Toon(Avatar.Avatar, ToonHead):
             toonHeadNull = self.find('**/1000/**/joint_head')
         toonHead = self.getPart('head', '1000')
         toonHead.reparentTo(toonHeadNull)
-        toonHead.setScale(self.headOrigScale)
         toonHead.setPos(0, 0, 0)
-        headPosNode = self.suitGeom.find('**/headPos')
-        headPosNode.removeNode()
         self.suitGeom.reparentTo(self.suit)
         self.resetHeight()
         self.nametag3d.setPos(0, 0, self.height + 0.5)

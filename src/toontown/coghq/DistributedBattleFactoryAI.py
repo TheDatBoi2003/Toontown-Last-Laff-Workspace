@@ -4,6 +4,7 @@ from direct.fsm import State
 from direct.fsm import ClassicFSM, State
 from toontown.battle.BattleBase import *
 import CogDisguiseGlobals
+from toontown.toon import NPCToons
 from direct.showbase.PythonUtil import addListsByValue
 
 class DistributedBattleFactoryAI(DistributedLevelBattleAI.DistributedLevelBattleAI):
@@ -26,6 +27,7 @@ class DistributedBattleFactoryAI(DistributedLevelBattleAI.DistributedLevelBattle
             recovered, notRecovered = self.air.questManager.recoverItems(toon, self.suitsKilled, self.getTaskZoneId())
             self.toonItems[toon.doId][0].extend(recovered)
             self.toonItems[toon.doId][1].extend(notRecovered)
+            toon.toonUp(5)
             meritArray = self.air.promotionMgr.recoverMerits(toon, self.suitsKilled, self.getTaskZoneId(), getFactoryMeritMultiplier(self.getTaskZoneId()))
             if toon.doId in self.helpfulToons:
                 self.toonMerits[toon.doId] = addListsByValue(self.toonMerits[toon.doId], meritArray)
@@ -33,6 +35,7 @@ class DistributedBattleFactoryAI(DistributedLevelBattleAI.DistributedLevelBattle
                 self.notify.debug('toon %d not helpful, skipping merits' % toon.doId)
             if self.bossBattle:
                 self.toonParts[toon.doId] = self.air.cogSuitMgr.recoverPart(toon, self.level.factoryType, self.suitTrack, self.getTaskZoneId(), toons)
+                toon.attempAddNPCFriend(random.choice(NPCToons.npcFriendsMinMaxStars(4, 5)), numCalls=3)
                 self.notify.debug('toonParts = %s' % self.toonParts)
 
     def enterFactoryReward(self):

@@ -122,7 +122,7 @@ class Street(BattlePlace.BattlePlace):
         newsManager = base.cr.newsManager
         if newsManager:
             holidayIds = base.cr.newsManager.getDecorationHolidayId()
-            if (ToontownGlobals.HALLOWEEN_COSTUMES in holidayIds or ToontownGlobals.SPOOKY_COSTUMES in holidayIds) and self.loader.hood.spookySkyFile:
+            if (ToontownGlobals.HALLOWEEN_COSTUMES in holidayIds or ToontownGlobals.SPOOKY_COSTUMES in holidayIds or ToontownGlobals.HALLOWEEN_PROPS in holidayIds) and self.loader.hood.spookySkyFile:
                 lightsOff = Sequence(LerpColorScaleInterval(base.cr.playGame.hood.loader.geom, 0.1, Vec4(0.55, 0.55, 0.65, 1)), Func(self.loader.hood.startSpookySky))
                 lightsOff.start()
             else:

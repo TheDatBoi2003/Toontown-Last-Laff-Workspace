@@ -531,6 +531,8 @@ class DistributedBattleBase(DistributedNode.DistributedNode, BattleBase):
                     self.unlockLevelViz()
             if currStateName != 'NoLocalToon':
                 self.localToonFsm.request('NoLocalToon')
+        for luredSuit in self.luredSuits:
+            luredSuit.loop('lured')
         return oldtoons
 
     def adjust(self, timestamp):
@@ -791,8 +793,7 @@ class DistributedBattleBase(DistributedNode.DistributedNode, BattleBase):
 
             camTrack.append(Func(setCamFov, self.camFov))
             camTrack.append(Func(camera.wrtReparentTo, self))
-            camTrack.append(Func(camera.setPos, self.camJoinPos))
-            camTrack.append(Func(camera.setHpr, self.camJoinHpr))
+            camTrack.append(interval)
             return Parallel(joinTrack, camTrack, name=name)
         else:
             return Sequence(joinTrack, name=name)
@@ -1013,9 +1014,14 @@ class DistributedBattleBase(DistributedNode.DistributedNode, BattleBase):
 
     def __enterLocalToonWaitForInput(self):
         self.notify.debug('enterLocalToonWaitForInput()')
-        camera.setPosHpr(self.camPos, self.camHpr)
+        targetSuit = self.activeSuits[0]
+        for target in self.activeSuits:
+            if target.getHP() > targetSuit.getHP():
+                targetSuit = target
+        self.camPos[2] = targetSuit.getHeight() + 10.50
+        camera.posHprInterval(0.4, self.camPos, self.camHpr, blendType = 'easeInOut').start()
         base.camLens.setMinFov(self.camMenuFov / (4. / 3.))
-        NametagGlobals.setMasterArrowsOn(0)
+        NametagGlobals.setMasterArrowsOn(1)
         self.townBattle.setState('Attack')
         self.accept(self.localToonBattleEvent, self.__handleLocalToonBattleEvent)
 

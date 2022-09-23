@@ -2,10 +2,10 @@ from ToontownGlobals import *
 import math
 import TTLocalizer
 BattleCamFaceOffFov = 30.0
-BattleCamFaceOffPos = Point3(0, -10, 4)
-BattleCamDefaultPos = Point3(0, -8.6, 16.5)
+BattleCamFaceOffPos = Point3(0, -10, 9.5)
+BattleCamDefaultPos = Point3(0, -8.6, 20)
 BattleCamDefaultHpr = Vec3(0, -61, 0)
-BattleCamDefaultFov = 80.0
+BattleCamDefaultFov = 90.0
 BattleCamMenuFov = 65.0
 BattleCamJoinPos = Point3(0, -12, 13)
 BattleCamJoinHpr = Vec3(0, -45, 0)
@@ -91,7 +91,7 @@ Levels = [[0,
   6000,
   10000]]
 regMaxSkill = 10000
-UberSkill = 500
+UberSkill = 250
 MaxSkill = UberSkill + regMaxSkill
 UnpaidMaxSkills = [Levels[0][1] - 1,
  Levels[1][1] - 1,
@@ -100,7 +100,7 @@ UnpaidMaxSkills = [Levels[0][1] - 1,
  Levels[4][4] - 1,
  Levels[5][4] - 1,
  Levels[6][1] - 1]
-ExperienceCap = 200
+ExperienceCap = 10000
 
 def gagIsPaidOnly(track, level):
     return Levels[track][level] > UnpaidMaxSkills[track]
@@ -773,7 +773,7 @@ def getMintCreditMultiplier(mintId):
 
 
 def getStageCreditMultiplier(floor):
-    return getCreditMultiplier(floor)
+    return getCreditMultiplier(15)
 
 
 def getCountryClubCreditMultiplier(countryClubId):
@@ -787,11 +787,11 @@ def getBossBattleCreditMultiplier(battleNumber):
 
 
 def getInvasionMultiplier():
-    return 2.0
+    return 7.0
 
 
 def getMoreXpHolidayMultiplier():
-    return 2.0
+    return 7.0
 
 
 def encodeUber(trackList):

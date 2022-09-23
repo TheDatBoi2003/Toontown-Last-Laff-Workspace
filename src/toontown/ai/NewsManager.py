@@ -58,13 +58,16 @@ class NewsManager(DistributedObject.DistributedObject):
     def sendSystemMessage(self, message, style):
         base.localAvatar.setSystemMessage(style, message)
 
-    def setInvasionStatus(self, msgType, cogType, numRemaining, skeleton):
+    def setInvasionStatus(self, msgType, cogType, numRemaining, skeleton, revives):
         self.notify.info('setInvasionStatus: msgType: %s cogType: %s, numRemaining: %s, skeleton: %s' % (msgType,
          cogType,
          numRemaining,
          skeleton))
         cogName = SuitBattleGlobals.SuitAttributes[cogType]['name']
         cogNameP = SuitBattleGlobals.SuitAttributes[cogType]['pluralname']
+        if revives:
+            cogName = "Version 2.0 " + cogName
+            cogNameP = "Version 2.0 " + cogNameP
         if skeleton:
             cogName = TTLocalizer.Skeleton
             cogNameP = TTLocalizer.SkeletonP

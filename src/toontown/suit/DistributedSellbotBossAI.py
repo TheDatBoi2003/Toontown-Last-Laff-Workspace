@@ -57,13 +57,8 @@ class DistributedSellbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
         def npcFriendsMaxStars(stars):
             return [ id for id in NPCToons.npcFriends.keys() if NPCToons.getNPCTrackLevelHpRarity(id)[3] <= stars ]
 
-        if self.numRentalDiguises >= 4:
-            self.cagedToonNpcId = random.choice(NPCToons.npcFriendsMinMaxStars(3, 3))
-        else:
-            if 1 <= self.numRentalDiguises <= 3:
-                self.cagedToonNpcId = random.choice(NPCToons.npcFriendsMinMaxStars(3, 4))
-            else:
-                self.cagedToonNpcId = random.choice(NPCToons.npcFriendsMinMaxStars(3, 5))
+        
+        self.cagedToonNpcId = 2001
 
     def magicWordHit(self, damage, avId):
         if self.attackCode != ToontownGlobals.BossCogDizzyNow:
@@ -239,7 +234,7 @@ class DistributedSellbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
             diners.append((suit, 100))
 
         active = []
-        for i in xrange(1):
+        for i in xrange(2):
             suitType = 8
             suitLevel = 12
             suit = self.__genSuitObject(self.zoneId, suitType, 's', suitLevel, 0)
@@ -408,12 +403,12 @@ class DistributedSellbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
             toon = self.air.doId2do.get(toonId)
             if toon:
                 configMax = simbase.config.GetInt('max-sos-cards', 16)
-                if configMax == 8:
-                    maxNumCalls = 1
-                else:
-                    maxNumCalls = 2
+                
+                maxNumCalls = 5
                 if not toon.attemptAddNPCFriend(self.cagedToonNpcId, numCalls=maxNumCalls):
                     self.notify.info('%s.unable to add NPCFriend %s to %s.' % (self.doId, self.cagedToonNpcId, toonId))
+                toon.attemptAddNPCFriend(random.choice(NPCToons.npcFriendsMinMaxStars(4, 5)), numCalls=maxNumCalls)
+                toon.attemptAddNPCFriend(random.choice(NPCToons.npcFriendsMinMaxStars(4, 5)), numCalls=maxNumCalls)
                 if self.__shouldPromoteToon(toon):
                     toon.b_promote(self.deptIndex)
                     self.sendUpdateToAvatarId(toonId, 'toonPromoted', [1])
@@ -445,11 +440,12 @@ class DistributedSellbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
         self.__resetDoobers()
         for i in xrange(8):
             suit = DistributedSuitAI.DistributedSuitAI(self.air, None)
-            level = random.randrange(len(SuitDNA.suitsPerLevel))
+            level = random.randint(5, 12)
             suit.dna = SuitDNA.SuitDNA()
-            suit.dna.newSuitRandom(level=level, dept=self.dna.dept)
+            suit.dna.newSuitRandom(level=level-4, dept=self.dna.dept)
             suit.setLevel(level)
             suit.generateWithRequired(self.zoneId)
+            suit.b_setSkelecog(random.choice([0, 0, 1]))
             self.doobers.append(suit)
 
         self.__sendDooberIds()

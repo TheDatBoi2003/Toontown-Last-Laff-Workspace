@@ -74,7 +74,7 @@ class LevelSuitPlannerAI(DirectObject.DirectObject):
     def __genSuitObject(self, suitDict, reserve):
         suit = self.cogCtor(simbase.air, self)
         dna = SuitDNA.SuitDNA()
-        dna.newSuitRandom(level=SuitDNA.getRandomSuitType(suitDict['level']), dept=suitDict['track'])
+        dna.newSuitRandom(level=SuitDNA.getRandomSuitTypeSuitInterior(suitDict['level']), dept=suitDict['track'])
         suit.dna = dna
         suit.setLevel(suitDict['level'])
         suit.setSkeleRevives(suitDict.get('revives'))
