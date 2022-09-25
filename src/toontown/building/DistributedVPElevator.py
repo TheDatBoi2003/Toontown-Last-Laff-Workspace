@@ -19,9 +19,13 @@ class DistributedVPElevator(DistributedBossElevator.DistributedBossElevator):
         self.leftDoor = self.elevatorModel.find('**/left-door')
         self.rightDoor = self.elevatorModel.find('**/right-door')
         geom = base.cr.playGame.hood.loader.geom
-        locator = geom.find('**/elevator_locator')
-        self.elevatorModel.reparentTo(locator)
-        self.elevatorModel.setH(180)
+        try:
+            locator = geom.find('**/elevator_locator')
+            self.elevatorModel.reparentTo(locator)
+            self.elevatorModel.setH(180)
+        except:
+            self.elevatorModel.setPosHpr(62.74, -85.31, 0.0, 2.0, 0.0, 0.0)
+            self.elevatorModel.reparentTo(render)
         DistributedElevator.DistributedElevator.setupElevator(self)
 
     def getDestName(self):

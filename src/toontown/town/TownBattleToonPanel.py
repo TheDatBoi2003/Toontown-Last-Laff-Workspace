@@ -133,7 +133,7 @@ class TownBattleToonPanel(DirectFrame):
                     returnStr += '-'
                 else:
                     returnStr += 'X'
-            elif targetIndex >= 0 and targetIndex <= 3:
+            elif targetIndex >= 0 and targetIndex <= 8:
                 if i == targetIndex:
                     returnStr += 'X'
                 else:

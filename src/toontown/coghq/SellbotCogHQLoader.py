@@ -32,6 +32,7 @@ class SellbotCogHQLoader(CogHQLoader.CogHQLoader):
         self.cogHQExteriorModelPath = 'phase_9/models/cogHQ/SellbotHQExterior'
         self.cogHQLobbyModelPath = 'phase_9/models/cogHQ/SellbotHQLobby'
         self.factoryExteriorModelPath = 'phase_9/models/cogHQ/SellbotFactoryExterior'
+        self.factoryExteriorHardModelPath = 'phase_9/models/cogHQ/SellbotFactoryExteriorAlt.egg'
         self.geom = None
         return
 
@@ -117,6 +118,38 @@ class SellbotCogHQLoader(CogHQLoader.CogHQLoader):
             sdTypeText = DirectGui.OnscreenText(text=TTLocalizer.Factory, font=ToontownGlobals.getSuitFont(), pos=(0, -0.25), scale=0.075, mayChange=False, parent=sdSign)
             sdTypeText.setDepthWrite(0)
             sdText = DirectGui.OnscreenText(text=TTLocalizer.SellbotSideEntrance, font=ToontownGlobals.getSuitFont(), pos=(0, -0.34), scale=0.1, mayChange=False, parent=sdSign)
+            sdText.setDepthWrite(0)
+        elif zoneId == ToontownGlobals.SellbotFactoryHard:
+            self.geom = loader.loadModel(self.factoryExteriorHardModelPath)
+            factoryLinkTunnel = self.geom.find('**/tunnel_group2')
+            factoryLinkTunnel.setName('linktunnel_dg_5133_DNARoot')
+            factoryLinkTunnel.find('**/tunnel_sphere').setName('tunnel_trigger')
+            cogSignModel = loader.loadModel('phase_4/models/props/sign_sellBotHeadHQ')
+            cogSign = cogSignModel.find('**/sign_sellBotHeadHQ')
+            cogSignSF = 23
+            elevatorSignSF = 15
+            hqSign = cogSign.copyTo(factoryLinkTunnel)
+            hqSign.setPosHprScale(0.0, -353, 27.5, -180.0, 0.0, 0.0, cogSignSF, cogSignSF, cogSignSF * aspectSF)
+            hqSign.node().setEffect(DecalEffect.make())
+            hqTypeText = DirectGui.OnscreenText(text=TTLocalizer.Sellbot, font=ToontownGlobals.getSuitFont(), pos=(0, -0.25), scale=0.075, mayChange=False, parent=hqSign)
+            hqTypeText.setDepthWrite(0)
+            hqText = DirectGui.OnscreenText(text=TTLocalizer.Headquarters, font=ToontownGlobals.getSuitFont(), pos=(0, -0.34), scale=0.1, mayChange=False, parent=hqSign)
+            hqText.setDepthWrite(0)
+            frontDoor = self.geom.find('**/doorway1')
+            fdSign = cogSign.copyTo(frontDoor)
+            fdSign.setPosHprScale(62.74, -87.99, 17.26, 2.72, 0.0, 0.0, elevatorSignSF, elevatorSignSF, elevatorSignSF * aspectSF)
+            fdSign.node().setEffect(DecalEffect.make())
+            fdTypeText = DirectGui.OnscreenText(text="COGS Inc", font=ToontownGlobals.getSuitFont(), pos=(0, -0.25), scale=TTLocalizer.SCHQLfdTypeText, mayChange=False, parent=fdSign)
+            fdTypeText.setDepthWrite(0)
+            fdText = DirectGui.OnscreenText(text="Black Friday V.P", font=ToontownGlobals.getSuitFont(), pos=(0, -0.34), scale=TTLocalizer.SCHQLdgText, mayChange=False, parent=fdSign)
+            fdText.setDepthWrite(0)
+            sideDoor = self.geom.find('**/doorway2')
+            sdSign = cogSign.copyTo(sideDoor)
+            sdSign.setPosHprScale(-164.78, 26.28, 17.25, -89.89, 0.0, 0.0, elevatorSignSF, elevatorSignSF, elevatorSignSF * aspectSF)
+            sdSign.node().setEffect(DecalEffect.make())
+            sdTypeText = DirectGui.OnscreenText(text='COGS Inc', font=ToontownGlobals.getSuitFont(), pos=(0, -0.25), scale=0.075, mayChange=False, parent=sdSign)
+            sdTypeText.setDepthWrite(0)
+            sdText = DirectGui.OnscreenText(text="Back Factory 1", font=ToontownGlobals.getSuitFont(), pos=(0, -0.34), scale=0.1, mayChange=False, parent=sdSign)
             sdText.setDepthWrite(0)
         elif zoneId == ToontownGlobals.SellbotLobby:
             if base.config.GetBool('want-qa-regression', 0):

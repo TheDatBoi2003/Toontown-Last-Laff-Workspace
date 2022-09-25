@@ -342,7 +342,8 @@ class DistributedBossbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
                 info = self.notDeadList[i]
                 suitType = info[2] - 4
                 suitLevel = info[2]
-                suit = self.__genSuitObject(self.zoneId, suitType, 'c', suitLevel, 0)
+                suitName = info[3]
+                suit = self.__genSuitObject(self.zoneId, suitType, 'c', suitLevel, suitName, 0)
             diners.append((suit, 100))
 
         active = []
@@ -352,15 +353,15 @@ class DistributedBossbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
             else:
                 suitType = 8
                 suitLevel = 12
-                suit = self.__genSuitObject(self.zoneId, suitType, 'c', suitLevel, 0)
+                suit = self.__genSuitObject(self.zoneId, suitType, 'c', suitLevel, 'tbc', 0)
             active.append(suit)
 
         return {'activeSuits': active,
          'reserveSuits': diners}
 
-    def __genSuitObject(self, suitZone, suitType, bldgTrack, suitLevel, revives = 0):
+    def __genSuitObject(self, suitZone, suitType, bldgTrack, suitLevel, suitName, revives = 0):
         newSuit = DistributedSuitAI.DistributedSuitAI(simbase.air, None)
-        skel = self.__setupSuitInfo(newSuit, bldgTrack, suitLevel, suitType)
+        skel = self.__setupSuitInfo(newSuit, bldgTrack, suitLevel, suitType, suitName)
         if skel:
             newSuit.setSkelecog(1)
         newSuit.setSkeleRevives(revives)
@@ -368,9 +369,9 @@ class DistributedBossbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
         newSuit.node().setName('suit-%s' % newSuit.doId)
         return newSuit
 
-    def __setupSuitInfo(self, suit, bldgTrack, suitLevel, suitType):
+    def __setupSuitInfo(self, suit, bldgTrack, suitLevel, suitType, suitName):
         dna = SuitDNA.SuitDNA()
-        dna.newSuitRandom(suitType, bldgTrack)
+        dna.newSuit(suitName)
         suit.dna = dna
         self.notify.debug('Creating suit type ' + suit.dna.name + ' of level ' + str(suitLevel) + ' from type ' + str(suitType) + ' and track ' + str(bldgTrack))
         suit.setLevel(suitLevel)

@@ -187,6 +187,7 @@ SellbotHQ = 11000
 SellbotLobby = 11100
 SellbotFactoryExt = 11200
 SellbotFactoryInt = 11500
+SellbotFactoryHard = 11600
 CashbotHQ = 12000
 CashbotLobby = 12100
 CashbotMintIntA = 12500

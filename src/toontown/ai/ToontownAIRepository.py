@@ -342,7 +342,8 @@ class ToontownAIRepository(ToontownInternalRepository):
 
         # Sellbot HQ
         self.zoneTable[ToontownGlobals.SellbotHQ] = (
-            (ToontownGlobals.SellbotHQ, 0, 1), (ToontownGlobals.SellbotFactoryExt, 0, 1)
+            (ToontownGlobals.SellbotHQ, 0, 1), (ToontownGlobals.SellbotFactoryExt, 0, 1),
+            (ToontownGlobals.SellbotFactoryHard, 0, 1)
         )
         self.createHood(CSHoodDataAI, ToontownGlobals.SellbotHQ)
 

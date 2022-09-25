@@ -7,6 +7,7 @@ from toontown.hood import QuietZoneState
 from toontown.hood import ZoneUtil
 from toontown.town import TownBattle
 from toontown.suit import Suit
+from toontown.toonbase import ToontownGlobals
 from panda3d.core import *
 
 class CogHQLoader(StateData.StateData):
@@ -28,7 +29,10 @@ class CogHQLoader(StateData.StateData):
 
     def load(self, zoneId):
         self.parentFSMState.addChild(self.fsm)
-        self.music = base.loader.loadMusic(self.musicFile)
+        if zoneId == ToontownGlobals.SellbotFactoryHard:
+            self.music = base.loader.loadMusic('phase_9/audio/bgm/laff_ara_shq_factAlt.ogg')
+        else:
+            self.music = base.loader.loadMusic(self.musicFile)
         self.battleMusic = base.loader.loadMusic('phase_9/audio/bgm/encntr_suit_winning.ogg')
         self.townBattle = TownBattle.TownBattle(self.townBattleDoneEvent)
         self.townBattle.load()

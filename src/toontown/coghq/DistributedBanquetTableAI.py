@@ -25,6 +25,7 @@ class DistributedBanquetTableAI(DistributedObjectAI.DistributedObjectAI, FSM.FSM
             hungryDuration += random.uniform(-5, 5)
             eatingDuration += random.uniform(-5, 5)
             level = 12
+            suitName = random.choice(['hh', 'cr', 'tbc'])
             if type(dinerLevel) == type(0):
                 level = dinerLevel
             else:

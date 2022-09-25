@@ -121,5 +121,5 @@ class DistributedBattleDiners(DistributedBattleFinal.DistributedBattleFinal):
         openTime = (lastSpinFrame + 1) / fr
         suit.attachPropeller()
         propTrack = Parallel(SoundInterval(suit.propInSound, duration=flyingDur, node=suit), Sequence(ActorInterval(suit.prop, 'propeller', constrainedLoop=1, duration=flyingDur + 1, startTime=0.0, endTime=spinTime), ActorInterval(suit.prop, 'propeller', duration=landingDur, startTime=openTime), Func(suit.detachPropeller)))
-        result = Parallel(lerpHPRinterval, propTrack)
+        result = Parallel(moveIval, propTrack)
         return result
