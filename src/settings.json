@@ -1,0 +1,8 @@
+{
+    "game": {
+        "antialiasing": 70, 
+        "interpolate-animations": true, 
+        "magic-word-activator": 0, 
+        "stretched-screen": false
+    }
+}

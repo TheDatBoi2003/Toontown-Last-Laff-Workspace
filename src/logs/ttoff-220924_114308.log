@@ -1,0 +1,295 @@
+
+
+Starting Toontown Online...
+Current time: Sat Sep 24 11:43:08 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python', 'C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64', 'C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\TTLastLaffFirstQA\\Toontown-Last-Laff-Workspace\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'COMPUTERNAME': 'PHILIP-JR', 'USERDOMAIN': 'PHILIP-JR', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'PSMODULEPATH': 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'DOKANLIBRARY1': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\', 'ADSK_3DSMAX_X64_2021': 'C:\\Program Files\\Autodesk\\3ds Max 2021\\', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 45 Stepping 7, GenuineIntel', 'VBOX_MSI_INSTALL_PATH': 'C:\\Program Files\\Oracle\\VirtualBox\\', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '2d07', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Animation Paper\\gstreamer\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Philip\\anaconda3;C:\\Users\\Philip\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Philip\\anaconda3\\Library\\usr\\bin;C:\\Users\\Philip\\anaconda3\\Library\\bin;C:\\Users\\Philip\\anaconda3\\Scripts;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Panda3D-1.10.02\\python;C:\\Panda3D-1.10.02\\python\\Scripts;C:\\Panda3D-1.10.02\\bin;C:\\Panda3D-1.11.0-x64-py2\\python;C:\\Panda3D-1.11.0-x64-py2\\python\\Scripts;C:\\Panda3D-1.11.0-x64-py2\\bin;C:\\Users\\Philip\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0-x64\\python;C:\\Panda3D-1.10.0-x64\\python\\Scripts;C:\\Panda3D-1.10.0-x64\\bin;C:\\Users\\Philip\\AppData\\Local\\atom\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Panda3D-1.11.0-x64-astron\\python;C:\\Panda3D-1.11.0-x64-astron\\python\\Scripts;C:\\Panda3D-1.11.0-x64-astron\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\Panda3D-1.10.9-x64\\python;C:\\Panda3D-1.10.9-x64\\python\\Scrip;C:\\Users\\Philip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Philip\\.dotnet\\tools;%C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\rc.exe%;%C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE%;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2021.3.3\\bin;', 'SYSTEMROOT': 'C:\\WINDOWS', 'NUMBER_OF_PROCESSORS': '8', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'KMP_BLOCKTIME': '0', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2021.3.3\\bin;', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'DOKANLIBRARY1_LIBRARYPATH_X64': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\lib\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\Philip\\AppData\\Local', 'HOMEPATH': '\\Users\\Philip', 'USERDOMAIN_ROAMINGPROFILE': 'PHILIP-JR', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'Philip', 'FP_NO_HOST_CHECK': 'NO', 'DOKANLIBRARY1_LIBRARYPATH_X86': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\x86\\lib\\', 'LOGONSERVER': '\\\\MicrosoftAccount', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'TTOFF_LOGIN_TOKEN': 'dev', 'VS160COMCOMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'WINDIR': 'C:\\WINDOWS', 'OMP_WAIT_POLICY': 'PASSIVE', 'MONGO': 'C:\\mongodb-win32-x86_64-windows-4.4.4/bin', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'APPDATA': 'C:\\Users\\Philip\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'CIOENGINE': 'C:\\cio-panda3d', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\Philip'}
+:09-24-2022 11:43:08 TTOffLauncher: isTestServer: 0
+:09-24-2022 11:43:08 TTOffLauncher: Game Server 127.0.0.1
+:09-24-2022 11:43:08 TTOffLauncher: Starting Toontown Online... 
+:09-24-2022 11:43:08 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:09-24-2022 11:43:08 TTOffLauncher: maybeStartGame: starting game
+:09-24-2022 11:43:08 TTOffLauncher: Starting Toontown Online...
+:09-24-2022 11:43:08 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:09-24-2022 11:43:08 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:09-24-2022 11:43:08 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:09-24-2022 11:43:08 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:09-24-2022 11:43:08 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:09-24-2022 11:43:09 ShowBase: __dev__ == False
+:09-24-2022 11:43:09 TTOffLauncher: setting panda error code to 11
+:09-24-2022 11:43:09 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:09-24-2022 11:43:09 Loader: starting bulk load of block 'init'
+:09-24-2022 11:43:09 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:09-24-2022 11:43:09 OTPClientRepository: Using connect method 'http'
+:09-24-2022 11:43:10 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:09-24-2022 11:43:10 TTOffLauncher: checking env
+:09-24-2022 11:43:10 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:09-24-2022 11:43:10 TTOffLauncher: checking env
+:09-24-2022 11:43:10 OTPClientRepository: reg_deployment=
+:09-24-2022 11:43:10 OTPClientRepository: required-login auto.
+:09-24-2022 11:43:10 OTPClientRepository: loginInterface: LoginTTOffAccount
+:09-24-2022 11:43:10 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:09-24-2022 11:43:10 Loader: At end of block 'init', expected 138, loaded 5, duration=1.23035722463
+:09-24-2022 11:43:10 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:09-24-2022 11:43:10 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:09-24-2022 11:43:10 TTOffLauncher: Stopping mini task manager.
+:09-24-2022 11:43:10 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:09-24-2022 11:43:10 TTOffLauncher: Setting Disconnect Details normal
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0000000017DE8648>}
+:09-24-2022 11:43:11 StateData: AvatarChooser.enter
+:09-24-2022 11:43:11 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:09-24-2022 11:43:11 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:09-24-2022 11:43:13 OTPClientRepository: ================
+:09-24-2022 11:43:13 OTPClientRepository: Chose avatar id: 100000001
+:09-24-2022 11:43:13 OTPClientRepository: Chose avatar name: Tricky Hucklesmirk
+:09-24-2022 11:43:13 OTPClientRepository: Chose avatar dna: ('dls', 'ss', 'm', 'm', 15, 0, 15, 15, 0, 11, 0, 11, 1, 15)
+:09-24-2022 11:43:13 OTPClientRepository: Chose avatar position: 1
+:09-24-2022 11:43:13 OTPClientRepository: isPaid: 1
+:09-24-2022 11:43:13 OTPClientRepository: freeTimeLeft: 0
+:09-24-2022 11:43:13 OTPClientRepository: allowSecretChat: True
+:09-24-2022 11:43:13 OTPClientRepository: ================
+:09-24-2022 11:43:13 Loader: starting bulk load of block 'localAvatarPlayGame'
+:09-24-2022 11:43:14 ToontownTimeManager(warning): error parsing date string=
+local
+:09-24-2022 11:43:14 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:09-24-2022 11:43:14 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:09-24-2022 11:43:16 OTPClientRepository: Entering shard 401000001
+:09-24-2022 11:43:16 StreetSign: Street sign url is https://ttoffline.com/images/
+:09-24-2022 11:43:17 TimeManager: Clock sync: TimeManager.announceGenerate
+:09-24-2022 11:43:17 NewsManager: setHolidayId: Starting Holiday 26
+:09-24-2022 11:43:17 NewsManager: setHolidayId: Starting Holiday 19
+:09-24-2022 11:43:17 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|        Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz|132823|0|3.601,3.601|4,8 cpus
+:09-24-2022 11:43:18 OTPClientRepository: No sync from TimeManager.
+:09-24-2022 11:43:18 OTPClientRepository: gotTimeSync
+:09-24-2022 11:43:18 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 19, duration=5.32347251461
+:09-24-2022 11:43:18 TimeManager: Clock sync roundtrip took 1134.337 ms
+:09-24-2022 11:43:18 TimeManager: AI time delta is -0:01 from server delta
+:09-24-2022 11:43:18 TimeManager: Local clock uncertainty +/- 0.567 s
+:09-24-2022 11:43:18 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:09-24-2022 11:43:18 Loader: starting bulk load of block 'hood'
+:09-24-2022 11:43:19 SellbotCogHQLoader: loadPlaceGeom: 11000
+:09-24-2022 11:43:20 DistributedObject: DistributedSuitPlanner 401002945: generating
+:09-24-2022 11:43:20 DistributedToon: calling LocalAvatar.startchat
+:09-24-2022 11:43:20 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:43:20 Loader: At end of block 'hood', expected 43, loaded 6, duration=1.4650519352
+:09-24-2022 11:43:20 OTPClientRepository: Sending heartbeat mid-frame.
+:09-24-2022 11:43:21 Teleport(debug): teleportInDone: walk
+:09-24-2022 11:43:21 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:43:22 TTOffMagicWordManager: Run mode has been toggled.
+:09-24-2022 11:43:35 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:09-24-2022 11:43:36 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Map
+:09-24-2022 11:43:41 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:09-24-2022 11:43:46 SellbotHQExterior: Unloading Place (11000). Fsm in final
+:09-24-2022 11:43:46 DistributedObject: DistributedSuitPlanner 401002945: disabling
+:09-24-2022 11:43:46 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Bossbot HQ
+:09-24-2022 11:43:46 Loader: starting bulk load of block 'hood'
+:09-24-2022 11:43:46 BossbotCogHQLoader: loadPlaceGeom: 10000
+:09-24-2022 11:43:47 HoodMgr(warning): getPlaygroundCenterFromId: No such hood name as: 10000
+:09-24-2022 11:43:47 DistributedToon: calling LocalAvatar.startchat
+:09-24-2022 11:43:47 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_bossbot_maps.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:43:47 Loader: At end of block 'hood', expected 2, loaded 2, duration=0.515973092739
+:09-24-2022 11:43:48 Teleport(debug): teleportInDone: walk
+:09-24-2022 11:43:48 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_bossbot_maps.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:43:53 BossbotCogHQLoader: loadPlaceGeom: 10100
+:09-24-2022 11:43:53 BossbotCogHQLoader: QA-REGRESSION: COGHQ: Visit BossbotLobby
+:09-24-2022 11:43:53 BossbotHQExterior: Unloading Place (10000). Fsm in final
+:09-24-2022 11:43:53 DistributedToon: calling LocalAvatar.startchat
+:09-24-2022 11:43:53 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_bossbot_maps.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:43:54 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_bossbot_maps.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+rejectBoard 4
+:09-24-2022 11:43:56 DistributedElevator(warning): Place was in state 'stopped' instead of Elevator.
+rejectBoard 4
+:09-24-2022 11:43:58 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_bossbot_maps.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:00 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat
+:09-24-2022 11:44:12 TTOffMagicWordManager: Voila!
+:09-24-2022 11:44:47 BossbotCogHQLoader: loadPlaceGeom: 61000
+:09-24-2022 11:44:47 BossbotCogHQLoader(warning): loadPlaceGeom: unclassified zone 61000
+:09-24-2022 11:44:47 CogHQLobby: Unloading Place (10100). Fsm in final
+:09-24-2022 11:44:47 DistributedToon: calling LocalAvatar.startchat
+:09-24-2022 11:44:48 BossbotHQBossBattle(warning): fsm.request('movie') returned 0 (zone id 61000, avatar pos LPoint3f(2.49858, -89.487, 0.0825828)).
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:53 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:54 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:54 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:54 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:54 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:44:54 BossbotHQBossBattle(warning): fsm.request('movie') returned 0 (zone id 61000, avatar pos LPoint3f(2.49858, -89.487, 0.0825828)).
+:09-24-2022 11:44:54 TTOffMagicWordManager: Skipping to second round...
+:09-24-2022 11:45:15 BossbotHQBossBattle(warning): fsm.request('movie') returned 0 (zone id 61000, avatar pos LPoint3f(-14, 25, 0)).
+:09-24-2022 11:45:15 TTOffMagicWordManager: Skipping to third round...
+:09-24-2022 11:45:18 TTOffMagicWordManager: Oobe mode has been toggled.
+:09-24-2022 11:45:27 BulletinBoard(warning): changing oobeEnabled from True to False
+:09-24-2022 11:45:27 BulletinBoard: update: posting oobeEnabled
+:09-24-2022 11:45:27 TTOffMagicWordManager: Oobe mode has been toggled.
+Battle Event localtoon-battle-event-10
+:09-24-2022 11:45:27 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:27 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:27 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:27 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:28 :loader(error): Couldn't load file phase_12/models/char/suitB-sit.bam: not found on model path (currently: "/;/c/TTLastLaffFirstQA/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-24-2022 11:45:33 TTOffMagicWordManager: Tricky Hucklesmirk can now insta-kill Cogs!
+:09-24-2022 11:45:42 TTOffMagicWordManager: Successfully skipped Battle movie!
+:09-24-2022 11:45:50 TTOffMagicWordManager: Restocked 255 pink slips successfully!
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1443, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 993, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 999, in deleteObject
+    obj.deleteOrDelay()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 201, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 204, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 230, in disableAndAnnounce
+    self.disable()
+  File "toontown\battle\DistributedBattleFinal.py", line 41, in disable
+    DistributedBattleBase.DistributedBattleBase.disable(self)
+  File "toontown\battle\DistributedBattleBase.py", line 129, in disable
+    self.cleanupBattle()
+  File "toontown\battle\DistributedBattleBase.py", line 143, in cleanupBattle
+    self.removeLocalToon()
+  File "toontown\battle\DistributedBattleBase.py", line 716, in removeLocalToon
+    base.cr.playGame.getPlace().setState('walk')
+  File "toontown\battle\BattlePlace.py", line 20, in setState
+    elif not self.fsm.request(state):
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\coghq\CogHQBossBattle.py", line 179, in enterWalk
+    BattlePlace.BattlePlace.enterWalk(self, teleportIn)
+  File "toontown\battle\BattlePlace.py", line 24, in enterWalk
+    Place.Place.enterWalk(self, flag)
+  File "toontown\hood\Place.py", line 208, in enterWalk
+    self.enterFLM()
+  File "toontown\friends\FriendsListManager.py", line 56, in enterFLM
+    base.localAvatar.setFriendsListButtonActive(1)
+  File "toontown\toon\LocalToon.py", line 1146, in setFriendsListButtonActive
+    self.refreshOnscreenButtons()
+  File "toontown\toon\LocalToon.py", line 1180, in refreshOnscreenButtons
+    self.showClarabelleGui(newItemsInMailbox)
+  File "toontown\toon\LocalToon.py", line 1045, in showClarabelleGui
+    if self.newsButtonMgr.isNewIssueButtonShown():
+  File "toontown\toontowngui\NewsPageButtonManager.py", line 116, in isNewIssueButtonShown
+    if localAvatar.getLastTimeReadNews() < base.cr.inGameNewsMgr.getLatestIssue():
+AttributeError: 'NoneType' object has no attribute 'getLatestIssue'
+:09-24-2022 11:45:52 :task(error): Exception occurred in PythonTask readerPollTask-104740080
+:09-24-2022 11:45:52 TTOffLauncher: setting panda error code to 12
+:09-24-2022 11:45:52 TTOffLauncher(warning): Handling Python exception.
+:09-24-2022 11:45:52 OTPClientRepository: Sent disconnect message to server
+:09-24-2022 11:45:52 OTPClientRepository: Closing connection to server.
+:09-24-2022 11:45:52 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1443, in handlePlayGame
+    self.handleDelete(di)
+  File "toontown\distributed\ToontownClientRepository.py", line 993, in handleDelete
+    self.deleteObject(doId)
+  File "toontown\distributed\ToontownClientRepository.py", line 999, in deleteObject
+    obj.deleteOrDelay()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 201, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 204, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 230, in disableAndAnnounce
+    self.disable()
+  File "toontown\battle\DistributedBattleFinal.py", line 41, in disable
+    DistributedBattleBase.DistributedBattleBase.disable(self)
+  File "toontown\battle\DistributedBattleBase.py", line 129, in disable
+    self.cleanupBattle()
+  File "toontown\battle\DistributedBattleBase.py", line 143, in cleanupBattle
+    self.removeLocalToon()
+  File "toontown\battle\DistributedBattleBase.py", line 716, in removeLocalToon
+    base.cr.playGame.getPlace().setState('walk')
+  File "toontown\battle\BattlePlace.py", line 20, in setState
+    elif not self.fsm.request(state):
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\coghq\CogHQBossBattle.py", line 179, in enterWalk
+    BattlePlace.BattlePlace.enterWalk(self, teleportIn)
+  File "toontown\battle\BattlePlace.py", line 24, in enterWalk
+    Place.Place.enterWalk(self, flag)
+  File "toontown\hood\Place.py", line 208, in enterWalk
+    self.enterFLM()
+  File "toontown\friends\FriendsListManager.py", line 56, in enterFLM
+    base.localAvatar.setFriendsListButtonActive(1)
+  File "toontown\toon\LocalToon.py", line 1146, in setFriendsListButtonActive
+    self.refreshOnscreenButtons()
+  File "toontown\toon\LocalToon.py", line 1180, in refreshOnscreenButtons
+    self.showClarabelleGui(newItemsInMailbox)
+  File "toontown\toon\LocalToon.py", line 1045, in showClarabelleGui
+    if self.newsButtonMgr.isNewIssueButtonShown():
+  File "toontown\toontowngui\NewsPageButtonManager.py", line 116, in isNewIssueButtonShown
+    if localAvatar.getLastTimeReadNews() < base.cr.inGameNewsMgr.getLatestIssue():
+AttributeError: 'NoneType' object has no attribute 'getLatestIssue'
