@@ -1,0 +1,108 @@
+
+
+Starting Toontown Online...
+Current time: Tue Sep 20 21:58:10 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'COMPUTERNAME': 'DESKTOP-7054VC9', 'USERDOMAIN': 'DESKTOP-7054VC9', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'INTEL_DEV_REDIST': 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\', 'PSMODULEPATH': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 158 Stepping 13, GenuineIntel', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '9e0d', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Python38\\Scripts\\;C:\\Program Files\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\dotnet\\;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\theph\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\theph\\.dotnet\\tools;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;C:\\Users\\theph\\AppData\\Local\\atom\\bin;C:\\Users\\theph\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0-x64\\python;C:\\Panda3D-1.9.0-x64\\python\\Scripts;C:\\Panda3D-1.9.0-x64\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.1\\bin;;C:\\Users\\theph\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Panda3D-1.11.0\\python;C:\\Panda3D-1.11.0\\python\\Scripts;C:\\Panda3D-1.11.0\\bin;C:\\Users\\theph\\.dotnet\\tools;C:\\Panda3D-1.10.11-x64\\python;C:\\Panda3D-1.10.11-x64\\python\\Scripts;C:\\Panda3D-1.10.11-x64\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python\\Scripts;C:\\EventHorizon-battle-ng-teaser\\depe', 'SYSTEMROOT': 'C:\\WINDOWS', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'DRIVERDATA': 'C:\\Windows\\System32\\Drivers\\DriverData', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'TEMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\theph\\AppData\\Local', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'HOMEPATH': '\\Users\\theph', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-7054VC9', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'theph', 'LOGONSERVER': '\\\\DESKTOP-7054VC9', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'ONEDRIVE': 'C:\\Users\\theph\\OneDrive', 'ADSK_3DSMAX_X64_2019': 'C:\\Program Files\\Autodesk\\3ds Max 2019\\', 'ZES_ENABLE_SYSMAN': '1', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'TTOFF_LOGIN_TOKEN': 'dev', 'WINDIR': 'C:\\WINDOWS', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.1\\bin;', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'NUMBER_OF_PROCESSORS': '16', 'APPDATA': 'C:\\Users\\theph\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\theph'}
+:09-20-2022 21:58:10 TTOffLauncher: isTestServer: 0
+:09-20-2022 21:58:10 TTOffLauncher: Game Server 127.0.0.1
+:09-20-2022 21:58:10 TTOffLauncher: Starting Toontown Online... 
+:09-20-2022 21:58:10 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:09-20-2022 21:58:10 TTOffLauncher: maybeStartGame: starting game
+:09-20-2022 21:58:10 TTOffLauncher: Starting Toontown Online...
+:09-20-2022 21:58:10 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:09-20-2022 21:58:10 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:09-20-2022 21:58:10 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:09-20-2022 21:58:10 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:09-20-2022 21:58:10 ShowBase: __dev__ == False
+:09-20-2022 21:58:10 TTOffLauncher: setting panda error code to 11
+:09-20-2022 21:58:10 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:09-20-2022 21:58:10 Loader: starting bulk load of block 'init'
+:09-20-2022 21:58:11 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:09-20-2022 21:58:11 OTPClientRepository: Using connect method 'http'
+:09-20-2022 21:58:11 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:09-20-2022 21:58:11 TTOffLauncher: checking env
+:09-20-2022 21:58:11 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:09-20-2022 21:58:11 TTOffLauncher: checking env
+:09-20-2022 21:58:11 OTPClientRepository: reg_deployment=
+:09-20-2022 21:58:11 OTPClientRepository: required-login auto.
+:09-20-2022 21:58:11 OTPClientRepository: loginInterface: LoginTTOffAccount
+:09-20-2022 21:58:11 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:09-20-2022 21:58:11 Loader: At end of block 'init', expected 138, loaded 5, duration=1.0982958
+:09-20-2022 21:58:11 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:09-20-2022 21:58:11 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:09-20-2022 21:58:11 TTOffLauncher: Stopping mini task manager.
+:09-20-2022 21:58:11 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:09-20-2022 21:58:11 TTOffLauncher: Setting Disconnect Details normal
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x000000001B6A0088>}
+:09-20-2022 21:58:12 StateData: AvatarChooser.enter
+:09-20-2022 21:58:12 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:09-20-2022 21:58:12 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:09-20-2022 21:58:17 OTPClientRepository: ================
+:09-20-2022 21:58:17 OTPClientRepository: Chose avatar id: 100000002
+:09-20-2022 21:58:17 OTPClientRepository: Chose avatar name: Prince Bert Whiskerfuddy
+:09-20-2022 21:58:17 OTPClientRepository: Chose avatar dna: ('dls', 'ls', 'l', 'm', 20, 0, 20, 20, 1, 0, 1, 0, 1, 14)
+:09-20-2022 21:58:17 OTPClientRepository: Chose avatar position: 4
+:09-20-2022 21:58:17 OTPClientRepository: isPaid: 1
+:09-20-2022 21:58:17 OTPClientRepository: freeTimeLeft: 0
+:09-20-2022 21:58:17 OTPClientRepository: allowSecretChat: True
+:09-20-2022 21:58:17 OTPClientRepository: ================
+:09-20-2022 21:58:17 Loader: starting bulk load of block 'localAvatarPlayGame'
+:09-20-2022 21:58:17 ToontownTimeManager(warning): error parsing date string=
+local
+:09-20-2022 21:58:18 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:09-20-2022 21:58:18 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:09-20-2022 21:58:19 OTPClientRepository: Entering shard 401000001
+:09-20-2022 21:58:19 StreetSign: Street sign url is https://ttoffline.com/images/
+:09-20-2022 21:58:20 TimeManager: Clock sync: TimeManager.announceGenerate
+:09-20-2022 21:58:20 NewsManager: setHolidayId: Starting Holiday 26
+:09-20-2022 21:58:20 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz|591597|0|3.600,3.600|8,16 cpus
+:09-20-2022 21:58:21 OTPClientRepository: No sync from TimeManager.
+:09-20-2022 21:58:21 OTPClientRepository: gotTimeSync
+:09-20-2022 21:58:21 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 14, duration=4.2345075
+:09-20-2022 21:58:21 TimeManager: Clock sync roundtrip took 1142.977 ms
+:09-20-2022 21:58:21 TimeManager: AI time delta is -0:01 from server delta
+:09-20-2022 21:58:21 TimeManager: Local clock uncertainty +/- 0.572 s
+:09-20-2022 21:58:21 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit The Brrrgh
+:09-20-2022 21:58:21 Loader: starting bulk load of block 'hood'
+:09-20-2022 21:58:22 OTPClientRepository: Sending heartbeat mid-frame.
+:09-20-2022 21:58:22 NewsManager: setInvasionStatus: msgType: 3 cogType: b, numRemaining: 1000000, skeleton: 0
+:09-20-2022 21:58:22 DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:09-20-2022 21:58:23 DistributedToon: calling LocalAvatar.startchat
+:09-20-2022 21:58:23 Loader: At end of block 'hood', expected 10, loaded 6, duration=1.4188351
+:09-20-2022 21:58:30 TTOffMagicWordManager: Maxed out Prince Bert Whiskerfuddy's stats.
+:09-20-2022 21:58:40 Playground: Unloading Place (3000). Fsm in final
+:09-20-2022 21:58:40 Loader: starting bulk load of block 'hood'
+:09-20-2022 21:58:41 TownLoader: skipping self.geom.flattenMedium
+:09-20-2022 21:58:41 Loader: At end of block 'hood', expected 40, loaded 3, duration=0.8113925
+:09-20-2022 21:58:41 DistributedObject: DistributedSuitPlanner 401002557: generating
+:09-20-2022 21:59:05 Street: Unloading Place (None). Fsm in final
+:09-20-2022 21:59:05 DistributedObject: DistributedSuitPlanner 401002557: disabling
+:09-20-2022 21:59:05 ClassicFSM(warning): [DistributedSuitInterior]: no transition exists from WaitForAllToonsInside to ReservesJoining
+Battle Event localtoon-battle-event-3
+:09-20-2022 21:59:50 ToonBase: User closed main window.
+:09-20-2022 21:59:50 TimeManager: Client disconnect reason 2.
+:09-20-2022 21:59:50 SuitInterior: Unloading Place (3828). Fsm in elevatorOut
+:09-20-2022 21:59:51 OTPClientRepository(warning): unclean exit, abandoning shard
+ignoring InputState-forward
+:09-20-2022 21:59:51 OTPClientRepository: sending clientLogout
+:09-20-2022 21:59:51 LocalAvatar(warning): redundant call to stopUpdateSmartCamera
+:09-20-2022 21:59:51 OTPClientRepository: Sent disconnect message to server
+:09-20-2022 21:59:51 OTPClientRepository: Closing connection to server.
+:09-20-2022 21:59:51 OTPClientRepository: Exiting cleanly
+:09-20-2022 21:59:51 ToonBase: Exiting Toontown: errorCode = None
+:09-20-2022 21:59:51 TTOffLauncher: setting panda error code to 0
+:09-20-2022 21:59:51 TTOffLauncher: Normal exit.

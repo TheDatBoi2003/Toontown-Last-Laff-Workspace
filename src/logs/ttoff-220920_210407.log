@@ -1,0 +1,1502 @@
+
+
+Starting Toontown Online...
+Current time: Tue Sep 20 21:04:07 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'COMPUTERNAME': 'DESKTOP-7054VC9', 'USERDOMAIN': 'DESKTOP-7054VC9', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'INTEL_DEV_REDIST': 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\', 'PSMODULEPATH': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 158 Stepping 13, GenuineIntel', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '9e0d', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Python38\\Scripts\\;C:\\Program Files\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\dotnet\\;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\theph\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\theph\\.dotnet\\tools;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;C:\\Users\\theph\\AppData\\Local\\atom\\bin;C:\\Users\\theph\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0-x64\\python;C:\\Panda3D-1.9.0-x64\\python\\Scripts;C:\\Panda3D-1.9.0-x64\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.1\\bin;;C:\\Users\\theph\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Panda3D-1.11.0\\python;C:\\Panda3D-1.11.0\\python\\Scripts;C:\\Panda3D-1.11.0\\bin;C:\\Users\\theph\\.dotnet\\tools;C:\\Panda3D-1.10.11-x64\\python;C:\\Panda3D-1.10.11-x64\\python\\Scripts;C:\\Panda3D-1.10.11-x64\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python\\Scripts;C:\\EventHorizon-battle-ng-teaser\\depe', 'SYSTEMROOT': 'C:\\WINDOWS', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'DRIVERDATA': 'C:\\Windows\\System32\\Drivers\\DriverData', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'TEMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\theph\\AppData\\Local', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'HOMEPATH': '\\Users\\theph', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-7054VC9', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'theph', 'LOGONSERVER': '\\\\DESKTOP-7054VC9', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'ONEDRIVE': 'C:\\Users\\theph\\OneDrive', 'ADSK_3DSMAX_X64_2019': 'C:\\Program Files\\Autodesk\\3ds Max 2019\\', 'ZES_ENABLE_SYSMAN': '1', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'TTOFF_LOGIN_TOKEN': 'dev', 'WINDIR': 'C:\\WINDOWS', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.1\\bin;', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'NUMBER_OF_PROCESSORS': '16', 'APPDATA': 'C:\\Users\\theph\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\theph'}
+:09-20-2022 21:04:07 TTOffLauncher: isTestServer: 0
+:09-20-2022 21:04:07 TTOffLauncher: Game Server 127.0.0.1
+:09-20-2022 21:04:07 TTOffLauncher: Starting Toontown Online... 
+:09-20-2022 21:04:07 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:09-20-2022 21:04:07 TTOffLauncher: maybeStartGame: starting game
+:09-20-2022 21:04:07 TTOffLauncher: Starting Toontown Online...
+:09-20-2022 21:04:07 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:09-20-2022 21:04:07 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:09-20-2022 21:04:07 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:09-20-2022 21:04:07 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:09-20-2022 21:04:07 ShowBase: __dev__ == False
+:09-20-2022 21:04:08 TTOffLauncher: setting panda error code to 11
+:09-20-2022 21:04:08 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:09-20-2022 21:04:08 Loader: starting bulk load of block 'init'
+:09-20-2022 21:04:08 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:09-20-2022 21:04:08 OTPClientRepository: Using connect method 'http'
+:09-20-2022 21:04:09 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:09-20-2022 21:04:09 TTOffLauncher: checking env
+:09-20-2022 21:04:09 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:09-20-2022 21:04:09 TTOffLauncher: checking env
+:09-20-2022 21:04:09 OTPClientRepository: reg_deployment=
+:09-20-2022 21:04:09 OTPClientRepository: required-login auto.
+:09-20-2022 21:04:09 OTPClientRepository: loginInterface: LoginTTOffAccount
+:09-20-2022 21:04:09 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:09-20-2022 21:04:09 Loader: At end of block 'init', expected 138, loaded 5, duration=1.1033144
+:09-20-2022 21:04:09 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:09-20-2022 21:04:09 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:09-20-2022 21:04:09 TTOffLauncher: Stopping mini task manager.
+:09-20-2022 21:04:09 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:09-20-2022 21:04:09 TTOffLauncher: Setting Disconnect Details normal
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x000000001AE90148>}
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:10 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:10 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:10 :dna(warning): Sign not found in storage: tunnel_sign_green
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: mickey
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: mickey
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:10 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: sign_general1
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_round_ur
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: mickey
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: mickey
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: toon_landmark_TT_A1
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: toon_landmark_hqTT
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: sign_general1
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign3
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: wall_camera_barrier
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: wall_camera_barrier
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: wall_camera_barrier
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: wall_camera_barrier
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: TT_Comedy
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: toon_landmark_TT_A1
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign1
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:11 :dna(fatal): code not found: mickey
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: mickey
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: toon_landmark_TT_A1
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: tunnel_sign_green
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: tunnel_sign_orange
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:11 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:11 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: TTC_sign3
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_square_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: sign_general1
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: TTC_sign1
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: TTC_sign2
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:12 :dna(fatal): code not found: mickey
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: mickey
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: TTC_sign3
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: TTC_sign1
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: TTC_sign3
+:09-20-2022 21:04:12 :dna(fatal): code not found: toon_landmark_TT_A1
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: toon_landmark_TT_A1
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(error): Door not found: door_double_curved_ur
+:09-20-2022 21:04:12 :dna(warning): Sign not found in storage: TTC_sign1
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: <unknown>
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: street_street_TT_tex
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: street_sidewalk_TT_tex
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :dna(fatal): code not found: street_curb_TT_tex
+Assertion failed: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1836, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1726, in handleMessageType
+    self.handleUpdateField(di)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 437, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 445, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "otp\uberdog\GameServicesManager.py", line 45, in avatarListResponse
+    self.cr.handleAvatarsList(avList)
+  File "otp\distributed\OTPClientRepository.py", line 915, in handleAvatarsList
+    self.loginFSM.request('chooseAvatar', [self.avList])
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 212, in enterChooseAvatar
+    self.avChoice.load(self.isPaid())
+  File "toontown\login\AvatarChooser.py", line 111, in load
+    loader.loadDNAFile(self.dnaStore, 'phase_5/dna/toontown_central_2100.dna')
+  File "toontown\toonbase\ToontownLoader.py", line 101, in loadDNAFile
+    ret = loadDNAFile(dnaStore, dnaFile, CSDefault, 0)
+AssertionError: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx
+:09-20-2022 21:04:12 :task(error): Exception occurred in PythonTask readerPollTask-175270112
+:09-20-2022 21:04:12 TTOffLauncher: setting panda error code to 12
+:09-20-2022 21:04:12 TTOffLauncher(warning): Handling Python exception.
+:09-20-2022 21:04:12 OTPClientRepository: Sent disconnect message to server
+:09-20-2022 21:04:12 OTPClientRepository: Closing connection to server.
+:09-20-2022 21:04:12 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1836, in handleDatagram
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1726, in handleMessageType
+    self.handleUpdateField(di)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 437, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 445, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "otp\uberdog\GameServicesManager.py", line 45, in avatarListResponse
+    self.cr.handleAvatarsList(avList)
+  File "otp\distributed\OTPClientRepository.py", line 915, in handleAvatarsList
+    self.loginFSM.request('chooseAvatar', [self.avList])
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 212, in enterChooseAvatar
+    self.avChoice.load(self.isPaid())
+  File "toontown\login\AvatarChooser.py", line 111, in load
+    loader.loadDNAFile(self.dnaStore, 'phase_5/dna/toontown_central_2100.dna')
+  File "toontown\toonbase\ToontownLoader.py", line 101, in loadDNAFile
+    ret = loadDNAFile(dnaStore, dnaFile, CSDefault, 0)
+AssertionError: false at line 54 of D:\Gustavo\git\ttoff\panda3d\panda\src\toontown\DNAGroup.cxx

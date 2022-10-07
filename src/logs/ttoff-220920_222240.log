@@ -1,0 +1,831 @@
+
+
+Starting Toontown Online...
+Current time: Tue Sep 20 22:22:40 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'COMPUTERNAME': 'DESKTOP-7054VC9', 'USERDOMAIN': 'DESKTOP-7054VC9', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'INTEL_DEV_REDIST': 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\', 'PSMODULEPATH': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 158 Stepping 13, GenuineIntel', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '9e0d', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Python38\\Scripts\\;C:\\Program Files\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\dotnet\\;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\theph\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\theph\\.dotnet\\tools;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;C:\\Users\\theph\\AppData\\Local\\atom\\bin;C:\\Users\\theph\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0-x64\\python;C:\\Panda3D-1.9.0-x64\\python\\Scripts;C:\\Panda3D-1.9.0-x64\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.1\\bin;;C:\\Users\\theph\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Panda3D-1.11.0\\python;C:\\Panda3D-1.11.0\\python\\Scripts;C:\\Panda3D-1.11.0\\bin;C:\\Users\\theph\\.dotnet\\tools;C:\\Panda3D-1.10.11-x64\\python;C:\\Panda3D-1.10.11-x64\\python\\Scripts;C:\\Panda3D-1.10.11-x64\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python\\Scripts;C:\\EventHorizon-battle-ng-teaser\\depe', 'SYSTEMROOT': 'C:\\WINDOWS', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'DRIVERDATA': 'C:\\Windows\\System32\\Drivers\\DriverData', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'TEMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\theph\\AppData\\Local', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'HOMEPATH': '\\Users\\theph', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-7054VC9', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'theph', 'LOGONSERVER': '\\\\DESKTOP-7054VC9', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'ONEDRIVE': 'C:\\Users\\theph\\OneDrive', 'ADSK_3DSMAX_X64_2019': 'C:\\Program Files\\Autodesk\\3ds Max 2019\\', 'ZES_ENABLE_SYSMAN': '1', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'TTOFF_LOGIN_TOKEN': 'dev', 'WINDIR': 'C:\\WINDOWS', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.1\\bin;', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'NUMBER_OF_PROCESSORS': '16', 'APPDATA': 'C:\\Users\\theph\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\theph'}
+:09-20-2022 22:22:40 TTOffLauncher: isTestServer: 0
+:09-20-2022 22:22:40 TTOffLauncher: Game Server 127.0.0.1
+:09-20-2022 22:22:40 TTOffLauncher: Starting Toontown Online... 
+:09-20-2022 22:22:40 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:09-20-2022 22:22:40 TTOffLauncher: maybeStartGame: starting game
+:09-20-2022 22:22:40 TTOffLauncher: Starting Toontown Online...
+:09-20-2022 22:22:40 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:09-20-2022 22:22:40 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:09-20-2022 22:22:40 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:09-20-2022 22:22:40 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:09-20-2022 22:22:40 ShowBase: __dev__ == False
+:09-20-2022 22:22:41 TTOffLauncher: setting panda error code to 11
+:09-20-2022 22:22:41 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:09-20-2022 22:22:41 Loader: starting bulk load of block 'init'
+:09-20-2022 22:22:41 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:09-20-2022 22:22:41 OTPClientRepository: Using connect method 'http'
+:09-20-2022 22:22:42 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:09-20-2022 22:22:42 TTOffLauncher: checking env
+:09-20-2022 22:22:42 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:09-20-2022 22:22:42 TTOffLauncher: checking env
+:09-20-2022 22:22:42 OTPClientRepository: reg_deployment=
+:09-20-2022 22:22:42 OTPClientRepository: required-login auto.
+:09-20-2022 22:22:42 OTPClientRepository: loginInterface: LoginTTOffAccount
+:09-20-2022 22:22:42 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:09-20-2022 22:22:42 Loader: At end of block 'init', expected 138, loaded 5, duration=1.1126725
+:09-20-2022 22:22:42 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:09-20-2022 22:22:42 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:09-20-2022 22:22:42 TTOffLauncher: Stopping mini task manager.
+:09-20-2022 22:22:42 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:09-20-2022 22:22:42 TTOffLauncher: Setting Disconnect Details normal
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x000000001B6880C8>}
+:09-20-2022 22:22:43 StateData: AvatarChooser.enter
+:09-20-2022 22:22:43 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:09-20-2022 22:22:43 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:09-20-2022 22:22:45 OTPClientRepository: ================
+:09-20-2022 22:22:45 OTPClientRepository: Chose avatar id: 100000002
+:09-20-2022 22:22:45 OTPClientRepository: Chose avatar name: Prince Bert Whiskerfuddy
+:09-20-2022 22:22:45 OTPClientRepository: Chose avatar dna: ('dls', 'ls', 'l', 'm', 20, 0, 20, 20, 1, 0, 1, 0, 1, 14)
+:09-20-2022 22:22:45 OTPClientRepository: Chose avatar position: 4
+:09-20-2022 22:22:45 OTPClientRepository: isPaid: 1
+:09-20-2022 22:22:45 OTPClientRepository: freeTimeLeft: 0
+:09-20-2022 22:22:45 OTPClientRepository: allowSecretChat: True
+:09-20-2022 22:22:45 OTPClientRepository: ================
+:09-20-2022 22:22:45 Loader: starting bulk load of block 'localAvatarPlayGame'
+:09-20-2022 22:22:45 ToontownTimeManager(warning): error parsing date string=
+local
+:09-20-2022 22:22:46 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:09-20-2022 22:22:46 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:09-20-2022 22:22:47 OTPClientRepository: Entering shard 401000001
+:09-20-2022 22:22:47 StreetSign: Street sign url is https://ttoffline.com/images/
+:09-20-2022 22:22:48 TimeManager: Clock sync: TimeManager.announceGenerate
+:09-20-2022 22:22:48 NewsManager: setHolidayId: Starting Holiday 26
+:09-20-2022 22:22:48 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz|591597|0|3.600,3.600|8,16 cpus
+:09-20-2022 22:22:49 OTPClientRepository: No sync from TimeManager.
+:09-20-2022 22:22:49 OTPClientRepository: gotTimeSync
+:09-20-2022 22:22:49 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 14, duration=4.4013685
+:09-20-2022 22:22:49 TimeManager: Clock sync roundtrip took 1161.660 ms
+:09-20-2022 22:22:49 TimeManager: AI time delta is -0:01 from server delta
+:09-20-2022 22:22:49 TimeManager: Local clock uncertainty +/- 0.581 s
+:09-20-2022 22:22:49 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit The Brrrgh
+:09-20-2022 22:22:49 Loader: starting bulk load of block 'hood'
+:09-20-2022 22:22:50 NewsManager: setInvasionStatus: msgType: 3 cogType: b, numRemaining: 1000000, skeleton: 0
+:09-20-2022 22:22:51 DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:09-20-2022 22:22:51 DistributedToon: calling LocalAvatar.startchat
+:09-20-2022 22:22:51 Loader: At end of block 'hood', expected 10, loaded 6, duration=1.4245211
+:09-20-2022 22:22:52 Teleport(debug): teleportInDone: walk
+:09-20-2022 22:22:53 TTOffMagicWordManager: Run mode has been toggled.
+:09-20-2022 22:22:53 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:09-20-2022 22:22:54 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Map
+:09-20-2022 22:22:56 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:09-20-2022 22:23:01 Playground: Unloading Place (3000). Fsm in final
+:09-20-2022 22:23:01 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Lawbot HQ
+:09-20-2022 22:23:01 Loader: starting bulk load of block 'hood'
+:09-20-2022 22:23:02 LawbotCogHQLoader: loadPlaceGeom: 13000
+:09-20-2022 22:23:02 DistributedObject: DistributedSuitPlanner 401002971: generating
+:09-20-2022 22:23:02 DistributedToon: calling LocalAvatar.startchat
+:09-20-2022 22:23:02 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-20-2022 22:23:02 Loader: At end of block 'hood', expected 2, loaded 2, duration=0.4728479
+:09-20-2022 22:23:02 OTPClientRepository: Sending heartbeat mid-frame.
+:09-20-2022 22:23:03 Teleport(debug): teleportInDone: walk
+:09-20-2022 22:23:03 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-20-2022 22:23:12 LawbotCogHQLoader: loadPlaceGeom: 13200
+:09-20-2022 22:23:12 LawbotHQExterior: Unloading Place (13000). Fsm in final
+:09-20-2022 22:23:12 DistributedObject: DistributedSuitPlanner 401002971: disabling
+:09-20-2022 22:23:12 DistributedToon: calling LocalAvatar.startchat
+:09-20-2022 22:23:12 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-20-2022 22:23:12 OTPClientRepository: Sending heartbeat mid-frame.
+:09-20-2022 22:23:13 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-20-2022 22:23:38 LawbotCogHQLoader: loadPlaceGeom: 61000
+:09-20-2022 22:23:38 LawbotCogHQLoader(warning): loadPlaceGeom: unclassified zone 61000
+:09-20-2022 22:23:38 LawbotOfficeExterior: Unloading Place (13200). Fsm in final
+:09-20-2022 22:23:38 DistributedElevatorFloor: Setting latch
+:09-20-2022 22:23:38 DistributedElevatorFloor: Setting latch in announce generate
+:09-20-2022 22:23:38 DistributedElevatorFloor: Setting latch
+:09-20-2022 22:23:38 TimeManager: Clock sync: DistributedLevel.generate
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 DistributedStage: stageId 13400, floor 0, [100000002]
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:23:38 DistributedStage: CAMENTERROOM doID401004086 num0
+:09-20-2022 22:23:38 DistributedStage: av: LPoint3f(2, 1, 0), cam: LPoint3f(0, -16, 5.5)
+:09-20-2022 22:23:38 DistributedToon: calling LocalAvatar.startchat
+:09-20-2022 22:23:38 TimeManager: Clock sync roundtrip took 423.300 ms
+:09-20-2022 22:23:38 TimeManager: AI time delta is -0:00 from server delta
+:09-20-2022 22:23:38 ClockDelta: previous delta at -1.322 s, +/- 0.595 s.
+:09-20-2022 22:23:38 ClockDelta: new delta at -1.662 s, +/- 0.212 s.
+:09-20-2022 22:23:38 ClockDelta: intersection at -1.662 s, +/- 0.212 s.
+:09-20-2022 22:23:38 TimeManager: Local clock uncertainty +/- 0.212 s
+:09-20-2022 22:23:39 :pgraph(warning): No bin named default; creating default bin.
+:09-20-2022 22:23:39 DistributedStage: CAMENTERROOM doID401004086 num0
+:09-20-2022 22:23:39 DistributedStage: av: LPoint3f(2, 1, 0), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z03a_ALL/Collsion/stageFloorColl0 []
+  at 2 -13.2 -0.0286088
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:23:39 DistributedStage: CAMENTERROOM doID401004086 num0
+:09-20-2022 22:23:39 DistributedStage: av: LPoint3f(2, 1, 0), cam: LPoint3f(0, -15, 5)
+:09-20-2022 22:23:40 DistributedStage: CAMENTERROOM doID401004086 num1
+:09-20-2022 22:23:40 DistributedStage: av: LPoint3f(2, 52.5965, 5.45781), cam: LPoint3f(0, -15, 4.78821)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at 2 38.3965 0.0500851
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:23:40 DistributedStage: CAMENTERROOM doID401004086 num1
+:09-20-2022 22:23:40 DistributedStage: av: LPoint3f(2, 56.0084, 5.66818), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at 2 41.8084 -0.0477896
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:23:40 DistributedStage: CAMENTERROOM doID401004086 num1
+:09-20-2022 22:23:40 DistributedStage: av: LPoint3f(2.30791, 65.1031, 5.33347), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at -0.46066 51.1756 4.95158
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:23:42 DistributedStage: CAMENTERROOM doID401004086 num2
+:09-20-2022 22:23:42 DistributedStage: av: LPoint3f(34.2784, 123.864, 4.97565), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z04a_ALL/Z04/lobby/collision_lobby/stageFloorColl2 []
+  at 28.3222 110.974 4.95065
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:23:54 DistributedStage: CAMENTERROOM doID401004086 num3
+:09-20-2022 22:23:54 DistributedStage: av: LPoint3f(25.9276, 259.619, 10.4522), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 29.1544 245.791 4.94142
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:23:54 DistributedStage: CAMENTERROOM doID401004086 num3
+:09-20-2022 22:23:54 DistributedStage: av: LPoint3f(25.1782, 263.175, 11.5081), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 25.6187 248.982 5.48175
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:23:54 DistributedStage: CAMENTERROOM doID401004086 num3
+:09-20-2022 22:23:54 DistributedStage: av: LPoint3f(27.6994, 274.366, 13.4871), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 23.0541 260.947 9.94098
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:23:56 DistributedStage: CAMENTERROOM doID401004086 num4
+:09-20-2022 22:23:56 DistributedStage: av: LPoint3f(57.9913, 335.101, 13.5721), cam: LPoint3f(-0.172552, -14.8146, 5.04921)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z13_ALL/room/collsion/stageFloorColl4 []
+  at 60.0516 321.238 9.93978
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:07 TTOffMagicWordManager: Going ghost!
+:09-20-2022 22:24:07 DistributedStage: CAMENTERROOM doID401004086 num4
+:09-20-2022 22:24:07 DistributedStage: av: LPoint3f(44.4964, 531.733, 9.96478), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z13_ALL/room/collsion/stageFloorColl4 []
+  at 44.4964 531.733 9.93978
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:07 DistributedStage: CAMENTERROOM doID401004086 num5
+:09-20-2022 22:24:07 DistributedStage: av: LPoint3f(55.2259, 590.183, 9.98186), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at 55.2259 590.183 9.95686
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num5
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(54.4174, 596.613, 12.0082), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at 54.4174 596.613 11.9832
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num5
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(53.4257, 604.301, 14.9719), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at 55.2423 590.218 9.95682
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num5
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(53.3031, 605.252, 14.9719), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at 53.3031 605.252 14.9471
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num5
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(53.1326, 606.574, 14.9719), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at 54.9492 592.49 10.0718
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num5
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(51.4807, 619.381, 14.9719), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at 53.2972 605.297 14.947
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num6
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(36.6519, 659.963, 14.9241), cam: LPoint3f(0, -14.8725, 5.03337)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z08_ALL/Z08/boiler_room/collsion_boiler_room/stageFloorColl6 []
+  at 36.6518 659.963 14.8991
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num6
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(34.9877, 662.434, 14.9322), cam: LPoint3f(0, -0.705528, 6.99558)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z08_ALL/Z08/boiler_room/collsion_boiler_room/stageFloorColl6 []
+  at 35.0504 662.341 14.9071
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num5
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(33.4876, 664.662, 14.9684), cam: LPoint3f(0, -0.359959, 7.3775)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at 33.4876 664.662 14.9434
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num5
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(33.4876, 664.662, 14.9684), cam: LPoint3f(0, -0.359959, 7.3775)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at 33.4134 664.772 14.9436
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num6
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(33.0678, 665.285, 14.938), cam: LPoint3f(0, -1.11287, 7.59427)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z08_ALL/Z08/boiler_room/collsion_boiler_room/stageFloorColl6 []
+  at 33.0678 665.286 14.913
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:08 DistributedStage: CAMENTERROOM doID401004086 num6
+:09-20-2022 22:24:08 DistributedStage: av: LPoint3f(32.2915, 666.438, 14.938), cam: LPoint3f(0, -0.582767, 7.56628)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z08_ALL/Z08/boiler_room/collsion_boiler_room/stageFloorColl6 []
+  at 32.3355 666.373 14.9131
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:10 DistributedStage: CAMENTERROOM doID401004086 num7
+:09-20-2022 22:24:10 DistributedStage: av: LPoint3f(109.332, 736.773, 25.8754), cam: LPoint3f(0, -14.9044, 5.02618)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at 109.332 736.773 25.8504
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:10 DistributedStage: CAMENTERROOM doID401004086 num7
+:09-20-2022 22:24:10 DistributedStage: av: LPoint3f(110.152, 736.348, 27.1008), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at 110.152 736.348 27.0758
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:10 DistributedStage: CAMENTERROOM doID401004086 num7
+:09-20-2022 22:24:10 DistributedStage: av: LPoint3f(120.664, 730.915, 30.8713), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at 120.664 730.915 30.847
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:10 DistributedStage: CAMENTERROOM doID401004086 num7
+:09-20-2022 22:24:10 DistributedStage: av: LPoint3f(122.53, 729.95, 30.8727), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at 109.916 736.471 25.8508
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:10 DistributedStage: CAMENTERROOM doID401004086 num7
+:09-20-2022 22:24:10 DistributedStage: av: LPoint3f(144.453, 725.988, 30.8752), cam: LPoint3f(0, -0.836312, 6.99378)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at 144.453 725.988 30.8502
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:10 DistributedStage: CAMENTERROOM doID401004086 num7
+:09-20-2022 22:24:10 DistributedStage: av: LPoint3f(144.453, 725.988, 30.8752), cam: LPoint3f(0, -0.836312, 6.99378)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at 144.292 725.827 30.8502
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:10 DistributedStage: CAMENTERROOM doID401004086 num7
+:09-20-2022 22:24:10 DistributedStage: av: LPoint3f(161.512, 755.861, 30.8657), cam: LPoint3f(0, -0.544333, 7.07856)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at 161.512 755.861 30.8407
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:10 DistributedStage: CAMENTERROOM doID401004086 num7
+:09-20-2022 22:24:10 DistributedStage: av: LPoint3f(161.512, 755.861, 30.8657), cam: LPoint3f(0, -0.544333, 7.07856)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at 161.52 755.876 30.841
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:11 DistributedStage: CAMENTERROOM doID401004086 num8
+:09-20-2022 22:24:11 DistributedStage: av: LPoint3f(180.684, 771.486, 30.7414), cam: LPoint3f(0, -4.3145, 6.83453)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/NPW.cRayNode
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z22a/room/collsion/stageFloorColl8 []
+  at 180.684 771.486 30.7164
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:11 DistributedStage: CAMENTERROOM doID401004086 num8
+:09-20-2022 22:24:11 DistributedStage: av: LPoint3f(181.676, 771.343, 30.7414), cam: LPoint3f(0, -0.455975, 6.99815)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z22a/room/collsion/stageFloorColl8 []
+  at 181.779 771.328 30.7165
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:14 DistributedStage: CAMENTERROOM doID401004086 num7
+:09-20-2022 22:24:14 DistributedStage: av: LPoint3f(191.121, 768.924, 30.7414), cam: LPoint3f(0, -14.907, 5.0276)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at 180.232 759.955 30.843
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:24:18 TTOffMagicWordManager: Ta-da!
+:09-20-2022 22:24:18 DistributedStage: CAMENTERROOM doID401004086 num8
+:09-20-2022 22:24:18 DistributedStage: av: LPoint3f(194.129, 766.352, 30.7414), cam: LPoint3f(0, -14.9161, 5.13044)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004086/ZoneEntity-0/-PandaNode/Z22a/room/collsion/stageFloorColl8 []
+  at 180.678 762.068 30.7165
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+spec = {'parentEntId': 10000, 'pos': LPoint3f(0, 0, 0)}
+h = None
+:09-20-2022 22:24:18 StageInterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-3
+:09-20-2022 22:24:51 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat
+:09-20-2022 22:25:57 DistributedStageBattle: enterReward()
+:09-20-2022 22:26:01 DistributedStageBattle: exitReward()
+:09-20-2022 22:26:02 StageInterior(warning): fsm.request('walk') returned 0 (zone id 13400, avatar pos LPoint3f(207.794, 769.465, 31.116)).
+:09-20-2022 22:26:08 Entity(warning): Entity 10010 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10057 destroyed after level??
+:09-20-2022 22:26:08 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10057 without calling cleanup()
+:09-20-2022 22:26:08 Entity(warning): Entity 100000 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10040 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10041 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10052 destroyed after level??
+:09-20-2022 22:26:08 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10052 without calling cleanup()
+:09-20-2022 22:26:08 Entity(warning): Entity 100030 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10057 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10037 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 100021 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10001 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 100016 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10035 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10056 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10071 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10072 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10042 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10043 destroyed after level??
+:09-20-2022 22:26:08 Entity(warning): Entity 10001 destroyed after level??
+:09-20-2022 22:26:08 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10001 without calling cleanup()
+:09-20-2022 22:26:08 Entity(warning): Entity 10008 destroyed after level??
+:09-20-2022 22:26:08 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10008 without calling cleanup()
+:09-20-2022 22:26:08 Entity(warning): Entity 10012 destroyed after level??
+:09-20-2022 22:26:08 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10012 without calling cleanup()
+:09-20-2022 22:26:08 Entity(warning): Entity 10020 destroyed after level??
+:09-20-2022 22:26:08 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10020 without calling cleanup()
+:09-20-2022 22:26:08 Entity(warning): Entity 10047 destroyed after level??
+:09-20-2022 22:26:08 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10047 without calling cleanup()
+:09-20-2022 22:26:08 DistributedElevatorFloor: Setting latch
+:09-20-2022 22:26:08 DistributedElevatorFloor: Setting latch in announce generate
+:09-20-2022 22:26:08 DistributedElevatorFloor: Setting latch
+:09-20-2022 22:26:08 BulletinBoard(warning): changing StageFloorNum from 0 to 1
+:09-20-2022 22:26:08 BulletinBoard: update: posting StageFloorNum
+:09-20-2022 22:26:08 TimeManager: Clock sync: DistributedLevel.generate
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 DistributedStage: stageId 13400, floor 1, [100000002]
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:09-20-2022 22:26:08 DistributedStage: CAMENTERROOM doID401004339 num0
+:09-20-2022 22:26:08 DistributedStage: av: LPoint3f(0, -1, 0), cam: LPoint3f(0, -15, 5)
+:09-20-2022 22:26:08 TimeManager: Clock sync roundtrip took 127.355 ms
+:09-20-2022 22:26:08 TimeManager: AI time delta is -0:00 from server delta
+:09-20-2022 22:26:08 ClockDelta: previous delta at -1.662 s, +/- 0.253 s.
+:09-20-2022 22:26:08 ClockDelta: new delta at -1.799 s, +/- 0.064 s.
+:09-20-2022 22:26:08 ClockDelta: intersection at -1.799 s, +/- 0.064 s.
+:09-20-2022 22:26:08 TimeManager: Local clock uncertainty +/- 0.064 s
+Laser Field initCollisionGeom
+Laser Field initCollisionGeom
+:09-20-2022 22:26:08 BulletinBoard(warning): changing StageReady from <toontown.coghq.DistributedStage.DistributedStage instance at 0x000000002E529948> to <toontown.coghq.DistributedStage.DistributedStage instance at 0x000000002E70A708>
+:09-20-2022 22:26:08 BulletinBoard: update: posting StageReady
+:09-20-2022 22:26:08 DistributedStage: CAMENTERROOM doID401004339 num0
+:09-20-2022 22:26:08 DistributedStage: av: LPoint3f(0, -1, -0.00508548), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004339/ZoneEntity-0/-PandaNode/Z03a_ALL/Collsion/stageFloorColl0 []
+  at 0 -15.2 -0.0296154
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:26:08 DistributedStage: CAMENTERROOM doID401004339 num0
+:09-20-2022 22:26:08 DistributedStage: av: LPoint3f(0, -1, -0.011377), cam: LPoint3f(0, -15, 5)
+:09-20-2022 22:26:09 DistributedStage: CAMENTERROOM doID401004339 num1
+:09-20-2022 22:26:09 DistributedStage: av: LPoint3f(1.62558, 51.2693, 5.02553), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004339/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at -4.37876 38.4012 0.0529089
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:26:09 DistributedStage: CAMENTERROOM doID401004339 num1
+:09-20-2022 22:26:09 DistributedStage: av: LPoint3f(2.66542, 53.3883, 4.97638), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004339/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at -4.94133 41.3976 -0.0468616
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:26:10 DistributedStage: CAMENTERROOM doID401004339 num1
+:09-20-2022 22:26:10 DistributedStage: av: LPoint3f(4.80305, 62.8103, 8.21488), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004339/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at -3.35823 51.1899 4.95177
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:26:11 DistributedStage: CAMENTERROOM doID401004339 num2
+:09-20-2022 22:26:11 DistributedStage: av: LPoint3f(25.586, 125.382, 4.97565), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004339/ZoneEntity-0/-PandaNode/Z13_ALL/room/collsion/stageFloorColl2 []
+  at 26.2234 111.196 4.95065
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:26:19 DistributedStage: CAMENTERROOM doID401004339 num3
+:09-20-2022 22:26:19 DistributedStage: av: LPoint3f(32.0476, 393.781, 10.1349), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004339/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 26.6197 380.66 4.95278
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:26:19 DistributedStage: CAMENTERROOM doID401004339 num3
+:09-20-2022 22:26:19 DistributedStage: av: LPoint3f(33.0338, 396.165, 10.0641), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004339/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 27.6058 383.044 5.11933
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:26:19 DistributedStage: CAMENTERROOM doID401004339 num3
+:09-20-2022 22:26:19 DistributedStage: av: LPoint3f(33.7197, 408.177, 13.1702), cam: LPoint3f(0, -15, 5)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004339/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 27.0975 395.615 9.95167
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:09-20-2022 22:26:20 DistributedStage: CAMENTERROOM doID401004339 num4
+:09-20-2022 22:26:20 DistributedStage: av: LPoint3f(58.6305, 469.776, 9.97565), cam: LPoint3f(-0.120856, -14.9005, 5.02633)
+CollisionEntry:
+  from render/Prince Bert Whiskerfuddy-100000002/camFloorRayNode/ccRay2Node
+  into render/stage401004339/ZoneEntity-0/-PandaNode/Z04a_ALL/Z04/lobby/collision_lobby/stageFloorColl4 []
+  at 60.9495 455.867 9.95065
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+spec = {'parentEntId': 100022, 'pos': LPoint3f(0, 0, 0)}
+h = None
+:09-20-2022 22:26:24 StageInterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-9
+:09-20-2022 22:27:07 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat
+:09-20-2022 22:27:29 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat
+:09-20-2022 22:27:41 GarbageCollect(warning): garbage found, reverting gc threshold
+:09-20-2022 22:27:42 ToonBase: User closed main window.
+:09-20-2022 22:27:42 TimeManager: Client disconnect reason 2.
+:09-20-2022 22:27:42 Entity(warning): Entity 10005 destroyed after level??
+:09-20-2022 22:27:42 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10005 without calling cleanup()
+:09-20-2022 22:27:42 Entity(warning): Entity 10011 destroyed after level??
+:09-20-2022 22:27:42 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10011 without calling cleanup()
+:09-20-2022 22:27:42 Entity(warning): Entity 10022 destroyed after level??
+:09-20-2022 22:27:42 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10022 without calling cleanup()
+:09-20-2022 22:27:42 Entity(warning): Entity 100016 destroyed after level??
+:09-20-2022 22:27:42 Entity(warning): Entity 10001 destroyed after level??
+:09-20-2022 22:27:42 Entity(warning): Entity 100019 destroyed after level??
+:09-20-2022 22:27:42 Entity(warning): Entity 10017 destroyed after level??
+:09-20-2022 22:27:42 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10017 without calling cleanup()
+:09-20-2022 22:27:42 Entity(warning): Entity 100017 destroyed after level??
+:09-20-2022 22:27:42 Entity(warning): Entity 100015 destroyed after level??
+:09-20-2022 22:27:42 DistributedStageBattle(warning): unlockLevelViz: couldn't find level 401004346
+:09-20-2022 22:27:42 Entity(warning): Entity 100018 destroyed after level??
+:09-20-2022 22:27:42 StageInterior: Unloading Place (13400). Fsm in final
+:09-20-2022 22:27:42 OTPClientRepository(warning): unclean exit, abandoning shard
+ignoring InputState-forward
+:09-20-2022 22:27:42 OTPClientRepository: sending clientLogout
+:09-20-2022 22:27:42 LocalAvatar(warning): redundant call to stopUpdateSmartCamera
+:09-20-2022 22:27:42 OTPClientRepository: Sent disconnect message to server
+:09-20-2022 22:27:42 OTPClientRepository: Closing connection to server.
+:09-20-2022 22:27:42 OTPClientRepository: Exiting cleanly
+:09-20-2022 22:27:42 ToonBase: Exiting Toontown: errorCode = None
+:09-20-2022 22:27:42 TTOffLauncher: setting panda error code to 0
+:09-20-2022 22:27:42 TTOffLauncher: Normal exit.

@@ -980,8 +980,8 @@ dclass DistributedToon : DistributedPlayer {
   setBankMoney(int16 = 0) required broadcast ownrecv db;
   setMaxMoney(int16 = 40) required broadcast ownrecv db;
   setMoney(int16 = 0) required broadcast ownrecv db;
-  setMaxHp(int16 = 15) required broadcast ownrecv db;
-  setHp(int16 = 15) required broadcast ownrecv db;
+  setMaxHp(int16 = 15) required broadcast clsend ownrecv db;
+  setHp(int16 = 15) required broadcast clsend ownrecv db;
   toonUp(uint16) broadcast ownrecv;
   takeDamage(uint16) broadcast ownrecv;
   setBattleId(uint32 = 0) required broadcast ram;
@@ -1108,7 +1108,7 @@ dclass DistributedToon : DistributedPlayer {
   updateKartDNAField(int8, int8) ownsend airecv;
   addOwnedAccessory(int8) ownsend airecv;
   removeOwnedAccessory(int8) ownsend airecv;
-  setTickets(uint32 = 200) required broadcast ownrecv db;
+  setTickets(uint32 = 200) required broadcast clsend ownrecv db;
   setKartingHistory(uint8 [16] = [0 * 16]) required ownrecv db;
   setKartingTrophies(uint8 [33] = [0 * 33]) required ownrecv db;
   setKartingPersonalBest(uint32/1000 [6] = [0 * 6]) required ownrecv db;

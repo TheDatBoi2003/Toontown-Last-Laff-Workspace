@@ -29,6 +29,7 @@ from toontown.toon import ToonDNA
 from toontown.toonbase import ToontownBattleGlobals
 from toontown.toonbase import ToontownGlobals
 from toontown.toonbase import TTLocalizer
+from toontown.dev.devPannel import devPannel
 
 import MagicWordConfig
 import time
@@ -234,6 +235,16 @@ class SetSpeed(MagicWord):
             base.localAvatar.controlManager.setSpeeds(speed, OTPGlobals.ToonJumpForce, reverseSpeed,
                                                       OTPGlobals.ToonRotateSpeed)
             return "Your speed has been set to {}.".format(speed)
+
+class DevPannel(MagicWord):
+    aliases = ["dev", "dev"]
+    desc = "Maxes out the target's stats. You can provide a gag track to exclude from the target's unlocked tracks."
+    execLocation = MagicWordConfig.EXEC_LOC_CLIENT
+
+    def handleWord(self, invoker, avId, toon, *args):
+        self.devPannel = devPannel(toon)
+        self.devPannel.reparentTo(aspect2d)
+
 
 
 class MaxToon(MagicWord):

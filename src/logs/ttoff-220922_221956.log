@@ -1,0 +1,303 @@
+
+
+Starting Toontown Online...
+Current time: Thu Sep 22 22:19:56 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'COMPUTERNAME': 'DESKTOP-7054VC9', 'USERDOMAIN': 'DESKTOP-7054VC9', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'INTEL_DEV_REDIST': 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\', 'PSMODULEPATH': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 158 Stepping 13, GenuineIntel', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '9e0d', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Python38\\Scripts\\;C:\\Program Files\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\dotnet\\;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\theph\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\theph\\.dotnet\\tools;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;C:\\Users\\theph\\AppData\\Local\\atom\\bin;C:\\Users\\theph\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0-x64\\python;C:\\Panda3D-1.9.0-x64\\python\\Scripts;C:\\Panda3D-1.9.0-x64\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.1\\bin;;C:\\Users\\theph\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Panda3D-1.11.0\\python;C:\\Panda3D-1.11.0\\python\\Scripts;C:\\Panda3D-1.11.0\\bin;C:\\Users\\theph\\.dotnet\\tools;C:\\Panda3D-1.10.11-x64\\python;C:\\Panda3D-1.10.11-x64\\python\\Scripts;C:\\Panda3D-1.10.11-x64\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python\\Scripts;C:\\EventHorizon-battle-ng-teaser\\depe', 'SYSTEMROOT': 'C:\\WINDOWS', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'DRIVERDATA': 'C:\\Windows\\System32\\Drivers\\DriverData', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'TEMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\theph\\AppData\\Local', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'HOMEPATH': '\\Users\\theph', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-7054VC9', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'theph', 'LOGONSERVER': '\\\\DESKTOP-7054VC9', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'ONEDRIVE': 'C:\\Users\\theph\\OneDrive', 'ADSK_3DSMAX_X64_2019': 'C:\\Program Files\\Autodesk\\3ds Max 2019\\', 'ZES_ENABLE_SYSMAN': '1', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'TTOFF_LOGIN_TOKEN': 'dev', 'WINDIR': 'C:\\WINDOWS', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.1\\bin;', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'NUMBER_OF_PROCESSORS': '16', 'APPDATA': 'C:\\Users\\theph\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\theph'}
+:09-22-2022 22:19:56 TTOffLauncher: isTestServer: 0
+:09-22-2022 22:19:56 TTOffLauncher: Game Server 127.0.0.1
+:09-22-2022 22:19:56 TTOffLauncher: Starting Toontown Online... 
+:09-22-2022 22:19:56 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:09-22-2022 22:19:56 TTOffLauncher: maybeStartGame: starting game
+:09-22-2022 22:19:56 TTOffLauncher: Starting Toontown Online...
+:09-22-2022 22:19:56 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:09-22-2022 22:19:57 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:09-22-2022 22:19:57 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:09-22-2022 22:19:57 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:09-22-2022 22:19:57 ShowBase: __dev__ == False
+:09-22-2022 22:19:57 TTOffLauncher: setting panda error code to 11
+:09-22-2022 22:19:57 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:09-22-2022 22:19:57 Loader: starting bulk load of block 'init'
+:09-22-2022 22:19:58 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:09-22-2022 22:19:58 OTPClientRepository: Using connect method 'http'
+:09-22-2022 22:19:58 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:09-22-2022 22:19:58 TTOffLauncher: checking env
+:09-22-2022 22:19:58 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:09-22-2022 22:19:58 TTOffLauncher: checking env
+:09-22-2022 22:19:58 OTPClientRepository: reg_deployment=
+:09-22-2022 22:19:58 OTPClientRepository: required-login auto.
+:09-22-2022 22:19:58 OTPClientRepository: loginInterface: LoginTTOffAccount
+:09-22-2022 22:19:58 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:09-22-2022 22:19:58 Loader: At end of block 'init', expected 138, loaded 5, duration=1.1440301
+:09-22-2022 22:19:58 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:09-22-2022 22:19:58 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:09-22-2022 22:19:58 TTOffLauncher: Stopping mini task manager.
+:09-22-2022 22:19:58 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:09-22-2022 22:19:58 TTOffLauncher: Setting Disconnect Details normal
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x000000001B4230C8>}
+:09-22-2022 22:19:59 StateData: AvatarChooser.enter
+:09-22-2022 22:19:59 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:09-22-2022 22:19:59 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:09-22-2022 22:20:00 OTPClientRepository: ================
+:09-22-2022 22:20:00 OTPClientRepository: Chose avatar id: 100000003
+:09-22-2022 22:20:00 OTPClientRepository: Chose avatar name: Deputy Skimpy
+:09-22-2022 22:20:00 OTPClientRepository: Chose avatar dna: ('dls', 'ls', 'm', 'm', 18, 0, 18, 18, 1, 9, 1, 9, 1, 15)
+:09-22-2022 22:20:00 OTPClientRepository: Chose avatar position: 2
+:09-22-2022 22:20:00 OTPClientRepository: isPaid: 1
+:09-22-2022 22:20:00 OTPClientRepository: freeTimeLeft: 0
+:09-22-2022 22:20:00 OTPClientRepository: allowSecretChat: True
+:09-22-2022 22:20:00 OTPClientRepository: ================
+:09-22-2022 22:20:00 Loader: starting bulk load of block 'localAvatarPlayGame'
+:09-22-2022 22:20:01 ToontownTimeManager(warning): error parsing date string=
+local
+:09-22-2022 22:20:01 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:09-22-2022 22:20:01 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:09-22-2022 22:20:02 OTPClientRepository: Entering shard 401000001
+:09-22-2022 22:20:02 StreetSign: Street sign url is https://ttoffline.com/images/
+:09-22-2022 22:20:04 TimeManager: Clock sync: TimeManager.announceGenerate
+:09-22-2022 22:20:04 NewsManager: setHolidayId: Starting Holiday 26
+:09-22-2022 22:20:04 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz|591597|0|3.600,3.600|8,16 cpus
+:09-22-2022 22:20:05 OTPClientRepository: No sync from TimeManager.
+:09-22-2022 22:20:05 OTPClientRepository: gotTimeSync
+:09-22-2022 22:20:05 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 14, duration=4.3874222
+:09-22-2022 22:20:05 TimeManager: Clock sync roundtrip took 1192.638 ms
+:09-22-2022 22:20:05 TimeManager: AI time delta is -0:01 from server delta
+:09-22-2022 22:20:05 TimeManager: Local clock uncertainty +/- 0.596 s
+:09-22-2022 22:20:05 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Bossbot HQ
+:09-22-2022 22:20:05 Loader: starting bulk load of block 'hood'
+:09-22-2022 22:20:06 BossbotCogHQLoader: loadPlaceGeom: 10000
+:09-22-2022 22:20:06 HoodMgr(warning): getPlaygroundCenterFromId: No such hood name as: 10000
+:09-22-2022 22:20:06 DistributedToon: calling LocalAvatar.startchat
+:09-22-2022 22:20:06 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_bossbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-22-2022 22:20:06 Loader: At end of block 'hood', expected 2, loaded 4, duration=1.027611
+:09-22-2022 22:20:07 Teleport(debug): teleportInDone: walk
+:09-22-2022 22:20:07 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_bossbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-22-2022 22:20:08 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:09-22-2022 22:20:10 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Cog Disguise
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:09-22-2022 22:20:12 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Map
+:09-22-2022 22:20:13 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:09-22-2022 22:20:19 BossbotHQExterior: Unloading Place (10000). Fsm in final
+:09-22-2022 22:20:19 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:09-22-2022 22:20:19 Loader: starting bulk load of block 'hood'
+:09-22-2022 22:20:19 SellbotCogHQLoader: loadPlaceGeom: 11000
+:09-22-2022 22:20:19 DistributedObject: DistributedSuitPlanner 401002952: generating
+:09-22-2022 22:20:19 DistributedToon: calling LocalAvatar.startchat
+:09-22-2022 22:20:19 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-22-2022 22:20:19 Loader: At end of block 'hood', expected 43, loaded 1, duration=0.4314343
+:09-22-2022 22:20:20 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:09-22-2022 22:20:20 Teleport(debug): teleportInDone: walk
+:09-22-2022 22:20:20 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-22-2022 22:20:26 SellbotCogHQLoader: loadPlaceGeom: 11100
+:09-22-2022 22:20:26 SellbotCogHQLoader: QA-REGRESSION: COGHQ: Visit SellbotLobby
+:09-22-2022 22:20:26 SellbotHQExterior: Unloading Place (11000). Fsm in final
+:09-22-2022 22:20:26 DistributedObject: DistributedSuitPlanner 401002952: disabling
+:09-22-2022 22:20:26 DistributedToon: calling LocalAvatar.startchat
+:09-22-2022 22:20:26 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-22-2022 22:20:27 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:09-22-2022 22:21:31 SellbotCogHQLoader: loadPlaceGeom: 61000
+:09-22-2022 22:21:31 SellbotCogHQLoader(warning): loadPlaceGeom: unclassified zone 61000
+:09-22-2022 22:21:31 CogHQLobby: Unloading Place (11100). Fsm in final
+:09-22-2022 22:21:31 Actor(warning): no part named head-front*!
+:09-22-2022 22:21:31 DistributedToon: calling LocalAvatar.startchat
+:09-22-2022 22:21:31 SellbotHQBossBattle(warning): fsm.request('movie') returned 0 (zone id 61000, avatar pos LPoint3f(-2.57997, 95, 18.1093)).
+:09-22-2022 22:21:45 SellbotHQBossBattle(warning): fsm.request('movie') returned 0 (zone id 61000, avatar pos LPoint3f(-2.57997, 95, 18.1093)).
+Exception occurred while processing Func-takeOffSuit-268 of IntroductionMovie:
+IntroductionMovie:
+  0.000 IntroductionMovie {
+  0.000   Introduction-401004250 {
+  0.000     *Func-stickToonsToFloor-285
+  0.000     Parallel-84 {
+  0.000       Sequence-170 {
+  0.000         *Actor-Ff_speech-50 dur 10
+ 10.000         *Actor-ltTurn2Wave-51 dur 2
+ 12.000         *Actor-wave-52 dur 4
+ 16.000         *Actor-ltTurn2Wave-53 dur 2.04167
+ 18.042         *Actor-Ff_speech-54 dur 7
+ 25.042       }
+  0.000       Track-192 {
+  0.000         Parallel-171 {
+  0.000           LerpPosHprInterval-189: pos from 0 25 30 to -22 -100 35 hpr from 0 0 0 to -10 -13 0 dur 8
+  0.000           *IndirectInterval-1 dur 18
+ 18.000         }
+  5.600         *Func-setChatAbsolute-238
+  9.000         *IndirectInterval-2 dur 9
+ 10.000         Sequence-172 {
+ 10.000           *Func-clearChat-239
+ 10.000           *Func-setPosHpr-240
+ 10.000         }
+ 12.000         *Func-setChatAbsolute-241
+ 16.000         Parallel-173 {
+ 16.000           *Func-clearChat-242
+ 16.000           *Func-setPosHpr-243
+ 16.000           *IndirectInterval-3 dur 21.076
+ 16.000           *IndirectInterval-4 dur 6
+ 37.076         }
+ 18.000         *Func-setChatAbsolute-244
+ 22.000         *Func-setChatAbsolute-245
+ 22.200         Sequence-174 {
+ 22.200           *Func-setScale-246
+ 22.200           *Func-setChatAbsolute-247
+ 22.200           *Actor-wave-55 dur 3.25
+ 25.450           *Func-loop-248
+ 25.450         }
+ 25.000         Sequence-175 {
+ 25.000           *Func-clearChat-249
+ 25.000           *Func-clearChat-250
+ 25.000           *Func-setPosHpr-251
+ 25.000           *Actor-Ff_lookRt-56 dur 3
+ 28.000         }
+ 27.000         Sequence-176 {
+ 27.000           *Func-setChatAbsolute-252
+ 27.000           *Func-setPosHpr-253
+ 27.000           *Actor-wave-57 dur 3.25
+ 30.250           *Func-loop-254
+ 30.250         }
+ 31.000         Sequence-177 {
+ 31.000           *Func-setPosHpr-255
+ 31.000           *Func-setChatAbsolute-256
+ 31.000           *Func-setScale-257
+ 31.000           *Func-clearChat-258
+ 31.000           *Actor-turn2Fb-58 dur 3
+ 34.000         }
+ 34.000         Sequence-184 {
+ 34.000           *Func-clearChat-259
+ 34.000           Sequence-178 {
+ 34.000             *Func-setPosHpr-260
+ 34.000             Parallel-179 {
+ 34.000               Sequence-182 {
+ 34.000                 *Func-reparentTo-267
+ 34.000                 Parallel-181 {
+ 34.000                   dustCloud-track-0 {
+ 34.000                     *Func-show-261
+ 34.000                     *Func-messaging-262
+ 34.000                     *Func-play-263
+ 34.000                     *Func-setFrameRate-264
+ 34.000                     *Func-dummy-265
+ 34.000                     Wait dur 0.791667
+ 34.792                     *Func-_resetTrack-266
+ 34.792                   }
+ 34.000                   Sequence-180 {
+ 34.000                     Wait dur 0.3
+ 34.300                     *Func-takeOffSuit-268
+ 34.300                     *Func-sadEyes-269
+ 34.300                     *Func-blinkEyes-270
+ 34.300                     *Func-play-271
+ 34.300                     Wait dur 0.7
+ 35.000                   }
+ 35.000                 }
+ 35.000                 *Func-detachNode-272
+ 35.000                 *Func-destroy-273
+ 35.000               }
+ 35.000             }
+ 35.000           }
+ 35.000           Sequence-183 {
+ 35.000           }
+ 35.000         }
+ 37.000         Sequence-191 {
+ 37.000           Sequence-185 {
+ 37.000             *Func-normalEyes-274
+ 37.000             *Func-blinkEyes-275
+ 37.000           }
+ 37.000           *Func-setPosHpr-276
+ 37.000           *Func-loop-277
+ 37.000           *Func-request-278
+ 37.000           *Func-request-279
+ 37.000           Parallel-190 {
+ 37.000             Parallel-186 {
+ 37.000               Sequence-187 {
+ 37.000                 *Func-setPlayRate-280
+ 37.000                 *Func-loop-281
+ 37.000                 LerpPosInterval-190: pos to -31 -35 0 dur 3
+ 40.000                 *Func-setPlayRate-282
+ 40.000                 *Func-loop-283
+ 40.000               }
+ 40.000             }
+ 37.000             Parallel-188 {
+ 37.000             }
+ 37.000             Sequence-189 {
+ 37.000               Wait dur 2
+ 39.000               *Func-setChatAbsolute-284
+ 39.000             }
+ 40.000           }
+ 40.000         }
+ 40.000       }
+ 40.000     }
+ 40.000     *Func-unstickToons-286
+ 40.000   }
+ 40.000   *Func-__beginBattleOne-287
+ 40.000 }
+
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\toon\Toon.py", line 2807, in takeOffSuit
+    toonHead.setScale(self.headOrigScale)
+AttributeError: 'LocalToon' object has no attribute 'headOrigScale'
+:09-22-2022 22:22:19 :task(error): Exception occurred in PythonTask ivalLoop
+:09-22-2022 22:22:19 TTOffLauncher: setting panda error code to 12
+:09-22-2022 22:22:19 TTOffLauncher(warning): Handling Python exception.
+:09-22-2022 22:22:19 TimeManager: Client disconnect reason 3.
+:09-22-2022 22:22:19 TimeManager: Client exception: toontown.toon.Toon:2807, direct.interval.FunctionInterval:91, direct.interval.Interval:210, direct.interval.MetaInterval:504, AttributeError: 'LocalToon' object has no attribute 'headOrigScale'
+:09-22-2022 22:22:19 OTPClientRepository: Sent disconnect message to server
+:09-22-2022 22:22:19 OTPClientRepository: Closing connection to server.
+:09-22-2022 22:22:19 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\toon\Toon.py", line 2807, in takeOffSuit
+    toonHead.setScale(self.headOrigScale)
+AttributeError: 'LocalToon' object has no attribute 'headOrigScale'

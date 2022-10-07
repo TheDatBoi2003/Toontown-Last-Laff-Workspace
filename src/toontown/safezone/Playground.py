@@ -2,7 +2,7 @@ from direct.interval.IntervalGlobal import *
 from panda3d.core import *
 from toontown.toonbase.ToonBaseGlobal import *
 from direct.directnotify import DirectNotifyGlobal
-from toontown.battle import BattleBattlePlace
+from toontown.battle import BattlePlace
 from direct.showbase import DirectObject
 from direct.fsm import StateData
 from direct.fsm import ClassicFSM, State
@@ -20,6 +20,7 @@ from toontown.toonbase import TTLocalizer
 from direct.gui import DirectLabel
 from otp.distributed.TelemetryLimiter import RotationLimitToH, TLGatherAllAvs
 from toontown.quest import Quests
+
 
 class Playground(BattlePlace.BattlePlace):
     notify = DirectNotifyGlobal.directNotify.newCategory('Playground')

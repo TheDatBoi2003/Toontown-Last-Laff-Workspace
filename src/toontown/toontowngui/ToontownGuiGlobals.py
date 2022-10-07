@@ -1,0 +1,1 @@
+toontown_general_button_image_scale = (8, 8, 9)

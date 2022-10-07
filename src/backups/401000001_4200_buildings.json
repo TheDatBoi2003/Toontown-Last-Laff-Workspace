@@ -27,12 +27,12 @@
         "block": 27
     }, 
     "20": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665009284.076, 
         "savedBy": null, 
-        "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "track": "m", 
+        "numFloors": 2, 
+        "difficulty": 4, 
+        "state": "suit", 
         "block": 20
     }, 
     "22": {
@@ -81,12 +81,12 @@
         "block": 1
     }, 
     "3": {
-        "becameSuitTime": 1663962120.416, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 3, 
         "difficulty": 4, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 3
     }, 
     "2": {
@@ -117,12 +117,12 @@
         "block": 4
     }, 
     "7": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665009227.871, 
         "savedBy": null, 
-        "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "track": "m", 
+        "numFloors": 3, 
+        "difficulty": 4, 
+        "state": "suit", 
         "block": 7
     }, 
     "9": {
@@ -144,21 +144,21 @@
         "block": 38
     }, 
     "10": {
-        "becameSuitTime": 1663971016.86, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 2, 
         "difficulty": 2, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 10
     }, 
     "13": {
-        "becameSuitTime": 1663970955.194, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 2, 
         "difficulty": 4, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 13
     }, 
     "12": {
@@ -180,21 +180,21 @@
         "block": 17
     }, 
     "16": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665009326.358, 
         "savedBy": null, 
-        "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "track": "m", 
+        "numFloors": 3, 
+        "difficulty": 2, 
+        "state": "suit", 
         "block": 16
     }, 
     "19": {
-        "becameSuitTime": 1663962002.737, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 1, 
         "difficulty": 2, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 19
     }, 
     "18": {
@@ -225,12 +225,12 @@
         "block": 30
     }, 
     "37": {
-        "becameSuitTime": 1663962137.169, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 4, 
         "difficulty": 4, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 37
     }, 
     "36": {
@@ -243,12 +243,12 @@
         "block": 36
     }, 
     "35": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665009486.802, 
         "savedBy": null, 
-        "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "track": "s", 
+        "numFloors": 2, 
+        "difficulty": 4, 
+        "state": "suit", 
         "block": 35
     }, 
     "34": {
@@ -261,21 +261,21 @@
         "block": 34
     }, 
     "33": {
-        "becameSuitTime": 1663971280.481, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 3, 
         "difficulty": 4, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 33
     }, 
     "32": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665009247.888, 
         "savedBy": null, 
-        "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "track": "m", 
+        "numFloors": 2, 
+        "difficulty": 2, 
+        "state": "suit", 
         "block": 32
     }
 }

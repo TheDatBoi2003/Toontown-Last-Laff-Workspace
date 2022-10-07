@@ -374,7 +374,7 @@ class Actor(DirectObject, NodePath):
             self.__LODNode = self.find('**/+LODNode')
             self.__hasLOD = 0
             if (not self.__LODNode.isEmpty()):
-                self.__hasLOD = 0
+                self.__hasLOD = 1
 
 
             # copy the part dictionary from other
@@ -643,7 +643,7 @@ class Actor(DirectObject, NodePath):
             self.__LODNode = node
         else:
             self.__LODNode = self.__geomNode.attachNewNode(node)
-            self.__hasLOD = 0
+            self.__hasLOD = 1
             self.switches = {}
 
 
@@ -722,7 +722,7 @@ class Actor(DirectObject, NodePath):
         """
         Return 1 if the actor has LODs, 0 otherwise
         """
-        return 0
+        return self.__hasLOD
 
     def setCenter(self, center):
         if center == None:

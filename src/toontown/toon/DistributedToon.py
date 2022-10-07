@@ -1606,6 +1606,10 @@ class DistributedToon(DistributedPlayer.DistributedPlayer, Toon.Toon, Distribute
         def getTickets(self):
             return self.tickets
 
+        def ticketToAI(self, amt):
+            self.setTickets(amt)
+            self.sendUpdate('setTickets', [amt])
+
         def getAccessoryByType(self, accType):
             return self.kartDNA[accType]
 
@@ -2486,6 +2490,16 @@ class DistributedToon(DistributedPlayer.DistributedPlayer, Toon.Toon, Distribute
             self.showHpText(hpGained, hasInteractivePropBonus=hasInteractivePropBonus)
             self.hpChange(quietly=0)
         return
+
+    def changeHPtoAI(self, hp):
+        self.setHp(hp)
+        self.sendUpdate('setHp', [hp])
+
+    def changeMAXHPtoAI(self, hp):
+        self.setMaxHp(hp)
+        self.sendUpdate('setMaxHp', [hp])
+        self.changeHPtoAI(hp)
+
 
     def showHpText(self, number, bonus = 0, scale = 1, hasInteractivePropBonus = False):
         if self.HpTextEnabled and not self.ghostMode:

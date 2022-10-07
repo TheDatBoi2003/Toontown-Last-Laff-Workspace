@@ -9,12 +9,12 @@
         "block": 24
     }, 
     "25": {
-        "becameSuitTime": 1663962010.937, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 2, 
         "difficulty": 2, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 25
     }, 
     "26": {
@@ -27,12 +27,12 @@
         "block": 26
     }, 
     "20": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665009138.023, 
         "savedBy": null, 
-        "track": "c", 
+        "track": "s", 
         "numFloors": 1, 
         "difficulty": 1, 
-        "state": "toon", 
+        "state": "suit", 
         "block": 20
     }, 
     "21": {
@@ -72,12 +72,12 @@
         "block": 1
     }, 
     "3": {
-        "becameSuitTime": 1663962107.932, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 2, 
         "difficulty": 3, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 3
     }, 
     "2": {
@@ -108,12 +108,12 @@
         "block": 4
     }, 
     "7": {
-        "becameSuitTime": 1663971028.132, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 2, 
         "difficulty": 1, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 7
     }, 
     "6": {
@@ -189,21 +189,21 @@
         "block": 17
     }, 
     "16": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665008925.701, 
         "savedBy": null, 
-        "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "track": "s", 
+        "numFloors": 2, 
+        "difficulty": 3, 
+        "state": "suit", 
         "block": 16
     }, 
     "19": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665008949.237, 
         "savedBy": null, 
-        "track": "c", 
+        "track": "l", 
         "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "difficulty": 2, 
+        "state": "suit", 
         "block": 19
     }, 
     "18": {
