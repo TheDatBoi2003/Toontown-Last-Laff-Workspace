@@ -4,6 +4,7 @@ from direct.interval.IntervalGlobal import *
 from direct.distributed.ClockDelta import *
 from direct.directtools.DirectGeometry import CLAMP
 from direct.controls.ControlManager import CollisionHandlerRayStart
+from direct.showbase.PythonUtil import weightedChoice, randFloat, lerp
 from direct.task import Task
 from otp.otpbase import OTPGlobals
 from otp.avatar import DistributedAvatar
@@ -54,16 +55,22 @@ class DistributedSuitBase(DistributedAvatar.DistributedAvatar, Suit.Suit, SuitBa
         self.reparentTo(hidden)
         self.loop('neutral')
         self.skeleRevives = 0
+        self.isVirtual = 0
         self.maxSkeleRevives = 0
         self.sillySurgeText = False
         self.interactivePropTrackBonus = -1
         return
 
-    def setVirtual(self, virtual):
-        pass
+    def setVirtual(self, virtual=1):
+        self.virtual = virtual
+        self.makeVirtual()
 
     def getVirtual(self):
-        return 0
+        return self.virtual
+
+    def makeVirtual(self):
+        self.virtual = 1
+        self.makeVirtualColors()
 
     def setSkeleRevives(self, num):
         if num == None:
@@ -119,8 +126,17 @@ class DistributedSuitBase(DistributedAvatar.DistributedAvatar, Suit.Suit, SuitBa
     def setDNA(self, dna):
         Suit.Suit.setDNA(self, dna)
 
+    def promote(self, suitName):
+        self.dna.name = suitName
+        suitDNA = SuitDNA.SuitDNA()
+        suitDNA.newSuit(suitName)
+        self.setDNA(suitDNA)
+    
     def getHP(self):
         return self.currHP
+
+    def getMaxHP(self):
+        return self.maxHP
 
     def setHP(self, hp):
         if hp > self.maxHP:
@@ -354,6 +370,26 @@ class DistributedSuitBase(DistributedAvatar.DistributedAvatar, Suit.Suit, SuitBa
         SuitBase.SuitBase.setSkelecog(self, flag)
         if flag:
             Suit.Suit.makeSkeleton(self)
+            percent = randFloat(0.70, 1.40)
+            newHealth = int(self.maxHP * percent)
+            self.maxHP = newHealth
+            self.currHP = self.maxHP
+            if flag == 2:
+                self.setVirtual()
+
+    def setVirtual(self, isVirtual = 1):
+        self.virtual = isVirtual
+        if self.virtual:
+            actorNode = self.find('**/__Actor_modelRoot')
+            actorCollection = actorNode.findAllMatches('*')
+            parts = ()
+            for thingIndex in xrange(0, actorCollection.getNumPaths()):
+                thing = actorCollection[thingIndex]
+                if thing.getName() not in ('joint_attachMeter', 'joint_nameTag', 'def_nameTag'):
+                    thing.setColorScale(1.0, 0.0, 0.0, 1.0)
+                    thing.setAttrib(ColorBlendAttrib.make(ColorBlendAttrib.MAdd))
+                    thing.setDepthWrite(False)
+                    thing.setBin('fixed', 1)
 
     def showHpText(self, number, bonus = 0, scale = 1, attackTrack = -1):
         if self.HpTextEnabled and not self.ghostMode:

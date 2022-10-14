@@ -302,6 +302,7 @@ from toontown.coghq import DistributedCountryClubBattle/AI
 from toontown.building import DistributedClubElevator/AI
 from toontown.coghq import DistributedMaze/AI
 from toontown.battle import DistributedBattleWaiters/AI
+from toontown.battle import DistributedBattleVirtual/AI
 from toontown.coghq import DistributedFoodBelt/AI
 from toontown.coghq import DistributedBanquetTable/AI
 from toontown.battle import DistributedBattleDiners/AI
@@ -1264,9 +1265,11 @@ dclass DistributedSuitPlanner : DistributedObject {
 dclass DistributedSuitBase : DistributedObject {
   denyBattle();
   setDNAString(blob) required broadcast ram;
+  promote(string) broadcast;
   setLevelDist(int16) required broadcast ram;
   setBrushOff(int16) broadcast;
   setSkelecog(uint8) required broadcast ram;
+  setVirtual(uint8) required broadcast ram;
   setSkeleRevives(uint8) required broadcast ram;
   setHP(int16) required broadcast ram;
 };
@@ -3613,6 +3616,9 @@ dclass DistributedMaze : DistributedEntity {
 };
 
 dclass DistributedBattleWaiters : DistributedBattleFinal {
+};
+
+dclass DistributedBattleVirtual : DistributedBattleFinal {
 };
 
 dclass DistributedFoodBelt : DistributedObject {

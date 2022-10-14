@@ -1,0 +1,409 @@
+
+
+Starting Toontown Online...
+Current time: Thu Oct 13 22:18:31 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.10.12-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'COMPUTERNAME': 'DESKTOP-7054VC9', 'USERDOMAIN': 'DESKTOP-7054VC9', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'INTEL_DEV_REDIST': 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\', 'PSMODULEPATH': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 158 Stepping 13, GenuineIntel', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '9e0d', 'PATH': 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Python38\\Scripts\\;C:\\Program Files\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\dotnet\\;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\theph\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\theph\\.dotnet\\tools;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;C:\\Users\\theph\\AppData\\Local\\atom\\bin;C:\\Users\\theph\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0-x64\\python;C:\\Panda3D-1.9.0-x64\\python\\Scripts;C:\\Panda3D-1.9.0-x64\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin;;C:\\Users\\theph\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Panda3D-1.11.0\\python;C:\\Panda3D-1.11.0\\python\\Scripts;C:\\Panda3D-1.11.0\\bin;C:\\Users\\theph\\.dotnet\\tools;C:\\Panda3D-1.10.11-x64\\python;C:\\Panda3D-1.10.11-x64\\python\\Scripts;C:\\Panda3D-1.10.11-x64\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python\\Scripts;C:\\EventHorizon-battle-ng-teaser\\depe', 'SYSTEMROOT': 'C:\\WINDOWS', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'DRIVERDATA': 'C:\\Windows\\System32\\Drivers\\DriverData', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'TEMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\theph\\AppData\\Local', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'HOMEPATH': '\\Users\\theph', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-7054VC9', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'theph', 'LOGONSERVER': '\\\\DESKTOP-7054VC9', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'ONEDRIVE': 'C:\\Users\\theph\\OneDrive', 'ADSK_3DSMAX_X64_2019': 'C:\\Program Files\\Autodesk\\3ds Max 2019\\', 'ZES_ENABLE_SYSMAN': '1', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'TTOFF_LOGIN_TOKEN': 'dev', 'WINDIR': 'C:\\WINDOWS', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin;', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'NUMBER_OF_PROCESSORS': '16', 'APPDATA': 'C:\\Users\\theph\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\theph'}
+:10-13-2022 22:18:31 TTOffLauncher: isTestServer: 0
+:10-13-2022 22:18:31 TTOffLauncher: Game Server 127.0.0.1
+:10-13-2022 22:18:31 TTOffLauncher: Starting Toontown Online... 
+:10-13-2022 22:18:31 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:10-13-2022 22:18:31 TTOffLauncher: maybeStartGame: starting game
+:10-13-2022 22:18:31 TTOffLauncher: Starting Toontown Online...
+:10-13-2022 22:18:31 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:10-13-2022 22:18:31 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:10-13-2022 22:18:31 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:10-13-2022 22:18:31 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:10-13-2022 22:18:31 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:10-13-2022 22:18:31 ShowBase: __dev__ == False
+:10-13-2022 22:18:31 TTOffLauncher: setting panda error code to 11
+:10-13-2022 22:18:31 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:10-13-2022 22:18:31 Loader: starting bulk load of block 'init'
+:10-13-2022 22:18:32 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:10-13-2022 22:18:32 OTPClientRepository: Using connect method 'http'
+:10-13-2022 22:18:32 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:10-13-2022 22:18:32 TTOffLauncher: checking env
+:10-13-2022 22:18:32 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:10-13-2022 22:18:32 TTOffLauncher: checking env
+:10-13-2022 22:18:32 OTPClientRepository: reg_deployment=
+:10-13-2022 22:18:32 OTPClientRepository: required-login auto.
+:10-13-2022 22:18:32 OTPClientRepository: loginInterface: LoginTTOffAccount
+:10-13-2022 22:18:32 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:10-13-2022 22:18:32 Loader: At end of block 'init', expected 138, loaded 5, duration=1.0870729
+:10-13-2022 22:18:32 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:10-13-2022 22:18:32 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:10-13-2022 22:18:32 TTOffLauncher: Stopping mini task manager.
+:10-13-2022 22:18:32 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:10-13-2022 22:18:32 TTOffLauncher: Setting Disconnect Details normal
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x000000001F4C3C08>}
+:10-13-2022 22:18:34 StateData: AvatarChooser.enter
+:10-13-2022 22:18:34 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:10-13-2022 22:18:34 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:10-13-2022 22:18:41 OTPClientRepository: ================
+:10-13-2022 22:18:41 OTPClientRepository: Chose avatar id: 100000002
+:10-13-2022 22:18:41 OTPClientRepository: Chose avatar name: Prince Bert Whiskerfuddy
+:10-13-2022 22:18:41 OTPClientRepository: Chose avatar dna: ('dls', 'ls', 'l', 'm', 20, 0, 20, 20, 1, 0, 1, 0, 1, 14)
+:10-13-2022 22:18:41 OTPClientRepository: Chose avatar position: 4
+:10-13-2022 22:18:41 OTPClientRepository: isPaid: 1
+:10-13-2022 22:18:41 OTPClientRepository: freeTimeLeft: 0
+:10-13-2022 22:18:41 OTPClientRepository: allowSecretChat: True
+:10-13-2022 22:18:41 OTPClientRepository: ================
+:10-13-2022 22:18:41 Loader: starting bulk load of block 'localAvatarPlayGame'
+:10-13-2022 22:18:42 ToontownTimeManager(warning): error parsing date string=
+local
+:10-13-2022 22:18:42 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:10-13-2022 22:18:42 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:10-13-2022 22:18:42 OTPClientRepository: Sending heartbeat mid-frame.
+:10-13-2022 22:18:43 OTPClientRepository: Entering shard 402000001
+:10-13-2022 22:18:43 StreetSign: Street sign url is https://ttoffline.com/images/
+:10-13-2022 22:18:44 TimeManager: Clock sync: TimeManager.announceGenerate
+:10-13-2022 22:18:44 NewsManager: setHolidayId: Starting Holiday 26
+:10-13-2022 22:18:44 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz|591597|0|3.600,3.600|8,16 cpus
+:10-13-2022 22:18:45 OTPClientRepository: No sync from TimeManager.
+:10-13-2022 22:18:45 OTPClientRepository: gotTimeSync
+:10-13-2022 22:18:46 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 14, duration=4.2766521
+:10-13-2022 22:18:46 TimeManager: Clock sync roundtrip took 1167.475 ms
+:10-13-2022 22:18:46 TimeManager: AI time delta is -0:02 from server delta
+:10-13-2022 22:18:46 TimeManager: Local clock uncertainty +/- 0.584 s
+:10-13-2022 22:18:46 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Lawbot HQ
+:10-13-2022 22:18:46 Loader: starting bulk load of block 'hood'
+:10-13-2022 22:18:46 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-13-2022 22:18:46 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-13-2022 22:18:46 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-13-2022 22:18:46 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-13-2022 22:18:46 LawbotCogHQLoader: loadPlaceGeom: 13000
+:10-13-2022 22:18:46 DistributedObject: DistributedSuitPlanner 402002977: generating
+:10-13-2022 22:18:46 DistributedToon: calling LocalAvatar.startchat
+:10-13-2022 22:18:46 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/../models")
+:10-13-2022 22:18:47 Loader: At end of block 'hood', expected 2, loaded 4, duration=1.0085399
+:10-13-2022 22:18:48 Teleport(debug): teleportInDone: walk
+:10-13-2022 22:18:48 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/../models")
+:10-13-2022 22:18:52 TTOffMagicWordManager: Run mode has been toggled.
+:10-13-2022 22:19:02 LawbotCogHQLoader: loadPlaceGeom: 13100
+:10-13-2022 22:19:02 LawbotCogHQLoader: QA-REGRESSION: COGHQ: Visit LawbotLobby
+:10-13-2022 22:19:02 LawbotHQExterior: Unloading Place (13000). Fsm in final
+:10-13-2022 22:19:02 DistributedObject: DistributedSuitPlanner 402002977: disabling
+:10-13-2022 22:19:02 DistributedToon: calling LocalAvatar.startchat
+:10-13-2022 22:19:02 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/../models")
+:10-13-2022 22:19:03 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/../models")
+:10-13-2022 22:19:43 LawbotCogHQLoader: loadPlaceGeom: 61000
+:10-13-2022 22:19:43 LawbotCogHQLoader(warning): loadPlaceGeom: unclassified zone 61000
+:10-13-2022 22:19:43 CogHQLobby: Unloading Place (13100). Fsm in final
+:10-13-2022 22:19:44 DistributedLawbotBoss(warning): Not a collision node: LawbotCourtroom3.egg/-PandaNode/CR3/interior/CR3_Floor
+:10-13-2022 22:19:44 DistributedToon: calling LocalAvatar.startchat
+:10-13-2022 22:19:44 LawbotHQBossBattle(warning): fsm.request('movie') returned 0 (zone id 61000, avatar pos LPoint3f(-0.363562, -126.204, 0.193903)).
+:10-13-2022 22:19:58 LawbotHQBossBattle(warning): fsm.request('movie') returned 0 (zone id 61000, avatar pos LPoint3f(-0.363562, -126.204, 0.193903)).
+:10-13-2022 22:20:04 TTOffMagicWordManager: Prince Bert Whiskerfuddy can now insta-kill Cogs!
+Battle Event localtoon-battle-event-3
+:10-13-2022 22:20:27 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat
+Exception occurred while processing Func-insertDeathSuit-189 of movie-track-with-cam-402004228:
+movie-track-with-cam-402004228:
+  0.000 movie-track-with-cam-402004228 {
+  0.000   movie-track-402004228 {
+  0.000     Sequence-124 {
+  0.000       toon-attacks {
+  0.000         Sequence-163 {
+  0.000           Parallel-126 {
+  0.000             Sequence-162 {
+  0.000               Wait
+  0.000               Parallel-127 {
+  0.000                 Sequence-128 {
+  0.000                   Wait
+  0.000                   *Func-headsUp-169
+  0.000                   *Actor-throw-48 dur 3.79167
+  3.792                   *Func-loop-170
+  3.792                   *Func-setHpr-171
+  3.792                 }
+  0.000                 Parallel-133 {
+  0.000                   Sequence-131 {
+  0.000                     Wait dur 2.6
+  2.600                     *Sound-22 dur 0.470204
+  3.070                   }
+  0.000                   Sequence-132 {
+  0.000                     Wait dur 2.7
+  2.700                     *Sound-23 dur 0.757551
+  3.458                   }
+  3.458                 }
+  0.000                 Sequence-130 {
+  0.000                   Wait
+  0.000                   *Func-showProps-172
+  0.000                   *Func-__animProp-173
+  0.000                   Parallel-129 {
+  0.000                     LerpScaleInterval-103: scale from 0.01 0.01 0.01 to 0.75 0.75 0.75 dur 1
+  0.000                     LerpScaleInterval-104: scale from 0.01 0.01 0.01 to 0.75 0.75 0.75 dur 1
+  1.000                   }
+  1.000                   *Func-needRestoreRenderProp-175
+  1.000                   Wait dur 1.7
+  2.700                   *Func-__propPreflight-174
+  2.700                   MovieThrow-pieFly: pos from -1.15518 -3.47722 2.10977 to 0 5 6.71 dur 0.3
+  3.000                   *Func-removeProps-176
+  3.000                   *Func-clearRenderProp-180
+  3.000                   *Func-__showProp-177
+  3.000                   *Func-__billboardProp-178
+  3.000                   *Actor-splat-fruitpie-49 dur 0.416667
+  3.417                   *Func-removeProp-179
+  3.417                 }
+  0.000                 Parallel-144 {
+  0.000                   Sequence-134 {
+  0.000                     Wait dur 3
+  3.000                     *Func-showHpText-181 (!oe)
+  3.000                     *Func-updateHealthBar-182
+  3.000                     Parallel-136 {
+  3.000                       *Actor-pie-small-react-50 dur 2.25
+  3.000                       Sequence-135 {
+  3.000                         Wait dur 0.3
+  3.300                         *Func-reparentTo-183
+  3.300                         *Func-setZ-184
+  3.300                         *Func-loop-185
+  3.300                         Wait dur 1.3
+  4.600                         *Func-cleanup-186
+  4.600                         *Func-removeNode-187
+  4.600                       }
+  5.250                     }
+  5.250                     Parallel-143 {
+  5.250                       Sequence-138 {
+  5.250                         *Func-debug-188
+  5.250                         *Func-insertDeathSuit-189
+  5.250                         *Func-debug-190
+  5.250                         *Actor-lose-51 dur 6
+ 11.250                         *Func-debug-191
+ 11.250                         *remove-death-suit
+ 11.250                         *Func-debug-192
+ 11.250                       }
+  5.250                       Sequence-139 {
+  5.250                         Wait dur 0.8
+  6.050                         *Sound-24 dur 1.2
+  7.250                         *Sound-25 dur 3
+ 10.250                         *Sound-26 dur 1.88082
+ 12.131                       }
+  5.250                       gears1Track {
+  5.250                         Wait dur 2.1
+  7.350                         *Particle-2 dur 4.3
+ 11.650                       }
+  5.250                       gears2MTrack {
+  5.250                         Sequence-140 {
+  5.250                           Wait dur 5.4
+ 10.650                           Sequence-141 {
+ 10.650                             *Func-reparentTo-193
+ 10.650                             *Func-setPos-194
+ 10.650                             *Func-setScale-195
+ 10.650                             Wait dur 0.6
+ 11.250                             *Func-removeProp-196
+ 11.250                           }
+ 11.250                         }
+  5.950                         *Particle-3 dur 5.7
+ 10.450                         *Particle-4 dur 1.2
+ 10.650                         *Particle-5 dur 1
+ 11.650                       }
+  5.250                       toonMTrack {
+  5.250                         Sequence-142 {
+  5.250                           Wait dur 1
+  6.250                           *Actor-duck-52 dur 3.75
+ 10.000                           *Actor-duck-53 dur 1.95
+ 11.950                           *Func-loop-197
+ 11.950                         }
+ 11.950                       }
+ 12.131                     }
+ 12.131                   }
+  0.000                   Sequence-137 {
+  0.000                     Wait dur 3
+  3.000                   }
+ 12.131                 }
+  0.000                 Sequence-145 {
+  0.000                   Wait
+  0.000                   *Func-headsUp-198
+  0.000                   *Actor-throw-54 dur 3.79167
+  3.792                   *Func-loop-199
+  3.792                   *Func-setHpr-200
+  3.792                 }
+  0.000                 Parallel-150 {
+  0.000                   Sequence-148 {
+  0.000                     Wait dur 2.6
+  2.600                     *Sound-27 dur 0.470204
+  3.070                   }
+  0.000                   Sequence-149 {
+  0.000                     Wait dur 2.7
+  2.700                     *Sound-28 dur 0.757551
+  3.458                   }
+  3.458                 }
+  0.000                 Sequence-147 {
+  0.000                   Wait
+  0.000                   *Func-showProps-201
+  0.000                   *Func-__animProp-202
+  0.000                   Parallel-146 {
+  0.000                     LerpScaleInterval-105: scale from 0.01 0.01 0.01 to 0.75 0.75 0.75 dur 1
+  0.000                     LerpScaleInterval-106: scale from 0.01 0.01 0.01 to 0.75 0.75 0.75 dur 1
+  1.000                   }
+  1.000                   *Func-needRestoreRenderProp-204
+  1.000                   Wait dur 1.7
+  2.700                   *Func-__propPreflight-203
+  2.700                   MovieThrow-pieFly: pos from -1.15518 -3.47722 2.10977 to 0 5 6.71 dur 0.3
+  3.000                   *Func-removeProps-205
+  3.000                   *Func-clearRenderProp-209
+  3.000                   *Func-__showProp-206
+  3.000                   *Func-__billboardProp-207
+  3.000                   *Actor-splat-fruitpie-55 dur 0.416667
+  3.417                   *Func-removeProp-208
+  3.417                 }
+  0.000                 Parallel-161 {
+  0.000                   Sequence-151 {
+  0.000                     Wait dur 3
+  3.000                     *Func-showHpText-210 (!oe)
+  3.000                     *Func-updateHealthBar-211
+  3.000                     Parallel-153 {
+  3.000                       *Actor-pie-small-react-56 dur 2.25
+  3.000                       Sequence-152 {
+  3.000                         Wait dur 0.3
+  3.300                         *Func-reparentTo-212
+  3.300                         *Func-setZ-213
+  3.300                         *Func-loop-214
+  3.300                         Wait dur 1.3
+  4.600                         *Func-cleanup-215
+  4.600                         *Func-removeNode-216
+  4.600                       }
+  5.250                     }
+  5.250                     Parallel-160 {
+  5.250                       Sequence-155 {
+  5.250                         *Func-debug-217
+  5.250                         *Func-insertDeathSuit-218
+  5.250                         *Func-debug-219
+  5.250                         *Actor-lose-57 dur 6
+ 11.250                         *Func-debug-220
+ 11.250                         *remove-death-suit
+ 11.250                         *Func-debug-221
+ 11.250                       }
+  5.250                       Sequence-156 {
+  5.250                         Wait dur 0.8
+  6.050                         *Sound-29 dur 1.2
+  7.250                         *Sound-30 dur 3
+ 10.250                         *Sound-31 dur 1.88082
+ 12.131                       }
+  5.250                       gears1Track {
+  5.250                         Wait dur 2.1
+  7.350                         *Particle-6 dur 4.3
+ 11.650                       }
+  5.250                       gears2MTrack {
+  5.250                         Sequence-157 {
+  5.250                           Wait dur 5.4
+ 10.650                           Sequence-158 {
+ 10.650                             *Func-reparentTo-222
+ 10.650                             *Func-setPos-223
+ 10.650                             *Func-setScale-224
+ 10.650                             Wait dur 0.6
+ 11.250                             *Func-removeProp-225
+ 11.250                           }
+ 11.250                         }
+  5.950                         *Particle-7 dur 5.7
+ 10.450                         *Particle-8 dur 1.2
+ 10.650                         *Particle-9 dur 1
+ 11.650                       }
+  5.250                       toonMTrack {
+  5.250                         Sequence-159 {
+  5.250                           Wait dur 1
+  6.250                           *Actor-duck-58 dur 3.75
+ 10.000                           *Actor-duck-59 dur 1.95
+ 11.950                           *Func-loop-226
+ 11.950                         }
+ 11.950                       }
+ 12.131                     }
+ 12.131                   }
+  0.000                   Sequence-154 {
+  0.000                     Wait dur 3
+  3.000                   }
+ 12.131                 }
+ 12.131               }
+ 12.131             }
+ 12.131           }
+ 12.131           Parallel-164 {
+ 12.131           }
+ 12.131         }
+ 12.131       }
+ 12.131       *Func-__handleMovieDone-229
+ 12.131     }
+ 12.131   }
+  0.000   Sequence-166 {
+  0.000     Sequence-125 {
+  0.000       toon-attacks-cam {
+  0.000         Sequence-165 {
+  0.000           avatarCloseUpThreeQuarterRightShot {
+  0.000             *Func-setPosHpr-227
+  0.000             Wait dur 3
+  3.000           }
+  3.000           avatarCloseUpThrowShot {
+  3.000             *Func-setPosHpr-228
+  3.000             Wait dur 9.131
+ 12.131           }
+ 12.131         }
+ 12.131       }
+ 12.131     }
+ 12.131   }
+ 12.131 }
+
+Traceback (most recent call last):
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieUtil.py", line 157, in insertDeathSuit
+    virtualize(deathSuit)
+NameError: global name 'virtualize' is not defined
+:10-13-2022 22:20:35 :task(error): Exception occurred in PythonTask ivalLoop
+:10-13-2022 22:20:35 TTOffLauncher: setting panda error code to 12
+:10-13-2022 22:20:35 TTOffLauncher(warning): Handling Python exception.
+:10-13-2022 22:20:35 TimeManager: Client disconnect reason 3.
+:10-13-2022 22:20:35 TimeManager: Client exception: toontown.battle.MovieUtil:156, direct.interval.FunctionInterval:91, direct.interval.Interval:210, direct.interval.MetaInterval:504, NameError: global name 'virtualize' is not defined
+:10-13-2022 22:20:35 OTPClientRepository: Sent disconnect message to server
+:10-13-2022 22:20:35 OTPClientRepository: Closing connection to server.
+:10-13-2022 22:20:35 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieUtil.py", line 157, in insertDeathSuit
+    virtualize(deathSuit)
+NameError: global name 'virtualize' is not defined

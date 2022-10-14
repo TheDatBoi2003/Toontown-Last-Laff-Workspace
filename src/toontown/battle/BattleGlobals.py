@@ -1,0 +1,1 @@
+MAX_SUITS = 4

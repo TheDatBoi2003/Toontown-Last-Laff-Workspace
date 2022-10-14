@@ -5,6 +5,7 @@ from direct.directnotify import DirectNotifyGlobal
 from otp.avatar import DistributedAvatarAI
 import DistributedSuitAI
 from toontown.battle import BattleExperienceAI
+from toontown.battle import DistributedBattleVirtualAI
 from direct.fsm import FSM
 from toontown.toonbase import ToontownGlobals
 from toontown.toon import InventoryBase
@@ -275,9 +276,32 @@ class DistributedLawbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FSM
             if simbase.config.GetBool('lawbot-boss-cheat', 0):
                 listVersion[13] = weakenedValue
                 SuitBuildingGlobals.SuitBuildingInfo = tuple(listVersion)
-            return self.invokeSuitPlanner(13, 0)
+            return self.invokeSuitPlanner(13, 2)
         else:
             return self.invokeSuitPlanner(13, 1)
+
+    def makeBattle(self, bossCogPosHpr, battlePosHpr, roundCallback, finishCallback, battleNumber, battleSide):
+        battle = DistributedBattleVirtualAI.DistributedBattleVirtualAI(self.air, self, roundCallback, finishCallback, battleSide)
+        self.setBattlePos(battle, bossCogPosHpr, battlePosHpr)
+        battle.suitsKilled = self.suitsKilled
+        battle.battleCalc.toonSkillPtsGained = self.toonSkillPtsGained
+        battle.toonExp = self.toonExp
+        battle.toonOrigQuests = self.toonOrigQuests
+        battle.toonItems = self.toonItems
+        battle.toonOrigMerits = self.toonOrigMerits
+        battle.toonMerits = self.toonMerits
+        battle.toonParts = self.toonParts
+        battle.helpfulToons = self.helpfulToons
+        mult = ToontownBattleGlobals.getBossBattleCreditMultiplier(battleNumber)
+        battle.battleCalc.setSkillCreditMultiplier(mult)
+        activeSuits = self.activeSuitsA
+        if battleSide:
+            activeSuits = self.activeSuitsB
+        for suit in activeSuits:
+            battle.addSuit(suit)
+
+        battle.generateWithRequired(self.zoneId)
+        return battle
 
     def removeToon(self, avId):
         toon = simbase.air.doId2do.get(avId)

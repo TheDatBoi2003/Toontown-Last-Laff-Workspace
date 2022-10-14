@@ -1566,7 +1566,7 @@ class DistributedBattleBaseAI(DistributedObjectAI.DistributedObjectAI, BattleBas
                  'isVP': 0,
                  'isCFO': 0,
                  'isSupervisor': suit.isSupervisor(),
-                 'isVirtual': suit.isVirtual(),
+                 'isVirtual': 0,
                  'hasRevives': suit.getMaxSkeleRevives(),
                  'activeToons': self.activeToons[:]}
                 self.suitsKilled.append(encounter)

@@ -191,7 +191,7 @@ class DistributedBanquetTable(DistributedObject.DistributedObject, FSM.FSM, Banq
         diner.dna = SuitDNA.SuitDNA()
         level = self.dinerInfo[i][2]
         level -= 4
-        diner.dna.newSuitRandom(level=level, dept=None)
+        diner.dna.newSuitRandom(level=level, dept='c')
         diner.setDNA(diner.dna)
         if self.useNewAnimations:
             diner.loop('sit', fromFrame=i)

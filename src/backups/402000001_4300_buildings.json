@@ -18,12 +18,12 @@
         "block": 43
     }, 
     "62": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665594853.127, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "numFloors": 2, 
+        "difficulty": 4, 
+        "state": "suit", 
         "block": 62
     }, 
     "53": {
@@ -144,12 +144,12 @@
         "block": 40
     }, 
     "41": {
-        "becameSuitTime": 1665087103.412, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
         "numFloors": 2, 
         "difficulty": 4, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 41
     }, 
     "1": {
@@ -234,12 +234,12 @@
         "block": 70
     }, 
     "12": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665610840.434, 
         "savedBy": null, 
-        "track": "l", 
-        "numFloors": 4, 
-        "difficulty": 4, 
-        "state": "toon", 
+        "track": "c", 
+        "numFloors": 2, 
+        "difficulty": 2, 
+        "state": "suit", 
         "block": 12
     }, 
     "17": {
@@ -252,12 +252,12 @@
         "block": 17
     }, 
     "19": {
-        "becameSuitTime": 1665087021.511, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
         "numFloors": 4, 
         "difficulty": 4, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 19
     }, 
     "54": {
@@ -270,12 +270,12 @@
         "block": 54
     }, 
     "56": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1665541079.964, 
         "savedBy": null, 
-        "track": "l", 
-        "numFloors": 3, 
+        "track": "c", 
+        "numFloors": 4, 
         "difficulty": 4, 
-        "state": "toon", 
+        "state": "suit", 
         "block": 56
     }, 
     "36": {
@@ -315,12 +315,12 @@
         "block": 55
     }, 
     "50": {
-        "becameSuitTime": 1665087257.643, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
         "numFloors": 3, 
         "difficulty": 4, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 50
     }
 }

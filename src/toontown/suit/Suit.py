@@ -352,6 +352,7 @@ class Suit(Avatar.Avatar):
         self.isDisguised = 0
         self.isWaiter = 0
         self.isRental = 0
+        self.isVirtual = 0
         return
 
     def delete(self):
@@ -394,12 +395,18 @@ class Suit(Avatar.Avatar):
 
     def setDNA(self, dna):
         if self.style:
-            pass
+            self.removePart('modelRoot')
+            self.style = dna
+            self.generateSuit()
+            self.generateHealthBar()
+            self.healthBar.show()
+            self.loop('neutral')
+            self.corpMedallion.hide()
         else:
             self.style = dna
             self.generateSuit()
-            self.initializeDropShadow()
-            self.initializeNametag3d()
+        self.initializeDropShadow()
+        self.initializeNametag3d()
 
     def generateSuit(self):
         dna = self.style
@@ -408,6 +415,7 @@ class Suit(Avatar.Avatar):
         self.headTexture = None
         self.loseActor = None
         self.isSkeleton = 0
+        self.isVirtual = 0
         if dna.name == 'f':
             self.scale = 4.0 / cSize
             self.handColor = SuitDNA.corpPolyColor
@@ -871,6 +879,10 @@ class Suit(Avatar.Avatar):
             condition = 4
         else:
             condition = 5
+        if self.isVirtual:
+            if self.healthCondition != condition or forceUpdate:
+                self.updateVirtualColor(condition, forceUpdate)
+                return
         if self.healthCondition != condition or forceUpdate:
             if condition == 4:
                 blinkTask = Task.loop(Task(self.__blinkRed), Task.pause(0.75), Task(self.__blinkGray), Task.pause(0.1))
@@ -884,6 +896,50 @@ class Suit(Avatar.Avatar):
                 self.healthBar.setColor(self.healthColors[condition], 1)
                 self.healthBarGlow.setColor(self.healthGlowColors[condition], 1)
             self.healthCondition = condition
+
+    def updateVirtualColor(self, condition, forceUpdate):
+        actorNode = self.find('**/__Actor_modelRoot')
+        actorCollection = actorNode.findAllMatches('*')
+        parts = ()
+        if self.healthCondition != condition or forceUpdate:
+            for thingIndex in xrange(0, actorCollection.getNumPaths()):
+                thing = actorCollection[thingIndex]
+                if thing.getName() not in ('joint_attachMeter', 'joint_nameTag', 'def_nameTag'):
+                    if condition < 4 or condition == 6:
+                        if condition == 6:
+                            thing.setColorScale(self.healthColors[5] - (0, 0, 0, 0.5))
+                        else:
+                            thing.setColorScale(self.healthColors[condition] - (0, 0, 0, 0.5))
+                    elif condition == 4:
+                        blinkTask = Task.loop(Task(self.__virtualBlinkRed), Task.pause(0.75), Task(self.__virtualBlinkGray), Task.pause(0.1))
+                        taskMgr.add(blinkTask, self.uniqueName('virtual-blink-task'))
+                    elif condition == 5:
+                        if self.healthCondition == 4:
+                            taskMgr.remove(self.uniqueName('virtual-blink-task'))
+                        blinkTask = Task.loop(Task(self.__virtualBlinkRed), Task.pause(0.25), Task(self.__virtualBlinkGray), Task.pause(0.1))
+                        taskMgr.add(blinkTask, self.uniqueName('virtual-blink-task'))
+                    thing.setAttrib(ColorBlendAttrib.make(ColorBlendAttrib.MAdd))
+                    thing.setDepthWrite(False)
+                    thing.setBin('fixed', 1)
+        self.healthCondition = condition
+
+    def __virtualBlinkRed(self, task):
+        actorNode = self.find('**/__Actor_modelRoot')
+        actorCollection = actorNode.findAllMatches('*')
+        for thingIndex in xrange(0, actorCollection.getNumPaths()):
+            thing = actorCollection[thingIndex]
+            if thing.getName() not in ('joint_attachMeter', 'joint_nameTag', 'def_nameTag'):
+                thing.setColorScale(self.healthColors[3] - (0, 0, 0, 0.5))
+        return Task.done
+
+    def __virtualBlinkGray(self, task):
+        actorNode = self.find('**/__Actor_modelRoot')
+        actorCollection = actorNode.findAllMatches('*')
+        for thingIndex in xrange(0, actorCollection.getNumPaths()):
+            thing = actorCollection[thingIndex]
+            if thing.getName() not in ('joint_attachMeter', 'joint_nameTag', 'def_nameTag'):
+                thing.setColorScale(self.healthColors[4] - (0, 0, 0, 0.5))
+        return Task.done
 
     def __blinkRed(self, task):
         self.healthBar.setColor(self.healthColors[3], 1)
@@ -989,6 +1045,20 @@ class Suit(Avatar.Avatar):
         self.loop(anim)
         self.isSkeleton = 1
         self.setBlend(frameBlend=base.settings.getBool('game', 'interpolate-animations', False))
+
+    def makeVirtualColors(self):
+        self.isVirtual = 1
+        actorNode = self.find('**/__Actor_modelRoot')
+        actorCollection = actorNode.findAllMatches('*')
+        parts = ()
+        for thingIndex in xrange(0, actorCollection.getNumPaths()):
+            thing = actorCollection[thingIndex]
+            if thing.getName() not in ('joint_attachMeter', 'joint_nameTag', 'def_nameTag'):
+                thing.setColorScale(self.healthColors[0] - (0, 0, 0, 0.5))
+                thing.setAttrib(ColorBlendAttrib.make(ColorBlendAttrib.MAdd))
+                thing.setDepthWrite(False)
+                thing.setBin('fixed', 1)
+        self.updateHealthBar(0, forceUpdate=1)
 
     def getHeadParts(self):
         return self.headParts

@@ -21,6 +21,7 @@ class SuitBase:
         self.maxHP = 10
         self.currHP = 10
         self.isSkelecog = 0
+        self.isVirtual = 0
         return
 
     def delete(self):
@@ -45,7 +46,7 @@ class SuitBase:
 
     def setLevel(self, level):
         self.level = level
-        nameWLevel = TTLocalizer.SuitBaseNameWithLevel % {'name': self.name,
+        nameWLevel = TTLocalizer.SuitBaseNameWithLevel % {'name': self._name,
          'dept': self.getStyleDept(),
          'level': self.getActualLevel()}
         self.setDisplayName(nameWLevel)
@@ -68,6 +69,12 @@ class SuitBase:
         else:
             self.notify.warning('called getActualLevel with no DNA, returning 1 for level')
             return 1
+
+    def getVirtual(self):
+        return self.isVirtual
+
+    def setVirtual(self, virtual):
+        self.isVirtual = virtual
 
     def setPath(self, path):
         self.path = path

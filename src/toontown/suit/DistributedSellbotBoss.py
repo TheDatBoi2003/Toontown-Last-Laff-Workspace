@@ -28,6 +28,7 @@ import random
 import math
 from toontown.coghq import CogDisguiseGlobals
 from toontown.suit import SellbotBossGlobals
+from cutscenes.SellbotCutscenes import SellbotCutscenes
 OneBossCog = None
 
 class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
@@ -66,6 +67,7 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         self.toonMopathInterval = []
         self.nerfed = ToontownGlobals.SELLBOT_NERF_HOLIDAY in base.cr.newsManager.getHolidayIdList()
         self.localToonPromoted = True
+        self.cutsceneGenerator = SellbotCutscenes(self)
         self.resetMaxDamage()
         return
 
@@ -232,7 +234,7 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
             self.cagedToon = None
         return
 
-    def __walkToonToPromotion(self, toonId, delay, mopath, track, delayDeletes):
+    def walkToonToPromotion(self, toonId, delay, mopath, track, delayDeletes):
         toon = base.cr.doId2do.get(toonId)
         if toon:
             destPos = toon.getPos()
@@ -244,13 +246,13 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
             track.append(ival)
             delayDeletes.append(DelayDelete.DelayDelete(toon, 'SellbotBoss.__walkToonToPromotion'))
 
-    def __walkDoober(self, suit, delay, turnPos, track, delayDeletes):
+    def walkDoober(self, suit, delay, turnPos, track, delayDeletes):
         turnPos = Point3(*turnPos)
         turnPosDown = Point3(*ToontownGlobals.SellbotBossDooberTurnPosDown)
         flyPos = Point3(*ToontownGlobals.SellbotBossDooberFlyPos)
         seq = Sequence(Func(suit.headsUp, turnPos), Wait(delay), Func(suit.loop, 'walk', 0), self.__walkSuitToPoint(suit, suit.getPos(), turnPos), self.__walkSuitToPoint(suit, turnPos, turnPosDown), self.__walkSuitToPoint(suit, turnPosDown, flyPos), suit.beginSupaFlyMove(flyPos, 0, 'flyAway'), Func(suit.fsm.request, 'Off'))
         track.append(seq)
-        delayDeletes.append(DelayDelete.DelayDelete(suit, 'SellbotBoss.__walkDoober'))
+        delayDeletes.append(DelayDelete.DelayDelete(suit, 'SellbotBoss.walkDoober'))
 
     def __walkSuitToPoint(self, node, fromPos, toPos):
         vector = Vec3(toPos - fromPos)
@@ -259,230 +261,25 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         return Sequence(Func(node.setPos, fromPos), Func(node.headsUp, toPos), node.posInterval(time, toPos))
 
     def makeIntroductionMovie(self, delayDeletes):
-        track = Parallel()
-        camera.reparentTo(render)
-        camera.setPosHpr(0, 25, 30, 0, 0, 0)
-        localAvatar.setCameraFov(ToontownGlobals.CogHQCameraFov)
-        dooberTrack = Parallel()
-        if self.doobers:
-            self.__doobersToPromotionPosition(self.doobers[:4], self.battleANode)
-            self.__doobersToPromotionPosition(self.doobers[4:], self.battleBNode)
-            turnPosA = ToontownGlobals.SellbotBossDooberTurnPosA
-            turnPosB = ToontownGlobals.SellbotBossDooberTurnPosB
-            self.__walkDoober(self.doobers[0], 0, turnPosA, dooberTrack, delayDeletes)
-            self.__walkDoober(self.doobers[1], 4, turnPosA, dooberTrack, delayDeletes)
-            self.__walkDoober(self.doobers[2], 8, turnPosA, dooberTrack, delayDeletes)
-            self.__walkDoober(self.doobers[3], 12, turnPosA, dooberTrack, delayDeletes)
-            self.__walkDoober(self.doobers[7], 2, turnPosB, dooberTrack, delayDeletes)
-            self.__walkDoober(self.doobers[6], 6, turnPosB, dooberTrack, delayDeletes)
-            self.__walkDoober(self.doobers[5], 10, turnPosB, dooberTrack, delayDeletes)
-            self.__walkDoober(self.doobers[4], 14, turnPosB, dooberTrack, delayDeletes)
-        toonTrack = Parallel()
-        self.__toonsToPromotionPosition(self.toonsA, self.battleANode)
-        self.__toonsToPromotionPosition(self.toonsB, self.battleBNode)
-        delay = 0
-        for toonId in self.toonsA:
-            self.__walkToonToPromotion(toonId, delay, self.toonsEnterA, toonTrack, delayDeletes)
-            delay += 1
-
-        for toonId in self.toonsB:
-            self.__walkToonToPromotion(toonId, delay, self.toonsEnterB, toonTrack, delayDeletes)
-            delay += 1
-
-        toonTrack.append(Sequence(Wait(delay), self.closeDoors))
-        self.rampA.request('extended')
-        self.rampB.request('extended')
-        self.rampC.request('retracted')
-        self.clearChat()
-        self.cagedToon.clearChat()
-        promoteDoobers = TTLocalizer.BossCogPromoteDoobers % SuitDNA.getDeptFullnameP(self.style.dept)
-        doobersAway = TTLocalizer.BossCogDoobersAway[self.style.dept]
-        welcomeToons = TTLocalizer.BossCogWelcomeToons
-        promoteToons = TTLocalizer.BossCogPromoteToons % SuitDNA.getDeptFullnameP(self.style.dept)
-        discoverToons = TTLocalizer.BossCogDiscoverToons
-        attackToons = TTLocalizer.BossCogAttackToons
-        interruptBoss = TTLocalizer.CagedToonInterruptBoss
-        rescueQuery = TTLocalizer.CagedToonRescueQuery
-        bossAnimTrack = Sequence(
-            ActorInterval(self, 'Ff_speech', startTime=2, duration=10, loop=1),
-            ActorInterval(self, 'ltTurn2Wave', duration=2),
-            ActorInterval(self, 'wave', duration=4, loop=1),
-            ActorInterval(self, 'ltTurn2Wave', startTime=2, endTime=0),
-            ActorInterval(self, 'Ff_speech', duration=7, loop=1))
-        track.append(bossAnimTrack)
-        dialogTrack = Track(
-            (0, Parallel(
-                camera.posHprInterval(8, Point3(-22, -100, 35), Point3(-10, -13, 0), blendType='easeInOut'),
-                IndirectInterval(toonTrack, 0, 18))),
-            (5.6, Func(self.setChatAbsolute, promoteDoobers, CFSpeech)),
-            (9, IndirectInterval(dooberTrack, 0, 9)),
-            (10, Sequence(
-                Func(self.clearChat),
-                Func(camera.setPosHpr, -23.1, 15.7, 17.2, -160, -2.4, 0))),
-            (12, Func(self.setChatAbsolute, doobersAway, CFSpeech)),
-            (16, Parallel(
-                Func(self.clearChat),
-                Func(camera.setPosHpr, -25, -99, 10, -14, 10, 0),
-                IndirectInterval(dooberTrack, 14),
-                IndirectInterval(toonTrack, 30))),
-            (18, Func(self.setChatAbsolute, welcomeToons, CFSpeech)),
-            (22, Func(self.setChatAbsolute, promoteToons, CFSpeech)),
-            (22.2, Sequence(
-                Func(self.cagedToon.nametag3d.setScale, 2),
-                Func(self.cagedToon.setChatAbsolute, interruptBoss, CFSpeech),
-                ActorInterval(self.cagedToon, 'wave'),
-                Func(self.cagedToon.loop, 'neutral'))),
-            (25, Sequence(
-                Func(self.clearChat),
-                Func(self.cagedToon.clearChat),
-                Func(camera.setPosHpr, -12, -15, 27, -151, -15, 0),
-                ActorInterval(self, 'Ff_lookRt'))),
-            (27, Sequence(
-                Func(self.cagedToon.setChatAbsolute, rescueQuery, CFSpeech),
-                Func(camera.setPosHpr, -12, 48, 94, -26, 20, 0),
-                ActorInterval(self.cagedToon, 'wave'),
-                Func(self.cagedToon.loop, 'neutral'))),
-            (31, Sequence(
-                Func(camera.setPosHpr, -20, -35, 10, -88, 25, 0),
-                Func(self.setChatAbsolute, discoverToons, CFSpeech),
-                Func(self.cagedToon.nametag3d.setScale, 1),
-                Func(self.cagedToon.clearChat),
-                ActorInterval(self, 'turn2Fb'))),
-            (34, Sequence(
-                Func(self.clearChat),
-                self.loseCogSuits(self.toonsA, self.battleANode, (0, 18, 5, -180, 0, 0)),
-                self.loseCogSuits(self.toonsB, self.battleBNode, (0, 18, 5, -180, 0, 0)))),
-            (37, Sequence(
-                self.toonNormalEyes(self.involvedToons),
-                Func(camera.setPosHpr, -23.4, -145.6, 44.0, -10.0, -12.5, 0),
-                Func(self.loop, 'Fb_neutral'),
-                Func(self.rampA.request, 'retract'),
-                Func(self.rampB.request, 'retract'),
-                Parallel(self.backupToonsToBattlePosition(self.toonsA, self.battleANode),
-                         self.backupToonsToBattlePosition(self.toonsB, self.battleBNode),
-                         Sequence(
-                             Wait(2),
-                             Func(self.setChatAbsolute, attackToons, CFSpeech))))))
-        track.append(dialogTrack)
-        return Sequence(Func(self.stickToonsToFloor), track, Func(self.unstickToons), name=self.uniqueName('Introduction'))
+        return self.cutsceneGenerator.makeIntroductionMovie(delayDeletes)
 
     def __makeRollToBattleTwoMovie(self):
-        startPos = Point3(ToontownGlobals.SellbotBossBattleOnePosHpr[0], ToontownGlobals.SellbotBossBattleOnePosHpr[1], ToontownGlobals.SellbotBossBattleOnePosHpr[2])
-        if self.arenaSide:
-            topRampPos = Point3(*ToontownGlobals.SellbotBossTopRampPosB)
-            topRampTurnPos = Point3(*ToontownGlobals.SellbotBossTopRampTurnPosB)
-            p3Pos = Point3(*ToontownGlobals.SellbotBossP3PosB)
-        else:
-            topRampPos = Point3(*ToontownGlobals.SellbotBossTopRampPosA)
-            topRampTurnPos = Point3(*ToontownGlobals.SellbotBossTopRampTurnPosA)
-            p3Pos = Point3(*ToontownGlobals.SellbotBossP3PosA)
-        battlePos = Point3(ToontownGlobals.SellbotBossBattleTwoPosHpr[0], ToontownGlobals.SellbotBossBattleTwoPosHpr[1], ToontownGlobals.SellbotBossBattleTwoPosHpr[2])
-        battleHpr = VBase3(ToontownGlobals.SellbotBossBattleTwoPosHpr[3], ToontownGlobals.SellbotBossBattleTwoPosHpr[4], ToontownGlobals.SellbotBossBattleTwoPosHpr[5])
-        bossTrack = Sequence()
-        bossTrack.append(Func(self.getGeomNode().setH, 180))
-        bossTrack.append(Func(self.loop, 'Fb_neutral'))
-        track, hpr = self.rollBossToPoint(startPos, None, topRampPos, None, 0)
-        bossTrack.append(track)
-        track, hpr = self.rollBossToPoint(topRampPos, hpr, topRampTurnPos, None, 0)
-        bossTrack.append(track)
-        track, hpr = self.rollBossToPoint(topRampTurnPos, hpr, p3Pos, None, 0)
-        bossTrack.append(track)
-        track, hpr = self.rollBossToPoint(p3Pos, hpr, battlePos, None, 0)
-        bossTrack.append(track)
-        return Sequence(bossTrack, Func(self.getGeomNode().setH, 0), name=self.uniqueName('BattleTwo'))
+        return self.cutsceneGenerator.makeRollToBattleTwoMovie()
 
     def cagedToonMovieFunction(self, instruct, cageIndex):
-        self.notify.debug('cagedToonMovieFunction()')
-        if not (hasattr(self, 'cagedToon') and hasattr(self.cagedToon, 'nametag') and hasattr(self.cagedToon, 'nametag3d')):
-            return
-        if instruct == 1:
-            self.cagedToon.nametag3d.setScale(2)
-        elif instruct == 2:
-            self.cagedToon.setChatAbsolute(TTLocalizer.CagedToonDrop[cageIndex], CFSpeech)
-        elif instruct == 3:
-            self.cagedToon.nametag3d.setScale(1)
-        elif instruct == 4:
-            self.cagedToon.clearChat()
+        return self.cutsceneGenerator.cagedToonMovieFunction(instruct, cageIndex)
 
     def makeEndOfBattleMovie(self, hasLocalToon):
-        name = self.uniqueName('CageDrop')
-        seq = Sequence(name=name)
-        seq.append(Func(self.cage.setPos, self.cagePos[self.cageIndex]))
-        if hasLocalToon:
-            seq += [Func(camera.reparentTo, render),
-             Func(camera.setPosHpr, self.cage, 0, -50, 0, 0, 0, 0),
-             Func(localAvatar.setCameraFov, ToontownGlobals.CogHQCameraFov),
-             Func(self.hide)]
-        seq += [Wait(0.5),
-         Parallel(self.cage.posInterval(1, self.cagePos[self.cageIndex + 1], blendType='easeInOut'), SoundInterval(self.cageLowerSfx, duration=1)),
-         Func(self.cagedToonMovieFunction, 1, self.cageIndex),
-         Func(self.cagedToonMovieFunction, 2, self.cageIndex),
-         Wait(3),
-         Func(self.cagedToonMovieFunction, 3, self.cageIndex),
-         Func(self.cagedToonMovieFunction, 4, self.cageIndex)]
-        if hasLocalToon:
-            seq += [Func(self.show),
-             Func(camera.reparentTo, localAvatar),
-             Func(camera.setPos, localAvatar.cameraPositions[0][0]),
-             Func(camera.setHpr, 0, 0, 0)]
-        self.cageIndex += 1
-        return seq
+        return self.cutsceneGenerator.makeEndOfBattleMovie(hasLocalToon)
 
     def __makeBossDamageMovie(self):
-        startPos = Point3(ToontownGlobals.SellbotBossBattleTwoPosHpr[0], ToontownGlobals.SellbotBossBattleTwoPosHpr[1], ToontownGlobals.SellbotBossBattleTwoPosHpr[2])
-        startHpr = Point3(*ToontownGlobals.SellbotBossBattleThreeHpr)
-        bottomPos = Point3(*ToontownGlobals.SellbotBossBottomPos)
-        deathPos = Point3(*ToontownGlobals.SellbotBossDeathPos)
-        self.setPosHpr(startPos, startHpr)
-        bossTrack = Sequence()
-        bossTrack.append(Func(self.loop, 'Fb_neutral'))
-        track, hpr = self.rollBossToPoint(startPos, startHpr, bottomPos, None, 1)
-        bossTrack.append(track)
-        track, hpr = self.rollBossToPoint(bottomPos, startHpr, deathPos, None, 1)
-        bossTrack.append(track)
-        duration = bossTrack.getDuration()
-        return bossTrack
+        return self.cutsceneGenerator.__makeBossDamageMovie()
 
     def __talkAboutPromotion(self, speech):
-        if not self.localToonPromoted:
-            pass
-        elif self.prevCogSuitLevel < ToontownGlobals.MaxCogSuitLevel:
-            speech += TTLocalizer.CagedToonPromotion
-            newCogSuitLevel = localAvatar.getCogLevels()[CogDisguiseGlobals.dept2deptIndex(self.style.dept)]
-            if newCogSuitLevel == ToontownGlobals.MaxCogSuitLevel:
-                speech += TTLocalizer.CagedToonLastPromotion % (ToontownGlobals.MaxCogSuitLevel + 1)
-            if newCogSuitLevel in ToontownGlobals.CogSuitHPLevels:
-                speech += TTLocalizer.CagedToonHPBoost
-        else:
-            speech += TTLocalizer.CagedToonMaxed % (ToontownGlobals.MaxCogSuitLevel + 1)
-        return speech
+        return self.cutsceneGenerator.__talkAboutPromotion(speech)
 
     def __makeCageOpenMovie(self):
-        speech = TTLocalizer.CagedToonThankYou
-        speech = self.__talkAboutPromotion(speech)
-        name = self.uniqueName('CageOpen')
-        seq = Sequence(
-            Func(self.cage.setPos, self.cagePos[4]),
-            Func(self.cageDoor.setHpr, VBase3(0, 0, 0)),
-            Func(self.cagedToon.setPos, Point3(0, -2, 0)),
-            Parallel(
-                self.cage.posInterval(0.5, self.cagePos[5], blendType='easeOut'),
-                SoundInterval(self.cageLowerSfx, duration=0.5)),
-            Parallel(
-                self.cageDoor.hprInterval(0.5, VBase3(0, 90, 0), blendType='easeOut'),
-                Sequence(SoundInterval(self.cageDoorSfx), duration=0)),
-            Wait(0.2),
-            Func(self.cagedToon.loop, 'walk'),
-            self.cagedToon.posInterval(0.8, Point3(0, -6, 0)),
-            Func(self.cagedToon.setChatAbsolute, TTLocalizer.CagedToonYippee, CFSpeech),
-            ActorInterval(self.cagedToon, 'jump'),
-            Func(self.cagedToon.loop, 'neutral'),
-            Func(self.cagedToon.headsUp, localAvatar),
-            Func(self.cagedToon.setLocalPageChat, speech, 0),
-            Func(camera.reparentTo, localAvatar),
-            Func(camera.setPos, 0, -9, 9),
-            Func(camera.lookAt, self.cagedToon, Point3(0, 0, 2)), name=name)
-        return seq
+        return self.cutsceneGenerator.__makeCageOpenMovie()
 
     def __showOnscreenMessage(self, text):
         if self.onscreenMessage:
@@ -1117,7 +914,7 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
             else:
                 self.insidesBNodePath.stash()
 
-    def __toonsToPromotionPosition(self, toonIds, battleNode):
+    def toonsToPromotionPosition(self, toonIds, battleNode):
         points = BattleBase.BattleBase.toonPoints[len(toonIds) - 1]
         for i in xrange(len(toonIds)):
             toon = base.cr.doId2do.get(toonIds[i])
@@ -1126,7 +923,7 @@ class DistributedSellbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
                 pos, h = points[i]
                 toon.setPosHpr(battleNode, pos[0], pos[1] + 10, pos[2], h, 0, 0)
 
-    def __doobersToPromotionPosition(self, doobers, battleNode):
+    def doobersToPromotionPosition(self, doobers, battleNode):
         points = BattleBase.BattleBase.toonPoints[len(doobers) - 1]
         for i in xrange(len(doobers)):
             suit = doobers[i]

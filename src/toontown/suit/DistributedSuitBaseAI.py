@@ -3,6 +3,7 @@ from otp.avatar import DistributedAvatarAI
 import SuitPlannerBase, SuitBase, SuitDNA
 from direct.directnotify import DirectNotifyGlobal
 from toontown.battle import SuitBattleGlobals
+from direct.showbase.PythonUtil import weightedChoice, randFloat, lerp
 
 class DistributedSuitBaseAI(DistributedAvatarAI.DistributedAvatarAI, SuitBase.SuitBase):
     notify = DirectNotifyGlobal.directNotify.newCategory('DistributedSuitBaseAI')
@@ -38,8 +39,11 @@ class DistributedSuitBaseAI(DistributedAvatarAI.DistributedAvatarAI, SuitBase.Su
             self.requestDelete()
         return
 
-    def setLevel(self, lvl=None):
-        attributes = SuitBattleGlobals.SuitAttributes[self.dna.name]
+    def setLevel(self, lvl=None, newDNA=None):
+        if newDNA:
+            attributes =  SuitBattleGlobals.SuitAttributes[newDNA]
+        else:
+            attributes = SuitBattleGlobals.SuitAttributes[self.dna.name]
         if lvl:
             self.level = lvl - attributes['level'] - 1
         else:
@@ -59,6 +63,7 @@ class DistributedSuitBaseAI(DistributedAvatarAI.DistributedAvatarAI, SuitBase.Su
 
     def d_setLevelDist(self, level):
         self.sendUpdate('setLevelDist', [level])
+        
 
     def setupSuitDNA(self, level, type, track):
         dna = SuitDNA.SuitDNA()
@@ -164,6 +169,12 @@ class DistributedSuitBaseAI(DistributedAvatarAI.DistributedAvatarAI, SuitBase.Su
 
     def setSkelecog(self, flag):
         SuitBase.SuitBase.setSkelecog(self, flag)
+        if flag:
+            percent = randFloat(0.70, 1.40)
+            newHealth = int(self.maxHP * percent)
+            self.maxHP = newHealth
+            self.currHP = self.maxHP
+
 
     def d_setSkelecog(self, flag):
         self.sendUpdate('setSkelecog', [flag])
@@ -175,10 +186,18 @@ class DistributedSuitBaseAI(DistributedAvatarAI.DistributedAvatarAI, SuitBase.Su
         return 0
 
     def setVirtual(self, virtual):
-        pass
+        self.virtual = 1
+        SuitBase.SuitBase.setVirtual(self, virtual)
+
+    def b_setVirtual(self, virtual):
+        self.setVirtual(virtual)
+        self.d_setVirtual(virtual)
+
+    def d_setVirtual(self, virtual):
+        self.sendUpdate('setVirtual', [virtual])
 
     def getVirtual(self):
-        return 0
+        return self.virtual
 
     def isVirtual(self):
-        return self.getVirtual()
+        return False

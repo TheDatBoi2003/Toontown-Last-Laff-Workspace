@@ -129,7 +129,10 @@ def getSuitAttack(suitName, suitLevel, attackNum=-1):
     if attackNum == -1:
         notify.debug("getSuitAttack: picking attacking for %s" % suitName)
         attackNum = pickSuitAttack(attackChoices, suitLevel)
-    attack = attackChoices[attackNum]
+    try:
+        attack = attackChoices[attackNum]
+    except:
+        attack = attackChoices[0]
     adict = {}
     adict["suitName"] = suitName
     name = attack[0]

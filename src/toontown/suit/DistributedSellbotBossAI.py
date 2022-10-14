@@ -247,11 +247,11 @@ class DistributedSellbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
     def __genSuitObject(self, suitZone, suitType, bldgTrack, suitLevel, revives = 0):
         newSuit = DistributedSuitAI.DistributedSuitAI(simbase.air, None)
         skel = self.__setupSuitInfo(newSuit, bldgTrack, suitLevel, suitType)
-        if skel:
-            newSuit.setSkelecog(1)
         newSuit.setSkeleRevives(revives)
         newSuit.generateWithRequired(suitZone)
         newSuit.node().setName('suit-%s' % newSuit.doId)
+        if skel:
+            newSuit.b_setSkelecog(1)
         return newSuit
 
     def __setupSuitInfo(self, suit, bldgTrack, suitLevel, suitType):

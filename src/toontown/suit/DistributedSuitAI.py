@@ -342,3 +342,9 @@ class DistributedSuitAI(DistributedSuitBaseAI.DistributedSuitBaseAI):
                 self.sp.cogdoTakeOver(blockNumber, dept, difficulty, self.buildingHeight)
             else:
                 self.sp.suitTakeOver(blockNumber, dept, difficulty, self.buildingHeight)
+
+    def promote(self, level, suitName=None):
+        if suitName:
+            self.dna.name = suitName
+            self.sendUpdate('promote', [suitName])
+        self.setLevel(level, suitName)

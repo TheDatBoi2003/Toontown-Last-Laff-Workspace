@@ -410,8 +410,6 @@ class DistributedSuitPlannerAI(DistributedObjectAI.DistributedObjectAI, SuitPlan
             return
         newSuit.initializePath()
         self.zoneChange(newSuit, None, newSuit.zoneId)
-        if skelecog:
-            newSuit.setSkelecog(skelecog)
         if revives:
             newSuit.setSkeleRevives(revives)
         newSuit.generateWithRequired(newSuit.zoneId)
@@ -419,6 +417,8 @@ class DistributedSuitPlannerAI(DistributedObjectAI.DistributedObjectAI, SuitPlan
         if self.zoneId == 11600:
             newSuit.b_setSkelecog(random.choice([0, 0, 1]))
         self.suitList.append(newSuit)
+        if skelecog:
+            newSuit.b_setSkelecog(skelecog)
         if newSuit.flyInSuit:
             self.numFlyInSuits += 1
         if newSuit.buildingSuit:
