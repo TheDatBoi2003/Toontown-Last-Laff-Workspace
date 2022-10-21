@@ -1,0 +1,205 @@
+
+
+Starting Toontown Online...
+Current time: Wed Oct 19 21:55:40 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.10.12-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'COMPUTERNAME': 'DESKTOP-7054VC9', 'USERDOMAIN': 'DESKTOP-7054VC9', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'INTEL_DEV_REDIST': 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\', 'PSMODULEPATH': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 158 Stepping 13, GenuineIntel', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '9e0d', 'PATH': 'C:\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Python38\\Scripts\\;C:\\Program Files\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\dotnet\\;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\theph\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\theph\\.dotnet\\tools;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;C:\\Users\\theph\\AppData\\Local\\atom\\bin;C:\\Users\\theph\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0-x64\\python;C:\\Panda3D-1.9.0-x64\\python\\Scripts;C:\\Panda3D-1.9.0-x64\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin;;C:\\Users\\theph\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Panda3D-1.11.0\\python;C:\\Panda3D-1.11.0\\python\\Scripts;C:\\Panda3D-1.11.0\\bin;C:\\Users\\theph\\.dotnet\\tools;C:\\Panda3D-1.10.11-x64\\python;C:\\Panda3D-1.10.11-x64\\python\\Scripts;C:\\Panda3D-1.10.11-x64\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python\\Scripts;C:\\EventHorizon-battle-ng-teaser\\depe', 'SYSTEMROOT': 'C:\\WINDOWS', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'DRIVERDATA': 'C:\\Windows\\System32\\Drivers\\DriverData', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'TEMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\theph\\AppData\\Local', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'HOMEPATH': '\\Users\\theph', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-7054VC9', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'theph', 'LOGONSERVER': '\\\\DESKTOP-7054VC9', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'ONEDRIVE': 'C:\\Users\\theph\\OneDrive', 'ADSK_3DSMAX_X64_2019': 'C:\\Program Files\\Autodesk\\3ds Max 2019\\', 'ZES_ENABLE_SYSMAN': '1', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'TTOFF_LOGIN_TOKEN': 'dev', 'WINDIR': 'C:\\WINDOWS', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin;', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'NUMBER_OF_PROCESSORS': '16', 'APPDATA': 'C:\\Users\\theph\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\theph'}
+:10-19-2022 21:55:40 TTOffLauncher: isTestServer: 0
+:10-19-2022 21:55:40 TTOffLauncher: Game Server 127.0.0.1
+:10-19-2022 21:55:40 TTOffLauncher: Starting Toontown Online... 
+:10-19-2022 21:55:40 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:10-19-2022 21:55:40 TTOffLauncher: maybeStartGame: starting game
+:10-19-2022 21:55:40 TTOffLauncher: Starting Toontown Online...
+:10-19-2022 21:55:40 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:10-19-2022 21:55:40 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:10-19-2022 21:55:40 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:10-19-2022 21:55:41 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:10-19-2022 21:55:41 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:10-19-2022 21:55:41 ShowBase: __dev__ == False
+:10-19-2022 21:55:41 TTOffLauncher: setting panda error code to 11
+:10-19-2022 21:55:41 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:10-19-2022 21:55:41 Loader: starting bulk load of block 'init'
+:10-19-2022 21:55:41 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:10-19-2022 21:55:41 OTPClientRepository: Using connect method 'http'
+:10-19-2022 21:55:42 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:10-19-2022 21:55:42 TTOffLauncher: checking env
+:10-19-2022 21:55:42 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:10-19-2022 21:55:42 TTOffLauncher: checking env
+:10-19-2022 21:55:42 OTPClientRepository: reg_deployment=
+:10-19-2022 21:55:42 OTPClientRepository: required-login auto.
+:10-19-2022 21:55:42 OTPClientRepository: loginInterface: LoginTTOffAccount
+:10-19-2022 21:55:42 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:10-19-2022 21:55:42 Loader: At end of block 'init', expected 138, loaded 5, duration=1.137726
+:10-19-2022 21:55:42 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:10-19-2022 21:55:42 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:10-19-2022 21:55:42 TTOffLauncher: Stopping mini task manager.
+:10-19-2022 21:55:42 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:10-19-2022 21:55:42 TTOffLauncher: Setting Disconnect Details normal
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x00000000207EDD48>}
+:10-19-2022 21:55:44 StateData: AvatarChooser.enter
+:10-19-2022 21:55:44 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:10-19-2022 21:55:44 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:10-19-2022 21:55:45 OTPClientRepository: ================
+:10-19-2022 21:55:45 OTPClientRepository: Chose avatar id: 100000001
+:10-19-2022 21:55:45 OTPClientRepository: Chose avatar name: Winky Megaberry
+:10-19-2022 21:55:45 OTPClientRepository: Chose avatar dna: ('rls', 'ss', 's', 'm', 22, 0, 22, 22, 0, 27, 0, 27, 1, 18)
+:10-19-2022 21:55:45 OTPClientRepository: Chose avatar position: 1
+:10-19-2022 21:55:45 OTPClientRepository: isPaid: 1
+:10-19-2022 21:55:45 OTPClientRepository: freeTimeLeft: 0
+:10-19-2022 21:55:45 OTPClientRepository: allowSecretChat: True
+:10-19-2022 21:55:45 OTPClientRepository: ================
+:10-19-2022 21:55:46 Loader: starting bulk load of block 'localAvatarPlayGame'
+:10-19-2022 21:55:46 ToontownTimeManager(warning): error parsing date string=
+local
+:10-19-2022 21:55:46 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:10-19-2022 21:55:46 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:10-19-2022 21:55:48 OTPClientRepository: Entering shard 402000001
+:10-19-2022 21:55:48 StreetSign: Street sign url is https://ttoffline.com/images/
+:10-19-2022 21:55:49 TimeManager: Clock sync: TimeManager.announceGenerate
+:10-19-2022 21:55:49 NewsManager: setHolidayId: Starting Holiday 26
+:10-19-2022 21:55:49 NewsManager: setHolidayId: Starting Holiday 7
+:10-19-2022 21:55:49 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz|591597|0|3.600,3.600|8,16 cpus
+:10-19-2022 21:55:50 OTPClientRepository: No sync from TimeManager.
+:10-19-2022 21:55:50 OTPClientRepository: gotTimeSync
+:10-19-2022 21:55:50 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 14, duration=4.3668766
+:10-19-2022 21:55:50 TimeManager: Clock sync roundtrip took 1211.894 ms
+:10-19-2022 21:55:50 TimeManager: AI time delta is -0:01 from server delta
+:10-19-2022 21:55:50 TimeManager: Local clock uncertainty +/- 0.606 s
+:10-19-2022 21:55:50 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:10-19-2022 21:55:50 Loader: starting bulk load of block 'hood'
+:10-19-2022 21:55:51 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-19-2022 21:55:51 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-19-2022 21:55:51 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-19-2022 21:55:51 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-19-2022 21:55:51 SellbotCogHQLoader: loadPlaceGeom: 11000
+:10-19-2022 21:55:51 DistributedObject: DistributedSuitPlanner 402002950: generating
+:10-19-2022 21:55:51 DistributedToon: calling LocalAvatar.startchat
+:10-19-2022 21:55:51 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/../models")
+:10-19-2022 21:55:51 Loader: At end of block 'hood', expected 43, loaded 4, duration=1.0759265
+:10-19-2022 21:55:52 Teleport(debug): teleportInDone: walk
+:10-19-2022 21:55:53 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/../models")
+:10-19-2022 21:55:57 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-19-2022 21:56:02 SellbotCogHQLoader: loadPlaceGeom: 11200
+:10-19-2022 21:56:03 SellbotHQExterior: Unloading Place (11000). Fsm in final
+:10-19-2022 21:56:03 DistributedObject: DistributedSuitPlanner 402002950: disabling
+:10-19-2022 21:56:03 DistributedObject: DistributedSuitPlanner 402002951: generating
+:10-19-2022 21:56:03 DistributedToon: calling LocalAvatar.startchat
+:10-19-2022 21:56:03 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/../models")
+:10-19-2022 21:56:06 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace/src/Panda3D-1.11.0-x64/etc/../models")
+:10-19-2022 21:56:32 SellbotCogHQLoader: loadPlaceGeom: 61095
+:10-19-2022 21:56:32 SellbotCogHQLoader(warning): loadPlaceGeom: unclassified zone 61000
+:10-19-2022 21:56:32 FactoryExterior: Unloading Place (11200). Fsm in final
+:10-19-2022 21:56:32 DistributedObject: DistributedSuitPlanner 402002951: disabling
+:10-19-2022 21:56:32 TimeManager: Clock sync: DistributedLevel.generate
+:10-19-2022 21:56:32 Loader: starting bulk load of block 'factory'
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-19-2022 21:56:33 Loader: At end of block 'factory', expected 496, loaded 3, duration=0.8068168
+:10-19-2022 21:56:33 DistributedToon: calling LocalAvatar.startchat
+:10-19-2022 21:56:33 TimeManager: Clock sync roundtrip took 814.919 ms
+:10-19-2022 21:56:33 TimeManager: AI time delta is -0:01 from server delta
+:10-19-2022 21:56:33 ClockDelta: previous delta at -5242.499 s, +/- 0.618 s.
+:10-19-2022 21:56:33 ClockDelta: new delta at -5242.703 s, +/- 0.407 s.
+:10-19-2022 21:56:33 ClockDelta: intersection at -5242.703 s, +/- 0.407 s.
+:10-19-2022 21:56:33 TimeManager: Local clock uncertainty +/- 0.408 s
+:10-19-2022 21:56:35 Teleport(debug): teleportInDone: walk
+doors enter state 1
+Assertion failed: !is_empty() at line 1844 of D:\Gustavo\git\ttoff\panda3d\built_x64\include\nodePath.I
+Traceback (most recent call last):
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1445, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1732, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1758, in gotInterestDoneMessage
+    self.__playBackGenerates(handle)
+  File "otp\distributed\OTPClientRepository.py", line 1941, in __playBackGenerates
+    self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 1985, in __doGenerate
+    distObj = self.generateWithRequiredOtherFields(dclass, doId, di, parentId, zoneId)
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 312, in generateWithRequiredOtherFields
+    distObj.updateRequiredOtherFields(dclass, di)
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 356, in updateRequiredOtherFields
+    self.announceGenerate()
+  File "toontown\suit\DistributedGoon.py", line 52, in announceGenerate
+    self.initGoon(self.goonType)
+  File "toontown\suit\Goon.py", line 38, in initGoon
+    self.createHead()
+  File "toontown\suit\Goon.py", line 104, in createHead
+    self.hat.find('**/*security_hat').hide()
+AssertionError: !is_empty() at line 1844 of D:\Gustavo\git\ttoff\panda3d\built_x64\include\nodePath.I
+:10-19-2022 21:56:40 :task(error): Exception occurred in PythonTask readerPollTask-92621392
+:10-19-2022 21:56:40 TTOffLauncher: setting panda error code to 12
+:10-19-2022 21:56:40 TTOffLauncher(warning): Handling Python exception.
+:10-19-2022 21:56:40 TimeManager: Client disconnect reason 3.
+:10-19-2022 21:56:40 TimeManager: Client exception: toontown.suit.Goon:104, toontown.suit.Goon:38, toontown.suit.DistributedGoon:52, direct.distributed.DistributedObject:356, AssertionError: !is_empty() at line 1844 of D:\Gustavo\git\ttoff\panda3d\built_x64\include\nodePath.I
+:10-19-2022 21:56:40 OTPClientRepository: Sent disconnect message to server
+:10-19-2022 21:56:40 OTPClientRepository: Closing connection to server.
+:10-19-2022 21:56:40 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1445, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1732, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1758, in gotInterestDoneMessage
+    self.__playBackGenerates(handle)
+  File "otp\distributed\OTPClientRepository.py", line 1941, in __playBackGenerates
+    self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 1985, in __doGenerate
+    distObj = self.generateWithRequiredOtherFields(dclass, doId, di, parentId, zoneId)
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 312, in generateWithRequiredOtherFields
+    distObj.updateRequiredOtherFields(dclass, di)
+  File "C:\Toontown-Last-Laff-Workspace\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 356, in updateRequiredOtherFields
+    self.announceGenerate()
+  File "toontown\suit\DistributedGoon.py", line 52, in announceGenerate
+    self.initGoon(self.goonType)
+  File "toontown\suit\Goon.py", line 38, in initGoon
+    self.createHead()
+  File "toontown\suit\Goon.py", line 104, in createHead
+    self.hat.find('**/*security_hat').hide()
+AssertionError: !is_empty() at line 1844 of D:\Gustavo\git\ttoff\panda3d\built_x64\include\nodePath.I

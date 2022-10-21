@@ -3,43 +3,43 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 54
     }, 
     "43": {
-        "becameSuitTime": 1665087318.555, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
-        "track": "l", 
-        "numFloors": 2, 
-        "difficulty": 3, 
-        "state": "cogdo", 
+        "track": "c", 
+        "numFloors": 0, 
+        "difficulty": 1, 
+        "state": "toon", 
         "block": 43
     }, 
     "60": {
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 60
     }, 
     "61": {
-        "becameSuitTime": 1663807027.293, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
-        "track": "l", 
-        "numFloors": 2, 
-        "difficulty": 2, 
-        "state": "suit", 
+        "track": "c", 
+        "numFloors": 0, 
+        "difficulty": 1, 
+        "state": "toon", 
         "block": 61
     }, 
     "62": {
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 62
@@ -48,7 +48,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 63
@@ -57,7 +57,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 64
@@ -66,7 +66,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 65
@@ -75,7 +75,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 66
@@ -84,25 +84,25 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 67
     }, 
     "69": {
-        "becameSuitTime": 1665087156.727, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 3, 
-        "difficulty": 2, 
-        "state": "suit", 
+        "numFloors": 0, 
+        "difficulty": 1, 
+        "state": "toon", 
         "block": 69
     }, 
     "24": {
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 24
@@ -111,7 +111,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 25
@@ -120,7 +120,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 26
@@ -129,7 +129,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 21
@@ -138,7 +138,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 49
@@ -147,7 +147,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 44
@@ -156,7 +156,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 29
@@ -165,7 +165,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 1
@@ -174,7 +174,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 3
@@ -183,7 +183,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 2
@@ -201,7 +201,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 4
@@ -210,7 +210,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 7
@@ -219,7 +219,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 6
@@ -228,7 +228,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 70
@@ -237,7 +237,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 11
@@ -246,7 +246,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 10
@@ -255,25 +255,25 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 39
     }, 
     "38": {
-        "becameSuitTime": 1663807035.097, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
-        "track": "l", 
-        "numFloors": 1, 
-        "difficulty": 2, 
-        "state": "suit", 
+        "track": "c", 
+        "numFloors": 0, 
+        "difficulty": 1, 
+        "state": "toon", 
         "block": 38
     }, 
     "59": {
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 59
@@ -282,7 +282,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 17
@@ -291,25 +291,25 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 16
     }, 
     "33": {
-        "becameSuitTime": 1663806640.195, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
-        "track": "l", 
-        "numFloors": 1, 
+        "track": "c", 
+        "numFloors": 0, 
         "difficulty": 1, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 33
     }, 
     "18": {
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 18
@@ -318,7 +318,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 57
@@ -327,7 +327,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 56
@@ -336,25 +336,25 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 53
     }, 
     "52": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1666213192.771, 
         "savedBy": null, 
-        "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "track": "l", 
+        "numFloors": 2, 
+        "difficulty": 3, 
+        "state": "cogdo", 
         "block": 52
     }, 
     "55": {
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 55
@@ -363,7 +363,7 @@
         "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
+        "numFloors": 0, 
         "difficulty": 1, 
         "state": "toon", 
         "block": 32

@@ -103,7 +103,7 @@ class Goon(Avatar.Avatar):
         if self.type == 'pg':
             self.hat.find('**/security_hat').hide()
         elif self.type == 'sg':
-            self.hat.find('**/hard_hat').hide()
+            self.hat.find('**/*hard_hat').hide()
         else:
             self.hat.find('**/security_hat').hide()
             self.hat.find('**/hard_hat').hide()

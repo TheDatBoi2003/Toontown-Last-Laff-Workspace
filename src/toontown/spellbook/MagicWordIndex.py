@@ -1989,6 +1989,7 @@ class QA(MagicWord):
                            'dg': Quests.DG_TIER,
                            'mml': Quests.MM_TIER,
                            'tb': Quests.BR_TIER,
+                           'tb1': Quests.BR_TIER+1,
                            'ddl': Quests.DL_TIER,
                            'lbhq': Quests.LAWBOT_HQ_TIER,
                            'bbhq': Quests.BOSSBOT_HQ_TIER}

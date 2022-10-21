@@ -1333,6 +1333,7 @@ dclass DistributedSellbotBoss : DistributedBossCog {
   doStrafe(uint8, uint8) broadcast;
   cagedToonBattleThree(uint16, uint32) broadcast;
   toonPromoted(uint8(0-1));
+  setBattleDifficulty(uint8) broadcast ram;
 };
 
 dclass DistributedSellbotBossHardmode : DistributedBossCog {

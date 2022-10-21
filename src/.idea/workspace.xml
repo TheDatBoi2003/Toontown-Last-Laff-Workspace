@@ -2,26 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b06248f-a488-484a-b2db-eb3454d7a262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/toontown/battle/DistributedBattleVirtual.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toontown/battle/DistributedBattleVirtualAI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toontown/suit/cutscenes/SellbotCutscenes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toontown/suit/cutscenes/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/astron/dclass/tto.dc" beforeDir="false" afterPath="$PROJECT_DIR$/astron/dclass/tto.dc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_1200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_1200_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_3100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_3100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_3200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_3200_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_3300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_3300_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_4100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_4100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_4200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_4200_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_4300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_4300_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_5200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_5200_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_5300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_5300_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_9100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_9100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/401000001_9200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/401000001_9200_buildings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_1100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_1200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_1300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_2100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_2300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_3100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_3200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_3300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_4100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_4200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_4300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_5100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_5200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_5300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_9100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/401000001_9200_buildings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_1100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_1100_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_1200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_1200_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_1300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_1300_buildings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/402000001_2100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_2100_buildings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/402000001_2200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/402000001_2300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_2300_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_3100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_3100_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_3200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_3200_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_3300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_3300_buildings.json" afterDir="false" />
@@ -30,29 +34,31 @@
       <change beforePath="$PROJECT_DIR$/backups/402000001_4300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_4300_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_5100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_5100_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_5200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_5200_buildings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/402000001_5300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_5300_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_9100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_9100_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/402000001_9200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_9200_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/pets/pets_401000001.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/pets/pets_401000001.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_1100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_1200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_1300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_2100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_2200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_2300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_3100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_3200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_3300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_4100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_4200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_4300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_5100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_5200_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_5300_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_9100_buildings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backups/403000001_9200_buildings.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/pets/pets_402000001.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/pets/pets_402000001.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/battle/BattleCalculatorAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/battle/BattleCalculatorAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/battle/DistributedBattleBaseAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/battle/DistributedBattleBaseAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/battle/MovieUtil.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/battle/MovieUtil.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/battle/SuitBattleGlobals.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/battle/SuitBattleGlobals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/building/DistributedSuitInterior.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/building/DistributedSuitInterior.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/DistributedBanquetTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/DistributedBanquetTable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedBossCogAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedBossCogAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedBossbotBossAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedBossbotBossAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedLawbotBossAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedLawbotBossAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedSellbotBoss.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedSellbotBoss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedSellbotBossAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedSellbotBossAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedSuitAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedSuitAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedSuitBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedSuitBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedSuitBaseAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedSuitBaseAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedSuitPlannerAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedSuitPlannerAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/Suit.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/Suit.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/SuitBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/SuitBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/toonbase/ToontownGlobals.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/toonbase/ToontownGlobals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/town/TownBattle.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/town/TownBattle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toontown/quest/QuestPoster.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/quest/QuestPoster.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toontown/spellbook/MagicWordIndex.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/spellbook/MagicWordIndex.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toontown/suit/Goon.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/Goon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toontown/suit/SellbotBossGlobals.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/SellbotBossGlobals.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,14 +87,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Toontown-Last-Laff-Workspace/src/toontown/battle",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Toontown-Last-Laff-Workspace/src&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>

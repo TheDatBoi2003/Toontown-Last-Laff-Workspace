@@ -1,4 +1,5 @@
 from direct.gui.DirectGui import *
+from direct.gui.OnscreenImage import OnscreenImage
 from panda3d.core import *
 import Quests
 from toontown.toon import NPCToons
@@ -16,8 +17,10 @@ from toontown.toontowngui.TeaserPanel import TeaserPanel
 from direct.directnotify import DirectNotifyGlobal
 from toontown.toontowngui import TTDialog
 from otp.otpbase import OTPLocalizer
+from panda3d.core import TransparencyAttrib
 IMAGE_SCALE_LARGE = 0.2
 IMAGE_SCALE_SMALL = 0.15
+IMAGE_SCALE_SMALL2 = 0.05
 POSTER_WIDTH = 0.7
 TEXT_SCALE = TTLocalizer.QPtextScale
 TEXT_WORDWRAP = TTLocalizer.QPtextWordwrap
@@ -395,12 +398,20 @@ class QuestPoster(DirectFrame):
                         rIconGeomScale = 0.12
                         cogIcons.removeNode()
                     elif holderType == 'level':
-                        cogIcons = loader.loadModel('phase_3/models/gui/cog_icons')
-                        rIconGeom = cogIcons.find('**/cog')
-                        rIconGeomScale = IMAGE_SCALE_SMALL
-                        cogIcons.removeNode()
+                        rIconGeom = OnscreenImage(
+                            image='phase_9/maps/Cog_Information/laff_gui_toonTasks_icon_anyCog.png',
+                            scale=(IMAGE_SCALE_SMALL2, IMAGE_SCALE_SMALL2, IMAGE_SCALE_SMALL2),
+                            parent=hidden,
+                            pos=(-0.0, 0.5, 0.00))
+                        rIconGeom.setTransparency(TransparencyAttrib.MAlpha)
+                        rIconGeomScale = 0.07
                     else:
-                        rIconGeom = self.createSuitHead(holder)
+                        rIconGeom = OnscreenImage(
+                            image='phase_9/maps/Cog_Information/laff_gui_toonTasks_icon_' + holder + '.png',
+                            pos=(-0.0, 0.5, 0.00),
+                            scale=(IMAGE_SCALE_SMALL2 + 0.02, IMAGE_SCALE_SMALL2, IMAGE_SCALE_SMALL2), parent=hidden)
+                        rIconGeom.setTransparency(TransparencyAttrib.MAlpha)
+                        rIconGeomScale = 0.07
                     lPos.setX(-0.18)
                     auxText = TTLocalizer.QuestPosterAuxFrom
                 infoText = string.capwords(quest.getLocationName())
@@ -796,12 +807,18 @@ class QuestPoster(DirectFrame):
                 cogIcons.removeNode()
             elif quest.getType() == Quests.CogQuest:
                 if quest.getCogType() != Quests.Any:
-                    lIconGeom = self.createSuitHead(quest.getCogType())
-                    lIconGeomScale = IMAGE_SCALE_SMALL
+                    lIconGeom = OnscreenImage(image='phase_9/maps/Cog_Information/laff_gui_toonTasks_icon_' + quest.getCogType() + '.png', pos=(-0.0, 0.5, 0.00), scale=(IMAGE_SCALE_SMALL2 + 0.02, IMAGE_SCALE_SMALL2, IMAGE_SCALE_SMALL2), parent=hidden)
+                    lIconGeom.setTransparency(TransparencyAttrib.MAlpha)
+                    lIconGeomScale = 0.07
                 else:
                     cogIcons = loader.loadModel('phase_3/models/gui/cog_icons')
-                    lIconGeom = cogIcons.find('**/cog')
-                    lIconGeomScale = IMAGE_SCALE_SMALL
+                    lIconGeom = OnscreenImage(
+                        image='phase_9/maps/Cog_Information/laff_gui_toonTasks_icon_anyCog.png',
+                        scale=(IMAGE_SCALE_SMALL2, IMAGE_SCALE_SMALL2, IMAGE_SCALE_SMALL2),
+                        parent=hidden,
+                        pos=(-0.0, 0.5, 0.00))
+                    lIconGeom.setTransparency(TransparencyAttrib.MAlpha)
+                    lIconGeomScale = 0.07
                     cogIcons.removeNode()
             elif quest.getType() == Quests.CogLevelQuest:
                 cogIcons = loader.loadModel('phase_3/models/gui/cog_icons')
