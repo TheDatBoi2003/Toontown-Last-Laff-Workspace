@@ -804,9 +804,7 @@ class DistributedBattleBase(DistributedNode.DistributedNode, BattleBase):
         spotIndex = len(self.pendingSuits) + len(self.joiningSuits)
         self.joiningSuits.append(suit)
         suit.setState('Battle')
-        openSpot = self.suitPendingPoints[spotIndex]
-        pos = openSpot[0]
-        hpr = VBase3(openSpot[1], 0.0, 0.0)
+        pos, hpr = self.getActorPosHpr(suit, self.suits)
         trackName = self.taskName('to-pending-suit-%d' % suit.doId)
         track = self.__createJoinInterval(suit, pos, hpr, trackName, ts, self.__handleSuitJoinDone)
         track.start(ts)
@@ -1262,7 +1260,6 @@ class DistributedBattleBase(DistributedNode.DistributedNode, BattleBase):
             camera.reparentTo(render)
             camera.setPosHpr(localAvatar, 5.2, 5.45, localAvatar.getHeight() * 0.66, 131.5, 3.6, 0)
         else:
-            camera.wrtReparentTo(base.localAvatar)
             messenger.send('localToonLeftBattle')
         base.camLens.setMinFov(ToontownGlobals.DefaultCameraFov / (4. / 3.))
         return

@@ -2,7 +2,7 @@ from otp.avatar import Avatar
 from otp.avatar.Avatar import teleportNotify
 import ToonDNA
 from direct.task.Task import Task
-from toontown.suit import SuitDNA, Suit
+from toontown.suit import SuitDNA
 from direct.actor import Actor
 import string
 from ToonHead import *
@@ -474,6 +474,7 @@ class Toon(Avatar.Avatar, ToonHead):
         ToonHead.__init__(self)
         self.forwardSpeed = 0.0
         self.rotateSpeed = 0.0
+        self.strafeSpeed = 0.0
         self.avatarType = 'toon'
         self.motion = Motion.Motion(self)
         self.standWalkRunReverse = None
@@ -492,6 +493,7 @@ class Toon(Avatar.Avatar, ToonHead):
         self.forceJumpIdle = False
         self.numPies = 0
         self.pieType = 0
+        self.setBlend(frameBlend=True)
         self.pieModel = None
         self.__pieModelType = None
         self.pieScale = 1.0
@@ -647,6 +649,7 @@ class Toon(Avatar.Avatar, ToonHead):
             self.generateToon()
             self.initializeDropShadow()
             self.initializeNametag3d()
+            self.setBlend(frameBlend=True)
 
     def parentToonParts(self):
         if self.hasLOD():
@@ -698,7 +701,6 @@ class Toon(Avatar.Avatar, ToonHead):
         self.rescaleToon()
         self.resetHeight()
         self.setupToonNodes()
-        self.setBlend(frameBlend=base.settings.getBool('game', 'interpolate-animations', False))
 
     def setupToonNodes(self):
         rightHand = NodePath('rightHand')
@@ -750,7 +752,6 @@ class Toon(Avatar.Avatar, ToonHead):
         for bookActor, hand in zip(self.__bookActors, hands):
             bookActor.reparentTo(hand)
             bookActor.hide()
-            bookActor.setBlend(frameBlend=base.settings.getBool('game', 'interpolate-animations', False))
 
         return self.__bookActors
 
@@ -767,7 +768,6 @@ class Toon(Avatar.Avatar, ToonHead):
             else:
                 holeName = 'toon-portal'
             ha.setName(holeName)
-            ha.setBlend(frameBlend=base.settings.getBool('game', 'interpolate-animations', False))
 
         return self.__holeActors
 
@@ -832,7 +832,6 @@ class Toon(Avatar.Avatar, ToonHead):
         del self.shadowJoint
         self.initializeDropShadow()
         self.initializeNametag3d()
-        self.setBlend(frameBlend=base.settings.getBool('game', 'interpolate-animations', False))
 
     def generateToonTorso(self, copy = 1, genClothes = 1):
         torsoStyle = self.style.torso
@@ -870,7 +869,6 @@ class Toon(Avatar.Avatar, ToonHead):
         self.resetHeight()
         self.setupToonNodes()
         self.generateBackpack()
-        self.setBlend(frameBlend=base.settings.getBool('game', 'interpolate-animations', False))
 
     def generateToonHead(self, copy = 1):
         headHeight = ToonHead.generateToonHead(self, copy, self.style, ('1000', '500', '250'))
@@ -894,7 +892,6 @@ class Toon(Avatar.Avatar, ToonHead):
         self.resetHeight()
         self.eyelids.request('open')
         self.startLookAround()
-        self.setBlend(frameBlend=base.settings.getBool('game', 'interpolate-animations', False))
 
     def generateToonColor(self):
         ToonHead.generateToonColor(self, self.style)
@@ -1363,10 +1360,16 @@ class Toon(Avatar.Avatar, ToonHead):
             self.jar.removeNode()
             self.jar = None
         return
+    
+    def setGeomNodeH(self, h):
+        self.getGeomNode().setH(h)
+        if self.isDisguised:
+            self.suit.getGeomNode().setH(h)
 
-    def setSpeed(self, forwardSpeed, rotateSpeed):
+    def setSpeed(self, forwardSpeed, rotateSpeed, strafeSpeed):
         self.forwardSpeed = forwardSpeed
         self.rotateSpeed = rotateSpeed
+        self.strafeSpeed = strafeSpeed
         action = None
         if self.standWalkRunReverse != None:
             if forwardSpeed >= ToontownGlobals.RunCutOff:
@@ -1377,11 +1380,30 @@ class Toon(Avatar.Avatar, ToonHead):
                 action = OTPGlobals.REVERSE_INDEX
             elif rotateSpeed != 0.0:
                 action = OTPGlobals.WALK_INDEX
+            elif strafeSpeed < -8:
+                action = OTPGlobals.STRAFE_LEFT_INDEX
+            elif strafeSpeed > 8:
+                action = OTPGlobals.STRAFE_RIGHT_INDEX
             else:
                 action = OTPGlobals.STAND_INDEX
             anim, rate = self.standWalkRunReverse[action]
             self.motion.enter()
             self.motion.setState(anim, rate)
+
+            if action == OTPGlobals.STRAFE_LEFT_INDEX:
+                self.setGeomNodeH(90)
+            elif action == OTPGlobals.STRAFE_RIGHT_INDEX:
+                self.setGeomNodeH(-90)
+            elif action == OTPGlobals.RUN_INDEX:
+                if strafeSpeed < -8:
+                    self.setGeomNodeH(45)
+                elif strafeSpeed > 8:
+                    self.setGeomNodeH(-45)
+                else:
+                    self.setGeomNodeH(0)
+            else:
+                self.setGeomNodeH(0)
+
             if anim != self.playingAnim:
                 self.playingAnim = anim
                 self.playingRate = rate
@@ -1390,7 +1412,7 @@ class Toon(Avatar.Avatar, ToonHead):
                 self.setPlayRate(rate, anim)
                 if self.isDisguised:
                     rightHand = self.suit.rightHand
-                    numChildren = rightHand.getNumChildren()
+                    numChildren = 0
                     if numChildren > 0:
                         anim = 'tray-' + anim
                         if anim == 'tray-run':
@@ -1447,11 +1469,16 @@ class Toon(Avatar.Avatar, ToonHead):
     def enterHappy(self, animMultiplier = 1, ts = 0, callback = None, extraArgs = []):
         self.playingAnim = None
         self.playingRate = None
-        self.standWalkRunReverse = (('neutral', 1.0),
-         ('walk', 1.0),
-         ('run', 1.0),
-         ('walk', -1.0))
-        self.setSpeed(self.forwardSpeed, self.rotateSpeed)
+        self.standWalkRunReverse = (
+            ('neutral', 1.0),
+            ('walk', 1.0),
+            ('run', 1.0),
+            ('walk', -1.0),
+            ('run', 1.0),
+            ('run', 1.0),
+            ('run', 1.25)
+            )
+        self.setSpeed(self.forwardSpeed, self.rotateSpeed, self.strafeSpeed)
         self.setActiveShadow(1)
         return
 
@@ -1464,11 +1491,16 @@ class Toon(Avatar.Avatar, ToonHead):
     def enterSad(self, animMultiplier = 1, ts = 0, callback = None, extraArgs = []):
         self.playingAnim = 'sad'
         self.playingRate = None
-        self.standWalkRunReverse = (('sad-neutral', 1.0),
-         ('sad-walk', 1.2),
-         ('sad-walk', 1.2),
-         ('sad-walk', -1.0))
-        self.setSpeed(0, 0)
+        self.standWalkRunReverse = (
+            ('sad-neutral', 1.0),
+            ('sad-walk', 1.2),
+            ('sad-walk', 1.2),
+            ("sad-walk", -1.0),
+            ('sad-walk', 1.0),
+            ('sad-walk', 1.0),
+            ('sad-walk', 1.0)
+        )
+        self.setSpeed(0, 0, 0)
         Emote.globalEmote.disableBody(self, 'toon, enterSad')
         self.setActiveShadow(1)
         if self.isLocal():
@@ -1490,8 +1522,11 @@ class Toon(Avatar.Avatar, ToonHead):
         self.standWalkRunReverse = (('catch-neutral', 1.0),
          ('catch-run', 1.0),
          ('catch-run', 1.0),
-         ('catch-run', -1.0))
-        self.setSpeed(self.forwardSpeed, self.rotateSpeed)
+         ("catch-run", -1.0),
+            ('run', 1.0),
+            ('run', 1.0),
+            ('run', 1.25))
+        self.setSpeed(self.forwardSpeed, self.rotateSpeed, self.strafeSpeed)
         self.setActiveShadow(1)
         return
 
@@ -1507,8 +1542,11 @@ class Toon(Avatar.Avatar, ToonHead):
         self.standWalkRunReverse = (('catch-eatneutral', 1.0),
          ('catch-eatnrun', 1.0),
          ('catch-eatnrun', 1.0),
-         ('catch-eatnrun', -1.0))
-        self.setSpeed(self.forwardSpeed, self.rotateSpeed)
+         ("catch-eatnrun", -1.0),
+            ('catch-eatnrun', 1.0),
+            ('catch-eatnrun', 1.0),
+            ('catch-eatnrun', 1.0))
+        self.setSpeed(self.forwardSpeed, self.rotateSpeed, self.strafeSpeed)
         self.setActiveShadow(0)
         return
 
@@ -1781,7 +1819,6 @@ class Toon(Avatar.Avatar, ToonHead):
         def showHoles(holes, hands):
             for hole, hand in zip(holes, hands):
                 hole.reparentTo(hand)
-                hole.setBlend(frameBlend=False)
 
         def reparentHoles(holes, toon):
             holes[0].reparentTo(toon)
@@ -1790,8 +1827,6 @@ class Toon(Avatar.Avatar, ToonHead):
             holes[0].setBin('shadow', 0)
             holes[0].setDepthTest(0)
             holes[0].setDepthWrite(0)
-            for hole in holes:
-                hole.setBlend(frameBlend=base.settings.getBool('game', 'interpolate-animations', False))
 
         def cleanupHoles(holes):
             holes[0].detachNode()
@@ -2095,8 +2130,11 @@ class Toon(Avatar.Avatar, ToonHead):
         self.standWalkRunReverse = (('neutral', 1.0),
          ('walk', 1.0),
          ('run', 1.0),
-         ('walk', -1.0))
-        self.setSpeed(self.forwardSpeed, self.rotateSpeed)
+         ("walk", -1.0),
+            ('run', 1.0),
+            ('run', 1.0),
+            ('run', 1.25))
+        self.setSpeed(self.forwardSpeed, self.rotateSpeed, self.strafeSpeed)
         if self.isLocal() and emoteIndex != Emote.globalEmote.EmoteSleepIndex:
             if self.sleepFlag:
                 self.b_setAnimState('Happy', self.animMultiplier)
@@ -2726,11 +2764,12 @@ class Toon(Avatar.Avatar, ToonHead):
             return Sequence(Func(self.nametag3d.show), self.__doToonGhostColorScale(None, lerpTime, keepDefault=1))
         return Sequence()
 
-    def putOnSuit(self, suitType, setDisplayName=True, rental=False):
+    def putOnSuit(self, suitType, setDisplayName = True, rental = False):
         if self.isDisguised:
             self.takeOffSuit()
         if launcher and not launcher.getPhaseComplete(5):
             return
+        from toontown.suit import Suit
         deptIndex = suitType
         suit = Suit.Suit()
         dna = SuitDNA.SuitDNA()
@@ -2753,8 +2792,17 @@ class Toon(Avatar.Avatar, ToonHead):
         suit.initializeDropShadow()
         suit.setPos(self.getPos())
         suit.setHpr(self.getHpr())
+        suitHeadNull = suit.find('**/joint_head')
+        toonHead = self.getPart('head', '1000')
+        Emote.globalEmote.disableAll(self)
         toonGeom = self.getGeomNode()
         toonGeom.hide()
+        worldScale = toonHead.getScale(render)
+        self.headOrigScale = toonHead.getScale()
+        headPosNode = hidden.attachNewNode('headPos')
+        toonHead.reparentTo(headPosNode)
+        toonHead.setPos(0, 0, 0.2)
+        headPosNode.setScale(render, worldScale)
         suitGeom = suit.getGeomNode()
         suitGeom.reparentTo(self)
         if rental == True:
@@ -2791,9 +2839,10 @@ class Toon(Avatar.Avatar, ToonHead):
             suitDept = SuitDNA.suitDepts.index(SuitDNA.getSuitDept(suitType))
             suitName = SuitBattleGlobals.SuitAttributes[suitType]['name']
             self.nametag.setDisplayName(TTLocalizer.SuitBaseNameWithLevel % {'name': name,
-                                                                             'dept': suitName,
-                                                                             'level': self.cogLevels[suitDept] + 1})
+             'dept': suitName,
+             'level': self.cogLevels[suitDept] + 1})
             self.nametag.setNameWordwrap(9.0)
+        self.suit.setBlend(frameBlend=True)
 
     def takeOffSuit(self):
         if not self.isDisguised:
@@ -2804,7 +2853,9 @@ class Toon(Avatar.Avatar, ToonHead):
             toonHeadNull = self.find('**/1000/**/joint_head')
         toonHead = self.getPart('head', '1000')
         toonHead.reparentTo(toonHeadNull)
+        toonHead.setScale(self.headOrigScale)
         toonHead.setPos(0, 0, 0)
+        headPosNode = self.suitGeom.find('**/headPos')
         self.suitGeom.reparentTo(self.suit)
         self.resetHeight()
         self.nametag3d.setPos(0, 0, self.height + 0.5)
@@ -2993,8 +3044,11 @@ class Toon(Avatar.Avatar, ToonHead):
         self.standWalkRunReverse = (('neutral', 1.0),
          ('run', 1.0),
          ('run', 1.0),
-         ('run', -1.0))
-        self.setSpeed(self.forwardSpeed, self.rotateSpeed)
+         ('run', -1.0),
+            ('run', 1.0),
+            ('run', 1.0),
+            ('run', 1.25))
+        self.setSpeed(self.forwardSpeed, self.rotateSpeed, self.strafeSpeed)
         self.setActiveShadow(1)
         return
 

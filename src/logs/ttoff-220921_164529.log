@@ -86,7 +86,7 @@ Traceback (most recent call last):
   File "toontown\toon\Toon.py", line 697, in generateToon
     self.parentToonParts()
   File "toontown\toon\Toon.py", line 655, in parentToonParts
-    if not self.getPart('torso', 1000).find('**/def_head').isEmpty():
+    if not self.getPart('torso', 1000).find('**/to_head').isEmpty():
 AttributeError: 'NoneType' object has no attribute 'find'
 :09-21-2022 16:45:34 :task(error): Exception occurred in PythonTask readerPollTask-89355392
 :09-21-2022 16:45:34 TTOffLauncher: setting panda error code to 12
@@ -127,5 +127,5 @@ Traceback (most recent call last):
   File "toontown\toon\Toon.py", line 697, in generateToon
     self.parentToonParts()
   File "toontown\toon\Toon.py", line 655, in parentToonParts
-    if not self.getPart('torso', 1000).find('**/def_head').isEmpty():
+    if not self.getPart('torso', 1000).find('**/to_head').isEmpty():
 AttributeError: 'NoneType' object has no attribute 'find'

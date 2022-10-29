@@ -81,6 +81,7 @@ class TutorialFSM(FSM):
         self.suit = DistributedTutorialSuitAI(self.air)
         self.suit.generateWithRequired(self.zones.STREET)
         self.building.door0.setDoorLock(FADoorCodes.DEFEAT_FLUNKY_TOM)
+        self.building.enterSuit()
         self.hq.door0.setDoorLock(FADoorCodes.DEFEAT_FLUNKY_HQ)
 
     def exitBattle(self):

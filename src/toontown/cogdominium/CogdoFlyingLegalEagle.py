@@ -57,7 +57,7 @@ class CogdoFlyingLegalEagle(DirectObject, FSM):
         self.suit.stash()
         self.prop = None
         self.attachPropeller()
-        head = self.suit.find('**/joint_head')
+        head = self.suit.find('**/to_head')
         self.interestConeOrigin = self.nest.attachNewNode('fakeHeadNodePath')
         self.interestConeOrigin.setPos(render, head.getPos(render) + Vec3(0, Globals.LegalEagle.InterestConeOffset, 0))
         self.attackTargetPos = None
@@ -75,7 +75,7 @@ class CogdoFlyingLegalEagle(DirectObject, FSM):
     def attachPropeller(self):
         if self.prop == None:
             self.prop = BattleProps.globalPropPool.getProp('propeller')
-            head = self.suit.find('**/joint_head')
+            head = self.suit.find('**/to_head')
             self.prop.reparentTo(head)
         return
 

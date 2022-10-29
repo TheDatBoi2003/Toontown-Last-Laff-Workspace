@@ -1,0 +1,233 @@
+
+
+Starting Toontown Online...
+Current time: Fri Oct 28 23:29:39 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'COMPUTERNAME': 'PHILIP-JR', 'USERDOMAIN': 'PHILIP-JR', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'PSMODULEPATH': 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'DOKANLIBRARY1': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\', 'ADSK_3DSMAX_X64_2021': 'C:\\Program Files\\Autodesk\\3ds Max 2021\\', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 45 Stepping 7, GenuineIntel', 'VBOX_MSI_INSTALL_PATH': 'C:\\Program Files\\Oracle\\VirtualBox\\', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '2d07', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Animation Paper\\gstreamer\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Philip\\anaconda3;C:\\Users\\Philip\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Philip\\anaconda3\\Library\\usr\\bin;C:\\Users\\Philip\\anaconda3\\Library\\bin;C:\\Users\\Philip\\anaconda3\\Scripts;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Panda3D-1.10.02\\python;C:\\Panda3D-1.10.02\\python\\Scripts;C:\\Panda3D-1.10.02\\bin;C:\\Panda3D-1.11.0-x64-py2\\python;C:\\Panda3D-1.11.0-x64-py2\\python\\Scripts;C:\\Panda3D-1.11.0-x64-py2\\bin;C:\\Users\\Philip\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0-x64\\python;C:\\Panda3D-1.10.0-x64\\python\\Scripts;C:\\Panda3D-1.10.0-x64\\bin;C:\\Users\\Philip\\AppData\\Local\\atom\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Panda3D-1.11.0-x64-astron\\python;C:\\Panda3D-1.11.0-x64-astron\\python\\Scripts;C:\\Panda3D-1.11.0-x64-astron\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\Panda3D-1.10.9-x64\\python;C:\\Panda3D-1.10.9-x64\\python\\Scrip;C:\\Users\\Philip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Philip\\.dotnet\\tools;%C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\rc.exe%;%C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE%;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'SYSTEMROOT': 'C:\\WINDOWS', 'NUMBER_OF_PROCESSORS': '8', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'KMP_BLOCKTIME': '0', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'DOKANLIBRARY1_LIBRARYPATH_X64': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\lib\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\Philip\\AppData\\Local', 'HOMEPATH': '\\Users\\Philip', 'USERDOMAIN_ROAMINGPROFILE': 'PHILIP-JR', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'Philip', 'FP_NO_HOST_CHECK': 'NO', 'DOKANLIBRARY1_LIBRARYPATH_X86': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\x86\\lib\\', 'LOGONSERVER': '\\\\MicrosoftAccount', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'TTOFF_LOGIN_TOKEN': 'dev', 'VS160COMCOMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'WINDIR': 'C:\\WINDOWS', 'OMP_WAIT_POLICY': 'PASSIVE', 'MONGO': 'C:\\mongodb-win32-x86_64-windows-4.4.4/bin', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'APPDATA': 'C:\\Users\\Philip\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'CIOENGINE': 'C:\\cio-panda3d', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\Philip'}
+:10-28-2022 23:29:39 TTOffLauncher: isTestServer: 0
+:10-28-2022 23:29:39 TTOffLauncher: Game Server 127.0.0.1
+:10-28-2022 23:29:39 TTOffLauncher: Starting Toontown Online... 
+:10-28-2022 23:29:39 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:10-28-2022 23:29:39 TTOffLauncher: maybeStartGame: starting game
+:10-28-2022 23:29:39 TTOffLauncher: Starting Toontown Online...
+:10-28-2022 23:29:39 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:10-28-2022 23:29:39 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:10-28-2022 23:29:40 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:10-28-2022 23:29:40 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:10-28-2022 23:29:40 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:10-28-2022 23:29:40 ShowBase: __dev__ == False
+:10-28-2022 23:29:40 TTOffLauncher: setting panda error code to 11
+:10-28-2022 23:29:41 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:10-28-2022 23:29:41 Loader: starting bulk load of block 'init'
+:10-28-2022 23:29:42 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:10-28-2022 23:29:42 OTPClientRepository: Using connect method 'http'
+:10-28-2022 23:29:42 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:10-28-2022 23:29:42 TTOffLauncher: checking env
+:10-28-2022 23:29:42 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:10-28-2022 23:29:42 TTOffLauncher: checking env
+:10-28-2022 23:29:42 OTPClientRepository: reg_deployment=
+:10-28-2022 23:29:42 OTPClientRepository: required-login auto.
+:10-28-2022 23:29:42 OTPClientRepository: loginInterface: LoginTTOffAccount
+:10-28-2022 23:29:42 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:10-28-2022 23:29:43 Loader: At end of block 'init', expected 138, loaded 9, duration=1.92264141712
+:10-28-2022 23:29:43 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:10-28-2022 23:29:43 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:10-28-2022 23:29:43 TTOffLauncher: Stopping mini task manager.
+:10-28-2022 23:29:43 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:10-28-2022 23:29:43 TTOffLauncher: Setting Disconnect Details normal
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0000000017FEA848>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0000000017FEAA08>}
+:10-28-2022 23:29:45 StateData: AvatarChooser.enter
+:10-28-2022 23:29:45 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:10-28-2022 23:29:45 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:10-28-2022 23:29:46 OTPClientRepository: ================
+:10-28-2022 23:29:46 OTPClientRepository: Chose avatar id: 100000001
+:10-28-2022 23:29:46 OTPClientRepository: Chose avatar name: Wittybumble
+:10-28-2022 23:29:46 OTPClientRepository: Chose avatar dna: ('dss', 'ms', 'm', 'm', 6, 0, 6, 6, 1, 9, 1, 9, 1, 18)
+:10-28-2022 23:29:46 OTPClientRepository: Chose avatar position: 1
+:10-28-2022 23:29:46 OTPClientRepository: isPaid: 1
+:10-28-2022 23:29:46 OTPClientRepository: freeTimeLeft: 0
+:10-28-2022 23:29:46 OTPClientRepository: allowSecretChat: True
+:10-28-2022 23:29:46 OTPClientRepository: ================
+:10-28-2022 23:29:46 Loader: starting bulk load of block 'localAvatarPlayGame'
+:10-28-2022 23:29:47 ToontownTimeManager(warning): error parsing date string=
+:10-28-2022 23:29:47 Actor(warning): no part named head-front*!
+local
+:10-28-2022 23:29:47 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:10-28-2022 23:29:48 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:10-28-2022 23:29:50 Actor(warning): no part named head-front*!
+:10-28-2022 23:29:50 OTPClientRepository: Entering shard 401000001
+:10-28-2022 23:29:50 StreetSign: Street sign url is https://ttoffline.com/images/
+:10-28-2022 23:29:52 TimeManager: Clock sync: TimeManager.announceGenerate
+:10-28-2022 23:29:52 NewsManager: setHolidayId: Starting Holiday 26
+:10-28-2022 23:29:52 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|        Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz|132823|0|3.601,3.601|4,8 cpus
+:10-28-2022 23:29:53 OTPClientRepository: No sync from TimeManager.
+:10-28-2022 23:29:53 OTPClientRepository: gotTimeSync
+:10-28-2022 23:29:53 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 24, duration=6.49880590324
+:10-28-2022 23:29:53 OTPClientRepository: Sending heartbeat mid-frame.
+:10-28-2022 23:29:53 TimeManager: Clock sync roundtrip took 1233.274 ms
+:10-28-2022 23:29:53 TimeManager: AI time delta is -0:01 from server delta
+:10-28-2022 23:29:53 TimeManager: Local clock uncertainty +/- 0.617 s
+:10-28-2022 23:29:53 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:10-28-2022 23:29:53 Loader: starting bulk load of block 'hood'
+:10-28-2022 23:29:54 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:29:54 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:29:54 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:29:54 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:29:54 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:29:54 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:29:54 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:29:54 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:29:54 SellbotCogHQLoader: loadPlaceGeom: 11000
+:10-28-2022 23:29:54 DistributedObject: DistributedSuitPlanner 401003322: generating
+:10-28-2022 23:29:54 DistributedToon: calling LocalAvatar.startchat
+:10-28-2022 23:29:54 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-28-2022 23:29:54 Loader: At end of block 'hood', expected 43, loaded 7, duration=1.67800575032
+:10-28-2022 23:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-28-2022 23:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-28-2022 23:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:10-28-2022 23:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-28-2022 23:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:10-28-2022 23:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:10-28-2022 23:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:10-28-2022 23:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:10-28-2022 23:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:10-28-2022 23:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:29:56 Teleport(debug): teleportInDone: walk
+:10-28-2022 23:29:56 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-28-2022 23:29:56 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-28-2022 23:30:13 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-28-2022 23:30:13 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:30:13 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-28-2022 23:30:27 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-28-2022 23:30:27 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:30:28 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-28-2022 23:30:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-28-2022 23:30:33 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:30:45 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:10-28-2022 23:30:45 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:30:57 ToonBase: User closed main window.
+:10-28-2022 23:30:57 TimeManager: Client disconnect reason 2.
+:10-28-2022 23:30:57 DistributedObject: DistributedSuitPlanner 401003322: disabling
+:10-28-2022 23:30:57 SellbotHQExterior: Unloading Place (11000). Fsm in final
+:10-28-2022 23:30:57 OTPClientRepository(warning): unclean exit, abandoning shard
+ignoring InputState-forward
+:10-28-2022 23:30:57 OTPClientRepository: sending clientLogout
+Assertion failed: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 49, in eventLoopTask
+    self.doEvents()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 43, in doEvents
+    processFunc(dequeueFunc())
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 99, in processEvent
+    messenger.send(eventName, paramList)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Messenger.py", line 333, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Messenger.py", line 418, in __dispatch
+    result = method (*(extraArgs + sentArgs))
+  File "toontown\toonbase\ToonBase.py", line 187, in windowEvent
+    OTPBase.OTPBase.windowEvent(self, win)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 2791, in windowEvent
+    self.userExit()
+  File "toontown\toonbase\ToonBase.py", line 422, in userExit
+    self.cr.loginFSM.request('shutdown')
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 227, in __transition
+    self.__exitCurrent(exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 185, in __exitCurrent
+    self.__currentState.exit(argList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\State.py", line 213, in exit
+    self.__exitFunc(*argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 430, in exitPlayingGame
+    base.localAvatar.deleteOrDelay()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 201, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 204, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 230, in disableAndAnnounce
+    self.disable()
+  File "toontown\toon\LocalToon.py", line 256, in disable
+    self.book.unload()
+  File "toontown\shtiker\ShtikerBook.py", line 150, in unload
+    page.unload()
+  File "toontown\shtiker\SuitPage.py", line 240, in unload
+    shadow.removeNode()
+AssertionError: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx
+:10-28-2022 23:30:57 :task(error): Exception occurred in PythonTask eventManager
+:10-28-2022 23:30:57 TTOffLauncher: setting panda error code to 12
+:10-28-2022 23:30:57 TTOffLauncher(warning): Handling Python exception.
+:10-28-2022 23:30:57 OTPClientRepository: Sent disconnect message to server
+:10-28-2022 23:30:57 OTPClientRepository: Closing connection to server.
+:10-28-2022 23:30:57 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 49, in eventLoopTask
+    self.doEvents()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 43, in doEvents
+    processFunc(dequeueFunc())
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 99, in processEvent
+    messenger.send(eventName, paramList)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Messenger.py", line 333, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Messenger.py", line 418, in __dispatch
+    result = method (*(extraArgs + sentArgs))
+  File "toontown\toonbase\ToonBase.py", line 187, in windowEvent
+    OTPBase.OTPBase.windowEvent(self, win)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 2791, in windowEvent
+    self.userExit()
+  File "toontown\toonbase\ToonBase.py", line 422, in userExit
+    self.cr.loginFSM.request('shutdown')
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 227, in __transition
+    self.__exitCurrent(exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 185, in __exitCurrent
+    self.__currentState.exit(argList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\State.py", line 213, in exit
+    self.__exitFunc(*argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 430, in exitPlayingGame
+    base.localAvatar.deleteOrDelay()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 201, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 204, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 230, in disableAndAnnounce
+    self.disable()
+  File "toontown\toon\LocalToon.py", line 256, in disable
+    self.book.unload()
+  File "toontown\shtiker\ShtikerBook.py", line 150, in unload
+    page.unload()
+  File "toontown\shtiker\SuitPage.py", line 240, in unload
+    shadow.removeNode()
+AssertionError: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx

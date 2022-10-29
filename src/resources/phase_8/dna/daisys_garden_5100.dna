@@ -9402,8 +9402,8 @@ group "daisysGarden" [
     color [ 1 1 1 1 ]
    ]
   ]
-  prop "linktunnel_sellhq_11600_DNARoot" [
-   code [ "prop_cog_tunnel" ]
+  prop "Sellbot_Apollo" [
+   code [ "prop_laff_ara_bldg_sellbotTheater" ]
    pos [ 528.742 308.251 0 ]
    nhpr [ -180 0 0 ]
   ]

@@ -414,7 +414,7 @@ class DistributedSuitPlannerAI(DistributedObjectAI.DistributedObjectAI, SuitPlan
             newSuit.setSkeleRevives(revives)
         newSuit.generateWithRequired(newSuit.zoneId)
         newSuit.moveToNextLeg(None)
-        if self.zoneId == 11600:
+        if self.zoneId in (11000, 11200, 11600):
             newSuit.b_setSkelecog(random.choice([0, 0, 1]))
         self.suitList.append(newSuit)
         if skelecog:

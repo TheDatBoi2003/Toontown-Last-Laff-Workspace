@@ -342,7 +342,7 @@ class DistributedBossbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
                 info = self.notDeadList[i]
                 suitType = info[2] - 4
                 suitLevel = info[2] + 2
-                suit = self.__genSuitObject(self.zoneId, suitType, 'c', suitLevel, None, 0)
+                suit = self.__genSuitObject(self.zoneId, suitType, random.choice(['c', 'l', 'm', 's']), suitLevel, None, 0)
             diners.append((suit, 100))
 
         active = []
@@ -373,7 +373,7 @@ class DistributedBossbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
         if suitName:
             dna.newSuit(suitName)
         else:
-            dna.newSuitRandom(suitType, 'c')
+            dna.newSuitRandom(suitType, bldgTrack)
         suit.dna = dna
         self.notify.debug('Creating suit type ' + suit.dna.name + ' of level ' + str(suitLevel) + ' from type ' + str(suitType) + ' and track ' + str(bldgTrack))
         suit.setLevel(suitLevel)

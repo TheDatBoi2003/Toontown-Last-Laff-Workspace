@@ -15,6 +15,15 @@ from toontown.toonbase import ToontownBattleGlobals
 from toontown.coghq import DistributedStage
 from toontown.building import Elevator
 
+daOffice2Music = {ToontownGlobals.LawbotStageIntA: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_a.ogg',
+                  ToontownGlobals.LawbotStageIntB: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_b.ogg',
+                  ToontownGlobals.LawbotStageIntC: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_c.ogg',
+                  ToontownGlobals.LawbotStageIntD: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_d.ogg'}
+
+daOffice2MusicBattle = 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg'
+
+daOffice2MusicBattleBoss = 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr_boss.ogg'
+
 class StageInterior(BattlePlace.BattlePlace):
     notify = DirectNotifyGlobal.directNotify.newCategory('StageInterior')
 
@@ -69,7 +78,8 @@ class StageInterior(BattlePlace.BattlePlace):
     def load(self):
         self.parentFSM.getStateNamed('stageInterior').addChild(self.fsm)
         BattlePlace.BattlePlace.load(self)
-        self.music = base.loader.loadMusic('phase_9/audio/bgm/CHQ_FACT_bg.ogg')
+        self.music = base.loader.loadMusic(daOffice2Music[self.zoneId])
+        self.battleMusic = base.loader.loadMusic(daOffice2MusicBattle)
 
     def unload(self):
         self.parentFSM.getStateNamed('stageInterior').removeChild(self.fsm)

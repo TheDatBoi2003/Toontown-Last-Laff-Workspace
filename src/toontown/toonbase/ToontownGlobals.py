@@ -263,9 +263,9 @@ MintCogBuckRewards = {CashbotMintIntA: 8,
 MintNumRooms = {CashbotMintIntA: 2 * (6,) + 5 * (7,) + 5 * (8,) + 5 * (9,) + 3 * (10,),
  CashbotMintIntB: 3 * (8,) + 6 * (9,) + 6 * (10,) + 5 * (11,),
  CashbotMintIntC: 4 * (10,) + 10 * (11,) + 6 * (12,)}
-BossbotCountryClubCogLevel = 11
-BossbotCountryClubSkelecogLevel = 12
-BossbotCountryClubBossLevel = 12
+BossbotCountryClubCogLevel = 12
+BossbotCountryClubSkelecogLevel = 13
+BossbotCountryClubBossLevel = 14
 CountryClubNumRooms = {BossbotCountryClubIntA: (4,),
  BossbotCountryClubIntB: 3 * (8,) + 6 * (9,) + 6 * (10,) + 5 * (11,),
  BossbotCountryClubIntC: 4 * (10,) + 10 * (11,) + 6 * (12,)}

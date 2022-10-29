@@ -191,7 +191,7 @@ class DistributedBanquetTable(DistributedObject.DistributedObject, FSM.FSM, Banq
         diner.dna = SuitDNA.SuitDNA()
         level = self.dinerInfo[i][2]
         level -= 4
-        diner.dna.newSuitRandom(level=level, dept='c')
+        diner.dna.newSuitRandom(level=level, dept=random.choice(['c', 'l', 'm', 's']))
         diner.setDNA(diner.dna)
         if self.useNewAnimations:
             diner.loop('sit', fromFrame=i)
@@ -220,7 +220,7 @@ class DistributedBanquetTable(DistributedObject.DistributedObject, FSM.FSM, Banq
         newLoc.setPos(0, 3.0, 1)
         self.serviceLocs[i] = newLoc
         base.serviceLoc = newLoc
-        head = diner.find('**/joint_head')
+        head = diner.find('**/to_head')
         newIndicator = DinerStatusIndicator.DinerStatusIndicator(parent=head, pos=Point3(0, 0, 3.5), scale=5.0)
         newIndicator.wrtReparentTo(diner)
         self.dinerStatusIndicators[i] = newIndicator

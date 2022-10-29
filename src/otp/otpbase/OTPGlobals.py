@@ -188,15 +188,32 @@ REVERSE_INDEX = 3
 STRAFE_LEFT_INDEX = 4
 STRAFE_RIGHT_INDEX = 5
 ToonStandableGround = 0.707
-ToonSpeedFactor = 2.0
+ToonSpeedFactor = 1.25
 ToonForwardSpeed = 16.0 * ToonSpeedFactor
 ToonJumpForce = 24.0
+
+# Clash movement
 ToonReverseSpeed = 8.0 * ToonSpeedFactor
 ToonRotateSpeed = 80.0 * ToonSpeedFactor
+ToonRotateSprintingSpeed = ToonRotateSpeed
 ToonForwardSlowSpeed = 6.0
 ToonJumpSlowForce = 4.0
 ToonReverseSlowSpeed = 2.5
 ToonRotateSlowSpeed = 33.0
+ToonForwardSprintSpeed = ToonForwardSpeed * 1.5
+ToonReverseSprintSpeed = 15.75 * ToonSpeedFactor
+ToonSprintingFovIncrease = 15
+
+# TTR Movement
+TTRToonForwardSpeed = 16.8 * ToonSpeedFactor
+TTRToonReverseSpeed = 8.4 * ToonSpeedFactor
+TTRToonForwardSprintSpeed = 20.16 * ToonSpeedFactor
+TTRToonRotateSpeed = 74.75 * ToonSpeedFactor
+TTRToonRotateSprintingSpeed = 60 * ToonSpeedFactor
+ToonDoubleTapSprintWindow = 0.40
+ToonDoubleTapFovIncrease = 5
+TTRToonReverseSprintSpeed = 15 * ToonSpeedFactor
+
 MickeySpeed = 5.0
 MinnieSpeed = 3.2
 DonaldSpeed = 3.68
@@ -301,7 +318,7 @@ NameShopPlay = 'Free Trial'
 NameShopOnlyPaid = 'Only paid users\nmay name their Toons.\nUntil you subscribe\nyour name will be\n'
 NameShopContinueSubmission = 'Continue Submission'
 NameShopChooseAnother = 'Choose Another Name'
-NameShopToonCouncil = 'The Toon Council\nwill review your\nname.  ' + 'Review may\ntake a few days.\nWhile you wait\nyour name will be\n '
+NameShopToonCouncil = 'Your name\nwill be accepted\non next login.  \n' + 'Please re-log to\nget access to\nyour new name\nafter toon creation.'
 PleaseTypeName = 'Please type your name:'
 AllNewNames = 'All new names\nmust be approved\nby the Toon Council.'
 NameShopNameRejected = 'The name you\nsubmitted has\nbeen rejected.'

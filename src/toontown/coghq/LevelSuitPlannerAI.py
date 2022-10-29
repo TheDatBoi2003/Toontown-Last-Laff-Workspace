@@ -74,16 +74,22 @@ class LevelSuitPlannerAI(DirectObject.DirectObject):
     def __genSuitObject(self, suitDict, reserve):
         suit = self.cogCtor(simbase.air, self)
         dna = SuitDNA.SuitDNA()
-        dna.newSuitRandom(level=SuitDNA.getRandomSuitTypeSuitInterior(suitDict['level']), dept=suitDict['track'])
+        try:
+            if suitDict['clerk']:
+                dna.newSuit('clk')
+            else:
+                dna.newSuitRandom(level=SuitDNA.getRandomSuitTypeSuitInterior(suitDict['level']), dept=suitDict['track'])
+        except:
+            dna.newSuitRandom(level=SuitDNA.getRandomSuitTypeSuitInterior(suitDict['level']), dept=suitDict['track'])
         suit.dna = dna
         suit.setLevel(suitDict['level'])
         suit.setSkeleRevives(suitDict.get('revives'))
         suit.setLevelDoId(self.level.doId)
         suit.setCogId(suitDict['cogId'])
         suit.setReserve(reserve)
-        if suitDict['skeleton']:
-            suit.setSkelecog(1)
         suit.generateWithRequired(suitDict['zoneId'])
+        if suitDict['skeleton']:
+            suit.b_setSkelecog(1)
         suit.boss = suitDict['boss']
         return suit
 
@@ -115,7 +121,7 @@ class LevelSuitPlannerAI(DirectObject.DirectObject):
         cellSpec = self.battleCellSpecs[cellIndex]
         pos = cellSpec['pos']
         zone = self.level.getZoneId(self.level.getEntityZoneEntId(cellSpec['parentEntId']))
-        maxSuits = 4
+        maxSuits = 8
         self.battleMgr.newBattle(cellIndex, zone, pos, suit, toonId, self.__handleRoundFinished, self.__handleBattleFinished, maxSuits)
         for otherSuit in self.battleCellId2suits[cellIndex]:
             if otherSuit is not suit:

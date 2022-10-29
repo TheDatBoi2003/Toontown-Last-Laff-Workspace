@@ -167,8 +167,9 @@ class DistributedBossbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         self.geom.reparentTo(render)
         self.promotionMusic = base.loader.loadMusic('phase_7/audio/bgm/encntr_suit_winning_indoor.ogg')
         self.betweenPhaseMusic = base.loader.loadMusic('phase_9/audio/bgm/encntr_toon_winning.ogg')
+        self.battleThreeMusic = base.loader.loadMusic('phase_12/audio/bgm/laff_ara_cashHQ_boss_round_three.ogg')
         self.phaseTwoMusic = base.loader.loadMusic('phase_12/audio/bgm/BossBot_CEO_v1.ogg')
-        self.phaseFourMusic = base.loader.loadMusic('phase_12/audio/bgm/BossBot_CEO_v2.ogg')
+        self.phaseFourMusic = base.loader.loadMusic('phase_12/audio/bgm/laff_ara_bossHQ_boss_seltzer.ogg')
         self.pickupFoodSfx = loader.loadSfx('phase_6/audio/sfx/SZ_MM_gliss.ogg')
         self.explodeSfx = loader.loadSfx('phase_4/audio/sfx/firework_distance_02.ogg')
 
@@ -597,7 +598,7 @@ class DistributedBossbotBoss(DistributedBossCog.DistributedBossCog, FSM.FSM):
         self.toonsToBattlePosition(self.toonsA, self.battleANode)
         self.toonsToBattlePosition(self.toonsB, self.battleBNode)
         self.releaseToons()
-        base.playMusic(self.battleOneMusic, looping=1, volume=0.9)
+        base.playMusic(self.battleThreeMusic, looping=1, volume=0.9)
 
     def exitBattleThree(self):
         self.cleanupBattles()

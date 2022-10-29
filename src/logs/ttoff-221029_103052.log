@@ -1,0 +1,1092 @@
+
+
+Starting Toontown Online...
+Current time: Sat Oct 29 10:30:52 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'COMPUTERNAME': 'PHILIP-JR', 'USERDOMAIN': 'PHILIP-JR', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'PSMODULEPATH': 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'DOKANLIBRARY1': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\', 'ADSK_3DSMAX_X64_2021': 'C:\\Program Files\\Autodesk\\3ds Max 2021\\', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 45 Stepping 7, GenuineIntel', 'VBOX_MSI_INSTALL_PATH': 'C:\\Program Files\\Oracle\\VirtualBox\\', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '2d07', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Animation Paper\\gstreamer\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Philip\\anaconda3;C:\\Users\\Philip\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Philip\\anaconda3\\Library\\usr\\bin;C:\\Users\\Philip\\anaconda3\\Library\\bin;C:\\Users\\Philip\\anaconda3\\Scripts;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Panda3D-1.10.02\\python;C:\\Panda3D-1.10.02\\python\\Scripts;C:\\Panda3D-1.10.02\\bin;C:\\Panda3D-1.11.0-x64-py2\\python;C:\\Panda3D-1.11.0-x64-py2\\python\\Scripts;C:\\Panda3D-1.11.0-x64-py2\\bin;C:\\Users\\Philip\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0-x64\\python;C:\\Panda3D-1.10.0-x64\\python\\Scripts;C:\\Panda3D-1.10.0-x64\\bin;C:\\Users\\Philip\\AppData\\Local\\atom\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Panda3D-1.11.0-x64-astron\\python;C:\\Panda3D-1.11.0-x64-astron\\python\\Scripts;C:\\Panda3D-1.11.0-x64-astron\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\Panda3D-1.10.9-x64\\python;C:\\Panda3D-1.10.9-x64\\python\\Scrip;C:\\Users\\Philip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Philip\\.dotnet\\tools;%C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\rc.exe%;%C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE%;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'SYSTEMROOT': 'C:\\WINDOWS', 'NUMBER_OF_PROCESSORS': '8', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'KMP_BLOCKTIME': '0', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'DOKANLIBRARY1_LIBRARYPATH_X64': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\lib\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\Philip\\AppData\\Local', 'HOMEPATH': '\\Users\\Philip', 'USERDOMAIN_ROAMINGPROFILE': 'PHILIP-JR', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'Philip', 'FP_NO_HOST_CHECK': 'NO', 'DOKANLIBRARY1_LIBRARYPATH_X86': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\x86\\lib\\', 'LOGONSERVER': '\\\\MicrosoftAccount', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'TTOFF_LOGIN_TOKEN': 'dev', 'VS160COMCOMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'WINDIR': 'C:\\WINDOWS', 'OMP_WAIT_POLICY': 'PASSIVE', 'MONGO': 'C:\\mongodb-win32-x86_64-windows-4.4.4/bin', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'APPDATA': 'C:\\Users\\Philip\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'CIOENGINE': 'C:\\cio-panda3d', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\Philip'}
+:10-29-2022 10:30:52 TTOffLauncher: isTestServer: 0
+:10-29-2022 10:30:52 TTOffLauncher: Game Server 127.0.0.1
+:10-29-2022 10:30:52 TTOffLauncher: Starting Toontown Online... 
+:10-29-2022 10:30:52 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:10-29-2022 10:30:52 TTOffLauncher: maybeStartGame: starting game
+:10-29-2022 10:30:52 TTOffLauncher: Starting Toontown Online...
+:10-29-2022 10:30:52 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:10-29-2022 10:30:52 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:10-29-2022 10:30:52 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:10-29-2022 10:30:52 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:10-29-2022 10:30:53 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:10-29-2022 10:30:53 ShowBase: __dev__ == False
+:10-29-2022 10:30:53 TTOffLauncher: setting panda error code to 11
+:10-29-2022 10:30:53 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:10-29-2022 10:30:53 Loader: starting bulk load of block 'init'
+:10-29-2022 10:30:54 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:10-29-2022 10:30:54 OTPClientRepository: Using connect method 'http'
+:10-29-2022 10:30:54 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:10-29-2022 10:30:54 TTOffLauncher: checking env
+:10-29-2022 10:30:54 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:10-29-2022 10:30:54 TTOffLauncher: checking env
+:10-29-2022 10:30:54 OTPClientRepository: reg_deployment=
+:10-29-2022 10:30:54 OTPClientRepository: required-login auto.
+:10-29-2022 10:30:54 OTPClientRepository: loginInterface: LoginTTOffAccount
+:10-29-2022 10:30:54 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:10-29-2022 10:30:54 Loader: At end of block 'init', expected 138, loaded 6, duration=1.44409533659
+:10-29-2022 10:30:54 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:10-29-2022 10:30:54 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:10-29-2022 10:30:54 TTOffLauncher: Stopping mini task manager.
+:10-29-2022 10:30:54 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:10-29-2022 10:30:54 TTOffLauncher: Setting Disconnect Details normal
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0000000018422B88>}
+:10-29-2022 10:30:56 StateData: AvatarChooser.enter
+:10-29-2022 10:30:56 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:10-29-2022 10:30:56 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:10-29-2022 10:30:58 OTPClientRepository: ================
+:10-29-2022 10:30:58 OTPClientRepository: Chose avatar id: 100000001
+:10-29-2022 10:30:58 OTPClientRepository: Chose avatar name: Wittybumble
+:10-29-2022 10:30:58 OTPClientRepository: Chose avatar dna: ('dss', 'ms', 'm', 'm', 6, 0, 6, 6, 1, 9, 1, 9, 1, 18)
+:10-29-2022 10:30:58 OTPClientRepository: Chose avatar position: 1
+:10-29-2022 10:30:58 OTPClientRepository: isPaid: 1
+:10-29-2022 10:30:58 OTPClientRepository: freeTimeLeft: 0
+:10-29-2022 10:30:58 OTPClientRepository: allowSecretChat: True
+:10-29-2022 10:30:58 OTPClientRepository: ================
+:10-29-2022 10:30:58 Loader: starting bulk load of block 'localAvatarPlayGame'
+:10-29-2022 10:30:58 ToontownTimeManager(warning): error parsing date string=
+:10-29-2022 10:30:58 Actor(warning): no part named head-front*!
+local
+:10-29-2022 10:30:59 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:10-29-2022 10:30:59 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:10-29-2022 10:31:01 Actor(warning): no part named head-front*!
+:10-29-2022 10:31:01 OTPClientRepository: Entering shard 402000001
+:10-29-2022 10:31:01 StreetSign: Street sign url is https://ttoffline.com/images/
+:10-29-2022 10:31:02 TimeManager: Clock sync: TimeManager.announceGenerate
+:10-29-2022 10:31:02 NewsManager: setHolidayId: Starting Holiday 26
+:10-29-2022 10:31:02 NewsManager: setHolidayId: Starting Holiday 20
+:10-29-2022 10:31:02 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|        Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz|132823|0|3.601,3.601|4,8 cpus
+:10-29-2022 10:31:03 OTPClientRepository: No sync from TimeManager.
+:10-29-2022 10:31:03 OTPClientRepository: gotTimeSync
+:10-29-2022 10:31:03 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 20, duration=5.65071276028
+:10-29-2022 10:31:03 TimeManager: Clock sync roundtrip took 1148.120 ms
+:10-29-2022 10:31:03 TimeManager: AI time delta is -0:01 from server delta
+:10-29-2022 10:31:03 TimeManager: Local clock uncertainty +/- 0.574 s
+:10-29-2022 10:31:03 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:10-29-2022 10:31:03 Loader: starting bulk load of block 'hood'
+:10-29-2022 10:31:04 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:04 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:04 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:04 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:04 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:04 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:04 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:04 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:04 :pnmimage:png(warning): Interlace handling should be turned on when using png_read_image
+:10-29-2022 10:31:04 OTPClientRepository: Sending heartbeat mid-frame.
+:10-29-2022 10:31:04 SellbotCogHQLoader: loadPlaceGeom: 11000
+:10-29-2022 10:31:05 DistributedObject: DistributedSuitPlanner 402002954: generating
+:10-29-2022 10:31:05 DistributedToon: calling LocalAvatar.startchat
+:10-29-2022 10:31:05 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 10:31:05 Loader: At end of block 'hood', expected 43, loaded 6, duration=1.51093773289
+:10-29-2022 10:31:05 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 10:31:05 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:05 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:10-29-2022 10:31:05 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:05 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-29-2022 10:31:05 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:06 Teleport(debug): teleportInDone: walk
+:10-29-2022 10:31:06 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:31:06 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 10:31:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-29-2022 10:31:16 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:26 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 10:31:26 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:30 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:10-29-2022 10:31:30 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:30 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+:10-29-2022 10:31:30 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:10-29-2022 10:31:31 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Map
+:10-29-2022 10:31:31 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:10-29-2022 10:31:37 SellbotHQExterior: Unloading Place (11000). Fsm in final
+:10-29-2022 10:31:37 DistributedObject: DistributedSuitPlanner 402002954: disabling
+:10-29-2022 10:31:37 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Lawbot HQ
+:10-29-2022 10:31:37 Loader: starting bulk load of block 'hood'
+:10-29-2022 10:31:37 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:37 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:37 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:37 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:37 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:37 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:37 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:37 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:31:37 LawbotCogHQLoader: loadPlaceGeom: 13000
+:10-29-2022 10:31:37 DistributedObject: DistributedSuitPlanner 402002980: generating
+:10-29-2022 10:31:38 DistributedToon: calling LocalAvatar.startchat
+:10-29-2022 10:31:38 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 10:31:38 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:31:38 Loader: At end of block 'hood', expected 2, loaded 2, duration=0.607727268073
+:10-29-2022 10:31:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:31:38 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:38 :pnmimage:png(warning): Interlace handling should be turned on when using png_read_image
+:10-29-2022 10:31:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:31:38 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ac.png
+:10-29-2022 10:31:38 :gobj(error): Unable to find texture "phase_3/maps/hands/ac.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:31:38 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/dt.png
+:10-29-2022 10:31:38 :gobj(error): Unable to find texture "phase_3/maps/hands/dt.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:31:38 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ac.png
+:10-29-2022 10:31:38 :gobj(error): Unable to find texture "phase_3/maps/hands/ac.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:39 Teleport(debug): teleportInDone: walk
+:10-29-2022 10:31:39 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:31:39 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 10:31:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ac.png
+:10-29-2022 10:31:44 :gobj(error): Unable to find texture "phase_3/maps/hands/ac.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:31:44 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:31:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:31:55 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:32:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:32:06 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:32:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:32:17 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:32:27 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:32:27 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:32:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:32:38 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:32:45 LawbotCogHQLoader: loadPlaceGeom: 13200
+:10-29-2022 10:32:45 LawbotHQExterior: Unloading Place (13000). Fsm in final
+:10-29-2022 10:32:45 DistributedObject: DistributedSuitPlanner 402002980: disabling
+:10-29-2022 10:32:45 DistributedToon: calling LocalAvatar.startchat
+:10-29-2022 10:32:45 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 10:32:46 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:32:46 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 10:33:15 LawbotCogHQLoader: loadPlaceGeom: 61000
+:10-29-2022 10:33:15 LawbotCogHQLoader(warning): loadPlaceGeom: unclassified zone 61000
+:10-29-2022 10:33:15 LawbotOfficeExterior: Unloading Place (13200). Fsm in final
+:10-29-2022 10:33:15 DistributedElevatorFloor: Setting latch
+:10-29-2022 10:33:15 DistributedElevatorFloor: Setting latch in announce generate
+:10-29-2022 10:33:15 DistributedElevatorFloor: Setting latch
+:10-29-2022 10:33:15 TimeManager: Clock sync: DistributedLevel.generate
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 DistributedStage: stageId 13300, floor 0, [100000001]
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-29-2022 10:33:16 DistributedStage: CAMENTERROOM doID402004278 num0
+:10-29-2022 10:33:16 DistributedStage: av: LPoint3f(-1, 2, 0), cam: LPoint3f(0, -16, 5.5)
+:10-29-2022 10:33:16 DistributedToon: calling LocalAvatar.startchat
+:10-29-2022 10:33:16 TimeManager: Clock sync roundtrip took 501.111 ms
+:10-29-2022 10:33:16 TimeManager: AI time delta is -0:01 from server delta
+:10-29-2022 10:33:16 ClockDelta: previous delta at -1.967 s, +/- 0.611 s.
+:10-29-2022 10:33:16 ClockDelta: new delta at -2.273 s, +/- 0.251 s.
+:10-29-2022 10:33:16 ClockDelta: intersection at -2.273 s, +/- 0.251 s.
+:10-29-2022 10:33:16 TimeManager: Local clock uncertainty +/- 0.251 s
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bw.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bw.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/le.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/le.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/le.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/le.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bw.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/le.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/le.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bw.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bw.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/le.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/le.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:33:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sd.png
+:10-29-2022 10:33:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Laser Field initCollisionGeom
+Laser Field initCollisionGeom
+:10-29-2022 10:33:17 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:33:17 DistributedStage: CAMENTERROOM doID402004278 num0
+:10-29-2022 10:33:17 DistributedStage: av: LPoint3f(-1, 2, 0), cam: LPoint3f(0, -19, 10)
+:10-29-2022 10:33:17 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:33:17 :pgraph(warning): No bin named default; creating default bin.
+:10-29-2022 10:33:17 DistributedStage: CAMENTERROOM doID402004278 num0
+:10-29-2022 10:33:17 DistributedStage: av: LPoint3f(-1, 2, -0.0138184), cam: LPoint3f(0, -9, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z03a_ALL/Collsion/stageFloorColl0 []
+  at -1 -6.2 -0.0347049
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:33:20 DistributedStage: CAMENTERROOM doID402004278 num1
+:10-29-2022 10:33:20 DistributedStage: av: LPoint3f(-1, 48.6016, 4.82045), cam: LPoint3f(0, -11, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at -1 38.4016 0.0527601
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:33:20 DistributedStage: CAMENTERROOM doID402004278 num1
+:10-29-2022 10:33:20 DistributedStage: av: LPoint3f(-1, 51.1288, 5.78198), cam: LPoint3f(0, -11, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at -1 40.9288 -0.047389
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:33:20 DistributedStage: CAMENTERROOM doID402004278 num1
+:10-29-2022 10:33:20 DistributedStage: av: LPoint3f(-0.964919, 61.1045, 4.97662), cam: LPoint3f(0, -11, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at -1.81886 50.9793 4.95167
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:33:23 DistributedStage: CAMENTERROOM doID402004278 num2
+:10-29-2022 10:33:23 DistributedStage: av: LPoint3f(26.7422, 121.29, 4.97565), cam: LPoint3f(0, -11, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z04a_ALL/Z04/lobby/collision_lobby/stageFloorColl2 []
+  at 26.8831 111.237 4.95065
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:33:27 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+:10-29-2022 10:33:27 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:10-29-2022 10:33:29 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:33:30 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat Plus
+:10-29-2022 10:33:31 TTOffMagicWordManager: Going ghost!
+:10-29-2022 10:33:31 DistributedStage: CAMENTERROOM doID402004278 num2
+:10-29-2022 10:33:31 DistributedStage: av: LPoint3f(36.6395, 170.032, 4.97565), cam: LPoint3f(0, -17, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z04a_ALL/Z04/lobby/collision_lobby/stageFloorColl2 []
+  at 36.6395 170.032 4.95041
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+spec = {'parentEntId': 100022, 'pos': LPoint3f(0, 0, 0)}
+h = None
+:10-29-2022 10:33:34 StageInterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-3
+:10-29-2022 10:33:35 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat Plus
+:10-29-2022 10:33:38 TTOffMagicWordManager: Wittybumble can now insta-kill Cogs!
+:10-29-2022 10:33:47 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat Plus
+:10-29-2022 10:33:50 DistributedStageBattle: enterReward()
+:10-29-2022 10:33:50 TTOffMagicWordManager: Successfully skipped Battle movie!
+:10-29-2022 10:33:54 DistributedStageBattle: exitReward()
+:10-29-2022 10:33:54 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:33:54 StageInterior(warning): fsm.request('walk') returned 0 (zone id 13300, avatar pos LPoint3f(60.1587, 172.449, 4.95065)).
+:10-29-2022 10:33:58 DistributedStage: CAMENTERROOM doID402004278 num2
+:10-29-2022 10:33:58 DistributedStage: av: LPoint3f(-37.3843, 152.688, 4.97565), cam: LPoint3f(6.55338, -14.7418, -1.06913)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z04a_ALL/Z04/lobby/collision_lobby/stageFloorColl2 []
+  at -25.7165 143.39 4.95065
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:33:58 DistributedStage: CAMENTERROOM doID402004278 num2
+:10-29-2022 10:33:58 DistributedStage: av: LPoint3f(-38.0951, 154.366, 4.97565), cam: LPoint3f(0.177905, -1.3572, 4.7207)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z04a_ALL/Z04/lobby/collision_lobby/stageFloorColl2 []
+  at -38.0951 154.366 4.95065
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:33:58 DistributedStage: CAMENTERROOM doID402004278 num2
+:10-29-2022 10:33:58 DistributedStage: av: LPoint3f(-38.0951, 154.366, 4.97565), cam: LPoint3f(0.177905, -1.3572, 4.7207)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z04a_ALL/Z04/lobby/collision_lobby/stageFloorColl2 []
+  at -38.1492 155.473 4.95065
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:33:59 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat Plus
+:10-29-2022 10:34:01 TTOffMagicWordManager: Abracadabra!
+:10-29-2022 10:34:04 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+:10-29-2022 10:34:05 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:10-29-2022 10:34:06 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+doors enter state 1
+openInnerDoors
+openInnerDoors stage Two
+:10-29-2022 10:34:12 DistributedStage: CAMENTERROOM doID402004278 num3
+:10-29-2022 10:34:12 DistributedStage: av: LPoint3f(26.4292, 262.133, 9.96576), cam: LPoint3f(-0.0259941, -17.2683, -0.885097)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 26.9115 245.777 4.94172
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:12 DistributedStage: CAMENTERROOM doID402004278 num3
+:10-29-2022 10:34:12 DistributedStage: av: LPoint3f(26.3647, 264.208, 9.96576), cam: LPoint3f(-0.0259931, -17.2787, -0.885098)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 26.8473 247.842 4.95159
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:12 DistributedStage: CAMENTERROOM doID402004278 num3
+:10-29-2022 10:34:12 DistributedStage: av: LPoint3f(27.8012, 275.956, 9.96568), cam: LPoint3f(0.77208, -17.0381, 0.103235)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 20.269 261.864 9.94117
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:15 DistributedStage: CAMENTERROOM doID402004278 num4
+:10-29-2022 10:34:15 DistributedStage: av: LPoint3f(53.9918, 338.157, 9.96532), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z07_ALL/stageFloorColl4 []
+  at 54.2864 320.875 9.94101
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:15 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat Plus
+:10-29-2022 10:34:17 TTOffMagicWordManager: Going ghost!
+:10-29-2022 10:34:17 DistributedStage: CAMENTERROOM doID402004278 num4
+:10-29-2022 10:34:17 DistributedStage: av: LPoint3f(51.5818, 343.904, 9.96556), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z07_ALL/stageFloorColl4 []
+  at 51.5818 343.904 9.94071
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:21 DistributedStage: CAMENTERROOM doID402004278 num4
+:10-29-2022 10:34:21 DistributedStage: av: LPoint3f(4.22854, 396.588, 18.0201), cam: LPoint3f(0, -0.193916, 5.16205)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z07_ALL/stageFloorColl4 []
+  at 4.22854 396.588 17.9951
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:21 DistributedStage: CAMENTERROOM doID402004278 num5
+:10-29-2022 10:34:21 DistributedStage: av: LPoint3f(-10.6367, 392.36, 17.6542), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at -10.6367 392.36 17.6292
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:21 DistributedStage: CAMENTERROOM doID402004278 num4
+:10-29-2022 10:34:21 DistributedStage: av: LPoint3f(-12.2829, 391.873, 17.6542), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z07_ALL/stageFloorColl4 []
+  at 4.29215 396.773 17.9967
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:21 DistributedStage: CAMENTERROOM doID402004278 num5
+:10-29-2022 10:34:21 DistributedStage: av: LPoint3f(-12.9486, 391.676, 17.7777), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at -12.9486 391.676 17.7527
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:21 DistributedStage: CAMENTERROOM doID402004278 num5
+:10-29-2022 10:34:21 DistributedStage: av: LPoint3f(-22.8774, 389.32, 22.3841), cam: LPoint3f(-0.0256931, -13.6556, -0.85667)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at -10.4342 390.24 17.6267
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:22 DistributedStage: CAMENTERROOM doID402004278 num5
+:10-29-2022 10:34:22 DistributedStage: av: LPoint3f(-24.3367, 389.209, 22.6415), cam: LPoint3f(-0.0268879, -12.7606, -0.857865)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at -12.7405 390.064 17.6542
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:22 DistributedStage: CAMENTERROOM doID402004278 num5
+:10-29-2022 10:34:22 DistributedStage: av: LPoint3f(-25.7826, 389.099, 22.6415), cam: LPoint3f(0.0681826, -13.2781, 0.281159)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at -25.7826 389.099 22.6165
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:22 DistributedStage: CAMENTERROOM doID402004278 num5
+:10-29-2022 10:34:22 DistributedStage: av: LPoint3f(-41.6353, 385.8, 22.6403), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl5 []
+  at -26.0301 393.231 22.6191
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:25 DistributedStage: CAMENTERROOM doID402004278 num6
+:10-29-2022 10:34:25 DistributedStage: av: LPoint3f(-85.4632, 358.988, 22.6332), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z13_ALL/room/collsion/stageFloorColl6 []
+  at -85.4632 358.988 22.6082
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:25 DistributedStage: CAMENTERROOM doID402004278 num6
+:10-29-2022 10:34:25 DistributedStage: av: LPoint3f(-102.819, 359.911, 22.6332), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z13_ALL/room/collsion/stageFloorColl6 []
+  at -85.739 357.26 22.6082
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:28 DistributedStage: CAMENTERROOM doID402004278 num6
+:10-29-2022 10:34:28 DistributedStage: av: LPoint3f(-190.021, 358.092, 22.6332), cam: LPoint3f(-0.796738, -12.045, -0.128622)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z13_ALL/room/collsion/stageFloorColl6 []
+  at -179.319 357.074 22.6082
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:31 DistributedStage: CAMENTERROOM doID402004278 num6
+:10-29-2022 10:34:31 DistributedStage: av: LPoint3f(-264.901, 359.638, 22.6332), cam: LPoint3f(0, -0.204178, 5.162)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z13_ALL/room/collsion/stageFloorColl6 []
+  at -264.901 359.638 22.6082
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:31 DistributedStage: CAMENTERROOM doID402004278 num6
+:10-29-2022 10:34:31 DistributedStage: av: LPoint3f(-264.901, 359.638, 22.6332), cam: LPoint3f(0, -0.204178, 5.162)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z13_ALL/room/collsion/stageFloorColl6 []
+  at -266.735 359.676 22.6082
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:34 DistributedStage: CAMENTERROOM doID402004278 num7
+:10-29-2022 10:34:34 DistributedStage: av: LPoint3f(-355.174, 359.585, 22.6507), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at -355.174 359.585 22.6257
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:34 DistributedStage: CAMENTERROOM doID402004278 num7
+:10-29-2022 10:34:34 DistributedStage: av: LPoint3f(-357.221, 359.41, 22.7059), cam: LPoint3f(0, -19, 0)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at -357.221 359.41 22.6809
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:34 DistributedStage: CAMENTERROOM doID402004278 num7
+:10-29-2022 10:34:34 DistributedStage: av: LPoint3f(-367.575, 358.506, 27.5121), cam: LPoint3f(-0.0261332, -13.2203, -0.856034)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at -355.64 360.275 22.6266
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:34 DistributedStage: CAMENTERROOM doID402004278 num7
+:10-29-2022 10:34:34 DistributedStage: av: LPoint3f(-368.682, 358.321, 27.641), cam: LPoint3f(-0.0283197, -12.6834, -0.856666)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at -357.386 360.754 22.7589
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:34 DistributedStage: CAMENTERROOM doID402004278 num7
+:10-29-2022 10:34:34 DistributedStage: av: LPoint3f(-370.227, 357.951, 27.641), cam: LPoint3f(0.217313, -13.7153, 0.273646)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at -370.227 357.951 27.6157
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:35 DistributedStage: CAMENTERROOM doID402004278 num7
+:10-29-2022 10:34:35 DistributedStage: av: LPoint3f(-385.035, 349.977, 27.6385), cam: LPoint3f(0, -0.259469, 5.16169)
+CollisionEntry:
+  from render/Wittybumble-100000001/NPW.cRayNode
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at -385.035 349.977 27.6133
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:35 DistributedStage: CAMENTERROOM doID402004278 num7
+:10-29-2022 10:34:35 DistributedStage: av: LPoint3f(-385.035, 349.977, 27.6385), cam: LPoint3f(0, -0.259469, 5.16169)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/LB_connector_7cubeL2.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl7 []
+  at -386.287 348.695 27.6134
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:34:43 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat Plus
+:10-29-2022 10:34:45 TTOffMagicWordManager: Presto!
+spec = {'parentEntId': 10000, 'pos': LPoint3f(0, 0, 0)}
+h = None
+:10-29-2022 10:34:52 StageInterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-9
+:10-29-2022 10:34:52 DistributedStage: CAMENTERROOM doID402004278 num8
+:10-29-2022 10:34:52 DistributedStage: av: LPoint3f(-447.114, 325.871, 27.8887), cam: LPoint3f(0, 18, 11)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004278/ZoneEntity-0/-PandaNode/Z22a/room/collsion/stageFloorColl8 []
+  at -447.059 320.077 27.4876
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-29-2022 10:35:15 DistributedStageBattle: enterReward()
+:10-29-2022 10:35:19 DistributedStageBattle: exitReward()
+:10-29-2022 10:35:19 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:35:19 StageInterior(warning): fsm.request('walk') returned 0 (zone id 13300, avatar pos LPoint3f(-457.385, 323.519, 27.8875)).
+:10-29-2022 10:35:23 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+:10-29-2022 10:35:23 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Districts
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:10-29-2022 10:35:24 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Map
+:10-29-2022 10:35:27 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:10-29-2022 10:35:32 StageInterior: Unloading Place (13300). Fsm in final
+:10-29-2022 10:35:32 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10011 without calling cleanup()
+:10-29-2022 10:35:32 Entity(warning): Entity 100018 destroyed after level??
+:10-29-2022 10:35:32 Entity(warning): Entity 100016 destroyed after level??
+:10-29-2022 10:35:32 Entity(warning): Entity 10005 destroyed after level??
+:10-29-2022 10:35:32 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10005 without calling cleanup()
+:10-29-2022 10:35:32 Entity(warning): Entity 100017 destroyed after level??
+:10-29-2022 10:35:32 Entity(warning): Entity 100015 destroyed after level??
+:10-29-2022 10:35:32 Entity(warning): Entity 10017 destroyed after level??
+:10-29-2022 10:35:32 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10017 without calling cleanup()
+:10-29-2022 10:35:32 Entity(warning): Entity 10022 destroyed after level??
+:10-29-2022 10:35:32 DistributedGoon(warning): called actor.removeNode() on DistributedGoon-10022 without calling cleanup()
+:10-29-2022 10:35:32 Entity(warning): Entity 100000 destroyed after level??
+:10-29-2022 10:35:32 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Cashbot HQ
+:10-29-2022 10:35:32 Loader: starting bulk load of block 'hood'
+:10-29-2022 10:35:32 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:35:32 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:35:32 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:35:32 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:35:32 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:35:32 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:35:32 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:35:32 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 10:35:33 CashbotCogHQLoader: loadPlaceGeom: 12000
+:10-29-2022 10:35:33 DistributedObject: DistributedSuitPlanner 402002970: generating
+:10-29-2022 10:35:33 DistributedToon: calling LocalAvatar.startchat
+:10-29-2022 10:35:33 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_cashbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 10:35:33 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:35:33 Loader: At end of block 'hood', expected 2, loaded 3, duration=0.84146758417
+:10-29-2022 10:35:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 10:35:33 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 10:35:33 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 10:35:33 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 10:35:33 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 10:35:33 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 10:35:33 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 10:35:33 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 10:35:33 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 10:35:34 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 10:35:34 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 10:35:34 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 10:35:34 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 10:35:34 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tw.png
+:10-29-2022 10:35:34 :gobj(error): Unable to find texture "phase_3/maps/hands/tw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 10:35:34 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:35 Teleport(debug): teleportInDone: walk
+:10-29-2022 10:35:35 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 10:35:35 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_cashbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 10:35:37 CashbotHQExterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-15
+:10-29-2022 10:35:40 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 10:35:40 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:52 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 10:35:52 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 10:35:53 GarbageCollect(warning): garbage found, reverting gc threshold
+:10-29-2022 10:35:54 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat Plus
+:10-29-2022 10:35:57 TTOffMagicWordManager: Wittybumble can no longer insta-kill Cogs!
+frame rate: 35.6 fps|0.024d|13 avs||308|309||0x0000|0x0000|754.8MB|741.0MB|16302.1MB|1004|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:10-29-2022 10:36:03 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 10:36:03 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+Exception occurred while processing Func-__showProp-867 of movie-track-with-cam-402004560:
+movie-track-with-cam-402004560:
+  0.000 movie-track-with-cam-402004560 {
+  0.000   movie-track-402004560 {
+  0.000     Sequence-624 {
+  0.000       toon-attacks {
+  0.000         Sequence-651 {
+  0.000           Parallel-626 {
+  0.000             Sequence-650 {
+  0.000               Wait
+  0.000               Parallel-627 {
+  0.000                 Sequence-628 {
+  0.000                   Wait
+  0.000                   *Func-headsUp-819
+  0.000                   *Actor-throw-176 dur 3.79167
+  3.792                   *Func-loop-820
+  3.792                   *Func-setHpr-821
+  3.792                 }
+  0.000                 Parallel-633 {
+  0.000                   Sequence-631 {
+  0.000                     Wait dur 2.6
+  2.600                     *Sound-121 dur 0.470204
+  3.070                   }
+  0.000                   Sequence-632 {
+  0.000                     Wait dur 2.7
+  2.700                     *Sound-122 dur 0.757551
+  3.458                   }
+  3.458                 }
+  0.000                 Sequence-630 {
+  0.000                   Wait
+  0.000                   *Func-showProps-822
+  0.000                   *Func-__animProp-823
+  0.000                   Parallel-629 {
+  0.000                     LerpScaleInterval-716: scale from 0.01 0.01 0.01 to 1 1 1 dur 1
+  0.000                     LerpScaleInterval-717: scale from 0.01 0.01 0.01 to 1 1 1 dur 1
+  1.000                   }
+  1.000                   *Func-needRestoreRenderProp-825
+  1.000                   Wait dur 1.7
+  2.700                   *Func-__propPreflight-824
+  2.700                   MovieThrow-pieFly: pos from 0.0516968 -2.67799 2.08156 to 0 5 6.97 dur 0.3
+  3.000                   *Func-removeProps-826
+  3.000                   *Func-clearRenderProp-830
+  3.000                   *Func-__showProp-827
+  3.000                   *Func-__billboardProp-828
+  3.000                   *Actor-splat-creampie-177 dur 0.416667
+  3.417                   *Func-removeProp-829
+  3.417                 }
+  0.000                 Parallel-638 {
+  0.000                   Sequence-634 {
+  0.000                     Wait dur 3
+  3.000                     *Func-showHpText-831 (!oe)
+  3.000                     *Func-updateHealthBar-832
+  3.000                     Parallel-636 {
+  3.000                       *Actor-pie-small-react-178 dur 2.29167
+  3.000                       Sequence-635 {
+  3.000                         Wait dur 0.3
+  3.300                         *Func-reparentTo-833
+  3.300                         *Func-setZ-834
+  3.300                         *Func-loop-835
+  3.300                         Wait dur 1.3
+  4.600                         *Func-cleanup-836
+  4.600                         *Func-removeNode-837
+  4.600                       }
+  5.292                     }
+  5.292                     *Func-loop-838
+  5.292                   }
+  0.000                   Sequence-637 {
+  0.000                     Wait dur 3
+  3.000                   }
+  5.292                 }
+  0.000                 Sequence-639 {
+  0.000                   Wait
+  0.000                   *Func-headsUp-839
+  0.000                   *Actor-throw-179 dur 3.79167
+  3.792                   *Func-loop-840
+  3.792                   *Func-setHpr-841
+  3.792                 }
+  0.000                 Parallel-644 {
+  0.000                   Sequence-642 {
+  0.000                     Wait dur 2.6
+  2.600                     *Sound-123 dur 0.470204
+  3.070                   }
+  0.000                   Sequence-643 {
+  0.000                     Wait dur 2.7
+  2.700                     *Sound-124 dur 0.757551
+  3.458                   }
+  3.458                 }
+  0.000                 Sequence-641 {
+  0.000                   Wait
+  0.000                   *Func-showProps-842
+  0.000                   *Func-__animProp-843
+  0.000                   Parallel-640 {
+  0.000                     LerpScaleInterval-718: scale from 0.01 0.01 0.01 to 1 1 1 dur 1
+  0.000                     LerpScaleInterval-719: scale from 0.01 0.01 0.01 to 1 1 1 dur 1
+  1.000                   }
+  1.000                   *Func-needRestoreRenderProp-845
+  1.000                   Wait dur 1.7
+  2.700                   *Func-__propPreflight-844
+  2.700                   MovieThrow-pieFly: pos from 0.0516968 -2.67799 2.08156 to 0 5 6.97 dur 0.3
+  3.000                   *Func-removeProps-846
+  3.000                   *Func-clearRenderProp-850
+  3.000                   *Func-__showProp-847
+  3.000                   *Func-__billboardProp-848
+  3.000                   *Actor-splat-creampie-180 dur 0.416667
+  3.417                   *Func-removeProp-849
+  3.417                 }
+  0.000                 Parallel-649 {
+  0.000                   Sequence-645 {
+  0.000                     Wait dur 3
+  3.000                     *Func-showHpText-851 (!oe)
+  3.000                     *Func-updateHealthBar-852
+  3.000                     Parallel-647 {
+  3.000                       *Actor-pie-small-react-181 dur 2.29167
+  3.000                       Sequence-646 {
+  3.000                         Wait dur 0.3
+  3.300                         *Func-reparentTo-853
+  3.300                         *Func-setZ-854
+  3.300                         *Func-loop-855
+  3.300                         Wait dur 1.3
+  4.600                         *Func-cleanup-856
+  4.600                         *Func-removeNode-857
+  4.600                       }
+  5.292                     }
+  5.292                     *Func-loop-858
+  5.292                   }
+  0.000                   Sequence-648 {
+  0.000                     Wait dur 3
+  3.000                   }
+  5.292                 }
+  5.292               }
+  5.292             }
+  5.292           }
+  5.292           Parallel-652 {
+  5.292           }
+  5.292         }
+  5.292       }
+  5.292       suit-attacks {
+  5.292         Sequence-672 {
+  5.292           Parallel-664 {
+  5.292             Sequence-654 {
+  5.292               Wait dur 1e-06
+  5.292               *Func-setChatAbsolute-861
+  5.292               *Func-reparentTrap-862
+  5.292               *Func-headsUp-863
+  5.292               *Actor-throw-paper-182 dur 4.375
+  9.667               *Func-setHpr-864
+  9.667               *Func-returnTrapToSuit-865
+  9.667               *Func-clearChat-866
+  9.667             }
+  5.292             Sequence-658 {
+  5.292               *Func-headsUp-873
+  5.292               Parallel-661 {
+  5.292                 Sequence-659 {
+  5.292                   Wait dur 2.61
+  7.902                   *Actor-conked-183 dur 4.20833
+ 12.110                   *Func-loop-875
+ 12.110                 }
+  5.292                 Sequence-660 {
+  5.292                   Wait dur 2.62
+  7.912                   *Func-__doDamage-874
+  7.912                 }
+ 12.110               }
+ 12.110             }
+  5.292             Sequence-656 {
+  5.292               Sequence-655 {
+  5.292                 Wait dur 0.5
+  5.792                 *Func-__showProp-867
+  5.792                 LerpScaleInterval-720: scale from 0.01 0.01 0.01 to 3.5 3.5 3.5 dur 0.5
+  6.292               }
+  6.292               Wait dur 1.45
+  7.742               *Func-setBillboardPointEye-868
+  7.742               Sequence-657 {
+  7.742                 *Func-needRestoreRenderProp-869
+  7.742                 *Func-wrtReparentTo-870
+  7.742                 LerpPosInterval-721: pos to 2.22967 -418.356 -19.8125 dur 0.4
+  8.142                 *Func-removeProp-871
+  8.142                 *Func-clearRenderProp-872
+  8.142               }
+  8.142             }
+  5.292             Sequence-662 {
+  5.292               Wait dur 2.3
+  7.592               *Sound-125 dur 1.12327
+  8.715             }
+  5.292             Sequence-663 {
+  5.292               Wait dur 2.9
+  8.192               *Sound-126 dur 0.757551
+  8.950             }
+ 12.110           }
+ 12.110           *Func-loop-887
+ 12.110           Sequence-671 {
+ 12.110             *Func-headsUp-885
+ 12.110             *Func-loop-886
+ 12.110           }
+ 12.110         }
+ 12.110       }
+ 12.110       *Func-__handleMovieDone-888
+ 12.110     }
+ 12.110   }
+  0.000   Sequence-673 {
+  0.000     Sequence-625 {
+  0.000       toon-attacks-cam {
+  0.000         Sequence-653 {
+  0.000           allGroupLowShot {
+  0.000             *Func-setPosHpr-859
+  0.000             Wait dur 3
+  3.000           }
+  3.000           avatarCloseUpThrowShot {
+  3.000             *Func-setPosHpr-860
+  3.000             Wait dur 2.292
+  5.292           }
+  5.292         }
+  5.292       }
+  5.292       suit-attacks-cam {
+  5.292         Parallel-670 {
+  5.292           Sequence-665 {
+  5.292             Sequence-668 {
+  5.292               Sequence-666 {
+  5.292                 *Func-setPos-876
+  5.292                 *Func-focusCameraBetweenPoints-877
+  5.292                 Wait dur 2.4
+  7.692               }
+  7.692               Sequence-667 {
+  7.692                 *Func-setPos-878
+  7.692                 *Func-focusCameraBetweenPoints-879
+  7.692                 Wait dur 4.418
+ 12.110               }
+ 12.110             }
+ 12.110           }
+  5.292           Sequence-669 {
+  5.292             *Func-hide-880
+  5.292             *Func-setFg-881
+  5.292             Wait dur 0.6318
+  5.924             *Func-setText-882
+  5.924             *Func-show-883
+  5.924             Wait dur 5.6862
+ 11.610             *Func-hide-884
+ 11.610           }
+ 12.110         }
+ 12.110       }
+ 12.110     }
+ 12.110   }
+ 12.110 }
+
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieSuitAttacks.py", line 26, in __showProp
+    prop.reparentTo(parent)
+AssertionError: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:10-29-2022 10:36:04 :task(error): Exception occurred in PythonTask ivalLoop
+:10-29-2022 10:36:04 TTOffLauncher: setting panda error code to 12
+:10-29-2022 10:36:04 TTOffLauncher(warning): Handling Python exception.
+:10-29-2022 10:36:04 TimeManager: Client disconnect reason 3.
+:10-29-2022 10:36:04 TimeManager: Client exception: toontown.battle.MovieSuitAttacks:26, direct.interval.FunctionInterval:91, direct.interval.Interval:210, direct.interval.MetaInterval:504, AssertionError: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:10-29-2022 10:36:04 OTPClientRepository: Sent disconnect message to server
+:10-29-2022 10:36:04 OTPClientRepository: Closing connection to server.
+:10-29-2022 10:36:04 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieSuitAttacks.py", line 26, in __showProp
+    prop.reparentTo(parent)
+AssertionError: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx

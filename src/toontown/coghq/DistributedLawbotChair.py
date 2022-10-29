@@ -124,7 +124,7 @@ class DistributedLawbotChair(DistributedObject.DistributedObject, FSM.FSM):
         self.cogJuror.prop = None
         if self.cogJuror.prop == None:
             self.cogJuror.prop = BattleProps.globalPropPool.getProp('propeller')
-        head = self.cogJuror.find('**/joint_head')
+        head = self.cogJuror.find('**/to_head')
         self.cogJuror.prop.reparentTo(head)
         self.propTrack = Sequence(ActorInterval(self.cogJuror.prop, 'propeller', startFrame=8, endFrame=25))
         return

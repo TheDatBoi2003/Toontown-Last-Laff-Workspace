@@ -531,9 +531,9 @@ class BattleCalculatorAI:
 
     def __clearBonuses(self, hp=1):
         if hp:
-            self.hpBonuses = [{}, {}, {}, {}]
+            self.hpBonuses = [{}, {}, {}, {}, {}, {}, {}, {}]
         else:
-            self.kbBonuses = [{}, {}, {}, {}]
+            self.kbBonuses = [{}, {}, {}, {}, {}, {}, {}, {}]
 
     def __bonusExists(self, tgtSuit, hp=1):
         tgtPos = self.activeSuits.index(tgtSuit)

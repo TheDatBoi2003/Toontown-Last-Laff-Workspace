@@ -16,7 +16,13 @@ class PlayByPlayText(OnscreenText.OnscreenText):
         OnscreenText.OnscreenText.__init__(self, mayChange=1, pos=(0.0, 0.75), scale=TTLocalizer.PBPTonscreenText, fg=(1, 0, 0, 1), font=getSignFont(), wordwrap=13)
 
     def getShowInterval(self, text, duration):
-        return Sequence(Func(self.hide), Wait(duration * 0.3), Func(self.setText, text), Func(self.show), Wait(duration * 0.7), Func(self.hide))
+        return Sequence(Func(self.hide), Func(self.setFg, (1., 0., 0., 1.0)), Wait(duration * 0.1), Func(self.setText, text), Func(self.show), Wait(duration * 0.9), Func(self.hide))
+
+    def getShowIntervalCheat(self, text, duration):
+        return Sequence(Func(self.hide), Func(self.setFg, (0.466, 0.474, 1.0, 1.0)), Wait(duration * 0.1), Func(self.setText, text), Func(self.show), Wait(duration * 0.9), Func(self.hide))
+
+    def getShowIntervalDesc(self, text, duration):
+        return Sequence(Func(self.hide), Func(self.setWordwrap, None), Func(self.setPos, 0.0, 0.65), Func(self.setScale, 0.1), Func(self.setFg, (0.847, 0.784, 0.992, 1.0)), Wait(duration * 0.1), Func(self.setText, text), Func(self.show), Wait(duration * 0.9), Func(self.hide))
 
     def getToonsDiedInterval(self, textList, duration):
         track = Sequence(Func(self.hide), Wait(duration * 0.3))

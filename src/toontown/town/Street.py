@@ -317,6 +317,7 @@ class Street(BattlePlace.BattlePlace):
 
     def visibilityOn(self):
         self.hideAllVisibles()
+        self.showAllVisibles()
         self.accept('on-floor', self.enterZone)
 
     def visibilityOff(self):
@@ -331,6 +332,7 @@ class Street(BattlePlace.BattlePlace):
                         self.loader.fadeOutDict[i].start()
                         self.loader.exitAnimatedProps(i)
                 else:
+                    self.loader.fadeOutDict[i].start()
                     i.stash()
                     self.loader.exitAnimatedProps(i)
 

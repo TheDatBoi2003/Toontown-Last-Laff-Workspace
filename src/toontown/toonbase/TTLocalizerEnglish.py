@@ -2397,6 +2397,9 @@ SuitLegalEagleP = 'Legal Eagles'
 SuitBigWigP = 'Big Wigs'
 SuitFaceoffDefaultTaunts = ['Boo!']
 SuitAttackDefaultTaunts = ['Take that!', 'Take a memo on this!']
+SuitCheatNames = ()
+SuitCheatDescription = {
+}
 SuitAttackNames = {'Audit': 'Audit!',
  'Bite': 'Bite!',
  'BounceCheck': 'Bounce Check!',
@@ -4673,6 +4676,18 @@ MapPageYouAreAtSomeonesHome = 'You are at %s estate'
 MapPageGoTo = 'Go To\n%s'
 OptionsPageTitle = 'Options'
 OptionsTabTitle = 'Options\n& Codes'
+
+OptionsPageTitle2 = "Rebind"
+
+OptionsEnabledKeybinds = 'Custom Keybinds are enabled.'
+OptionsDisabledKeybinds = 'Custom Keybinds are disabled.'
+OptionsKeybindsMenu = 'Keybinds'
+
+RemapPrompt = 'Choose the keys you wish to remap.'
+RemapPopup = 'Press the key you wish to remap this control to.'
+Controls = ['Move Up:', 'Move Left:', 'Move Down:', 'Move Right:', 'Jump:', 'Action Key:', 'Options Hotkey:', 'Chatbox Hotkey:', 'Screenshot Key:', 'Crane Grab Key:', 'Sprint Key:']
+
+
 OptionsPagePurchase = 'Subscribe'
 OptionsPageLogout = 'Logout'
 OptionsPageExitToontown = 'Exit Toontown'

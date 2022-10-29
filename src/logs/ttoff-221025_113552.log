@@ -1,0 +1,480 @@
+
+
+Starting Toontown Online...
+Current time: Tue Oct 25 11:35:52 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'COMPUTERNAME': 'PHILIP-JR', 'USERDOMAIN': 'PHILIP-JR', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'PSMODULEPATH': 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'DOKANLIBRARY1': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\', 'ADSK_3DSMAX_X64_2021': 'C:\\Program Files\\Autodesk\\3ds Max 2021\\', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 45 Stepping 7, GenuineIntel', 'VBOX_MSI_INSTALL_PATH': 'C:\\Program Files\\Oracle\\VirtualBox\\', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '2d07', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Animation Paper\\gstreamer\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Philip\\anaconda3;C:\\Users\\Philip\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Philip\\anaconda3\\Library\\usr\\bin;C:\\Users\\Philip\\anaconda3\\Library\\bin;C:\\Users\\Philip\\anaconda3\\Scripts;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Panda3D-1.10.02\\python;C:\\Panda3D-1.10.02\\python\\Scripts;C:\\Panda3D-1.10.02\\bin;C:\\Panda3D-1.11.0-x64-py2\\python;C:\\Panda3D-1.11.0-x64-py2\\python\\Scripts;C:\\Panda3D-1.11.0-x64-py2\\bin;C:\\Users\\Philip\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0-x64\\python;C:\\Panda3D-1.10.0-x64\\python\\Scripts;C:\\Panda3D-1.10.0-x64\\bin;C:\\Users\\Philip\\AppData\\Local\\atom\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Panda3D-1.11.0-x64-astron\\python;C:\\Panda3D-1.11.0-x64-astron\\python\\Scripts;C:\\Panda3D-1.11.0-x64-astron\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\Panda3D-1.10.9-x64\\python;C:\\Panda3D-1.10.9-x64\\python\\Scrip;C:\\Users\\Philip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Philip\\.dotnet\\tools;%C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\rc.exe%;%C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE%;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'SYSTEMROOT': 'C:\\WINDOWS', 'NUMBER_OF_PROCESSORS': '8', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'KMP_BLOCKTIME': '0', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'DOKANLIBRARY1_LIBRARYPATH_X64': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\lib\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\Philip\\AppData\\Local', 'HOMEPATH': '\\Users\\Philip', 'USERDOMAIN_ROAMINGPROFILE': 'PHILIP-JR', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'Philip', 'FP_NO_HOST_CHECK': 'NO', 'DOKANLIBRARY1_LIBRARYPATH_X86': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\x86\\lib\\', 'LOGONSERVER': '\\\\MicrosoftAccount', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'TTOFF_LOGIN_TOKEN': 'dev', 'VS160COMCOMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'WINDIR': 'C:\\WINDOWS', 'OMP_WAIT_POLICY': 'PASSIVE', 'MONGO': 'C:\\mongodb-win32-x86_64-windows-4.4.4/bin', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'APPDATA': 'C:\\Users\\Philip\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'CIOENGINE': 'C:\\cio-panda3d', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\Philip'}
+:10-25-2022 11:35:52 TTOffLauncher: isTestServer: 0
+:10-25-2022 11:35:52 TTOffLauncher: Game Server 127.0.0.1
+:10-25-2022 11:35:52 TTOffLauncher: Starting Toontown Online... 
+:10-25-2022 11:35:52 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:10-25-2022 11:35:52 TTOffLauncher: maybeStartGame: starting game
+:10-25-2022 11:35:52 TTOffLauncher: Starting Toontown Online...
+:10-25-2022 11:35:52 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:10-25-2022 11:35:52 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:10-25-2022 11:35:52 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:10-25-2022 11:35:52 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:10-25-2022 11:35:52 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:10-25-2022 11:35:52 ShowBase: __dev__ == False
+:10-25-2022 11:35:52 TTOffLauncher: setting panda error code to 11
+:10-25-2022 11:35:53 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:10-25-2022 11:35:53 Loader: starting bulk load of block 'init'
+:10-25-2022 11:35:53 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:10-25-2022 11:35:53 OTPClientRepository: Using connect method 'http'
+:10-25-2022 11:35:54 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:10-25-2022 11:35:54 TTOffLauncher: checking env
+:10-25-2022 11:35:54 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:10-25-2022 11:35:54 TTOffLauncher: checking env
+:10-25-2022 11:35:54 OTPClientRepository: reg_deployment=
+:10-25-2022 11:35:54 OTPClientRepository: required-login auto.
+:10-25-2022 11:35:54 OTPClientRepository: loginInterface: LoginTTOffAccount
+:10-25-2022 11:35:54 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:10-25-2022 11:35:54 Loader: At end of block 'init', expected 138, loaded 7, duration=1.59919906202
+:10-25-2022 11:35:54 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:10-25-2022 11:35:54 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:10-25-2022 11:35:54 TTOffLauncher: Stopping mini task manager.
+:10-25-2022 11:35:54 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:10-25-2022 11:35:54 TTOffLauncher: Setting Disconnect Details normal
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x000000001866AA08>}
+:10-25-2022 11:35:56 StateData: AvatarChooser.enter
+:10-25-2022 11:35:56 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:10-25-2022 11:35:56 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:10-25-2022 11:35:58 OTPClientRepository: ================
+:10-25-2022 11:35:58 OTPClientRepository: Chose avatar id: 100000001
+:10-25-2022 11:35:58 OTPClientRepository: Chose avatar name: Wittybumble
+:10-25-2022 11:35:58 OTPClientRepository: Chose avatar dna: ('dss', 'ms', 'm', 'm', 6, 0, 6, 6, 1, 9, 1, 9, 1, 18)
+:10-25-2022 11:35:58 OTPClientRepository: Chose avatar position: 1
+:10-25-2022 11:35:58 OTPClientRepository: isPaid: 1
+:10-25-2022 11:35:58 OTPClientRepository: freeTimeLeft: 0
+:10-25-2022 11:35:58 OTPClientRepository: allowSecretChat: True
+:10-25-2022 11:35:58 OTPClientRepository: ================
+:10-25-2022 11:35:58 Loader: starting bulk load of block 'localAvatarPlayGame'
+:10-25-2022 11:35:59 ToontownTimeManager(warning): error parsing date string=
+:10-25-2022 11:35:59 Actor(warning): no part named head-front*!
+local
+:10-25-2022 11:35:59 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:10-25-2022 11:35:59 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:10-25-2022 11:36:01 Actor(warning): no part named head-front*!
+:10-25-2022 11:36:01 OTPClientRepository: Entering shard 402000001
+:10-25-2022 11:36:01 StreetSign: Street sign url is https://ttoffline.com/images/
+:10-25-2022 11:36:03 TimeManager: Clock sync: TimeManager.announceGenerate
+:10-25-2022 11:36:03 NewsManager: setHolidayId: Starting Holiday 26
+:10-25-2022 11:36:03 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|        Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz|132823|0|3.601,3.601|4,8 cpus
+:10-25-2022 11:36:04 OTPClientRepository: No sync from TimeManager.
+:10-25-2022 11:36:04 OTPClientRepository: gotTimeSync
+:10-25-2022 11:36:04 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 22, duration=5.91143659113
+:10-25-2022 11:36:04 TimeManager: Clock sync roundtrip took 1146.778 ms
+:10-25-2022 11:36:04 TimeManager: AI time delta is -0:01 from server delta
+:10-25-2022 11:36:04 TimeManager: Local clock uncertainty +/- 0.574 s
+:10-25-2022 11:36:04 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:10-25-2022 11:36:04 Loader: starting bulk load of block 'hood'
+:10-25-2022 11:36:04 OTPClientRepository: Sending heartbeat mid-frame.
+:10-25-2022 11:36:05 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-25-2022 11:36:05 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-25-2022 11:36:05 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-25-2022 11:36:05 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-25-2022 11:36:05 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-25-2022 11:36:05 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-25-2022 11:36:05 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-25-2022 11:36:05 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-25-2022 11:36:05 SellbotCogHQLoader: loadPlaceGeom: 11000
+:10-25-2022 11:36:05 DistributedObject: DistributedSuitPlanner 402002946: generating
+:10-25-2022 11:36:05 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:36:05 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:05 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:36:05 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:05 DistributedToon: calling LocalAvatar.startchat
+:10-25-2022 11:36:05 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-25-2022 11:36:05 Loader: At end of block 'hood', expected 43, loaded 6, duration=1.56290199077
+:10-25-2022 11:36:05 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:36:05 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:36:06 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mh.png
+:10-25-2022 11:36:06 :gobj(error): Unable to find texture "phase_3/maps/hands/mh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:36:06 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:10-25-2022 11:36:06 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:36:06 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:07 Teleport(debug): teleportInDone: walk
+:10-25-2022 11:36:07 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-25-2022 11:36:13 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-25-2022 11:36:13 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:13 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-25-2022 11:36:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mh.png
+:10-25-2022 11:36:15 :gobj(error): Unable to find texture "phase_3/maps/hands/mh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:15 TTOffMagicWordManager: Spawned mh in current zone.
+:10-25-2022 11:36:19 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mh.png
+:10-25-2022 11:36:19 :gobj(error): Unable to find texture "phase_3/maps/hands/mh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:19 TTOffMagicWordManager: Spawned mh in current zone.
+:10-25-2022 11:36:29 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mh.png
+:10-25-2022 11:36:29 :gobj(error): Unable to find texture "phase_3/maps/hands/mh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:29 TTOffMagicWordManager: Spawned mh in current zone.
+:10-25-2022 11:36:36 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mh.png
+:10-25-2022 11:36:36 :gobj(error): Unable to find texture "phase_3/maps/hands/mh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:36 TTOffMagicWordManager: Spawned mh in current zone.
+:10-25-2022 11:36:42 TTOffMagicWordManager: Spawned mh in current zone.
+:10-25-2022 11:36:45 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mh.png
+:10-25-2022 11:36:45 :gobj(error): Unable to find texture "phase_3/maps/hands/mh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:45 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-25-2022 11:36:55 TTOffMagicWordManager: Spawned mh in current zone.
+:10-25-2022 11:36:56 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:36:56 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:36:57 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-25-2022 11:37:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:37:02 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:02 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-25-2022 11:37:06 SellbotCogHQLoader: loadPlaceGeom: 11200
+:10-25-2022 11:37:06 SellbotHQExterior: Unloading Place (11000). Fsm in final
+:10-25-2022 11:37:06 DistributedObject: DistributedSuitPlanner 402002946: disabling
+:10-25-2022 11:37:06 DistributedObject: DistributedSuitPlanner 402002947: generating
+:10-25-2022 11:37:06 DistributedToon: calling LocalAvatar.startchat
+:10-25-2022 11:37:06 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-25-2022 11:37:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-25-2022 11:37:06 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:37:06 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-25-2022 11:37:06 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-25-2022 11:37:06 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:10-25-2022 11:37:06 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:10-25-2022 11:37:06 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-25-2022 11:37:07 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-25-2022 11:37:07 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:10-25-2022 11:37:07 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-25-2022 11:37:07 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:10-25-2022 11:37:07 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:10-25-2022 11:37:07 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-25-2022 11:37:07 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:10-25-2022 11:37:07 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:10-25-2022 11:37:07 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:09 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-25-2022 11:37:13 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mh.png
+:10-25-2022 11:37:13 :gobj(error): Unable to find texture "phase_3/maps/hands/mh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-25-2022 11:37:13 TTOffMagicWordManager: Spawned mh in current zone.
+:10-25-2022 11:37:24 FactoryExterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-3
+:10-25-2022 11:37:27 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-25-2022 11:37:27 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+Exception occurred while processing Func-__showProp-289 of movie-track-with-cam-402004442:
+movie-track-with-cam-402004442:
+  0.000 movie-track-with-cam-402004442 {
+  0.000   movie-track-402004442 {
+  0.000     Sequence-158 {
+  0.000       toon-attacks {
+  0.000         Sequence-185 {
+  0.000           Parallel-160 {
+  0.000             Sequence-184 {
+  0.000               Wait
+  0.000               Parallel-161 {
+  0.000                 Sequence-162 {
+  0.000                   Wait
+  0.000                   *Func-headsUp-241
+  0.000                   *Actor-throw-45 dur 3.79167
+  3.792                   *Func-loop-242
+  3.792                   *Func-setHpr-243
+  3.792                 }
+  0.000                 Parallel-167 {
+  0.000                   Sequence-165 {
+  0.000                     Wait dur 2.6
+  2.600                     *Sound-38 dur 0.470204
+  3.070                   }
+  0.000                   Sequence-166 {
+  0.000                     Wait dur 2.7
+  2.700                     *Sound-39 dur 0.496327
+  3.196                   }
+  3.196                 }
+  0.000                 Sequence-164 {
+  0.000                   Wait
+  0.000                   *Func-showProps-244
+  0.000                   *Func-__animProp-245
+  0.000                   Parallel-163 {
+  0.000                     LerpScaleInterval-389: scale from 0.01 0.01 0.01 to 1 1 1 dur 1
+  0.000                     LerpScaleInterval-390: scale from 0.01 0.01 0.01 to 1 1 1 dur 1
+  1.000                   }
+  1.000                   *Func-needRestoreRenderProp-247
+  1.000                   Wait dur 1.7
+  2.700                   *Func-__propPreflight-246
+  2.700                   MovieThrow-pieFly: pos from -0.282173 -2.64465 1.63812 to 0 5.00002 6.95 dur 0.3
+  3.000                   *Func-removeProps-248
+  3.000                   *Func-clearRenderProp-252
+  3.000                   *Func-__showProp-249
+  3.000                   *Func-__billboardProp-250
+  3.000                   *Actor-splat-birthday-cake-46 dur 0.416667
+  3.417                   *Func-removeProp-251
+  3.417                 }
+  0.000                 Parallel-172 {
+  0.000                   Sequence-168 {
+  0.000                     Wait dur 3
+  3.000                     *Func-showHpText-253 (!oe)
+  3.000                     *Func-updateHealthBar-254
+  3.000                     Parallel-170 {
+  3.000                       *Actor-pie-small-react-47 dur 2.29167
+  3.000                       Sequence-169 {
+  3.000                         Wait dur 0.3
+  3.300                         *Func-reparentTo-255
+  3.300                         *Func-setZ-256
+  3.300                         *Func-loop-257
+  3.300                         Wait dur 1.3
+  4.600                         *Func-cleanup-258
+  4.600                         *Func-removeNode-259
+  4.600                       }
+  5.292                     }
+  5.292                     *Func-loop-260
+  5.292                   }
+  0.000                   Sequence-171 {
+  0.000                     Wait dur 3
+  3.000                   }
+  5.292                 }
+  0.000                 Sequence-173 {
+  0.000                   Wait
+  0.000                   *Func-headsUp-261
+  0.000                   *Actor-throw-48 dur 3.79167
+  3.792                   *Func-loop-262
+  3.792                   *Func-setHpr-263
+  3.792                 }
+  0.000                 Parallel-178 {
+  0.000                   Sequence-176 {
+  0.000                     Wait dur 2.6
+  2.600                     *Sound-40 dur 0.470204
+  3.070                   }
+  0.000                   Sequence-177 {
+  0.000                     Wait dur 2.7
+  2.700                     *Sound-41 dur 0.496327
+  3.196                   }
+  3.196                 }
+  0.000                 Sequence-175 {
+  0.000                   Wait
+  0.000                   *Func-showProps-264
+  0.000                   *Func-__animProp-265
+  0.000                   Parallel-174 {
+  0.000                     LerpScaleInterval-391: scale from 0.01 0.01 0.01 to 1 1 1 dur 1
+  0.000                     LerpScaleInterval-392: scale from 0.01 0.01 0.01 to 1 1 1 dur 1
+  1.000                   }
+  1.000                   *Func-needRestoreRenderProp-267
+  1.000                   Wait dur 1.7
+  2.700                   *Func-__propPreflight-266
+  2.700                   MovieThrow-pieFly: pos from -0.282173 -2.64465 1.63812 to 0 5.00002 6.95 dur 0.3
+  3.000                   *Func-removeProps-268
+  3.000                   *Func-clearRenderProp-272
+  3.000                   *Func-__showProp-269
+  3.000                   *Func-__billboardProp-270
+  3.000                   *Actor-splat-birthday-cake-49 dur 0.416667
+  3.417                   *Func-removeProp-271
+  3.417                 }
+  0.000                 Parallel-183 {
+  0.000                   Sequence-179 {
+  0.000                     Wait dur 3
+  3.000                     *Func-showHpText-273 (!oe)
+  3.000                     *Func-updateHealthBar-274
+  3.000                     Parallel-181 {
+  3.000                       *Actor-pie-small-react-50 dur 2.29167
+  3.000                       Sequence-180 {
+  3.000                         Wait dur 0.3
+  3.300                         *Func-reparentTo-275
+  3.300                         *Func-setZ-276
+  3.300                         *Func-loop-277
+  3.300                         Wait dur 1.3
+  4.600                         *Func-cleanup-278
+  4.600                         *Func-removeNode-279
+  4.600                       }
+  5.292                     }
+  5.292                     *Func-loop-280
+  5.292                   }
+  0.000                   Sequence-182 {
+  0.000                     Wait dur 3
+  3.000                   }
+  5.292                 }
+  5.292               }
+  5.292             }
+  5.292           }
+  5.292           Parallel-186 {
+  5.292           }
+  5.292         }
+  5.292       }
+  5.292       suit-attacks {
+  5.292         Sequence-204 {
+  5.292           Sequence-196 {
+  5.292             Parallel-195 {
+  5.292               Sequence-188 {
+  5.292                 Wait dur 1e-06
+  5.292                 *Func-setChatAbsolute-283
+  5.292                 *Func-reparentTrap-284
+  5.292                 *Func-headsUp-285
+  5.292                 *Actor-smile-51 dur 3.875
+  9.167                 *Func-setHpr-286
+  9.167                 *Func-returnTrapToSuit-287
+  9.167                 *Func-clearChat-288
+  9.167               }
+  5.292               Sequence-189 {
+  5.292                 Wait dur 0.5
+  5.792                 *Func-__showProp-289
+  5.792                 LerpScaleInterval-393: scale to 1.39 1.39 1.39 dur 0.5
+  6.292                 Wait dur 0.5
+  6.792                 *Func-needRestoreParticleEffect-290
+  6.792                 *Func-start-291
+  6.792                 *Func-wrtReparentTo-292
+  6.792                 *LerpPosInterval-394 dur 2
+  8.792                 *Func-cleanup-293
+  8.792                 *Func-clearRestoreParticleEffect-294
+  8.792               }
+  5.292               *Actor-smile-52 dur 4
+  5.292               Sequence-190 {
+  5.292                 *Func-headsUp-295
+  5.292                 Parallel-193 {
+  5.292                   Sequence-191 {
+  5.292                     Wait dur 2.6
+  7.892                     *Actor-cringe-53 dur 2.29167
+ 10.184                     *Func-loop-297
+ 10.184                   }
+  5.292                   Sequence-192 {
+  5.292                     Wait dur 2.61
+  7.902                     *Func-__doDamage-296
+  7.902                   }
+ 10.184                 }
+ 10.184               }
+  5.292               Sequence-194 {
+  5.292                 Wait dur 1.6
+  6.892                 *Sound-42 dur 2.71673
+  9.609               }
+ 10.184             }
+ 10.184             *Func-removeProp-298
+ 10.184           }
+ 10.184           *Func-loop-310
+ 10.184           Sequence-203 {
+ 10.184             *Func-headsUp-308
+ 10.184             *Func-loop-309
+ 10.184           }
+ 10.184         }
+ 10.184       }
+ 10.184       *Func-__handleMovieDone-311
+ 10.184     }
+ 10.184   }
+  0.000   Sequence-205 {
+  0.000     Sequence-159 {
+  0.000       toon-attacks-cam {
+  0.000         Sequence-187 {
+  0.000           avatarCloseUpThrowShot {
+  0.000             *Func-setPosHpr-281
+  0.000             Wait dur 3
+  3.000           }
+  3.000           suitGroupThreeQuarterLeftBehindShot {
+  3.000             *Func-setPosHpr-282
+  3.000             Wait dur 2.292
+  5.292           }
+  5.292         }
+  5.292       }
+  5.292       suit-attacks-cam {
+  5.292         Parallel-202 {
+  5.292           Sequence-197 {
+  5.292             Sequence-200 {
+  5.292               Sequence-198 {
+  5.292                 *Func-setPos-299
+  5.292                 *Func-focusCameraBetweenPoints-300
+  5.292                 Wait dur 2.2
+  7.492               }
+  7.492               Sequence-199 {
+  7.492                 *Func-setPos-301
+  7.492                 *Func-lookAt-302
+  7.492                 Wait dur 2.692
+ 10.184               }
+ 10.184             }
+ 10.184           }
+  5.292           Sequence-201 {
+  5.292             *Func-hide-303
+  5.292             *Func-setFg-304
+  5.292             Wait dur 0.4392
+  5.731             *Func-setText-305
+  5.731             *Func-show-306
+  5.731             Wait dur 3.9528
+  9.684             *Func-hide-307
+  9.684           }
+ 10.184         }
+ 10.184       }
+ 10.184     }
+ 10.184   }
+ 10.184 }
+
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieSuitAttacks.py", line 26, in __showProp
+    prop.reparentTo(parent)
+AssertionError: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:10-25-2022 11:37:35 :task(error): Exception occurred in PythonTask ivalLoop
+:10-25-2022 11:37:35 TTOffLauncher: setting panda error code to 12
+:10-25-2022 11:37:35 TTOffLauncher(warning): Handling Python exception.
+:10-25-2022 11:37:35 TimeManager: Client disconnect reason 3.
+:10-25-2022 11:37:35 TimeManager: Client exception: toontown.battle.MovieSuitAttacks:26, direct.interval.FunctionInterval:91, direct.interval.Interval:210, direct.interval.MetaInterval:504, AssertionError: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:10-25-2022 11:37:35 OTPClientRepository: Sent disconnect message to server
+:10-25-2022 11:37:35 OTPClientRepository: Closing connection to server.
+:10-25-2022 11:37:36 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieSuitAttacks.py", line 26, in __showProp
+    prop.reparentTo(parent)
+AssertionError: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx

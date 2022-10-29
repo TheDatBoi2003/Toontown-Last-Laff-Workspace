@@ -35,7 +35,7 @@ GlobalEntities = {
         'scale': Vec3(1, 1, 1),
         'animateShadow': 1,
         'crushCellId': None,
-        'damage': 3,
+        'damage': 20,
         'headScale': Vec3(1, 1, 1),
         'modelPath': 0,
         'motion': 3,

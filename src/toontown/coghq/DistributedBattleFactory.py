@@ -46,3 +46,4 @@ class DistributedBattleFactory(DistributedLevelBattle.DistributedLevelBattle):
         self.movie.resetReward(finish=1)
         self._removeMembersKeep()
         NametagGlobals.setMasterArrowsOn(1)
+    

@@ -1,0 +1,204 @@
+
+
+Starting Toontown Online...
+Current time: Fri Oct 28 23:34:04 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'COMPUTERNAME': 'PHILIP-JR', 'USERDOMAIN': 'PHILIP-JR', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'PSMODULEPATH': 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'DOKANLIBRARY1': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\', 'ADSK_3DSMAX_X64_2021': 'C:\\Program Files\\Autodesk\\3ds Max 2021\\', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 45 Stepping 7, GenuineIntel', 'VBOX_MSI_INSTALL_PATH': 'C:\\Program Files\\Oracle\\VirtualBox\\', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '2d07', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Animation Paper\\gstreamer\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Philip\\anaconda3;C:\\Users\\Philip\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Philip\\anaconda3\\Library\\usr\\bin;C:\\Users\\Philip\\anaconda3\\Library\\bin;C:\\Users\\Philip\\anaconda3\\Scripts;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Panda3D-1.10.02\\python;C:\\Panda3D-1.10.02\\python\\Scripts;C:\\Panda3D-1.10.02\\bin;C:\\Panda3D-1.11.0-x64-py2\\python;C:\\Panda3D-1.11.0-x64-py2\\python\\Scripts;C:\\Panda3D-1.11.0-x64-py2\\bin;C:\\Users\\Philip\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0-x64\\python;C:\\Panda3D-1.10.0-x64\\python\\Scripts;C:\\Panda3D-1.10.0-x64\\bin;C:\\Users\\Philip\\AppData\\Local\\atom\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Panda3D-1.11.0-x64-astron\\python;C:\\Panda3D-1.11.0-x64-astron\\python\\Scripts;C:\\Panda3D-1.11.0-x64-astron\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\Panda3D-1.10.9-x64\\python;C:\\Panda3D-1.10.9-x64\\python\\Scrip;C:\\Users\\Philip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Philip\\.dotnet\\tools;%C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\rc.exe%;%C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE%;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'SYSTEMROOT': 'C:\\WINDOWS', 'NUMBER_OF_PROCESSORS': '8', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'KMP_BLOCKTIME': '0', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'DOKANLIBRARY1_LIBRARYPATH_X64': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\lib\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\Philip\\AppData\\Local', 'HOMEPATH': '\\Users\\Philip', 'USERDOMAIN_ROAMINGPROFILE': 'PHILIP-JR', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'Philip', 'FP_NO_HOST_CHECK': 'NO', 'DOKANLIBRARY1_LIBRARYPATH_X86': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\x86\\lib\\', 'LOGONSERVER': '\\\\MicrosoftAccount', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'TTOFF_LOGIN_TOKEN': 'dev', 'VS160COMCOMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'WINDIR': 'C:\\WINDOWS', 'OMP_WAIT_POLICY': 'PASSIVE', 'MONGO': 'C:\\mongodb-win32-x86_64-windows-4.4.4/bin', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'APPDATA': 'C:\\Users\\Philip\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'CIOENGINE': 'C:\\cio-panda3d', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\Philip'}
+:10-28-2022 23:34:04 TTOffLauncher: isTestServer: 0
+:10-28-2022 23:34:04 TTOffLauncher: Game Server 127.0.0.1
+:10-28-2022 23:34:04 TTOffLauncher: Starting Toontown Online... 
+:10-28-2022 23:34:04 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:10-28-2022 23:34:04 TTOffLauncher: maybeStartGame: starting game
+:10-28-2022 23:34:04 TTOffLauncher: Starting Toontown Online...
+:10-28-2022 23:34:04 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:10-28-2022 23:34:04 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:10-28-2022 23:34:04 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:10-28-2022 23:34:04 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:10-28-2022 23:34:04 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:10-28-2022 23:34:04 ShowBase: __dev__ == False
+:10-28-2022 23:34:04 TTOffLauncher: setting panda error code to 11
+:10-28-2022 23:34:05 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:10-28-2022 23:34:05 Loader: starting bulk load of block 'init'
+:10-28-2022 23:34:05 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:10-28-2022 23:34:05 OTPClientRepository: Using connect method 'http'
+:10-28-2022 23:34:06 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:10-28-2022 23:34:06 TTOffLauncher: checking env
+:10-28-2022 23:34:06 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:10-28-2022 23:34:06 TTOffLauncher: checking env
+:10-28-2022 23:34:06 OTPClientRepository: reg_deployment=
+:10-28-2022 23:34:06 OTPClientRepository: required-login auto.
+:10-28-2022 23:34:06 OTPClientRepository: loginInterface: LoginTTOffAccount
+:10-28-2022 23:34:06 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:10-28-2022 23:34:06 Loader: At end of block 'init', expected 138, loaded 7, duration=1.57611812171
+:10-28-2022 23:34:06 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:10-28-2022 23:34:06 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:10-28-2022 23:34:06 TTOffLauncher: Stopping mini task manager.
+:10-28-2022 23:34:06 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:10-28-2022 23:34:06 TTOffLauncher: Setting Disconnect Details normal
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0000000017AFF848>, 402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0000000017AFFA08>}
+:10-28-2022 23:34:08 StateData: AvatarChooser.enter
+:10-28-2022 23:34:08 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:10-28-2022 23:34:08 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:10-28-2022 23:34:09 OTPClientRepository: ================
+:10-28-2022 23:34:09 OTPClientRepository: Chose avatar id: 100000001
+:10-28-2022 23:34:09 OTPClientRepository: Chose avatar name: Wittybumble
+:10-28-2022 23:34:09 OTPClientRepository: Chose avatar dna: ('dss', 'ms', 'm', 'm', 6, 0, 6, 6, 1, 9, 1, 9, 1, 18)
+:10-28-2022 23:34:09 OTPClientRepository: Chose avatar position: 1
+:10-28-2022 23:34:09 OTPClientRepository: isPaid: 1
+:10-28-2022 23:34:09 OTPClientRepository: freeTimeLeft: 0
+:10-28-2022 23:34:09 OTPClientRepository: allowSecretChat: True
+:10-28-2022 23:34:09 OTPClientRepository: ================
+:10-28-2022 23:34:09 Loader: starting bulk load of block 'localAvatarPlayGame'
+:10-28-2022 23:34:10 ToontownTimeManager(warning): error parsing date string=
+:10-28-2022 23:34:10 Actor(warning): no part named head-front*!
+local
+:10-28-2022 23:34:10 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:10-28-2022 23:34:10 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:10-28-2022 23:34:12 Actor(warning): no part named head-front*!
+:10-28-2022 23:34:12 OTPClientRepository: Entering shard 401000001
+:10-28-2022 23:34:12 StreetSign: Street sign url is https://ttoffline.com/images/
+:10-28-2022 23:34:14 TimeManager: Clock sync: TimeManager.announceGenerate
+:10-28-2022 23:34:14 NewsManager: setHolidayId: Starting Holiday 26
+:10-28-2022 23:34:14 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|        Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz|132823|0|3.601,3.601|4,8 cpus
+:10-28-2022 23:34:15 OTPClientRepository: No sync from TimeManager.
+:10-28-2022 23:34:15 OTPClientRepository: gotTimeSync
+:10-28-2022 23:34:15 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 19, duration=5.45079029977
+:10-28-2022 23:34:15 TimeManager: Clock sync roundtrip took 1195.697 ms
+:10-28-2022 23:34:15 TimeManager: AI time delta is -0:01 from server delta
+:10-28-2022 23:34:15 TimeManager: Local clock uncertainty +/- 0.598 s
+:10-28-2022 23:34:15 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:10-28-2022 23:34:15 Loader: starting bulk load of block 'hood'
+:10-28-2022 23:34:16 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:34:16 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:34:16 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:34:16 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:34:16 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:34:16 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:34:16 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:34:16 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-28-2022 23:34:16 SellbotCogHQLoader: loadPlaceGeom: 11000
+:10-28-2022 23:34:16 OTPClientRepository: Sending heartbeat mid-frame.
+:10-28-2022 23:34:16 DistributedObject: DistributedSuitPlanner 401003322: generating
+:10-28-2022 23:34:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-28-2022 23:34:16 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:34:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-28-2022 23:34:16 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:34:17 DistributedToon: calling LocalAvatar.startchat
+:10-28-2022 23:34:17 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-28-2022 23:34:17 Loader: At end of block 'hood', expected 43, loaded 7, duration=1.73492701731
+:10-28-2022 23:34:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-28-2022 23:34:17 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:34:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:10-28-2022 23:34:17 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:34:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:10-28-2022 23:34:17 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-28-2022 23:34:17 :gobj(error): Texture::read() - couldn't read: phase_4/maps/name-dropper.jpg.jpg
+:10-28-2022 23:34:17 :gobj(error): Unable to find texture "phase_4/maps/name-dropper.jpg.jpg" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1445, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1732, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1758, in gotInterestDoneMessage
+    self.__playBackGenerates(handle)
+  File "otp\distributed\OTPClientRepository.py", line 1941, in __playBackGenerates
+    self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 1987, in __doGenerate
+    distObj = self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 264, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 341, in updateRequiredFields
+    dclass.receiveUpdateBroadcastRequired(self, di)
+  File "toontown\suit\DistributedSuitBase.py", line 124, in setDNAString
+    Suit.Suit.setDNAString(self, dnaString)
+  File "toontown\suit\Suit.py", line 395, in setDNAString
+    self.setDNA(self.dna)
+  File "toontown\suit\DistributedSuitBase.py", line 127, in setDNA
+    Suit.Suit.setDNA(self, dna)
+  File "toontown\suit\Suit.py", line 410, in setDNA
+    self.generateSuit()
+  File "toontown\suit\Suit.py", line 593, in generateSuit
+    self.generateHead('numbercruncher')
+  File "toontown\suit\Suit.py", line 797, in generateHead
+    texture = loader.loadTexture(texturePhase + headTexture + '.jpg')
+  File "toontown\toonbase\ToontownLoader.py", line 79, in loadTexture
+    ret = Loader.Loader.loadTexture(self, texturePath, alphaPath, okMissing=okMissing)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Loader.py", line 727, in loadTexture
+    raise IOError(message)
+IOError: Could not load texture: phase_4/maps/name-dropper.jpg.jpg
+:10-28-2022 23:34:17 :task(error): Exception occurred in PythonTask readerPollTask-88951184
+:10-28-2022 23:34:17 TTOffLauncher: setting panda error code to 12
+:10-28-2022 23:34:17 TTOffLauncher(warning): Handling Python exception.
+:10-28-2022 23:34:17 TimeManager: Client disconnect reason 3.
+:10-28-2022 23:34:17 TimeManager: Client exception: direct.showbase.Loader:727, toontown.toonbase.ToontownLoader:79, toontown.suit.Suit:797, toontown.suit.Suit:593, IOError: Could not load texture: phase_4/maps/name-dropper.jpg.jpg
+:10-28-2022 23:34:17 OTPClientRepository: Sent disconnect message to server
+:10-28-2022 23:34:17 OTPClientRepository: Closing connection to server.
+:10-28-2022 23:34:17 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1445, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1732, in handleMessageType
+    self.gotInterestDoneMessage(di)
+  File "otp\distributed\OTPClientRepository.py", line 1758, in gotInterestDoneMessage
+    self.__playBackGenerates(handle)
+  File "otp\distributed\OTPClientRepository.py", line 1941, in __playBackGenerates
+    self.__doGenerate(doId, parentId, zoneId, classId, di, other)
+  File "otp\distributed\OTPClientRepository.py", line 1987, in __doGenerate
+    distObj = self.generateWithRequiredFields(dclass, doId, di, parentId, zoneId)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 264, in generateWithRequiredFields
+    distObj.updateRequiredFields(dclass, di)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 341, in updateRequiredFields
+    dclass.receiveUpdateBroadcastRequired(self, di)
+  File "toontown\suit\DistributedSuitBase.py", line 124, in setDNAString
+    Suit.Suit.setDNAString(self, dnaString)
+  File "toontown\suit\Suit.py", line 395, in setDNAString
+    self.setDNA(self.dna)
+  File "toontown\suit\DistributedSuitBase.py", line 127, in setDNA
+    Suit.Suit.setDNA(self, dna)
+  File "toontown\suit\Suit.py", line 410, in setDNA
+    self.generateSuit()
+  File "toontown\suit\Suit.py", line 593, in generateSuit
+    self.generateHead('numbercruncher')
+  File "toontown\suit\Suit.py", line 797, in generateHead
+    texture = loader.loadTexture(texturePhase + headTexture + '.jpg')
+  File "toontown\toonbase\ToontownLoader.py", line 79, in loadTexture
+    ret = Loader.Loader.loadTexture(self, texturePath, alphaPath, okMissing=okMissing)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Loader.py", line 727, in loadTexture
+    raise IOError(message)
+IOError: Could not load texture: phase_4/maps/name-dropper.jpg.jpg

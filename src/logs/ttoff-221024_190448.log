@@ -1,0 +1,400 @@
+
+
+Starting Toontown Online...
+Current time: Mon Oct 24 19:04:48 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'COMPUTERNAME': 'PHILIP-JR', 'USERDOMAIN': 'PHILIP-JR', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'PSMODULEPATH': 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'DOKANLIBRARY1': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\', 'ADSK_3DSMAX_X64_2021': 'C:\\Program Files\\Autodesk\\3ds Max 2021\\', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 45 Stepping 7, GenuineIntel', 'VBOX_MSI_INSTALL_PATH': 'C:\\Program Files\\Oracle\\VirtualBox\\', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '2d07', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Animation Paper\\gstreamer\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Philip\\anaconda3;C:\\Users\\Philip\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Philip\\anaconda3\\Library\\usr\\bin;C:\\Users\\Philip\\anaconda3\\Library\\bin;C:\\Users\\Philip\\anaconda3\\Scripts;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Panda3D-1.10.02\\python;C:\\Panda3D-1.10.02\\python\\Scripts;C:\\Panda3D-1.10.02\\bin;C:\\Panda3D-1.11.0-x64-py2\\python;C:\\Panda3D-1.11.0-x64-py2\\python\\Scripts;C:\\Panda3D-1.11.0-x64-py2\\bin;C:\\Users\\Philip\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0-x64\\python;C:\\Panda3D-1.10.0-x64\\python\\Scripts;C:\\Panda3D-1.10.0-x64\\bin;C:\\Users\\Philip\\AppData\\Local\\atom\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Panda3D-1.11.0-x64-astron\\python;C:\\Panda3D-1.11.0-x64-astron\\python\\Scripts;C:\\Panda3D-1.11.0-x64-astron\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\Panda3D-1.10.9-x64\\python;C:\\Panda3D-1.10.9-x64\\python\\Scrip;C:\\Users\\Philip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Philip\\.dotnet\\tools;%C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\rc.exe%;%C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE%;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'SYSTEMROOT': 'C:\\WINDOWS', 'NUMBER_OF_PROCESSORS': '8', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'KMP_BLOCKTIME': '0', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'DOKANLIBRARY1_LIBRARYPATH_X64': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\lib\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\Philip\\AppData\\Local', 'HOMEPATH': '\\Users\\Philip', 'USERDOMAIN_ROAMINGPROFILE': 'PHILIP-JR', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'Philip', 'FP_NO_HOST_CHECK': 'NO', 'DOKANLIBRARY1_LIBRARYPATH_X86': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\x86\\lib\\', 'LOGONSERVER': '\\\\MicrosoftAccount', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'TTOFF_LOGIN_TOKEN': 'dev', 'VS160COMCOMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'WINDIR': 'C:\\WINDOWS', 'OMP_WAIT_POLICY': 'PASSIVE', 'MONGO': 'C:\\mongodb-win32-x86_64-windows-4.4.4/bin', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'APPDATA': 'C:\\Users\\Philip\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'CIOENGINE': 'C:\\cio-panda3d', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\Philip'}
+:10-24-2022 19:04:48 TTOffLauncher: isTestServer: 0
+:10-24-2022 19:04:48 TTOffLauncher: Game Server 127.0.0.1
+:10-24-2022 19:04:48 TTOffLauncher: Starting Toontown Online... 
+:10-24-2022 19:04:48 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:10-24-2022 19:04:48 TTOffLauncher: maybeStartGame: starting game
+:10-24-2022 19:04:48 TTOffLauncher: Starting Toontown Online...
+:10-24-2022 19:04:48 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:10-24-2022 19:04:48 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:10-24-2022 19:04:48 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:10-24-2022 19:04:49 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:10-24-2022 19:04:49 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:10-24-2022 19:04:49 ShowBase: __dev__ == False
+:10-24-2022 19:04:49 TTOffLauncher: setting panda error code to 11
+:10-24-2022 19:04:49 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:10-24-2022 19:04:49 Loader: starting bulk load of block 'init'
+:10-24-2022 19:04:50 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:10-24-2022 19:04:50 OTPClientRepository: Using connect method 'http'
+:10-24-2022 19:04:51 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:10-24-2022 19:04:51 TTOffLauncher: checking env
+:10-24-2022 19:04:51 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:10-24-2022 19:04:51 TTOffLauncher: checking env
+:10-24-2022 19:04:51 OTPClientRepository: reg_deployment=
+:10-24-2022 19:04:51 OTPClientRepository: required-login auto.
+:10-24-2022 19:04:51 OTPClientRepository: loginInterface: LoginTTOffAccount
+:10-24-2022 19:04:51 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:10-24-2022 19:04:51 Loader: At end of block 'init', expected 138, loaded 8, duration=1.66965797586
+:10-24-2022 19:04:51 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:10-24-2022 19:04:51 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:10-24-2022 19:04:51 TTOffLauncher: Stopping mini task manager.
+:10-24-2022 19:04:51 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:10-24-2022 19:04:51 TTOffLauncher: Setting Disconnect Details normal
+{401000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x000000001726BB48>}
+:10-24-2022 19:04:52 StateData: AvatarChooser.enter
+:10-24-2022 19:04:52 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:10-24-2022 19:04:52 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:10-24-2022 19:04:53 OTPClientRepository: ================
+:10-24-2022 19:04:53 OTPClientRepository: Chose avatar id: 100000001
+:10-24-2022 19:04:53 OTPClientRepository: Chose avatar name: Wittybumble
+:10-24-2022 19:04:53 OTPClientRepository: Chose avatar dna: ('dss', 'ms', 'm', 'm', 6, 0, 6, 6, 1, 9, 1, 9, 1, 18)
+:10-24-2022 19:04:53 OTPClientRepository: Chose avatar position: 1
+:10-24-2022 19:04:53 OTPClientRepository: isPaid: 1
+:10-24-2022 19:04:53 OTPClientRepository: freeTimeLeft: 0
+:10-24-2022 19:04:53 OTPClientRepository: allowSecretChat: True
+:10-24-2022 19:04:53 OTPClientRepository: ================
+:10-24-2022 19:04:53 Loader: starting bulk load of block 'localAvatarPlayGame'
+:10-24-2022 19:04:54 ToontownTimeManager(warning): error parsing date string=
+:10-24-2022 19:04:54 Actor(warning): no part named head-front*!
+local
+:10-24-2022 19:04:55 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:10-24-2022 19:04:55 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:10-24-2022 19:04:58 Actor(warning): no part named head-front*!
+:10-24-2022 19:04:58 OTPClientRepository: Entering shard 401000001
+:10-24-2022 19:04:58 StreetSign: Street sign url is https://ttoffline.com/images/
+:10-24-2022 19:04:59 TimeManager: Clock sync: TimeManager.announceGenerate
+:10-24-2022 19:04:59 NewsManager: setHolidayId: Starting Holiday 26
+:10-24-2022 19:04:59 NewsManager: setHolidayId: Starting Holiday 14
+:10-24-2022 19:04:59 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|        Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz|132823|0|3.601,3.601|4,8 cpus
+:10-24-2022 19:05:01 OTPClientRepository: No sync from TimeManager.
+:10-24-2022 19:05:01 OTPClientRepository: gotTimeSync
+:10-24-2022 19:05:01 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 28, duration=7.25256675264
+:10-24-2022 19:05:01 TimeManager: Clock sync roundtrip took 1211.883 ms
+:10-24-2022 19:05:01 TimeManager: AI time delta is -0:02 from server delta
+:10-24-2022 19:05:01 TimeManager: Local clock uncertainty +/- 0.606 s
+:10-24-2022 19:05:01 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:10-24-2022 19:05:01 Loader: starting bulk load of block 'hood'
+:10-24-2022 19:05:01 OTPClientRepository: Sending heartbeat mid-frame.
+:10-24-2022 19:05:02 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-24-2022 19:05:02 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-24-2022 19:05:02 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-24-2022 19:05:02 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-24-2022 19:05:02 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-24-2022 19:05:02 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-24-2022 19:05:02 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-24-2022 19:05:02 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-24-2022 19:05:02 SellbotCogHQLoader: loadPlaceGeom: 11000
+:10-24-2022 19:05:02 DistributedObject: DistributedSuitPlanner 401003555: generating
+:10-24-2022 19:05:03 DistributedToon: calling LocalAvatar.startchat
+:10-24-2022 19:05:03 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-24-2022 19:05:03 Loader: At end of block 'hood', expected 43, loaded 9, duration=2.07042295987
+:10-24-2022 19:05:04 Teleport(debug): teleportInDone: walk
+:10-24-2022 19:05:04 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-24-2022 19:05:11 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-24-2022 19:05:13 SellbotHQExterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-3
+:10-24-2022 19:05:15 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-24-2022 19:05:30 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-24-2022 19:05:55 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-24-2022 19:06:29 SellbotHQExterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-9
+:10-24-2022 19:06:34 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-24-2022 19:06:44 TTOffMagicWordManager: Oobe mode has been toggled.
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+Exception occurred while processing Func-__showProp-484 of movie-track-with-cam-401005093:
+movie-track-with-cam-401005093:
+  0.000 movie-track-with-cam-401005093 {
+  0.000   movie-track-401005093 {
+  0.000     Sequence-245 {
+  0.000       toon-attacks {
+  0.000         Parallel-247 {
+  0.000           Sequence-267 {
+  0.000             Wait
+  0.000             Parallel-248 {
+  0.000               Sequence-249 {
+  0.000                 Wait
+  0.000                 Parallel-250 {
+  0.000                   Sequence-251 {
+  0.000                     Wait dur 2.3
+  2.300                     *Sound-43 dur 3.6049
+  5.905                   }
+  0.000                   Sequence-252 {
+  0.000                     Wait dur 4.6
+  4.600                     *Sound-44 dur 3.6049
+  8.205                   }
+  0.000                   Sequence-253 {
+  0.000                     *Func-showProps-449
+  0.000                     *Func-headsUp-450
+  0.000                     *Actor-pushbutton-85 dur 4
+  4.000                     *Func-removeProps-451
+  4.000                     *Func-loop-452
+  4.000                     *Func-setHpr-453
+  4.000                   }
+  0.000                   Sequence-254 {
+  0.000                     *Func-showProp-454
+  0.000                     *Func-pose-455
+  0.000                     LerpScaleInterval-283: scale from 0.01 0.01 0.01 to 3 3 3 dur 1.5
+  1.500                     Wait dur 1
+  2.500                     Sequence-256 {
+  2.500                       *Func-needRestoreParticleEffect-456
+  2.500                       *Particle-5 dur 1.175
+  3.675                       *Func-clearRestoreParticleEffect-457
+  3.675                     }
+  3.675                     Parallel-255 {
+  3.675                       Sequence-257 {
+  3.675                         *Func-needRestoreParticleEffect-458
+  3.675                         Wait dur 1.175
+  4.850                         *Particle-6 dur 2.35
+  7.200                         *Func-clearRestoreParticleEffect-459
+  7.200                       }
+  3.675                       Sequence-258 {
+  3.675                         *Func-needRestoreParticleEffect-460
+  3.675                         Wait dur 1.475
+  5.150                         *Particle-7 dur 2.35
+  7.500                         *Func-clearRestoreParticleEffect-461
+  7.500                       }
+  3.675                       Sequence-259 {
+  3.675                         *Func-needRestoreParticleEffect-462
+  3.675                         Wait dur 1.775
+  5.450                         *Particle-8 dur 2.35
+  7.800                         *Func-clearRestoreParticleEffect-463
+  7.800                       }
+  3.675                       Sequence-260 {
+  3.675                         Wait dur 0.9
+  4.575                         *Actor-stormcloud-86 dur 4.7
+  9.275                       }
+  9.275                     }
+  9.275                     LerpScaleInterval-284: scale from 3 3 3 to 0.01 0.01 0.01 dur 0.5
+  9.775                     *Func-removeProp-464
+  9.775                   }
+  0.000                   Sequence-261 {
+  0.000                     *Func-showProp-465
+  0.000                     *Func-pose-466
+  0.000                     LerpScaleInterval-285: scale from 0.01 0.01 0.01 to 3 3 3 dur 1.5
+  1.500                     Wait dur 1
+  2.500                     *Actor-stormcloud-87 dur 4.7
+  7.200                     LerpScaleInterval-286: scale from 3 3 3 to 0.01 0.01 0.01 dur 0.5
+  7.700                     *Func-removeProp-467
+  7.700                   }
+  0.000                   Parallel-266 {
+  0.000                     Sequence-262 {
+  0.000                       Wait dur 2.9
+  2.900                       *Func-showHpText-473 (!oe)
+  2.900                       *Func-updateHealthBar-474
+  2.900                       Parallel-264 {
+  2.900                         *Actor-soak-89 dur 6.875
+  2.900                         Sequence-263 {
+  2.900                           Wait dur 2.6
+  5.500                           *Func-reparentTo-468
+  5.500                           *Func-setZ-469
+  5.500                           *Func-loop-470
+  5.500                           Wait dur 2.3
+  7.800                           *Func-cleanup-471
+  7.800                           *Func-removeNode-472
+  7.800                         }
+  9.775                       }
+  9.775                       *Func-loop-475
+  9.775                     }
+  0.000                     Sequence-265 {
+  0.000                       Wait dur 2.9
+  2.900                     }
+  9.775                   }
+  9.775                 }
+  9.775               }
+  9.775             }
+  9.775           }
+  9.775         }
+  9.775       }
+  9.775       suit-attacks {
+  9.775         Sequence-290 {
+  9.775           Parallel-282 {
+  9.775             Sequence-269 {
+  9.775               Wait dur 1e-06
+  9.775               *Func-setChatAbsolute-478
+  9.775               *Func-reparentTrap-479
+  9.775               *Func-headsUp-480
+  9.775               *Actor-throw-object-90 dur 4.58333
+ 14.358               *Func-setHpr-481
+ 14.358               *Func-returnTrapToSuit-482
+ 14.358               *Func-clearChat-483
+ 14.358             }
+  9.775             Sequence-277 {
+  9.775               *Func-headsUp-497
+  9.775               Parallel-280 {
+  9.775                 Sequence-278 {
+  9.775                   Wait dur 3.4
+ 13.175                   *Actor-struggle-91 dur 4.04167
+ 17.217                   *Func-loop-499
+ 17.217                 }
+  9.775                 Sequence-279 {
+  9.775                   Wait dur 3.41
+ 13.185                   *Func-__doDamage-498
+ 13.185                 }
+ 17.217               }
+ 17.217             }
+  9.775             Sequence-271 {
+  9.775               Sequence-270 {
+  9.775                 Wait dur 0.8
+ 10.575                 *Func-__showProp-484
+ 10.575                 LerpScaleInterval-287: scale from 0.01 0.01 0.01 to 0.9 0.9 0.24 dur 0.5
+ 11.075               }
+ 11.075               Wait dur 1.73
+ 12.805               Sequence-272 {
+ 12.805                 *Func-needRestoreRenderProp-485
+ 12.805                 *Func-wrtReparentTo-486
+ 12.805                 *LerpPosInterval-288 dur 0.5
+ 13.305                 *Func-removeProp-487
+ 13.305                 *Func-clearRenderProp-488
+ 13.305               }
+ 13.305             }
+  9.775             Sequence-281 {
+  9.775               Wait dur 2.9
+ 12.675               *Sound-45 dur 1.61959
+ 14.295             }
+  9.775             Parallel-273 {
+  9.775               *Func-needRestoreHips-489
+  9.775               Sequence-274 {
+  9.775                 Wait dur 3.25
+ 13.025                 *Func-__showProp-490
+ 13.025                 LerpScaleInterval-289: scale from 0.01 0.01 0.01 to 1.4365 1.4365 0.5695 dur 0.5
+ 13.525                 Wait dur 3.17
+ 16.695                 LerpScaleInterval-290: scale to 0.01 0.01 0.01 dur 0.5
+ 17.195                 *Func-removeProp-491
+ 17.195               }
+  9.775               Sequence-275 {
+  9.775                 Wait dur 3.25
+ 13.025                 *Func-__showProp-492
+ 13.025                 LerpScaleInterval-291: scale from 0.01 0.01 0.01 to 1.4365 1.4365 0.5695 dur 0.5
+ 13.525                 Wait dur 3.17
+ 16.695                 LerpScaleInterval-292: scale to 0.01 0.01 0.01 dur 0.5
+ 17.195                 *Func-removeProp-493
+ 17.195               }
+  9.775               Sequence-276 {
+  9.775                 Wait dur 3.25
+ 13.025                 *Func-__showProp-494
+ 13.025                 LerpScaleInterval-293: scale from 0.01 0.01 0.01 to 1.4365 1.4365 0.5695 dur 0.5
+ 13.525                 Wait dur 3.17
+ 16.695                 LerpScaleInterval-294: scale to 0.01 0.01 0.01 dur 0.5
+ 17.195                 *Func-removeProp-495
+ 17.195               }
+  9.775               *Func-clearRestoreHips-496
+ 17.195             }
+ 17.217           }
+ 17.217           *Func-loop-511
+ 17.217           Sequence-289 {
+ 17.217             *Func-headsUp-509
+ 17.217             *Func-loop-510
+ 17.217           }
+ 17.217         }
+ 17.217       }
+ 17.217       *Func-__handleMovieDone-512
+ 17.217     }
+ 17.217   }
+  0.000   Sequence-291 {
+  0.000     Sequence-246 {
+  0.000       toon-attacks-cam {
+  0.000         Sequence-268 {
+  0.000           allGroupLowShot {
+  0.000             *Func-setPosHpr-476
+  0.000             Wait dur 3
+  3.000           }
+  3.000           suitGroupThreeQuarterLeftBehindShot {
+  3.000             *Func-setPosHpr-477
+  3.000             Wait dur 6.775
+  9.775           }
+  9.775         }
+  9.775       }
+  9.775       suit-attacks-cam {
+  9.775         Parallel-288 {
+  9.775           Sequence-283 {
+  9.775             Sequence-286 {
+  9.775               Sequence-284 {
+  9.775                 *Func-setPos-500
+  9.775                 *Func-lookAt-501
+  9.775                 Wait dur 3.5
+ 13.275               }
+ 13.275               Sequence-285 {
+ 13.275                 *Func-setPos-502
+ 13.275                 *Func-focusCameraBetweenPoints-503
+ 13.275                 Wait dur 3.942
+ 17.217               }
+ 17.217             }
+ 17.217           }
+  9.775           Sequence-287 {
+  9.775             *Func-hide-504
+  9.775             *Func-setFg-505
+  9.775             Wait dur 0.6942
+ 10.469             *Func-setText-506
+ 10.469             *Func-show-507
+ 10.469             Wait dur 6.2478
+ 16.717             *Func-hide-508
+ 16.717           }
+ 17.217         }
+ 17.217       }
+ 17.217     }
+ 17.217   }
+ 17.217 }
+
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieSuitAttacks.py", line 26, in __showProp
+    prop.reparentTo(parent)
+AssertionError: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:10-24-2022 19:06:49 :task(error): Exception occurred in PythonTask ivalLoop
+:10-24-2022 19:06:49 TTOffLauncher: setting panda error code to 12
+:10-24-2022 19:06:49 TTOffLauncher(warning): Handling Python exception.
+:10-24-2022 19:06:49 TimeManager: Client disconnect reason 3.
+:10-24-2022 19:06:49 TimeManager: Client exception: toontown.battle.MovieSuitAttacks:26, direct.interval.FunctionInterval:91, direct.interval.Interval:210, direct.interval.MetaInterval:504, AssertionError: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:10-24-2022 19:06:49 OTPClientRepository: Sent disconnect message to server
+:10-24-2022 19:06:49 OTPClientRepository: Closing connection to server.
+:10-24-2022 19:06:49 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 123, in __doPythonCallbacks
+    self.ivals[index].privPostEvent()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 520, in privPostEvent
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\MetaInterval.py", line 496, in __doPythonCallbacks
+    ival.privDoEvent(t, eventType)
+  File "C:\Panda3D-1.11.0-x64\direct\interval\Interval.py", line 210, in privDoEvent
+    self.privInstant()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\FunctionInterval.py", line 91, in privInstant
+    self.function(*self.extraArgs, **self.kw)
+  File "toontown\battle\MovieSuitAttacks.py", line 26, in __showProp
+    prop.reparentTo(parent)
+AssertionError: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx

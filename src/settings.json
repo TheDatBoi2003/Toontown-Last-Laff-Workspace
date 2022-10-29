@@ -1,8 +1,26 @@
 {
     "game": {
-        "antialiasing": 70, 
         "interpolate-animations": true, 
+        "FOV": 130, 
+        "antialiasing": 70, 
+        "customKeybinds": true, 
+        "movement_mode": 0, 
+        "stretched-screen": false, 
+        "keymap": {
+            "SPRINT_KEY": "shift", 
+            "MOVE_LEFT": "a", 
+            "MOVE_RIGHT": "d", 
+            "JUMP": "space", 
+            "ACTION_BUTTON": "delete", 
+            "OPTIONS_PAGE_HOTKEY": "escape", 
+            "MOVE_DOWN": "s", 
+            "CRANE_GRAB_KEY": "control", 
+            "CHAT_HOTKEY": "t", 
+            "MOVE_UP": "w"
+        }, 
         "magic-word-activator": 0, 
-        "stretched-screen": false
+        "music": true, 
+        "camSensitivityY": 0.25, 
+        "camSensitivityX": 0.2678226661682129
     }
 }

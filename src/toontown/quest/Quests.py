@@ -66,6 +66,7 @@ BR_TIER = 11
 DL_TIER = 14
 LAWBOT_HQ_TIER = 18
 BOSSBOT_HQ_TIER = 32
+QA_TESTING = 60
 ELDER_TIER = 49
 LOOPING_FINAL_TIER = ELDER_TIER
 VISIT_QUEST_ID = 1000
@@ -2018,6 +2019,7 @@ NoRewardTierZeroQuests = (101,
  163)
 RewardTierZeroQuests = ()
 PreClarabelleQuestIds = NoRewardTierZeroQuests + RewardTierZeroQuests
+QuestDict = {}
 QuestDict = {
   101: (TT_TIER,
        Start,

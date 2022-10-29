@@ -1,0 +1,550 @@
+
+
+Starting Toontown Online...
+Current time: Sat Oct 29 00:12:57 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'COMPUTERNAME': 'PHILIP-JR', 'USERDOMAIN': 'PHILIP-JR', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'PSMODULEPATH': 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'DOKANLIBRARY1': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\', 'ADSK_3DSMAX_X64_2021': 'C:\\Program Files\\Autodesk\\3ds Max 2021\\', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 45 Stepping 7, GenuineIntel', 'VBOX_MSI_INSTALL_PATH': 'C:\\Program Files\\Oracle\\VirtualBox\\', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '2d07', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Animation Paper\\gstreamer\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Philip\\anaconda3;C:\\Users\\Philip\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Philip\\anaconda3\\Library\\usr\\bin;C:\\Users\\Philip\\anaconda3\\Library\\bin;C:\\Users\\Philip\\anaconda3\\Scripts;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Panda3D-1.10.02\\python;C:\\Panda3D-1.10.02\\python\\Scripts;C:\\Panda3D-1.10.02\\bin;C:\\Panda3D-1.11.0-x64-py2\\python;C:\\Panda3D-1.11.0-x64-py2\\python\\Scripts;C:\\Panda3D-1.11.0-x64-py2\\bin;C:\\Users\\Philip\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0-x64\\python;C:\\Panda3D-1.10.0-x64\\python\\Scripts;C:\\Panda3D-1.10.0-x64\\bin;C:\\Users\\Philip\\AppData\\Local\\atom\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Panda3D-1.11.0-x64-astron\\python;C:\\Panda3D-1.11.0-x64-astron\\python\\Scripts;C:\\Panda3D-1.11.0-x64-astron\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\Panda3D-1.10.9-x64\\python;C:\\Panda3D-1.10.9-x64\\python\\Scrip;C:\\Users\\Philip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Philip\\.dotnet\\tools;%C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\rc.exe%;%C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE%;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'SYSTEMROOT': 'C:\\WINDOWS', 'NUMBER_OF_PROCESSORS': '8', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'KMP_BLOCKTIME': '0', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'DOKANLIBRARY1_LIBRARYPATH_X64': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\lib\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\Philip\\AppData\\Local', 'HOMEPATH': '\\Users\\Philip', 'USERDOMAIN_ROAMINGPROFILE': 'PHILIP-JR', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'Philip', 'FP_NO_HOST_CHECK': 'NO', 'DOKANLIBRARY1_LIBRARYPATH_X86': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\x86\\lib\\', 'LOGONSERVER': '\\\\MicrosoftAccount', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'TTOFF_LOGIN_TOKEN': 'dev', 'VS160COMCOMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'WINDIR': 'C:\\WINDOWS', 'OMP_WAIT_POLICY': 'PASSIVE', 'MONGO': 'C:\\mongodb-win32-x86_64-windows-4.4.4/bin', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'APPDATA': 'C:\\Users\\Philip\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'CIOENGINE': 'C:\\cio-panda3d', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\Philip'}
+:10-29-2022 00:12:57 TTOffLauncher: isTestServer: 0
+:10-29-2022 00:12:57 TTOffLauncher: Game Server 127.0.0.1
+:10-29-2022 00:12:57 TTOffLauncher: Starting Toontown Online... 
+:10-29-2022 00:12:57 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:10-29-2022 00:12:57 TTOffLauncher: maybeStartGame: starting game
+:10-29-2022 00:12:57 TTOffLauncher: Starting Toontown Online...
+:10-29-2022 00:12:57 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:10-29-2022 00:12:57 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:10-29-2022 00:12:57 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:10-29-2022 00:12:58 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:10-29-2022 00:12:58 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:10-29-2022 00:12:58 ShowBase: __dev__ == False
+:10-29-2022 00:12:58 TTOffLauncher: setting panda error code to 11
+:10-29-2022 00:12:58 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:10-29-2022 00:12:58 Loader: starting bulk load of block 'init'
+:10-29-2022 00:12:59 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:10-29-2022 00:12:59 OTPClientRepository: Using connect method 'http'
+:10-29-2022 00:12:59 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:10-29-2022 00:12:59 TTOffLauncher: checking env
+:10-29-2022 00:12:59 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:10-29-2022 00:12:59 TTOffLauncher: checking env
+:10-29-2022 00:12:59 OTPClientRepository: reg_deployment=
+:10-29-2022 00:12:59 OTPClientRepository: required-login auto.
+:10-29-2022 00:12:59 OTPClientRepository: loginInterface: LoginTTOffAccount
+:10-29-2022 00:12:59 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:10-29-2022 00:12:59 Loader: At end of block 'init', expected 138, loaded 7, duration=1.61724448662
+:10-29-2022 00:12:59 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:10-29-2022 00:12:59 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:10-29-2022 00:12:59 TTOffLauncher: Stopping mini task manager.
+:10-29-2022 00:12:59 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:10-29-2022 00:12:59 TTOffLauncher: Setting Disconnect Details normal
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0000000018AFFA88>}
+:10-29-2022 00:13:00 StateData: AvatarChooser.enter
+:10-29-2022 00:13:00 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:10-29-2022 00:13:00 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:10-29-2022 00:13:02 OTPClientRepository: ================
+:10-29-2022 00:13:02 OTPClientRepository: Chose avatar id: 100000001
+:10-29-2022 00:13:02 OTPClientRepository: Chose avatar name: Wittybumble
+:10-29-2022 00:13:02 OTPClientRepository: Chose avatar dna: ('dss', 'ms', 'm', 'm', 6, 0, 6, 6, 1, 9, 1, 9, 1, 18)
+:10-29-2022 00:13:02 OTPClientRepository: Chose avatar position: 1
+:10-29-2022 00:13:02 OTPClientRepository: isPaid: 1
+:10-29-2022 00:13:02 OTPClientRepository: freeTimeLeft: 0
+:10-29-2022 00:13:02 OTPClientRepository: allowSecretChat: True
+:10-29-2022 00:13:02 OTPClientRepository: ================
+:10-29-2022 00:13:02 Loader: starting bulk load of block 'localAvatarPlayGame'
+:10-29-2022 00:13:02 ToontownTimeManager(warning): error parsing date string=
+:10-29-2022 00:13:03 Actor(warning): no part named head-front*!
+local
+:10-29-2022 00:13:03 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:10-29-2022 00:13:03 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:10-29-2022 00:13:05 Actor(warning): no part named head-front*!
+:10-29-2022 00:13:05 OTPClientRepository: Entering shard 402000001
+:10-29-2022 00:13:05 StreetSign: Street sign url is https://ttoffline.com/images/
+:10-29-2022 00:13:06 TimeManager: Clock sync: TimeManager.announceGenerate
+:10-29-2022 00:13:06 NewsManager: setHolidayId: Starting Holiday 26
+:10-29-2022 00:13:06 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|        Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz|132823|0|3.601,3.601|4,8 cpus
+:10-29-2022 00:13:08 OTPClientRepository: No sync from TimeManager.
+:10-29-2022 00:13:08 OTPClientRepository: gotTimeSync
+:10-29-2022 00:13:08 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 21, duration=5.74206230011
+:10-29-2022 00:13:08 TimeManager: Clock sync roundtrip took 1166.966 ms
+:10-29-2022 00:13:08 TimeManager: AI time delta is -0:02 from server delta
+:10-29-2022 00:13:08 TimeManager: Local clock uncertainty +/- 0.584 s
+:10-29-2022 00:13:08 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:10-29-2022 00:13:08 Loader: starting bulk load of block 'hood'
+:10-29-2022 00:13:08 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:13:08 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:13:08 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:13:08 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:13:08 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:13:08 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:13:08 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:13:08 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:13:09 SellbotCogHQLoader: loadPlaceGeom: 11000
+:10-29-2022 00:13:09 DistributedObject: DistributedSuitPlanner 402002954: generating
+:10-29-2022 00:13:09 DistributedToon: calling LocalAvatar.startchat
+:10-29-2022 00:13:09 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:13:09 Loader: At end of block 'hood', expected 43, loaded 6, duration=1.46177297484
+:10-29-2022 00:13:10 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:10-29-2022 00:13:10 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:13:10 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 00:13:10 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:13:10 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:10-29-2022 00:13:10 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:13:10 Teleport(debug): teleportInDone: walk
+:10-29-2022 00:13:10 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 00:13:10 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:13:17 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+:10-29-2022 00:13:20 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 00:13:20 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:13:20 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-29-2022 00:13:20 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:13:21 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:10-29-2022 00:13:22 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 00:13:22 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:13:30 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:10-29-2022 00:13:30 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:13:42 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-29-2022 00:13:42 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:13:47 SellbotHQExterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-3
+:10-29-2022 00:13:54 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:10-29-2022 00:13:54 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:14:15 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat
+:10-29-2022 00:14:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:10-29-2022 00:14:17 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:14:20 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:10-29-2022 00:14:20 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:14:20 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+Assertion failed: !is_singleton() && !is_empty() at line 5124 of panda/src/pgraph/nodePath.cxx
+Assertion failed: !is_singleton() && !is_empty() at line 5124 of panda/src/pgraph/nodePath.cxx
+Assertion failed: !is_singleton() && !is_empty() at line 5124 of panda/src/pgraph/nodePath.cxx
+Assertion failed: !is_singleton() && !is_empty() at line 5141 of panda/src/pgraph/nodePath.cxx
+Assertion failed: !is_singleton() && !is_empty() at line 5124 of panda/src/pgraph/nodePath.cxx
+Assertion failed: !is_singleton() && !is_empty() at line 5124 of panda/src/pgraph/nodePath.cxx
+:10-29-2022 00:14:35 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 00:14:35 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:14:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 00:14:38 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:14:39 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-29-2022 00:14:39 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:14:39 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-29-2022 00:14:50 OTPClientRepository: Sending heartbeat mid-frame.
+:10-29-2022 00:14:50 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 00:14:50 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:14:58 SellbotHQExterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-9
+:10-29-2022 00:15:01 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 00:15:01 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:15:05 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:10-29-2022 00:15:05 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:15:05 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-29-2022 00:15:08 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-29-2022 00:15:08 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:15:09 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-29-2022 00:15:11 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-29-2022 00:15:11 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:15:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 00:15:24 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:15:25 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-29-2022 00:15:31 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 00:15:31 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:15:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 00:15:34 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:15:35 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:10-29-2022 00:15:35 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:15:36 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-29-2022 00:15:48 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:10-29-2022 00:15:49 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Map
+:10-29-2022 00:15:49 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:10-29-2022 00:15:49 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:15:50 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:10-29-2022 00:15:56 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:10-29-2022 00:16:01 SellbotHQExterior: Unloading Place (11009). Fsm in final
+:10-29-2022 00:16:01 DistributedObject: DistributedSuitPlanner 402002954: disabling
+:10-29-2022 00:16:01 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Cashbot HQ
+:10-29-2022 00:16:01 Loader: starting bulk load of block 'hood'
+:10-29-2022 00:16:01 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:16:01 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:16:01 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:16:01 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:16:01 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:16:01 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:16:01 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:16:01 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-29-2022 00:16:01 CashbotCogHQLoader: loadPlaceGeom: 12000
+:10-29-2022 00:16:02 DistributedObject: DistributedSuitPlanner 402002970: generating
+:10-29-2022 00:16:02 DistributedToon: calling LocalAvatar.startchat
+:10-29-2022 00:16:02 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_cashbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:16:02 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 00:16:02 Loader: At end of block 'hood', expected 2, loaded 4, duration=1.04994470405
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tw.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/tw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tw.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/tw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:16:02 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:04 Teleport(debug): teleportInDone: walk
+:10-29-2022 00:16:04 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 00:16:04 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_cashbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:16:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:16:07 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:19 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:16:19 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:30 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:16:30 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:34 CashbotHQExterior: QA-REGRESSION: COGBATTLE: Enter Battle
+Battle Event localtoon-battle-event-15
+:10-29-2022 00:16:41 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:16:41 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:16:51 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:16:51 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:17:03 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:17:03 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:17:07 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat
+:10-29-2022 00:17:14 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:17:14 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:17:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:17:24 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:17:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:17:34 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:17:39 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 00:17:39 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_cashbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:17:46 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tw.png
+:10-29-2022 00:17:46 :gobj(error): Unable to find texture "phase_3/maps/hands/tw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:17:57 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:17:57 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:17:58 GarbageCollect(warning): garbage found, reverting gc threshold
+frame rate: 50.3 fps|0.007d|14 avs||307|308||0x0000|0x0000|752.8MB|734.9MB|16302.1MB|777|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:10-29-2022 00:18:18 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:18:18 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:18:30 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:18:30 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:18:41 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:18:41 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:18:53 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:18:53 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:19:05 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:19:05 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:19:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:19:15 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:19:26 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:19:26 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:19:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:19:38 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:19:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:19:38 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:19:49 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:19:49 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:20:00 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:20:00 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:20:10 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:20:10 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+adding timeout task
+adding timeout task
+:10-29-2022 00:20:21 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:20:21 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:20:32 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:20:32 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:20:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:20:44 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:20:56 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:20:56 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:21:08 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:21:08 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:21:20 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:21:20 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:21:31 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:21:31 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:21:42 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:21:42 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:21:52 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:21:52 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:22:04 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:22:04 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:22:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:22:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:22:27 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:22:27 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:22:39 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:22:39 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+frame rate: 51.4 fps|0.002d|13 avs||607|608||0x0000|0x0000|789.7MB|770.5MB|16302.1MB|787|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:10-29-2022 00:23:12 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:23:12 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:23:23 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:23:23 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:23:35 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:23:35 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:23:45 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:23:45 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:23:57 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:23:57 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:24:08 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:24:08 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:24:19 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:24:19 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:24:29 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:24:29 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+adding timeout task
+adding timeout task
+:10-29-2022 00:24:40 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:24:40 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:24:52 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:24:52 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:24:52 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:24:52 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:25:03 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:25:03 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:25:03 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:25:03 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:25:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:25:15 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:25:25 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:25:25 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:25:35 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:25:36 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:25:47 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:25:47 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:25:58 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:25:58 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:26:04 CashbotCogHQLoader: loadPlaceGeom: 12100
+:10-29-2022 00:26:04 CashbotCogHQLoader: QA-REGRESSION: COGHQ: Visit CashbotLobby
+:10-29-2022 00:26:04 CashbotHQExterior: Unloading Place (12003). Fsm in final
+:10-29-2022 00:26:04 DistributedObject: DistributedSuitPlanner 402002970: disabling
+:10-29-2022 00:26:04 DistributedToon: calling LocalAvatar.startchat
+:10-29-2022 00:26:04 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_cashbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:26:05 LocalAvatar(warning): redundant call to startUpdateSmartCamera
+:10-29-2022 00:26:05 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_cashbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:10-29-2022 00:27:02 CashbotCogHQLoader: loadPlaceGeom: 61000
+:10-29-2022 00:27:02 CashbotCogHQLoader(warning): loadPlaceGeom: unclassified zone 61000
+:10-29-2022 00:27:02 CogHQLobby: Unloading Place (12100). Fsm in final
+:10-29-2022 00:27:02 DistributedToon: calling LocalAvatar.startchat
+:10-29-2022 00:27:02 CashbotHQBossBattle(warning): fsm.request('movie') returned 0 (zone id 61000, avatar pos LPoint3f(58.6267, -232.917, 0.129106)).
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :pnmimage:png(warning): Interlace handling should be turned on when using png_read_image
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ls.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/ls.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ls.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/ls.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ls.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/ls.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:27:15 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tw.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/tw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ls.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/ls.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tw.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/tw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tw.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/tw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tw.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/tw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tw.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/tw.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ls.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/ls.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/sc.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/sc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:10-29-2022 00:27:17 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:10-29-2022 00:27:17 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ls.png
+:10-29-2022 00:27:17 :gobj(error): Unable to find texture "phase_3/maps/hands/ls.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/rb.png
+:10-29-2022 00:27:17 :gobj(error): Unable to find texture "phase_3/maps/hands/rb.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:27:17 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ls.png
+:10-29-2022 00:27:17 :gobj(error): Unable to find texture "phase_3/maps/hands/ls.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:27:17 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+:10-29-2022 00:27:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:10-29-2022 00:27:17 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1441, in handlePlayGame
+    self.handleUpdateField(di)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 437, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 445, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "toontown\suit\DistributedBossCog.py", line 305, in setState
+    self.request(state)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\FSM.py", line 321, in request
+    self.__setState(*result)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\FSM.py", line 456, in __setState
+    self.__callEnterFunc(self.newState, *args)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\FSM.py", line 492, in __callEnterFunc
+    func(*args)
+  File "toontown\suit\DistributedCashbotBoss.py", line 691, in enterIntroduction
+    self.__showResistanceToon(True)
+  File "toontown\suit\DistributedCashbotBoss.py", line 146, in __showResistanceToon
+    self.resistanceToon.putOnSuit(suit, False)
+  File "toontown\toon\Toon.py", line 2769, in putOnSuit
+    self.takeOffSuit()
+  File "toontown\toon\Toon.py", line 2862, in takeOffSuit
+    headPosNode.removeNode()
+AssertionError: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx
+:10-29-2022 00:27:17 :task(error): Exception occurred in PythonTask readerPollTask-102923264
+:10-29-2022 00:27:17 TTOffLauncher: setting panda error code to 12
+:10-29-2022 00:27:17 TTOffLauncher(warning): Handling Python exception.
+:10-29-2022 00:27:17 TimeManager: Client disconnect reason 3.
+:10-29-2022 00:27:17 TimeManager: Client exception: toontown.toon.Toon:2862, toontown.toon.Toon:2769, toontown.suit.DistributedCashbotBoss:146, toontown.suit.DistributedCashbotBoss:691, AssertionError: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx
+:10-29-2022 00:27:17 OTPClientRepository: Sent disconnect message to server
+:10-29-2022 00:27:17 OTPClientRepository: Closing connection to server.
+:10-29-2022 00:27:17 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1441, in handlePlayGame
+    self.handleUpdateField(di)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 437, in handleUpdateField
+    self.__doUpdate(doId, di, ovUpdated)
+  File "C:\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 445, in __doUpdate
+    do.dclass.receiveUpdate(do, di)
+  File "toontown\suit\DistributedBossCog.py", line 305, in setState
+    self.request(state)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\FSM.py", line 321, in request
+    self.__setState(*result)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\FSM.py", line 456, in __setState
+    self.__callEnterFunc(self.newState, *args)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\FSM.py", line 492, in __callEnterFunc
+    func(*args)
+  File "toontown\suit\DistributedCashbotBoss.py", line 691, in enterIntroduction
+    self.__showResistanceToon(True)
+  File "toontown\suit\DistributedCashbotBoss.py", line 146, in __showResistanceToon
+    self.resistanceToon.putOnSuit(suit, False)
+  File "toontown\toon\Toon.py", line 2769, in putOnSuit
+    self.takeOffSuit()
+  File "toontown\toon\Toon.py", line 2862, in takeOffSuit
+    headPosNode.removeNode()
+AssertionError: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx

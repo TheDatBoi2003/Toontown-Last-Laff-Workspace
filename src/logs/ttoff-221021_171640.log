@@ -1,0 +1,248 @@
+
+
+Starting Toontown Online...
+Current time: Fri Oct 21 17:16:40 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'COMPUTERNAME': 'PHILIP-JR', 'USERDOMAIN': 'PHILIP-JR', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'PSMODULEPATH': 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'DOKANLIBRARY1': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\', 'ADSK_3DSMAX_X64_2021': 'C:\\Program Files\\Autodesk\\3ds Max 2021\\', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 45 Stepping 7, GenuineIntel', 'VBOX_MSI_INSTALL_PATH': 'C:\\Program Files\\Oracle\\VirtualBox\\', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '2d07', 'PATH': 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Animation Paper\\gstreamer\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Philip\\anaconda3;C:\\Users\\Philip\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Philip\\anaconda3\\Library\\usr\\bin;C:\\Users\\Philip\\anaconda3\\Library\\bin;C:\\Users\\Philip\\anaconda3\\Scripts;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Panda3D-1.10.02\\python;C:\\Panda3D-1.10.02\\python\\Scripts;C:\\Panda3D-1.10.02\\bin;C:\\Panda3D-1.11.0-x64-py2\\python;C:\\Panda3D-1.11.0-x64-py2\\python\\Scripts;C:\\Panda3D-1.11.0-x64-py2\\bin;C:\\Users\\Philip\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0-x64\\python;C:\\Panda3D-1.10.0-x64\\python\\Scripts;C:\\Panda3D-1.10.0-x64\\bin;C:\\Users\\Philip\\AppData\\Local\\atom\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Panda3D-1.11.0-x64-astron\\python;C:\\Panda3D-1.11.0-x64-astron\\python\\Scripts;C:\\Panda3D-1.11.0-x64-astron\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\Panda3D-1.10.9-x64\\python;C:\\Panda3D-1.10.9-x64\\python\\Scrip;C:\\Users\\Philip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Philip\\.dotnet\\tools;%C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\rc.exe%;%C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE%;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'SYSTEMROOT': 'C:\\WINDOWS', 'NUMBER_OF_PROCESSORS': '8', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'KMP_BLOCKTIME': '0', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'DOKANLIBRARY1_LIBRARYPATH_X64': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\lib\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\Philip\\AppData\\Local', 'HOMEPATH': '\\Users\\Philip', 'USERDOMAIN_ROAMINGPROFILE': 'PHILIP-JR', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'Philip', 'FP_NO_HOST_CHECK': 'NO', 'DOKANLIBRARY1_LIBRARYPATH_X86': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\x86\\lib\\', 'LOGONSERVER': '\\\\MicrosoftAccount', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'TTOFF_LOGIN_TOKEN': 'dev', 'VS160COMCOMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'WINDIR': 'C:\\WINDOWS', 'OMP_WAIT_POLICY': 'PASSIVE', 'MONGO': 'C:\\mongodb-win32-x86_64-windows-4.4.4/bin', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'APPDATA': 'C:\\Users\\Philip\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'CIOENGINE': 'C:\\cio-panda3d', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\Philip'}
+:10-21-2022 17:16:40 TTOffLauncher: isTestServer: 0
+:10-21-2022 17:16:40 TTOffLauncher: Game Server 127.0.0.1
+:10-21-2022 17:16:40 TTOffLauncher: Starting Toontown Online... 
+:10-21-2022 17:16:40 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:10-21-2022 17:16:40 TTOffLauncher: maybeStartGame: starting game
+:10-21-2022 17:16:40 TTOffLauncher: Starting Toontown Online...
+:10-21-2022 17:16:40 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:10-21-2022 17:16:40 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:10-21-2022 17:16:41 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:10-21-2022 17:16:41 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:10-21-2022 17:16:41 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:10-21-2022 17:16:41 ShowBase: __dev__ == False
+:10-21-2022 17:16:41 TTOffLauncher: setting panda error code to 11
+:10-21-2022 17:16:41 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:10-21-2022 17:16:41 Loader: starting bulk load of block 'init'
+:10-21-2022 17:16:42 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:10-21-2022 17:16:42 OTPClientRepository: Using connect method 'http'
+:10-21-2022 17:16:42 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:10-21-2022 17:16:42 TTOffLauncher: checking env
+:10-21-2022 17:16:42 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:10-21-2022 17:16:42 TTOffLauncher: checking env
+:10-21-2022 17:16:42 OTPClientRepository: reg_deployment=
+:10-21-2022 17:16:42 OTPClientRepository: required-login auto.
+:10-21-2022 17:16:42 OTPClientRepository: loginInterface: LoginTTOffAccount
+:10-21-2022 17:16:42 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:10-21-2022 17:16:42 Loader: At end of block 'init', expected 138, loaded 6, duration=1.40214795133
+:10-21-2022 17:16:42 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:10-21-2022 17:16:42 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:10-21-2022 17:16:42 TTOffLauncher: Stopping mini task manager.
+:10-21-2022 17:16:42 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:10-21-2022 17:16:43 TTOffLauncher: Setting Disconnect Details normal
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0000000017925E88>}
+:10-21-2022 17:16:45 StateData: AvatarChooser.enter
+:10-21-2022 17:16:45 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:10-21-2022 17:16:45 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:10-21-2022 17:16:45 OTPClientRepository: ================
+:10-21-2022 17:16:45 OTPClientRepository: Chose avatar id: 100000001
+:10-21-2022 17:16:45 OTPClientRepository: Chose avatar name: Wittybumble
+:10-21-2022 17:16:45 OTPClientRepository: Chose avatar dna: ('dss', 'ms', 'm', 'm', 6, 0, 6, 6, 1, 9, 1, 9, 1, 18)
+:10-21-2022 17:16:45 OTPClientRepository: Chose avatar position: 1
+:10-21-2022 17:16:45 OTPClientRepository: isPaid: 1
+:10-21-2022 17:16:45 OTPClientRepository: freeTimeLeft: 0
+:10-21-2022 17:16:45 OTPClientRepository: allowSecretChat: True
+:10-21-2022 17:16:45 OTPClientRepository: ================
+:10-21-2022 17:16:46 Loader: starting bulk load of block 'localAvatarPlayGame'
+:10-21-2022 17:16:46 ToontownTimeManager(warning): error parsing date string=
+:10-21-2022 17:16:46 Actor(warning): no part named head-front*!
+local
+:10-21-2022 17:16:47 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:10-21-2022 17:16:47 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:10-21-2022 17:16:49 Actor(warning): no part named head-front*!
+:10-21-2022 17:16:49 OTPClientRepository: Entering shard 402000001
+:10-21-2022 17:16:49 StreetSign: Street sign url is https://ttoffline.com/images/
+:10-21-2022 17:16:50 TimeManager: Clock sync: TimeManager.announceGenerate
+:10-21-2022 17:16:50 NewsManager: setHolidayId: Starting Holiday 26
+:10-21-2022 17:16:50 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|        Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz|132823|0|3.601,3.601|4,8 cpus
+:10-21-2022 17:16:52 OTPClientRepository: No sync from TimeManager.
+:10-21-2022 17:16:52 OTPClientRepository: gotTimeSync
+:10-21-2022 17:16:52 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 22, duration=5.91215028662
+:10-21-2022 17:16:52 TimeManager: Clock sync roundtrip took 1147.107 ms
+:10-21-2022 17:16:52 TimeManager: AI time delta is -0:02 from server delta
+:10-21-2022 17:16:52 TimeManager: Local clock uncertainty +/- 0.574 s
+:10-21-2022 17:16:52 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Lawbot HQ
+:10-21-2022 17:16:52 Loader: starting bulk load of block 'hood'
+:10-21-2022 17:16:52 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-21-2022 17:16:52 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-21-2022 17:16:52 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-21-2022 17:16:52 TownBattleSuitPanel: Loading Suit Battle Panel!
+:10-21-2022 17:16:53 OTPClientRepository: Sending heartbeat mid-frame.
+:10-21-2022 17:16:53 LawbotCogHQLoader: loadPlaceGeom: 13000
+:10-21-2022 17:16:53 DistributedObject: DistributedSuitPlanner 402002980: generating
+:10-21-2022 17:16:53 DistributedToon: calling LocalAvatar.startchat
+:10-21-2022 17:16:53 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models")
+:10-21-2022 17:16:53 Loader: At end of block 'hood', expected 2, loaded 7, duration=1.5608893885
+:10-21-2022 17:16:55 Teleport(debug): teleportInDone: walk
+:10-21-2022 17:16:55 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models")
+:10-21-2022 17:16:57 TTOffMagicWordManager: Run mode has been toggled.
+:10-21-2022 17:17:04 LawbotCogHQLoader: loadPlaceGeom: 13200
+:10-21-2022 17:17:04 LawbotHQExterior: Unloading Place (13000). Fsm in final
+:10-21-2022 17:17:05 DistributedObject: DistributedSuitPlanner 402002980: disabling
+:10-21-2022 17:17:05 DistributedToon: calling LocalAvatar.startchat
+:10-21-2022 17:17:05 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models")
+:10-21-2022 17:17:06 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_lawbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models")
+:10-21-2022 17:17:28 LawbotCogHQLoader: loadPlaceGeom: 61000
+:10-21-2022 17:17:28 LawbotCogHQLoader(warning): loadPlaceGeom: unclassified zone 61000
+:10-21-2022 17:17:28 LawbotOfficeExterior: Unloading Place (13200). Fsm in final
+:10-21-2022 17:17:29 DistributedElevatorFloor: Setting latch
+:10-21-2022 17:17:29 DistributedElevatorFloor: Setting latch in announce generate
+:10-21-2022 17:17:29 DistributedElevatorFloor: Setting latch
+:10-21-2022 17:17:29 TimeManager: Clock sync: DistributedLevel.generate
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 DistributedStage: stageId 13300, floor 0, [100000001]
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 Loader: loader.loadModelCopy() is deprecated; use loader.loadModel() instead.
+:10-21-2022 17:17:29 DistributedStage: CAMENTERROOM doID402004083 num0
+:10-21-2022 17:17:29 DistributedStage: av: LPoint3f(-1, -1, 0), cam: LPoint3f(0, -16, 5.5)
+:10-21-2022 17:17:29 DistributedToon: calling LocalAvatar.startchat
+:10-21-2022 17:17:29 TimeManager: Clock sync roundtrip took 445.818 ms
+:10-21-2022 17:17:29 TimeManager: AI time delta is -0:00 from server delta
+:10-21-2022 17:17:29 ClockDelta: previous delta at -0.954 s, +/- 0.584 s.
+:10-21-2022 17:17:29 ClockDelta: new delta at -1.317 s, +/- 0.223 s.
+:10-21-2022 17:17:29 ClockDelta: intersection at -1.316 s, +/- 0.222 s.
+:10-21-2022 17:17:29 TimeManager: Local clock uncertainty +/- 0.222 s
+:10-21-2022 17:17:29 :pgraph(warning): No bin named default; creating default bin.
+:10-21-2022 17:17:29 DistributedStage: CAMENTERROOM doID402004083 num0
+:10-21-2022 17:17:29 DistributedStage: av: LPoint3f(-1, -1, 0), cam: LPoint3f(0, -11.0625, 3.6875)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004083/ZoneEntity-0/-PandaNode/Z03a_ALL/Collsion/stageFloorColl0 []
+  at -1 -11.2625 -0.0323832
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-21-2022 17:17:29 DistributedStage: CAMENTERROOM doID402004083 num0
+:10-21-2022 17:17:29 DistributedStage: av: LPoint3f(-1, -1, 0), cam: LPoint3f(0, -11.0625, 3.6875)
+:10-21-2022 17:17:35 DistributedStage: CAMENTERROOM doID402004083 num1
+:10-21-2022 17:17:35 DistributedStage: av: LPoint3f(-0.265609, 48.3071, 4.82029), cam: LPoint3f(0, -11.0625, 3.6875)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004083/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at -3.26938 38.4941 0.0959654
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-21-2022 17:17:35 DistributedStage: CAMENTERROOM doID402004083 num1
+:10-21-2022 17:17:35 DistributedStage: av: LPoint3f(2.65971, 57.2234, 7.22206), cam: LPoint3f(0, -11.0625, 3.6875)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004083/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at -0.54775 47.4751 -0.0474472
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-21-2022 17:17:35 DistributedStage: CAMENTERROOM doID402004083 num1
+:10-21-2022 17:17:35 DistributedStage: av: LPoint3f(3.884, 60.9444, 7.80157), cam: LPoint3f(0, -11.0625, 3.6875)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004083/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl1 []
+  at 0.67654 51.196 4.9515
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-21-2022 17:17:36 DistributedStage: CAMENTERROOM doID402004083 num2
+:10-21-2022 17:17:36 DistributedStage: av: LPoint3f(28.3241, 121.072, 4.94786), cam: LPoint3f(0, -11.0625, 3.6875)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004083/ZoneEntity-0/-PandaNode/Z08_ALL/Z08/boiler_room/collsion_boiler_room/stageFloorColl2 []
+  at 25.4628 111.217 4.93818
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-21-2022 17:17:41 DistributedStage: CAMENTERROOM doID402004083 num3
+:10-21-2022 17:17:41 DistributedStage: av: LPoint3f(119.549, 173.464, 20.4618), cam: LPoint3f(0, -11.0625, 3.6875)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004083/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 111.386 179.684 15.8499
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-21-2022 17:17:41 DistributedStage: CAMENTERROOM doID402004083 num3
+:10-21-2022 17:17:41 DistributedStage: av: LPoint3f(119.817, 173.465, 20.5865), cam: LPoint3f(0, -11.0625, 3.6875)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004083/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 111.654 179.685 16.7665
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-21-2022 17:17:41 DistributedStage: CAMENTERROOM doID402004083 num3
+:10-21-2022 17:17:41 DistributedStage: av: LPoint3f(123.825, 173.479, 22.1994), cam: LPoint3f(0, -11.0625, 3.6875)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004083/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 114.213 177.076 15.8495
+  normal 0 0 1
+  respect_prev_transform = 1
+
+
+:10-21-2022 17:17:41 DistributedStage: CAMENTERROOM doID402004083 num3
+:10-21-2022 17:17:41 DistributedStage: av: LPoint3f(132.93, 173.468, 20.873), cam: LPoint3f(0, -11.0625, 3.6875)
+CollisionEntry:
+  from render/Wittybumble-100000001/camFloorRayNode/ccRay2Node
+  into render/stage402004083/LB_connector_7cubeLR.egg/-PandaNode/connector_7cubeL/collison/stageFloorColl3 []
+  at 122.715 174.457 20.8485
+  normal 0 0 1
+  respect_prev_transform = 1
+
+

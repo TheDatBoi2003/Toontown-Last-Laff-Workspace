@@ -350,12 +350,12 @@ def __doWaterGlass(squirt, delay, fShowStun):
         toon.update(0)
         lod0 = toon.getLOD(toon.getLODNames()[0])
         if base.config.GetBool('want-new-anims', 1):
-            if not lod0.find('**/def_head').isEmpty():
-                joint = lod0.find('**/def_head')
+            if not lod0.find('**/to_head').isEmpty():
+                joint = lod0.find('**/to_head')
             else:
-                joint = lod0.find('**/joint_head')
+                joint = lod0.find('**/to_head')
         else:
-            joint = lod0.find('**/joint_head')
+            joint = lod0.find('**/to_head')
         n = hidden.attachNewNode('pointInFrontOfHead')
         n.reparentTo(toon)
         n.setPos(joint.getPos(toon) + Point3(0, 0.3, -0.2))

@@ -1,3 +1,5 @@
+import time
+
 from panda3d.core import *
 from libotp import Nametag, WhisperPopup
 from direct.gui.DirectGui import *
@@ -24,6 +26,8 @@ from direct.controls.ObserverWalker import ObserverWalker
 from direct.controls.PhysicsWalker import PhysicsWalker
 from direct.controls.SwimWalker import SwimWalker
 from direct.controls.TwoDWalker import TwoDWalker
+from otp.avatar import ToontownControlManager
+from toontown.toon.OrbitalCamera import OrbitalCamera
 
 class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.DistributedSmoothNode):
     notify = DirectNotifyGlobal.directNotify.newCategory('LocalAvatar')
@@ -49,7 +53,7 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         base.pushCTrav(self.cTrav)
         self.cTrav.setRespectPrevTransform(1)
         self.avatarControlsEnabled = 0
-        self.controlManager = ControlManager.ControlManager(True, passMessagesThrough)
+        self.controlManager = ToontownControlManager.ToontownControlManager(True)
         self.initializeCollisions()
         self.initializeSmartCamera()
         self.cameraPositions = []
@@ -79,13 +83,156 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         self.sleepCallback = None
         self.accept('wakeup', self.wakeUp)
         self.jumpLandAnimFixTask = None
-        self.fov = OTPGlobals.DefaultCameraFov
+        self.fov = base.settings.getInt('game', 'FOV', 40)
+        self.fallbackFov = self.fov
         self.accept('avatarMoving', self.clearPageUpDown)
         self.nametag2dNormalContents = Nametag.CSpeech
         self.showNametag2d()
         self.setPickable(0)
         self.cameraLerp = None
-        return
+        self.orbitalCamera = OrbitalCamera(self)
+
+        # Some enums to make switching control modes easier
+        self.NORMAL_SPEED_ENUM = 0
+        self.SPRINT_SPEED_ENUM = 1
+        self.REVERSE_NORMAL_SPEED_ENUM = 2
+        self.REVERSE_SPRINT_SPEED_ENUM = 3
+        self.ROTATE_NORMAL_SPEED_ENUM = 4
+        self.ROTATE_SPRINT_SPEED_ENUM = 5
+        self.FOV_INCREASE_ENUM = 6
+
+        self.TTCC_MOVEMENT_VALUES = {
+            self.NORMAL_SPEED_ENUM: OTPGlobals.ToonForwardSpeed,
+            self.SPRINT_SPEED_ENUM: OTPGlobals.ToonForwardSprintSpeed,
+            self.REVERSE_NORMAL_SPEED_ENUM: OTPGlobals.ToonReverseSpeed,
+            self.REVERSE_SPRINT_SPEED_ENUM: OTPGlobals.ToonReverseSprintSpeed,
+            self.ROTATE_SPRINT_SPEED_ENUM: OTPGlobals.ToonRotateSpeed,
+            self.ROTATE_NORMAL_SPEED_ENUM: OTPGlobals.ToonRotateSpeed,
+            self.FOV_INCREASE_ENUM: OTPGlobals.ToonSprintingFovIncrease
+        }
+
+        self.TTR_MOVEMENT_VALUES = {
+            self.NORMAL_SPEED_ENUM: OTPGlobals.TTRToonForwardSpeed,
+            self.SPRINT_SPEED_ENUM: OTPGlobals.TTRToonForwardSprintSpeed,
+            self.REVERSE_NORMAL_SPEED_ENUM: OTPGlobals.TTRToonReverseSpeed,
+            self.REVERSE_SPRINT_SPEED_ENUM: OTPGlobals.TTRToonReverseSprintSpeed,
+            self.ROTATE_SPRINT_SPEED_ENUM: OTPGlobals.TTRToonRotateSprintingSpeed,
+            self.ROTATE_NORMAL_SPEED_ENUM: OTPGlobals.TTRToonRotateSpeed,
+            self.FOV_INCREASE_ENUM: OTPGlobals.ToonDoubleTapFovIncrease
+        }
+
+        self.isSprinting = 0
+
+        self.currentMovementMode = self.TTCC_MOVEMENT_VALUES
+
+        move_setting = base.settings.getInt('game', 'movement_mode', 0)
+
+        if move_setting == 1:
+            self.setSprintMode('ttr')
+        else:
+            self.setSprintMode('ttcc')
+
+        self.lastForwardPress = 0
+        self.reloadSprintControls()
+
+        self.allowSprinting = False
+
+
+    def reloadSprintControls(self):
+        self.accept(base.MOVE_UP, self.__handleForwardPress)
+        self.accept(base.MOVE_UP + '-up', self.__handleForwardRelease)
+        self.accept(base.SPRINT, self.__handleSprintPress)
+        self.accept(base.SPRINT + '-up', self.__handleSprintRelease)
+
+    # Pass in either 'ttcc' or 'ttr'
+    def setSprintMode(self, game):
+        self.exitSprinting()
+        if game.lower() == 'ttcc':
+            self.currentMovementMode = self.TTCC_MOVEMENT_VALUES
+            self.orbitalCamera.ignoreRMB = False
+        elif game.lower() == 'ttr':
+            self.currentMovementMode = self.TTR_MOVEMENT_VALUES
+            self.orbitalCamera.ignoreRMB = True
+        else:
+            raise Exception("Please pass in either 'ttcc' or 'ttr', got %s" % game)
+
+    def __handleForwardPress(self):
+
+        if not self.allowSprinting or self.hp <= 0:
+            return
+
+        # If this isn't the ttr mode don't do anything
+        if self.currentMovementMode is not self.TTR_MOVEMENT_VALUES:
+            return
+
+        # See the time difference from when we last hit forward key
+        timeDif = time.time() - self.lastForwardPress
+        # If we hit the forward key a second or less ago set state to sprinting
+        if timeDif <= OTPGlobals.ToonDoubleTapSprintWindow:
+            self.setSprinting()
+
+        # Otherwise update last time we pressed sprint key
+        self.lastForwardPress = time.time()
+
+    def __handleForwardRelease(self):
+
+        # If this isn't the ttr mode don't do anything
+        if self.currentMovementMode is not self.TTR_MOVEMENT_VALUES:
+            return
+
+        self.exitSprinting()
+
+    def __handleSprintPress(self):
+
+        if not self.allowSprinting or self.hp <= 0:
+            return
+
+        # If this isn't the ttcc mode don't do anything
+        if self.currentMovementMode is not self.TTCC_MOVEMENT_VALUES:
+            return
+
+        self.setSprinting()
+
+    def __handleSprintRelease(self):
+
+        # If this isn't the ttcc mode don't do anything
+        if self.currentMovementMode is not self.TTCC_MOVEMENT_VALUES:
+            return
+
+        self.exitSprinting()
+
+    def __setFov(self, fov):
+        localAvatar.setCameraFov(fov, updateFallback=False)
+
+    def lerpFov(self, start, target):
+        LerpFunc(
+            self.__setFov, fromData=start, toData=target, duration=.3, blendType='easeInOut'
+        ).start()
+
+    def setSprinting(self):
+        self.currentSpeed = self.currentMovementMode[self.SPRINT_SPEED_ENUM]
+        self.currentReverseSpeed = self.currentMovementMode[self.REVERSE_SPRINT_SPEED_ENUM]
+        self.controlManager.setSpeeds(self.currentMovementMode[self.SPRINT_SPEED_ENUM], OTPGlobals.ToonJumpForce,
+                                      self.currentMovementMode[self.REVERSE_SPRINT_SPEED_ENUM], self.currentMovementMode[self.ROTATE_SPRINT_SPEED_ENUM])
+        self.isSprinting = 1
+
+        if base.WANT_FOV_EFFECTS:
+            self.lerpFov(self.fov, self.fallbackFov + self.currentMovementMode[self.FOV_INCREASE_ENUM])
+
+    def exitSprinting(self):
+
+        if not self.isSprinting:
+            return
+
+        self.currentSpeed = self.currentMovementMode[self.NORMAL_SPEED_ENUM]
+        self.currentReverseSpeed = self.currentMovementMode[self.REVERSE_NORMAL_SPEED_ENUM]
+        self.controlManager.setSpeeds(self.currentMovementMode[self.NORMAL_SPEED_ENUM], OTPGlobals.ToonJumpForce,
+                                      self.currentMovementMode[self.REVERSE_NORMAL_SPEED_ENUM], self.currentMovementMode[self.ROTATE_NORMAL_SPEED_ENUM])
+
+        if base.WANT_FOV_EFFECTS:
+            self.lerpFov(self.fov, self.fallbackFov)
+
+        self.isSprinting = 0
 
     def useSwimControls(self):
         self.controlManager.use('swim', self)
@@ -348,6 +495,14 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
 
     def detachCamera(self):
         base.disableMouse()
+    
+    def getOldCameraPos(self):
+        height = self.getClampedAvatarHeight()
+        return Point3(0.0, -9.0 * height * 0.3333333333, height)
+    
+    def getOldCameraPosTwo(self):
+        height = self.getClampedAvatarHeight()
+        return Point3(5.7 * (height * 0.3333333333), 7.65 * (height * 0.3333333333), height + .25)
 
     def stopJumpLandTask(self):
         if self.jumpLandAnimFixTask:
@@ -402,7 +557,7 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         return not self.sleepFlag and self.hp > 0
 
     def enableSmartCameraViews(self):
-        self.accept('tab', self.nextCameraPos, [1])
+        self.accept('tab', self.nextCameraPos, [0])
         self.accept('shift-tab', self.nextCameraPos, [0])
         self.accept('page_up', self.pageUp)
         self.accept('page_down', self.pageDown)
@@ -420,14 +575,20 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         self.avatarControlsEnabled = 1
         self.setupAnimationEvents()
         self.controlManager.enable()
+        self.allowSprinting = True
 
     def disableAvatarControls(self):
         if not self.avatarControlsEnabled:
             return
         self.avatarControlsEnabled = 0
         self.ignoreAnimationEvents()
+        self.controlManager.setWASDTurn(1)
         self.controlManager.disable()
         self.clearPageUpDown()
+
+        self.allowSprinting = False
+        self.exitSprinting()
+
 
     def setWalkSpeedNormal(self):
         self.controlManager.setSpeeds(OTPGlobals.ToonForwardSpeed, OTPGlobals.ToonJumpForce, OTPGlobals.ToonReverseSpeed, OTPGlobals.ToonRotateSpeed)
@@ -631,7 +792,13 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         self.updateSmartCameraCollisionLineSegment()
 
     def getIdealCameraPos(self):
-        return Point3(self.__idealCameraPos)
+        try:
+            return Point3(self.__idealCameraPos)
+        except AttributeError:
+            height = self.getClampedAvatarHeight()
+            point = Point3(height * (7 / 3.0), height * (-7 / 3.0), height)
+            self.setIdealCameraPos(point)
+            return Point3(self.__idealCameraPos)
 
     def setCameraPositionByIndex(self, index):
         self.notify.debug('switching to camera position %s' % index)
@@ -714,8 +881,14 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
 
     def setGeom(self, geom):
         self.__geom = geom
+    
+    def getGeom(self):
+        return self.__geom
 
     def startUpdateSmartCamera(self, push = 1):
+        self.initCameraPositions()
+        self.setCameraPositionByIndex(self.cameraIndex)
+        self.orbitalCamera.start()
         if self._smartCamEnabled:
             LocalAvatar.notify.warning('redundant call to startUpdateSmartCamera')
             return
@@ -723,7 +896,6 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         self.__floorDetected = 0
         self.__cameraHasBeenMoved = 0
         self.recalcCameraSphere()
-        self.initCameraPositions()
         self.setCameraPositionByIndex(self.cameraIndex)
         self.posCamera(0, 0.0)
         self.__instantaneousCamPos = camera.getPos()
@@ -737,31 +909,24 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         self.__lastHprWrtRender = camera.getHpr(render)
         taskName = self.taskName('updateSmartCamera')
         taskMgr.remove(taskName)
-        taskMgr.add(self.updateSmartCamera, taskName, priority=47)
-        self.enableSmartCameraViews()
+        taskMgr.add(self.updateSmartCamera, taskName, priority=100)
 
     def stopUpdateSmartCamera(self):
-        if not self._smartCamEnabled:
-            LocalAvatar.notify.warning('redundant call to stopUpdateSmartCamera')
-            return
-        self.disableSmartCameraViews()
+        self.orbitalCamera.stop()
         self.cTrav.removeCollider(self.ccSphereNodePath)
         self.ccTravOnFloor.removeCollider(self.ccRay2NodePath)
-        if not base.localAvatar.isEmpty():
-            self.putCameraFloorRayOnAvatar()
         taskName = self.taskName('updateSmartCamera')
         taskMgr.remove(taskName)
-        self._smartCamEnabled = False
-
+        self.initCameraPositions()
     def updateSmartCamera(self, task):
         if not self.__camCollCanMove and not self.__cameraHasBeenMoved:
             if self.__lastPosWrtRender == camera.getPos(render):
                 if self.__lastHprWrtRender == camera.getHpr(render):
                     return Task.cont
-        self.__cameraHasBeenMoved = 0
+        self.__cameraHasBeenMoved = 1
         self.__lastPosWrtRender = camera.getPos(render)
         self.__lastHprWrtRender = camera.getHpr(render)
-        self.__idealCameraObstructed = 0
+        self.__idealCameraObstructed = 1
         if not self.__disableSmartCam:
             self.ccTrav.traverse(self.__geom)
             if self.camCollisionQueue.getNumEntries() > 0:
@@ -852,7 +1017,9 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
             self.camLerpInterval = LerpFunctionInterval(setCamFov, fromData=oldFov, toData=fov, duration=time, name='cam-fov-lerp')
             self.camLerpInterval.start()
 
-    def setCameraFov(self, fov):
+    def setCameraFov(self, fov, updateFallback=True):
+        if updateFallback:
+            self.fallbackFov = fov
         self.fov = fov
         if not (self.isPageDown or self.isPageUp):
             base.camLens.setMinFov(self.fov / (4. / 3.))
@@ -937,24 +1104,25 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         return self.animMultiplier
 
     def enableRun(self):
-        self.accept('arrow_up', self.startRunWatch)
-        self.accept('arrow_up-up', self.stopRunWatch)
-        self.accept('control-arrow_up', self.startRunWatch)
-        self.accept('control-arrow_up-up', self.stopRunWatch)
-        self.accept('alt-arrow_up', self.startRunWatch)
-        self.accept('alt-arrow_up-up', self.stopRunWatch)
-        self.accept('shift-arrow_up', self.startRunWatch)
-        self.accept('shift-arrow_up-up', self.stopRunWatch)
+        self.accept(base.MOVE_UP, self.startRunWatch)
+        self.accept(base.MOVE_UP + '-up', self.stopRunWatch)
+        self.accept('control-'+ base.MOVE_UP, self.startRunWatch)
+        self.accept('control-'+ base.MOVE_UP + '-up', self.stopRunWatch)
+        self.accept('alt-'+ base.MOVE_UP, self.startRunWatch)
+        self.accept('alt-'+ base.MOVE_UP + '-up', self.stopRunWatch)
+        self.accept('shift-' + base.MOVE_UP, self.startRunWatch)
+        self.accept('shift-' + base.MOVE_UP + '-up', self.stopRunWatch)
 
     def disableRun(self):
-        self.ignore('arrow_up')
-        self.ignore('arrow_up-up')
-        self.ignore('control-arrow_up')
-        self.ignore('control-arrow_up-up')
-        self.ignore('alt-arrow_up')
-        self.ignore('alt-arrow_up-up')
-        self.ignore('shift-arrow_up')
-        self.ignore('shift-arrow_up-up')
+        self.ignore(base.MOVE_UP)
+        self.ignore(base.MOVE_UP + '-up')
+        self.ignore('control-'+ base.MOVE_UP)
+        self.ignore('control-' + base.MOVE_UP + '-up')
+        self.ignore('alt-' + base.MOVE_UP)
+        self.ignore('alt-' + base.MOVE_UP + '-up')
+        self.ignore('shift-' + base.MOVE_UP)
+        self.ignore('shift-' + base.MOVE_UP + '-up')
+        self.exitSprinting()
 
     def startRunWatch(self):
 
@@ -1047,7 +1215,7 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
 
     def trackAnimToSpeed(self, task):
         speed, rotSpeed, slideSpeed = self.controlManager.getSpeeds()
-        if speed != 0.0 or rotSpeed != 0.0 or inputState.isSet('jump'):
+        if speed != 0.0 or rotSpeed != 0.0 or slideSpeed != 0.0 or inputState.isSet('jump'):
             if not self.movingFlag:
                 self.movingFlag = 1
                 self.stopLookAround()
@@ -1089,15 +1257,15 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
                 self.lastNeedH = needH
         else:
             self.lastNeedH = None
-        action = self.setSpeed(speed, rotSpeed)
+        action = self.setSpeed(speed, rotSpeed, slideSpeed)
         if action != self.lastAction:
             self.lastAction = action
             if self.emoteTrack:
                 self.emoteTrack.finish()
                 self.emoteTrack = None
-            if action == OTPGlobals.WALK_INDEX or action == OTPGlobals.REVERSE_INDEX:
+            if action in (OTPGlobals.WALK_INDEX, OTPGlobals.REVERSE_INDEX):
                 self.walkSound()
-            elif action == OTPGlobals.RUN_INDEX:
+            elif action in (OTPGlobals.RUN_INDEX, OTPGlobals.STRAFE_LEFT_INDEX, OTPGlobals.STRAFE_RIGHT_INDEX):
                 self.runSound()
             else:
                 self.stopSound()

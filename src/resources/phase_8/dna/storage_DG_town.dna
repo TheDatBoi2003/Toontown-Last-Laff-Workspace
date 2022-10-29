@@ -54,6 +54,10 @@ place_model "phase_8/models/props/window_flowerbox_woven" [
 	store_node [ "prop" "prop_window_flowerbox_woven" "" ]
 	]
 
+place_model "phase_laff/buildings/sellbot_theater/laff_ara_bldg_sellbotTheater.egg" [
+	store_node [ "prop" "prop_laff_ara_bldg_sellbotTheater" "" ]
+	]
+
 place_model "phase_8/models/modules/neighborhood_tunnel_DG" [
 	store_node [ "prop" "prop_neighborhood_tunnel" ]
         ]

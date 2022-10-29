@@ -250,7 +250,7 @@ class CogdoFlyingMinion(CogdoFlyingObstacle):
     def attachPropeller(self):
         if self.prop is None:
             self.prop = BattleProps.globalPropPool.getProp('propeller')
-            head = self.suit.find('**/joint_head')
+            head = self.suit.find('**/to_head')
             self.prop.reparentTo(head)
         return
 
