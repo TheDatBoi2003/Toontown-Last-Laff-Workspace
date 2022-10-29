@@ -23,7 +23,10 @@ def __doDamage(toon, dmg, died):
 
 
 def __showProp(prop, parent, pos, hpr = None, scale = None):
-    prop.reparentTo(parent)
+    try:
+        prop.reparentTo(parent)
+    except:
+        prop.reparentTo(render)
     prop.setPos(pos)
     if hpr:
         prop.setHpr(hpr)

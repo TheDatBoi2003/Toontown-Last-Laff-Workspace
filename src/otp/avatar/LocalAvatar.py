@@ -887,14 +887,9 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
 
     def startUpdateSmartCamera(self, push = 1):
         self.initCameraPositions()
-        self.setCameraPositionByIndex(self.cameraIndex)
-        self.orbitalCamera.start()
-        if self._smartCamEnabled:
-            LocalAvatar.notify.warning('redundant call to startUpdateSmartCamera')
-            return
         self._smartCamEnabled = True
         self.__floorDetected = 0
-        self.__cameraHasBeenMoved = 0
+        self.__cameraHasBeenMoved = 1
         self.recalcCameraSphere()
         self.setCameraPositionByIndex(self.cameraIndex)
         self.posCamera(0, 0.0)
@@ -907,6 +902,7 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
             self.__disableSmartCam = 1
         self.__lastPosWrtRender = camera.getPos(render)
         self.__lastHprWrtRender = camera.getHpr(render)
+        self.orbitalCamera.start()
         taskName = self.taskName('updateSmartCamera')
         taskMgr.remove(taskName)
         taskMgr.add(self.updateSmartCamera, taskName, priority=100)
@@ -919,26 +915,12 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         taskMgr.remove(taskName)
         self.initCameraPositions()
     def updateSmartCamera(self, task):
-        if not self.__camCollCanMove and not self.__cameraHasBeenMoved:
-            if self.__lastPosWrtRender == camera.getPos(render):
-                if self.__lastHprWrtRender == camera.getHpr(render):
-                    return Task.cont
         self.__cameraHasBeenMoved = 1
         self.__lastPosWrtRender = camera.getPos(render)
         self.__lastHprWrtRender = camera.getHpr(render)
         self.__idealCameraObstructed = 1
         if not self.__disableSmartCam:
             self.ccTrav.traverse(self.__geom)
-            if self.camCollisionQueue.getNumEntries() > 0:
-                self.camCollisionQueue.sortEntries()
-                self.handleCameraObstruction(self.camCollisionQueue.getEntry(0))
-            if not self.__onLevelGround:
-                self.handleCameraFloorInteraction()
-        if not self.__idealCameraObstructed:
-            self.nudgeCamera()
-        if not self.__disableSmartCam:
-            self.ccPusherTrav.traverse(self.__geom)
-            self.putCameraFloorRayOnCamera()
         self.ccTravOnFloor.traverse(self.__geom)
         return Task.cont
 

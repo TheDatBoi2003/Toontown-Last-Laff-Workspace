@@ -308,8 +308,7 @@ class Street(BattlePlace.BattlePlace):
                     collNodePath.node().setName(visGroupName)
 
     def hideAllVisibles(self):
-        for i in self.loader.nodeList:
-            i.stash()
+        pass
 
     def showAllVisibles(self):
         for i in self.loader.nodeList:

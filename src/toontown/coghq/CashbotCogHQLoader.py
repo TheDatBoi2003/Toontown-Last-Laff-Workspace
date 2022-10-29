@@ -20,7 +20,9 @@ class CashbotCogHQLoader(CogHQLoader.CogHQLoader):
             state = self.fsm.getStateNamed(stateName)
             state.addTransition('mintInterior')
 
-        self.musicFile = 'phase_9/audio/bgm/encntr_suit_HQ_nbrhood.ogg'
+        self.musicFile = 'phase_10/audio/bgm/laff_ara_cashHQ_courtyard.ogg'
+        self.musicBattleFile='phase_10/audio/bgm/laff_ara_cashHQ_courtyard_encntr.ogg'
+
         self.cogHQExteriorModelPath = 'phase_10/models/cogHQ/CashBotShippingStation'
         self.cogHQLobbyModelPath = 'phase_10/models/cogHQ/VaultLobby'
         self.geom = None
@@ -28,6 +30,7 @@ class CashbotCogHQLoader(CogHQLoader.CogHQLoader):
 
     def load(self, zoneId):
         CogHQLoader.CogHQLoader.load(self, zoneId)
+        self.battleMusic=base.loader.loadMusic(self.musicBattleFile)
         Toon.loadCashbotHQAnims()
 
     def unloadPlaceGeom(self):

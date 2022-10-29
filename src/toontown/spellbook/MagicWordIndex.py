@@ -309,7 +309,7 @@ class MaxToon(MagicWord):
         for id in toon.getQuests():
             toon.removeQuest(id)
         toon.b_setQuestCarryLimit(ToontownGlobals.MaxQuestCarryLimit)
-        toon.b_setRewardHistory(Quests.LOOPING_FINAL_TIER, toon.getRewardHistory()[1])
+        toon.b_setRewardHistory(Quests.TT_TIER, toon.getRewardHistory()[1])
 
         allFish = TTLocalizer.FishSpeciesNames
         fishLists = [[], [], []]

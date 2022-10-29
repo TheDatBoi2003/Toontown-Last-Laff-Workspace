@@ -29,11 +29,28 @@ class CogHQLoader(StateData.StateData):
 
     def load(self, zoneId):
         self.parentFSMState.addChild(self.fsm)
+        zone2BattleTheme = {ToontownGlobals.CashbotMintIntA: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_coin_encntr.ogg',
+                            ToontownGlobals.CashbotMintIntB: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_dollar_encntr.ogg',
+                            ToontownGlobals.CashbotMintIntC: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_bullion_encntr.ogg',
+                            ToontownGlobals.BossbotCountryClubIntA: 'phase_12/audio/bgm/laff_ara_bossHQ_club_encntr_frontThree.ogg',
+                            ToontownGlobals.BossbotCountryClubIntB: 'phase_12/audio/bgm/laff_ara_bossHQ_club_encntr_middleSix.ogg',
+                            ToontownGlobals.BossbotCountryClubIntC: 'phase_12/audio/bgm/laff_ara_bossHQ_club_encntr_backNine.ogg',
+                            ToontownGlobals.LawbotStageIntA: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg',
+                            ToontownGlobals.LawbotStageIntB: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg',
+                            ToontownGlobals.LawbotStageIntC: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg',
+                            ToontownGlobals.LawbotStageIntD: 'phase_12/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg'}
+
+
+        if zoneId in zone2BattleTheme:
+            self.battleMusic = base.loader.loadMusic(zone2BattleTheme[zoneId])
+        else:
+            self.battleMusic = base.loader.loadMusic(self.musicFile)
+
         if zoneId == ToontownGlobals.SellbotFactoryHard:
             self.music = base.loader.loadMusic('phase_9/audio/bgm/laff_ara_shq_factAlt.ogg')
         else:
-            self.music = base.loader.loadMusic(self.musicFile)
-        self.battleMusic = base.loader.loadMusic('phase_9/audio/bgm/encntr_suit_winning.ogg')
+            self.music=base.loader.loadMusic(self.musicFile)
+
         self.townBattle = TownBattle.TownBattle(self.townBattleDoneEvent)
         self.townBattle.load()
         Suit.loadSuits(3)

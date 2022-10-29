@@ -16,6 +16,10 @@ from toontown.coghq import DistributedCountryClub
 from toontown.building import Elevator
 import random
 
+zone2Music = {ToontownGlobals.BossbotCountryClubIntA: 'phase_12/audio/bgm/laff_ara_bossHQ_club_frontThree.ogg',
+              ToontownGlobals.BossbotCountryClubIntB: 'phase_12/audio/bgm/laff_ara_bossHQ_club_middleSix.ogg',
+              ToontownGlobals.BossbotCountryClubIntC: 'phase_12/audio/bgm/laff_ara_bossHQ_club_backThree.ogg'}
+
 class CountryClubInterior(BattlePlace.BattlePlace):
     notify = DirectNotifyGlobal.directNotify.newCategory('CountryClubInterior')
 
@@ -71,9 +75,25 @@ class CountryClubInterior(BattlePlace.BattlePlace):
 
     def load(self):
         self.parentFSM.getStateNamed('countryClubInterior').addChild(self.fsm)
+        musicName=zone2Music[self.zoneId]
+        self.music=base.loader.loadMusic(musicName)
         BattlePlace.BattlePlace.load(self)
-        musicName = random.choice(['phase_12/audio/bgm/Bossbot_Factory_v1.ogg', 'phase_12/audio/bgm/Bossbot_Factory_v2.ogg', 'phase_12/audio/bgm/Bossbot_Factory_v3.ogg'])
-        self.music = base.loader.loadMusic(musicName)
+        zone2BattleTheme={ToontownGlobals.CashbotMintIntA: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_coin_encntr.ogg',
+                          ToontownGlobals.CashbotMintIntB: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_dollar_encntr.ogg',
+                          ToontownGlobals.CashbotMintIntC: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_bullion_encntr.ogg',
+                          ToontownGlobals.BossbotCountryClubIntA: 'phase_12/audio/bgm/laff_ara_bossHQ_club_encntr_frontThree.ogg',
+                          ToontownGlobals.BossbotCountryClubIntB: 'phase_12/audio/bgm/laff_ara_bossHQ_club_encntr_middleSix.ogg',
+                          ToontownGlobals.BossbotCountryClubIntC: 'phase_12/audio/bgm/laff_ara_bossHQ_club_encntr_backNine.ogg',
+                          ToontownGlobals.LawbotStageIntA: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg',
+                          ToontownGlobals.LawbotStageIntB: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg',
+                          ToontownGlobals.LawbotStageIntC: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg',
+                          ToontownGlobals.LawbotStageIntD: 'phase_12/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg'}
+
+        if self.zoneId in zone2BattleTheme:
+            self.loader.battleMusic=base.loader.loadMusic(zone2BattleTheme[self.zoneId])
+        else:
+            self.loader.battleMusic=base.loader.loadMusic(self.musicFile)
+
 
     def unload(self):
         self.parentFSM.getStateNamed('countryClubInterior').removeChild(self.fsm)

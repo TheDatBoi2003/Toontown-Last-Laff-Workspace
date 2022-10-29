@@ -18,7 +18,7 @@ class DistributedCountryClub(DistributedObject.DistributedObject):
     notify = DirectNotifyGlobal.directNotify.newCategory('DistributedCountryClub')
     ReadyPost = 'CountryClubReady'
     WinEvent = 'CountryClubWinEvent'
-    doBlockRooms = base.config.GetBool('block-country-club-rooms', 1)
+    doBlockRooms = base.config.GetBool('block-country-club-rooms', 0)
 
     def __init__(self, cr):
         DistributedObject.DistributedObject.__init__(self, cr)
@@ -201,14 +201,7 @@ class DistributedCountryClub(DistributedObject.DistributedObject):
             minVis = roomNum - 1
             maxVis = roomNum + 1
         for i, room in enumerate(self.allRooms):
-            if i < minVis or i > maxVis:
-                if not room.getGeom().isEmpty():
-                    room.getGeom().stash()
-            elif i <= blockRoomsAboveThisNumber:
-                if not room.getGeom().isEmpty():
-                    room.getGeom().unstash()
-            elif not room.getGeom().isEmpty():
-                room.getGeom().stash()
+            room.getGeom().unstash()
 
         self.lastCamEnterRoom = roomNum
 

@@ -151,7 +151,7 @@ class DistributedMint(DistributedObject.DistributedObject):
             maxVis = roomNum + 1
         for i, room in enumerate(self.allRooms):
             if i < minVis or i > maxVis:
-                room.getGeom().stash()
+                room.getGeom().unstash()
             else:
                 room.getGeom().unstash()
 

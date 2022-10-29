@@ -14,6 +14,10 @@ from toontown.toontowngui import TTDialog
 from toontown.toonbase import ToontownBattleGlobals
 from toontown.coghq import DistributedMint
 
+zone2Music = {ToontownGlobals.CashbotMintIntA: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_coin.ogg',
+              ToontownGlobals.CashbotMintIntB: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_dollar.ogg',
+              ToontownGlobals.CashbotMintIntC: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_bullion.ogg'}
+
 class MintInterior(BattlePlace.BattlePlace):
     notify = DirectNotifyGlobal.directNotify.newCategory('MintInterior')
 
@@ -66,8 +70,24 @@ class MintInterior(BattlePlace.BattlePlace):
 
     def load(self):
         self.parentFSM.getStateNamed('mintInterior').addChild(self.fsm)
+        musicName=zone2Music[self.zoneId]
+        self.music=base.loader.loadMusic(musicName)
         BattlePlace.BattlePlace.load(self)
-        self.music = base.loader.loadMusic('phase_9/audio/bgm/CHQ_FACT_bg.ogg')
+        zone2BattleTheme={ToontownGlobals.CashbotMintIntA: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_coin_encntr.ogg',
+                          ToontownGlobals.CashbotMintIntB: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_dollar_encntr.ogg',
+                          ToontownGlobals.CashbotMintIntC: 'phase_10/audio/bgm/laff_ara_cashHQ_mint_bullion_encntr.ogg',
+                          ToontownGlobals.BossbotCountryClubIntA: 'phase_12/audio/bgm/laff_ara_bossHQ_club_encntr_frontThree.ogg',
+                          ToontownGlobals.BossbotCountryClubIntB: 'phase_12/audio/bgm/laff_ara_bossHQ_club_encntr_middleSix.ogg',
+                          ToontownGlobals.BossbotCountryClubIntC: 'phase_12/audio/bgm/laff_ara_bossHQ_club_encntr_backNine.ogg',
+                          ToontownGlobals.LawbotStageIntA: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg',
+                          ToontownGlobals.LawbotStageIntB: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg',
+                          ToontownGlobals.LawbotStageIntC: 'phase_11/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg',
+                          ToontownGlobals.LawbotStageIntD: 'phase_12/audio/bgm/laff_ara_lawHQ_district_entrance_encntr.ogg'}
+
+        if self.zoneId in zone2BattleTheme:
+            self.loader.battleMusic=base.loader.loadMusic(zone2BattleTheme[self.zoneId])
+        else:
+            self.loader.battleMusic=base.loader.loadMusic(self.musicFile)
 
     def unload(self):
         self.parentFSM.getStateNamed('mintInterior').removeChild(self.fsm)

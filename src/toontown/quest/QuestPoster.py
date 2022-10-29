@@ -820,11 +820,18 @@ class QuestPoster(DirectFrame):
                     lIconGeom.setTransparency(TransparencyAttrib.MAlpha)
                     lIconGeomScale = 0.07
                     cogIcons.removeNode()
-            elif quest.getType() == Quests.CogLevelQuest:
+            elif quest.getType() == Quests.CogLevelQuest or quest.getType() == Quests.CogTierQuest:
                 cogIcons = loader.loadModel('phase_3/models/gui/cog_icons')
                 lIconGeom = cogIcons.find('**/cog')
                 lIconGeomScale = IMAGE_SCALE_SMALL
                 cogIcons.removeNode()
+            elif quest.getType() == Quests.CogLevelTypeQuest:
+                lIconGeom=OnscreenImage(
+                    image='phase_9/maps/Cog_Information/laff_gui_toonTasks_icon_' + quest.getCogType() + '.png',
+                    pos=(-0.0, 0.5, 0.00), scale=(IMAGE_SCALE_SMALL2 + 0.02, IMAGE_SCALE_SMALL2, IMAGE_SCALE_SMALL2),
+                    parent=hidden)
+                lIconGeom.setTransparency(TransparencyAttrib.MAlpha)
+                lIconGeomScale=0.07
             elif quest.getType() == Quests.CogNewbieQuest:
                 if quest.getCogType() != Quests.Any:
                     rIconGeom = self.createSuitHead(quest.getCogType())
@@ -848,7 +855,7 @@ class QuestPoster(DirectFrame):
                     rIconGeom = None
                     lIconGeomScale = rIconGeomScale
                     rIconGeomScale = 1
-            elif quest.getType() == Quests.SkelecogTrackQuest:
+            elif quest.getType() == Quests.SkelecogTrackQuest or quest.getType() == Quests.SkeleReviveTrackQuest:
                 dept = quest.getCogTrack()
                 cogIcons = loader.loadModel('phase_3/models/gui/cog_icons')
                 lIconGeomScale = 0.13

@@ -10,10 +10,6 @@ class VisibilityBlocker:
         self.cancelUnblockVis()
 
     def requestUnblockVis(self):
-        if self.__nextSetZoneDoneEvent is None:
-            self.__nextSetZoneDoneEvent = self.level.cr.getNextSetZoneDoneEvent()
-            self.acceptOnce(self.__nextSetZoneDoneEvent, self.okToUnblockVis)
-            self.level.forceSetZoneThisFrame()
         return
 
     def cancelUnblockVis(self):
