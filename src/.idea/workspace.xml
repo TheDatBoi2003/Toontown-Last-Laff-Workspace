@@ -3,38 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1b06248f-a488-484a-b2db-eb3454d7a262" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ai.bat" beforeDir="false" afterPath="$PROJECT_DIR$/ai.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/astron/config/astrond.yml" beforeDir="false" afterPath="$PROJECT_DIR$/astron/config/astrond.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_3200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_3200_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_4100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_4100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_5200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_5200_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_5300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_5300_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_9100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_9100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client - Copy - Copy (2).bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client - Copy - Copy.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client - Copy.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/join_server.bat" beforeDir="false" afterPath="$PROJECT_DIR$/join_server.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otp/avatar/LocalAvatar.py" beforeDir="false" afterPath="$PROJECT_DIR$/otp/avatar/LocalAvatar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/otp/level/VisibilityBlocker.py" beforeDir="false" afterPath="$PROJECT_DIR$/otp/level/VisibilityBlocker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/takeover_valley.bat" beforeDir="false" afterPath="$PROJECT_DIR$/takeover_valley.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/battle/MovieSuitAttacks.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/battle/MovieSuitAttacks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/BossbotCogHQLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/BossbotCogHQLoader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/CashbotCogHQLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/CashbotCogHQLoader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/CogHQLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/CogHQLoader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/CountryClubInterior.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/CountryClubInterior.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/DistributedCountryClub.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/DistributedCountryClub.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/DistributedMint.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/DistributedMint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/DistributedStage.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/DistributedStage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/LawbotCogHQLoader.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/LawbotCogHQLoader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/coghq/MintInterior.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/coghq/MintInterior.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/quest/QuestPoster.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/quest/QuestPoster.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/quest/Quests.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/quest/Quests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/spellbook/MagicWordIndex.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/spellbook/MagicWordIndex.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedCashbotBoss.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedCashbotBoss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedLawbotBoss.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedLawbotBoss.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/toonbase/TTLocalizerEnglish.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/toonbase/TTLocalizerEnglish.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/town/Street.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/town/Street.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uberdog.bat" beforeDir="false" afterPath="$PROJECT_DIR$/uberdog.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toontown/building/SuitBuildingGlobals.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/building/SuitBuildingGlobals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedCashbotBossAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedCashbotBossAI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/toontown/toonbase/ToontownBattleGlobals.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/toonbase/ToontownBattleGlobals.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

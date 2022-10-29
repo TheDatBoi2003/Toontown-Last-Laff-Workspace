@@ -262,10 +262,10 @@ class DistributedCashbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
             self.goons.append(goon)
         if self.getBattleThreeTime() > 1.0:
             goon.STUN_TIME = 4
-            goon.b_setupGoon(velocity=8, hFov=90, attackRadius=20, strength=30, scale=1.8)
+            goon.b_setupGoon(velocity=12, hFov=100, attackRadius=30, strength=45, scale=2.4)
         else:
             goon.STUN_TIME = self.progressValue(30, 8)
-            goon.b_setupGoon(velocity=self.progressRandomValue(3, 7), hFov=self.progressRandomValue(70, 80), attackRadius=self.progressRandomValue(6, 15), strength=int(self.progressRandomValue(5, 25)), scale=self.progressRandomValue(0.5, 1.5))
+            goon.b_setupGoon(velocity=self.progressRandomValue(6, 10), hFov=self.progressRandomValue(75, 90), attackRadius=self.progressRandomValue(10, 20), strength=int(self.progressRandomValue(20, 40)), scale=self.progressRandomValue(1, 1.8))
         goon.request(side)
         return
 
