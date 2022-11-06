@@ -3,7 +3,7 @@
         "interpolate-animations": true, 
         "FOV": 130, 
         "antialiasing": 70, 
-        "customKeybinds": true, 
+        "camSensitivityY": 0.25, 
         "movement_mode": 0, 
         "stretched-screen": false, 
         "keymap": {
@@ -14,13 +14,13 @@
             "ACTION_BUTTON": "delete", 
             "OPTIONS_PAGE_HOTKEY": "escape", 
             "MOVE_DOWN": "s", 
-            "CRANE_GRAB_KEY": "control", 
+            "MOVE_UP": "w", 
             "CHAT_HOTKEY": "t", 
-            "MOVE_UP": "w"
+            "CRANE_GRAB_KEY": "control"
         }, 
         "magic-word-activator": 0, 
         "music": true, 
-        "camSensitivityY": 0.25, 
+        "customKeybinds": true, 
         "camSensitivityX": 0.2678226661682129
     }
 }
