@@ -1304,6 +1304,18 @@ dclass DistributedMintSuit : DistributedFactorySuit {
 dclass DistributedStageSuit : DistributedFactorySuit {
 };
 
+struct Rewards {
+  int32 toonId;
+  int16[] origExp;
+  int16[] earnedExp;
+  uint32[] origQuests;
+  int16[] items;
+  int16[] missedItems;
+  int16[] origMerits;
+  int16[] earnedMerits;
+  uint32[] parts;
+}
+
 dclass DistributedBossCog : DistributedNode {
   setDNAString(blob) required broadcast db;
   setToonIds(uint32[], uint32[], uint32[]) broadcast ram;
@@ -1314,7 +1326,6 @@ dclass DistributedBossCog : DistributedNode {
   avatarNearEnter() airecv clsend;
   avatarNearExit() airecv clsend;
   toonDied(uint32) broadcast;
-  setBattleExperience(int64, int64[], int64[], uint64[], int64[], int64[], int64[], int64[], uint64[], int64, int64[], int64[], uint64[], int64[], int64[], int64[], int64[], uint64[], int64, int64[], int64[], uint64[], int64[], int64[], int64[], int64[], uint64[], int64, int64[], int64[], uint64[], int64[], int64[], int64[], int64[], uint64[], uint8[], int64[], uint64[]) required broadcast ram;
   zapToon(int16/10, int16/10, int16/10, int16/10, int16/10, int16/10, int8/100, int8/100, uint8, int16) airecv clsend;
   showZapToon(uint32, int16/10, int16/10, int16/10, int16/10, int16/10, int16/10, uint8, int16) broadcast;
   setAttackCode(uint8, uint32) broadcast;

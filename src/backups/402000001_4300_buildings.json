@@ -1,11 +1,11 @@
 {
     "28": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1667765615.886, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "numFloors": 3, 
+        "difficulty": 2, 
+        "state": "suit", 
         "block": 28
     }, 
     "43": {
@@ -18,12 +18,12 @@
         "block": 43
     }, 
     "62": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1667770018.274, 
         "savedBy": null, 
-        "track": "l", 
+        "track": "c", 
         "numFloors": 1, 
         "difficulty": 2, 
-        "state": "toon", 
+        "state": "suit", 
         "block": 62
     }, 
     "53": {
@@ -108,12 +108,12 @@
         "block": 44
     }, 
     "45": {
-        "becameSuitTime": 1666634361.579, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "c", 
         "numFloors": 3, 
         "difficulty": 4, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 45
     }, 
     "42": {
@@ -216,12 +216,12 @@
         "block": 72
     }, 
     "71": {
-        "becameSuitTime": 1666386372.634, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 3, 
         "difficulty": 2, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 71
     }, 
     "70": {
@@ -252,12 +252,12 @@
         "block": 17
     }, 
     "19": {
-        "becameSuitTime": 1666633724.743, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 2, 
         "difficulty": 4, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 19
     }, 
     "54": {
@@ -288,12 +288,12 @@
         "block": 36
     }, 
     "35": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1667768399.843, 
         "savedBy": null, 
-        "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "track": "l", 
+        "numFloors": 2, 
+        "difficulty": 4, 
+        "state": "suit", 
         "block": 35
     }, 
     "52": {

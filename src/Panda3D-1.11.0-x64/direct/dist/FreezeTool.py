@@ -598,7 +598,7 @@ extend_frozen_modules(const struct _frozen *new_modules, int new_count) {
 
 #if PY_MAJOR_VERSION >= 3
 static PyModuleDef mdef = {
-  PyModuleto_head_INIT,
+  PyModuleDef_HEAD_INIT,
   "%(moduleName)s",
   "",
   -1,

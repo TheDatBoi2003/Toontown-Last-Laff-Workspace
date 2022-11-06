@@ -584,9 +584,6 @@ class DistributedBossbotBossAI(DistributedBossCogAI.DistributedBossCogAI, FSM.FS
         return
 
     def __doneVictory(self, avIds):
-        self.d_setBattleExperience()
-        self.b_setState('Reward')
-        BattleExperienceAI.assignRewards(self.involvedToons, self.toonSkillPtsGained, self.suitsKilled, ToontownGlobals.dept2cogHQ(self.dept), self.helpfulToons)
         for toonId in self.involvedToons:
             toon = self.air.doId2do.get(toonId)
             if toon:
