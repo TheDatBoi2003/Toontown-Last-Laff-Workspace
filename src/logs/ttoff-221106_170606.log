@@ -1,0 +1,972 @@
+
+
+Starting Toontown Online...
+Current time: Sun Nov  6 17:06:06 2022 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'COMPUTERNAME': 'PHILIP-JR', 'USERDOMAIN': 'PHILIP-JR', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'PSMODULEPATH': 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\', 'DOKANLIBRARY1': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\', 'ADSK_3DSMAX_X64_2021': 'C:\\Program Files\\Autodesk\\3ds Max 2021\\', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 45 Stepping 7, GenuineIntel', 'LOGONSERVER': '\\\\MicrosoftAccount', 'VBOX_MSI_INSTALL_PATH': 'C:\\Program Files\\Oracle\\VirtualBox\\', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '2d07', 'PATH': 'C:\\Toontown-Last-Laff-Workspace-10-21-2022\\src\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Git\\cmd;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Animation Paper\\gstreamer\\bin;C:\\Program Files\\PuTTY\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\Users\\Philip\\anaconda3;C:\\Users\\Philip\\anaconda3\\Library\\mingw-w64\\bin;C:\\Users\\Philip\\anaconda3\\Library\\usr\\bin;C:\\Users\\Philip\\anaconda3\\Library\\bin;C:\\Users\\Philip\\anaconda3\\Scripts;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Panda3D-1.10.02\\python;C:\\Panda3D-1.10.02\\python\\Scripts;C:\\Panda3D-1.10.02\\bin;C:\\Panda3D-1.11.0-x64-py2\\python;C:\\Panda3D-1.11.0-x64-py2\\python\\Scripts;C:\\Panda3D-1.11.0-x64-py2\\bin;C:\\Users\\Philip\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0-x64\\python;C:\\Panda3D-1.10.0-x64\\python\\Scripts;C:\\Panda3D-1.10.0-x64\\bin;C:\\Users\\Philip\\AppData\\Local\\atom\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Panda3D-1.11.0-x64-astron\\python;C:\\Panda3D-1.11.0-x64-astron\\python\\Scripts;C:\\Panda3D-1.11.0-x64-astron\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\Panda3D-1.10.9-x64\\python;C:\\Panda3D-1.10.9-x64\\python\\Scrip;C:\\Users\\Philip\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Philip\\.dotnet\\tools;%C:\\Program Files (x86)\\Windows Kits\\8.1\\bin\\x86\\rc.exe%;%C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\Common7\\IDE%;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'SYSTEMROOT': 'C:\\WINDOWS', 'NUMBER_OF_PROCESSORS': '8', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'KMP_BLOCKTIME': '0', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.3\\bin;', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'DOKANLIBRARY1_LIBRARYPATH_X64': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\lib\\', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'LOCALAPPDATA': 'C:\\Users\\Philip\\AppData\\Local', 'HOMEPATH': '\\Users\\Philip', 'USERDOMAIN_ROAMINGPROFILE': 'PHILIP-JR', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'Philip', 'FP_NO_HOST_CHECK': 'NO', 'DOKANLIBRARY1_LIBRARYPATH_X86': 'C:\\Program Files\\Dokan\\Dokan Library-1.4.1\\x86\\lib\\', 'THIRDPARTY': 'C:\\thirdparty', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'TEMP': 'C:\\Users\\Philip\\AppData\\Local\\Temp', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC', 'TTOFF_LOGIN_TOKEN': 'dev', 'VS160COMCOMNTOOLS': 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Common7\\Tools\\', 'WINDIR': 'C:\\WINDOWS', 'OMP_WAIT_POLICY': 'PASSIVE', 'MONGO': 'C:\\mongodb-win32-x86_64-windows-4.4.4/bin', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'APPDATA': 'C:\\Users\\Philip\\AppData\\Roaming', 'PROCESSOR_LEVEL': '6', 'CIOENGINE': 'C:\\cio-panda3d', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'USERPROFILE': 'C:\\Users\\Philip'}
+:11-06-2022 17:06:06 TTOffLauncher: isTestServer: 0
+:11-06-2022 17:06:06 TTOffLauncher: Game Server 127.0.0.1
+:11-06-2022 17:06:06 TTOffLauncher: Starting Toontown Online... 
+:11-06-2022 17:06:06 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:11-06-2022 17:06:06 TTOffLauncher: maybeStartGame: starting game
+:11-06-2022 17:06:06 TTOffLauncher: Starting Toontown Online...
+:11-06-2022 17:06:06 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:11-06-2022 17:06:06 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:11-06-2022 17:06:07 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:11-06-2022 17:06:07 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:11-06-2022 17:06:07 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:11-06-2022 17:06:07 ShowBase: __dev__ == False
+:11-06-2022 17:06:07 TTOffLauncher: setting panda error code to 11
+:11-06-2022 17:06:07 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:11-06-2022 17:06:07 Loader: starting bulk load of block 'init'
+:11-06-2022 17:06:08 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:11-06-2022 17:06:08 OTPClientRepository: Using connect method 'http'
+:11-06-2022 17:06:09 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:11-06-2022 17:06:09 TTOffLauncher: checking env
+:11-06-2022 17:06:09 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:11-06-2022 17:06:09 TTOffLauncher: checking env
+:11-06-2022 17:06:09 OTPClientRepository: reg_deployment=
+:11-06-2022 17:06:09 OTPClientRepository: required-login auto.
+:11-06-2022 17:06:09 OTPClientRepository: loginInterface: LoginTTOffAccount
+:11-06-2022 17:06:09 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:11-06-2022 17:06:09 Loader: At end of block 'init', expected 138, loaded 8, duration=1.71575401693
+:11-06-2022 17:06:09 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:11-06-2022 17:06:09 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:11-06-2022 17:06:09 TTOffLauncher: Stopping mini task manager.
+:11-06-2022 17:06:09 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:11-06-2022 17:06:09 TTOffLauncher: Setting Disconnect Details normal
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x000000001849DB08>}
+:11-06-2022 17:06:11 StateData: AvatarChooser.enter
+:11-06-2022 17:06:11 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:11-06-2022 17:06:11 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:11-06-2022 17:06:41 OTPClientRepository: ================
+:11-06-2022 17:06:41 OTPClientRepository: Chose avatar id: 100000001
+:11-06-2022 17:06:41 OTPClientRepository: Chose avatar name: Wittybumble
+:11-06-2022 17:06:41 OTPClientRepository: Chose avatar dna: ('dss', 'ms', 'm', 'm', 6, 0, 6, 6, 1, 9, 1, 9, 1, 18)
+:11-06-2022 17:06:41 OTPClientRepository: Chose avatar position: 1
+:11-06-2022 17:06:41 OTPClientRepository: isPaid: 1
+:11-06-2022 17:06:41 OTPClientRepository: freeTimeLeft: 0
+:11-06-2022 17:06:41 OTPClientRepository: allowSecretChat: True
+:11-06-2022 17:06:41 OTPClientRepository: ================
+:11-06-2022 17:06:41 Loader: starting bulk load of block 'localAvatarPlayGame'
+:11-06-2022 17:06:42 ToontownTimeManager(warning): error parsing date string=
+:11-06-2022 17:06:42 Actor(warning): no part named head-front*!
+local
+:11-06-2022 17:06:42 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:11-06-2022 17:06:42 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:11-06-2022 17:06:45 Actor(warning): no part named head-front*!
+:11-06-2022 17:06:45 OTPClientRepository: Entering shard 402000001
+:11-06-2022 17:06:45 StreetSign: Street sign url is https://ttoffline.com/images/
+:11-06-2022 17:06:46 TimeManager: Clock sync: TimeManager.announceGenerate
+:11-06-2022 17:06:46 NewsManager: setHolidayId: Starting Holiday 26
+:11-06-2022 17:06:46 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|        Intel(R) Core(TM) i7-3820 CPU @ 3.60GHz|132823|0|3.601,3.601|4,8 cpus
+:11-06-2022 17:06:47 OTPClientRepository: No sync from TimeManager.
+:11-06-2022 17:06:47 OTPClientRepository: gotTimeSync
+:11-06-2022 17:06:48 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 22, duration=6.19040659638
+:11-06-2022 17:06:48 TimeManager: Clock sync roundtrip took 1318.621 ms
+:11-06-2022 17:06:48 TimeManager: AI time delta is -0:02 from server delta
+:11-06-2022 17:06:48 TimeManager: Local clock uncertainty +/- 0.659 s
+:11-06-2022 17:06:48 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Bossbot HQ
+:11-06-2022 17:06:48 Loader: starting bulk load of block 'hood'
+:11-06-2022 17:06:58 OTPClientRepository: Sending heartbeat mid-frame.
+:11-06-2022 17:06:58 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:06:58 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:06:58 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:06:58 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:06:58 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:06:58 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:06:58 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:06:59 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:06:59 :pnmimage:png(warning): Interlace handling should be turned on when using png_read_image
+:11-06-2022 17:06:59 BossbotCogHQLoader: loadPlaceGeom: 10000
+:11-06-2022 17:06:59 HoodMgr(warning): getPlaygroundCenterFromId: No such hood name as: 10000
+:11-06-2022 17:06:59 DistributedToon: calling LocalAvatar.startchat
+:11-06-2022 17:06:59 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_bossbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models")
+:11-06-2022 17:06:59 Loader: At end of block 'hood', expected 2, loaded 58, duration=11.8047171711
+:11-06-2022 17:07:01 Teleport(debug): teleportInDone: walk
+:11-06-2022 17:07:01 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_bossbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models")
+:11-06-2022 17:07:06 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:11-06-2022 17:07:07 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:11-06-2022 17:07:13 BossbotHQExterior: Unloading Place (10000). Fsm in final
+:11-06-2022 17:07:13 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Sellbot HQ
+:11-06-2022 17:07:13 Loader: starting bulk load of block 'hood'
+:11-06-2022 17:07:13 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:07:13 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:07:13 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:07:13 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:07:13 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:07:13 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:07:13 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:07:13 TownBattleSuitPanel: Loading Suit Battle Panel!
+:11-06-2022 17:07:13 SellbotCogHQLoader: loadPlaceGeom: 11000
+:11-06-2022 17:07:13 DistributedObject: DistributedSuitPlanner 402002969: generating
+:11-06-2022 17:07:13 DistributedToon: calling LocalAvatar.startchat
+:11-06-2022 17:07:13 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models")
+:11-06-2022 17:07:15 Loader: At end of block 'hood', expected 43, loaded 2, duration=2.87728152954
+:11-06-2022 17:07:16 Teleport(debug): teleportInDone: walk
+:11-06-2022 17:07:16 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models")
+:11-06-2022 17:07:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:07:16 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:07:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:07:16 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:07:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:07:16 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:07:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:07:16 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:07:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:07:16 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:07:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:07:16 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:07:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:07:16 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:07:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:07:16 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:07:30 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:07:30 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:08:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:08:15 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:08:25 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:08:25 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:08:32 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:08:32 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:08:33 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:08:47 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:08:47 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:08:54 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:08:54 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:08:55 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:09:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:09:07 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:09:08 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:09:22 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:09:22 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:09:23 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+adding timeout task
+adding timeout task
+:11-06-2022 17:09:50 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:09:50 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:09:51 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:09:51 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:09:51 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:10:12 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:10:12 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:10:21 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:10:21 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:10:21 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:10:21 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:10:21 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:10:22 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:10:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:10:33 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:10:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:10:34 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:10:35 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:10:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:10:44 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:10:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:10:55 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:10:56 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:10:56 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:10:56 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:11:07 GarbageCollect(warning): garbage found, reverting gc threshold
+:11-06-2022 17:11:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:11:17 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:11:18 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:11:19 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:11:19 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:11:31 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:11:31 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:11:43 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:11:43 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+frame rate: 142.8 fps|0.001d|8 avs||338|338||0x0000|0x0000|703.6MB|683.7MB|16302.1MB|3124|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 17:12:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:12:17 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:12:18 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:12:37 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:12:37 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:12:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:12:44 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:12:44 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:12:48 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:12:48 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:12:59 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:12:59 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:12:59 OTPClientRepository: Sending heartbeat mid-frame.
+:11-06-2022 17:13:11 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:13:11 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:13:11 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:13:32 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:13:32 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:13:37 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:13:37 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:13:37 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:13:53 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:13:53 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:13:54 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:14:04 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:14:04 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:14:09 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:14:09 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:14:09 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:14:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:14:33 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:14:34 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:14:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:14:38 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:14:41 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:14:41 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:14:42 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+adding timeout task
+adding timeout task
+:11-06-2022 17:14:49 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:14:49 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:14:59 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:14:59 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:15:20 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:15:20 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:15:21 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:15:21 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:15:21 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:15:32 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:15:32 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:15:37 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:15:37 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:15:37 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:15:53 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:15:53 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:15:53 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:16:08 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:16:08 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:16:09 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:16:10 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:16:10 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:16:11 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:16:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:16:15 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:16:26 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:16:26 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:16:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:16:38 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:16:42 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:16:42 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:16:42 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+frame rate: 98.9 fps|0.002d|7 avs||638|638||0x0000|0x0000|755.3MB|733.0MB|16302.1MB|4195|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 17:16:48 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:16:48 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:16:59 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:16:59 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:17:04 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:17:04 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:17:04 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:17:31 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:17:31 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:17:31 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:17:37 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:17:37 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:17:37 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:18:03 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:18:03 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:18:04 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:18:04 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:18:05 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:18:20 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:18:20 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:18:20 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:18:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:18:38 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:18:38 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:18:57 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:18:57 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:18:58 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:19:21 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:19:21 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:19:31 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:19:31 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:19:32 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:19:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:19:44 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:19:54 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:19:54 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:20:00 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:20:00 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:20:01 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:20:04 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:20:04 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:20:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:20:16 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:20:21 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:20:21 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:20:22 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:20:26 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:20:26 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:20:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:20:38 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:20:41 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:20:41 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+adding timeout task
+adding timeout task
+:11-06-2022 17:20:41 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:20:48 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:20:48 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:20:59 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:20:59 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:21:00 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:21:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:21:07 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:21:07 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:21:12 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:21:12 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:21:12 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:21:27 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:21:27 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:21:27 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:21:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:21:34 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:21:38 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:21:38 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:21:38 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:21:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:21:44 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+frame rate: 110.4 fps|0.002d|8 avs||938|938||0x0000|0x0000|806.9MB|783.1MB|16302.1MB|5731|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 17:21:48 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:21:48 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:21:49 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:21:56 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:21:56 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:22:00 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:22:00 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:22:00 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:22:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:22:17 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:22:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:22:17 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:22:17 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:22:18 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:22:18 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:22:19 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:22:49 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:22:49 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:22:59 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:22:59 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:23:04 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:23:04 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:23:05 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:23:10 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:23:10 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:23:27 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:23:27 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:23:28 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:23:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:23:44 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:23:44 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:24:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:24:06 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:24:14 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:24:14 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:24:14 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:24:18 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:24:18 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:24:28 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:24:28 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:24:31 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:24:31 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:24:31 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:24:40 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:24:40 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:24:54 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:24:54 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:24:54 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:24:54 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:24:54 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:24:55 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:25:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:25:02 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:25:02 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:25:12 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:25:12 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:25:12 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:25:12 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:25:12 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:25:23 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:25:23 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:25:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:25:24 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:25:24 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:25:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:25:24 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:25:25 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:25:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:25:34 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:25:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:25:55 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:25:56 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:25:56 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:25:56 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:26:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:26:07 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:26:07 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:26:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:26:07 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:26:08 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:26:08 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:26:09 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:26:18 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:26:18 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:26:39 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:26:39 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+frame rate: 102.5 fps|0.002d|9 avs||1238|1238||0x0000|0x0000|870.7MB|845.0MB|16302.1MB|7355|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 17:26:50 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:26:50 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:26:51 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:27:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:27:02 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:27:12 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:27:12 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:27:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:27:16 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:27:17 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:27:22 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:27:22 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:27:40 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:27:40 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:27:40 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:27:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:27:44 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:28:00 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:28:00 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:28:00 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:28:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:28:17 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:28:17 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:28:18 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:28:18 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:28:28 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:28:28 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:28:28 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:28:29 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:28:29 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+adding timeout task
+adding timeout task
+:11-06-2022 17:28:41 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:28:41 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:28:52 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:28:52 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:28:52 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:29:04 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:29:04 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:29:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:29:06 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:29:06 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:29:46 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:29:46 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:29:55 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:29:55 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:29:56 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:30:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:30:06 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:30:06 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:30:29 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:30:29 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:30:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:30:33 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:30:33 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:30:40 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:30:40 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:30:48 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:30:48 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:30:49 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:31:08 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:31:08 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:31:09 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:31:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:31:15 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:31:15 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:31:20 OTPClientRepository: Sending heartbeat mid-frame.
+:11-06-2022 17:31:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:31:24 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:31:32 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:31:32 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:31:33 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:31:34 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:31:34 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+frame rate: 157.0 fps|0.001d|6 avs||1538|1538||0x0000|0x0000|932.5MB|903.3MB|16302.1MB|8521|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 17:31:45 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:31:45 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:31:56 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:31:56 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:32:08 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:32:08 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:32:19 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:32:19 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:32:21 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:32:21 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:32:21 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:33:11 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:33:11 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:33:23 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:33:23 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:33:45 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:33:45 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:33:50 OTPClientRepository: Sending heartbeat mid-frame.
+:11-06-2022 17:33:57 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:33:57 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:34:11 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:34:11 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:34:11 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:34:29 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:34:29 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:34:30 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:34:33 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:34:33 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:34:33 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:34:45 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:34:45 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:34:45 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:35:04 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:35:04 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:35:14 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:35:14 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:35:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:35:24 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:35:37 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:35:37 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:35:38 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:35:42 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:35:42 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:35:42 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+adding timeout task
+adding timeout task
+:11-06-2022 17:36:10 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:36:10 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:36:11 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:36:11 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:36:11 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:36:12 ClassicFSM(warning): [DistributedSuit]: no transition exists from Walk to FromCogHQ
+:11-06-2022 17:36:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:36:16 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:36:28 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:36:28 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:36:39 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:36:39 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:36:45 TimeManager: Clock sync: timer
+:11-06-2022 17:36:45 TimeManager: Clock sync roundtrip took 16.629 ms
+:11-06-2022 17:36:45 TimeManager: AI time delta is -0:00 from server delta
+:11-06-2022 17:36:45 ClockDelta: previous delta at -4678.694 s, +/- 1.159 s.
+:11-06-2022 17:36:45 ClockDelta: new delta at -4679.343 s, +/- 0.008 s.
+:11-06-2022 17:36:45 ClockDelta: intersection at -4679.343 s, +/- 0.008 s.
+:11-06-2022 17:36:45 TimeManager: Local clock uncertainty +/- 0.008 s
+frame rate: 130.4 fps|0.002d|7 avs||1838|1838||0x0000|0x0000|987.1MB|954.3MB|16302.1MB|9548|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 17:36:45 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:36:45 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:36:50 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:36:50 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:37:08 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:37:08 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:37:13 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:37:13 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:37:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:37:24 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:37:27 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:37:27 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:37:35 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:37:35 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:37:46 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:37:46 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:37:47 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:37:47 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+adding timeout task
+adding timeout task
+:11-06-2022 17:38:19 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:38:19 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:38:23 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:38:23 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:38:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:38:24 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:38:30 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:38:30 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:38:51 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:38:51 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:39:02 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:39:02 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:39:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:39:07 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:39:13 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:39:13 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:39:14 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:39:14 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:39:36 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:39:36 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:39:36 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:39:36 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:40:01 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:40:01 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:40:05 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:40:05 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:40:29 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:40:29 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:40:32 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:40:32 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:41:13 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:41:13 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:41:31 OTPClientRepository: Sending heartbeat mid-frame.
+:11-06-2022 17:41:37 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:41:37 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+frame rate: 105.4 fps|0.002d|7 avs||2138|2138||0x0000|0x0000|1039.7MB|1004.2MB|16302.1MB|10736|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 17:41:58 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:41:58 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:42:09 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:42:09 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:42:54 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:42:54 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:43:03 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:43:03 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:43:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:43:15 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:43:25 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:43:25 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:43:32 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:43:32 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:43:47 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:43:47 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:43:57 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:43:57 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:44:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:44:16 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:44:19 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:44:19 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:44:25 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:44:26 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:44:41 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:44:41 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:44:58 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:44:58 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:45:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:45:15 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:45:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:45:15 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:45:40 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:45:40 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:45:40 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:45:40 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:45:50 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:45:50 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:46:00 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:46:00 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:46:00 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:46:00 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:46:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:46:16 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:46:43 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:46:43 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+frame rate: 131.5 fps|0.002d|8 avs||2438|2438||0x0000|0x0000|1093.8MB|1054.9MB|16302.1MB|11949|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 17:47:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:47:07 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:47:26 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:47:26 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:47:40 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nd.png
+:11-06-2022 17:47:40 :gobj(error): Unable to find texture "phase_3/maps/hands/nd.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:47:42 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:47:42 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:48:12 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:48:12 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:48:32 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:48:32 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:48:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:48:44 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:48:56 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:48:56 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:49:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:49:07 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:49:07 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:49:07 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:49:17 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:49:17 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:49:29 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:49:29 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:49:36 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:49:36 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:49:39 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:49:39 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:50:13 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:50:13 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:50:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:50:24 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:50:31 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:50:31 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:50:46 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:50:46 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+adding timeout task
+adding timeout task
+:11-06-2022 17:50:54 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:50:54 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:50:58 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:50:58 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:51:08 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:51:08 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:51:09 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:51:09 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:51:16 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:51:16 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:51:43 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:51:43 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+frame rate: 95.5 fps|0.002d|8 avs||2738|2738||0x0000|0x0000|1025.2MB|1108.3MB|16302.1MB|13149|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 17:51:52 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:51:52 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:51:57 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:51:57 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:51:59 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:51:59 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:52:14 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:52:14 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:52:25 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:52:25 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:52:26 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:52:26 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:52:35 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:52:35 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:52:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:52:44 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:52:46 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:52:46 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:52:58 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:52:58 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:53:06 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:53:06 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:53:20 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:53:20 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:53:21 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+:11-06-2022 17:53:22 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Districts
+:11-06-2022 17:53:22 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:11-06-2022 17:53:24 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_sellbot_maps.bam: not found on model path (currently: "/;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models")
+:11-06-2022 17:53:26 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:53:26 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:53:32 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:53:32 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:53:44 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:53:44 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:53:49 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:53:49 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:53:59 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/cc.png
+:11-06-2022 17:53:59 :gobj(error): Unable to find texture "phase_3/maps/hands/cc.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:54:04 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:54:04 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:54:13 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tm.png
+:11-06-2022 17:54:13 :gobj(error): Unable to find texture "phase_3/maps/hands/tm.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:54:15 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:54:15 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:54:42 OTPClientRepository: Sending heartbeat mid-frame.
+:11-06-2022 17:54:49 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:54:49 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:54:59 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:54:59 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:55:01 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/gh.png
+:11-06-2022 17:55:01 :gobj(error): Unable to find texture "phase_3/maps/hands/gh.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:55:10 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/tf.png
+:11-06-2022 17:55:10 :gobj(error): Unable to find texture "phase_3/maps/hands/tf.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:55:12 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/ms.png
+:11-06-2022 17:55:12 :gobj(error): Unable to find texture "phase_3/maps/hands/ms.png" on model-path /;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/toontown/launcher;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/..;/c/Toontown-Last-Laff-Workspace-10-21-2022/src/Panda3D-1.11.0-x64/etc/../models
+:11-06-2022 17:55:14 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+OnscreenText.configure: mayChange == 0
+:11-06-2022 17:55:14 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Browse tabs Map
+:11-06-2022 17:55:14 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:11-06-2022 17:55:16 ToontownChatManager: QA-REGRESSION: CHAT: Speedchat
+:11-06-2022 17:55:20 SellbotHQExterior: Unloading Place (11000). Fsm in final
+:11-06-2022 17:55:20 DistributedObject: DistributedSuitPlanner 402002969: disabling
+:11-06-2022 17:55:20 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Toontown Central
+:11-06-2022 17:55:20 Loader: starting bulk load of block 'hood'
+:11-06-2022 17:55:21 :display:gsg:glgsg(error): GL error 0x501 : invalid value
+:11-06-2022 17:55:21 :display:gsg:glgsg(error): An OpenGL error has occurred.  Set gl-debug #t in your PRC file to display more information.
+:11-06-2022 17:55:22 DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:11-06-2022 17:55:22 DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:11-06-2022 17:55:22 DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:11-06-2022 17:55:22 DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:11-06-2022 17:55:22 DistributedObject(warning): no loader.getInteractiveProp self.interactiveProp is None
+:11-06-2022 17:55:22 DistributedToon: calling LocalAvatar.startchat
+:11-06-2022 17:55:22 Loader: At end of block 'hood', expected 8, loaded 9, duration=1.95272446655
+:11-06-2022 17:55:23 Teleport(debug): teleportInDone: walk
+frame rate: 128.8 fps|0.001d|4 avs||3038|3038||0x0000|0x0000|1134.1MB|1190.5MB|16302.1MB|14160|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+adding timeout task
+adding timeout task
+frame rate: 155.9 fps|0.002d|4 avs||3338|3338||0x0000|0x0000|1177.8MB|1230.3MB|16302.1MB|14171|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+adding timeout task
+adding timeout task
+:11-06-2022 18:04:00 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Open
+:11-06-2022 18:04:00 ShtikerBook: QA-REGRESSION: SHTICKERBOOK: Close
+:11-06-2022 18:06:45 TimeManager: Clock sync: timer
+:11-06-2022 18:06:45 TimeManager: Clock sync roundtrip took 19.436 ms
+:11-06-2022 18:06:45 TimeManager: AI time delta is -0:00 from server delta
+:11-06-2022 18:06:45 ClockDelta: previous delta at -4679.343 s, +/- 0.508 s.
+:11-06-2022 18:06:45 ClockDelta: new delta at -4679.340 s, +/- 0.010 s.
+:11-06-2022 18:06:45 ClockDelta: intersection at -4679.340 s, +/- 0.010 s.
+:11-06-2022 18:06:45 TimeManager: Local clock uncertainty +/- 0.010 s
+frame rate: 163.6 fps|0.001d|4 avs||3638|3638||0x0000|0x0000|1218.7MB|1271.3MB|16302.1MB|14187|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+adding timeout task
+adding timeout task
+frame rate: 159.9 fps|0.001d|4 avs||3938|3938||0x0000|0x0000|1257.5MB|1310.0MB|16302.1MB|14197|nt.2.6.2|3.601,3.601|4,8 cpus|OpenGL
+:11-06-2022 18:14:48 OTPClientRepository(warning): Server is booting us out (153): The session object with id 100000001 has been unexpectedly deleted.
+:11-06-2022 18:14:48 OTPClientRepository(warning): Lost connection to gameserver.
+:11-06-2022 18:14:48 Playground: Unloading Place (2000). Fsm in final
+:11-06-2022 18:14:48 OTPClientRepository(warning): unclean exit, abandoning shard
+ignoring InputState-forward
+:11-06-2022 18:14:48 OTPClientRepository: sending clientLogout
+Assertion failed: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx
+Traceback (most recent call last):
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1445, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1716, in handleMessageType
+    self.handleGoGetLost(di)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 494, in handleGoGetLost
+    self.lostConnection()
+  File "otp\distributed\OTPClientRepository.py", line 1621, in lostConnection
+    self.loginFSM.request('noConnection')
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 227, in __transition
+    self.__exitCurrent(exitArgList)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 185, in __exitCurrent
+    self.__currentState.exit(argList)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\State.py", line 213, in exit
+    self.__exitFunc(*argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 430, in exitPlayingGame
+    base.localAvatar.deleteOrDelay()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 201, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 204, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 230, in disableAndAnnounce
+    self.disable()
+  File "toontown\toon\LocalToon.py", line 256, in disable
+    self.book.unload()
+  File "toontown\shtiker\ShtikerBook.py", line 150, in unload
+    page.unload()
+  File "toontown\shtiker\SuitPage.py", line 240, in unload
+    shadow.removeNode()
+AssertionError: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx
+:11-06-2022 18:14:49 :task(error): Exception occurred in PythonTask readerPollTask-85660400
+Traceback (most recent call last):
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 49, in eventLoopTask
+    self.doEvents()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 42, in doEvents
+    while not isEmptyFunc():
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1445, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1716, in handleMessageType
+    self.handleGoGetLost(di)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 494, in handleGoGetLost
+    self.lostConnection()
+  File "otp\distributed\OTPClientRepository.py", line 1621, in lostConnection
+    self.loginFSM.request('noConnection')
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 227, in __transition
+    self.__exitCurrent(exitArgList)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 185, in __exitCurrent
+    self.__currentState.exit(argList)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\State.py", line 213, in exit
+    self.__exitFunc(*argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 430, in exitPlayingGame
+    base.localAvatar.deleteOrDelay()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 201, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 204, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 230, in disableAndAnnounce
+    self.disable()
+  File "toontown\toon\LocalToon.py", line 256, in disable
+    self.book.unload()
+  File "toontown\shtiker\ShtikerBook.py", line 150, in unload
+    page.unload()
+  File "toontown\shtiker\SuitPage.py", line 240, in unload
+    shadow.removeNode()
+AssertionError: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx
+:11-06-2022 18:14:49 :task(error): Exception occurred in PythonTask eventManager
+:11-06-2022 18:14:49 TTOffLauncher: setting panda error code to 12
+:11-06-2022 18:14:49 TTOffLauncher(warning): Handling Python exception.
+:11-06-2022 18:14:49 OTPClientRepository: Sent disconnect message to server
+:11-06-2022 18:14:49 OTPClientRepository: Closing connection to server.
+:11-06-2022 18:14:49 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 49, in eventLoopTask
+    self.doEvents()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 42, in doEvents
+    while not isEmptyFunc():
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 609, in readerPollUntilEmpty
+    while self.readerPollOnce():
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\ConnectionRepository.py", line 616, in readerPollOnce
+    self.handleDatagram(self.private__di)
+  File "otp\distributed\OTPClientRepository.py", line 1838, in handleDatagram
+    self.handler(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1445, in handlePlayGame
+    self.handleMessageType(msgType, di)
+  File "otp\distributed\OTPClientRepository.py", line 1716, in handleMessageType
+    self.handleGoGetLost(di)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\ClientRepositoryBase.py", line 494, in handleGoGetLost
+    self.lostConnection()
+  File "otp\distributed\OTPClientRepository.py", line 1621, in lostConnection
+    self.loginFSM.request('noConnection')
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 227, in __transition
+    self.__exitCurrent(exitArgList)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 185, in __exitCurrent
+    self.__currentState.exit(argList)
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\fsm\State.py", line 213, in exit
+    self.__exitFunc(*argList)
+  File "toontown\distributed\ToontownClientRepository.py", line 430, in exitPlayingGame
+    base.localAvatar.deleteOrDelay()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 201, in deleteOrDelay
+    self.disableAnnounceAndDelete()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 204, in disableAnnounceAndDelete
+    self.disableAndAnnounce()
+  File "C:\Toontown-Last-Laff-Workspace-10-21-2022\src\Panda3D-1.11.0-x64\direct\distributed\DistributedObject.py", line 230, in disableAndAnnounce
+    self.disable()
+  File "toontown\toon\LocalToon.py", line 256, in disable
+    self.book.unload()
+  File "toontown\shtiker\ShtikerBook.py", line 150, in unload
+    page.unload()
+  File "toontown\shtiker\SuitPage.py", line 240, in unload
+    shadow.removeNode()
+AssertionError: _error_type != ET_not_found at line 592 of panda/src/pgraph/nodePath.cxx

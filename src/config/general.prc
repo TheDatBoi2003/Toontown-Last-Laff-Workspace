@@ -52,4 +52,3 @@ early-event-sphere true
 server-data-folder backups/
 isclient-check false
 
-active-holidays 26
