@@ -694,13 +694,13 @@ class Suit(Avatar.Avatar):
         phase = 3.5
 
         def __doItTheOldWay__():
-            torsoTex = loader.loadTexture('phase_%s/maps/%s_blazer.jpg' % (phase, dept))
+            torsoTex = loader.loadTexture('phase_%s/maps/%s_blazer.png' % (phase, dept))
             torsoTex.setMinfilter(Texture.FTLinearMipmapLinear)
             torsoTex.setMagfilter(Texture.FTLinear)
-            legTex = loader.loadTexture('phase_%s/maps/%s_leg.jpg' % (phase, dept))
+            legTex = loader.loadTexture('phase_%s/maps/%s_leg.png' % (phase, dept))
             legTex.setMinfilter(Texture.FTLinearMipmapLinear)
             legTex.setMagfilter(Texture.FTLinear)
-            armTex = loader.loadTexture('phase_%s/maps/%s_sleeve.jpg' % (phase, dept))
+            armTex = loader.loadTexture('phase_%s/maps/%s_sleeve.png' % (phase, dept))
             armTex.setMinfilter(Texture.FTLinearMipmapLinear)
             armTex.setMagfilter(Texture.FTLinear)
             modelRoot.find('**/torso').setTexture(torsoTex, 1)
@@ -774,38 +774,29 @@ class Suit(Avatar.Avatar):
         modelRoot.find('**/hands').setTexture(handTex, 1)
 
     def generateHead(self, headType):
-        self.suitAHeads = ['bigwig', 'yesman', 'headhunter', 'legaleagle', 'pennypincher', 'twoface', 'bigcheese', 'numbercruncher', 'backstabber']
-        self.suitBHeads = ['telemarketer', 'ambulancechaser', 'pencilpusher', 'loanshark', 'movershaker', 'beancounter']
-        self.suitCHeads = ['coldcaller', 'gladhander', 'micromanager', 'flunky', 'glasses', 'moneybags', 'tightwad']
-
-        if self.style.body == 'a':
-            headList = self.suitAHeads
-            texturePhase = 'phase_4/maps/'
-        elif self.style.body == 'b':
-            headList = self.suitBHeads
-            texturePhase = 'phase_4/maps/'
+        if base.config.GetBool('want-new-cogs', 0):
+            filePrefix, phase = HeadModelDict[self.style.body]
         else:
-            headList = self.suitCHeads
-            texturePhase = 'phase_3.5/maps/'
+            filePrefix, phase = HeadModelDict[self.style.body]
+        headModel = loader.loadModel('phase_' + str(phase) + filePrefix + 'heads')
+        headReferences = headModel.findAllMatches('**/' + headType)
+        for i in xrange(0, headReferences.getNumPaths()):
+            if base.config.GetBool('want-new-cogs', 0):
+                headPart = self.instance(headReferences.getPath(i), 'modelRoot', 'def_head')
+                if not headPart:
+                    headPart = self.instance(headReferences.getPath(i), 'modelRoot', 'def_head')
+            else:
+                headPart = self.instance(headReferences.getPath(i), 'modelRoot', 'def_head')
+            if self.headTexture:
+                headTex = loader.loadTexture('phase_' + str(phase) + '/maps/' + self.headTexture)
+                headTex.setMinfilter(Texture.FTLinearMipmapLinear)
+                headTex.setMagfilter(Texture.FTLinear)
+                headPart.setTexture(headTex, 1)
+            if self.headColor:
+                headPart.setColor(self.headColor)
+            self.headParts.append(headPart)
 
-        if self.headTexture:
-            headTexture = self.headTexture
-            texture = loader.loadTexture(texturePhase + headTexture)
-
-
-        for headName in headList:
-            try:
-                if headName != headType:
-                    self.find('**/' + headName).stash()
-                else:
-                    self.find('**/' + headName).unstash()
-                    self.headParts.append(self.find('**/' + headName))
-                    if self.headTexture:
-                        self.find('**/' + headName).setTexture(texture, 1)
-                    if self.headColor:
-                        self.find('**/' + headName).setColor(self.headColor)
-            except:
-                pass
+        headModel.removeNode()
 
     def generateCorporateTie(self, modelPath = None):
         if not modelPath:
@@ -849,27 +840,37 @@ class Suit(Avatar.Avatar):
         icons.removeNode()
 
     def generateHealthBar(self):
+        self.removeHealthBar()
         model = loader.loadModel('phase_3.5/models/gui/matching_game_gui')
-        button = self.find('**/hpIn')
-        button.setColor(self.healthColors[0])
-
-
+        button = model.find('**/minnieCircle')
+        button.setScale(3.0)
+        button.setH(180.0)
+        try:
+            button.setColor(self.healthColors[0])
+        except:
+            pass
+        if base.config.GetBool('want-new-cogs', 0):
+            chestNull = self.find('**/def_joint_attachMeter')
+            if chestNull.isEmpty():
+                chestNull = self.find('**/joint_attachMeter')
+        else:
+            chestNull = self.find('**/joint_attachMeter')
+        try:
+            button.reparentTo(chestNull)
+        except:
+            pass
         self.healthBar = button
         glow = BattleProps.globalPropPool.getProp('glow')
         try:
             glow.reparentTo(self.healthBar)
-        except:
-            pass
-        glow.setScale(0.28)
-        glow.setPos(-0.005, 0.01, 0.015)
-        glow.hide()
-        glow.setColor(self.healthGlowColors[0])
-        try:
+            glow.setScale(0.28)
+            glow.setPos(-0.005, 0.01, 0.015)
+            glow.setColor(self.healthGlowColors[0])
             button.flattenLight()
+            self.healthBarGlow = glow
             self.healthBar.hide()
         except:
             pass
-        self.healthBarGlow = glow
         self.healthCondition = 0
 
     def reseatHealthBarForSkele(self):

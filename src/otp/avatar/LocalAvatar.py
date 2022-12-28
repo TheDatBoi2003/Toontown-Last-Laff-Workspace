@@ -216,8 +216,8 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
                                       self.currentMovementMode[self.REVERSE_SPRINT_SPEED_ENUM], self.currentMovementMode[self.ROTATE_SPRINT_SPEED_ENUM])
         self.isSprinting = 1
 
-        if base.WANT_FOV_EFFECTS:
-            self.lerpFov(self.fov, self.fallbackFov + self.currentMovementMode[self.FOV_INCREASE_ENUM])
+        #if base.WANT_FOV_EFFECTS:
+            #self.lerpFov(self.fov, self.fallbackFov + self.currentMovementMode[self.FOV_INCREASE_ENUM])
 
     def exitSprinting(self):
 
@@ -229,8 +229,8 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar, DistributedSmoothNode.Dis
         self.controlManager.setSpeeds(self.currentMovementMode[self.NORMAL_SPEED_ENUM], OTPGlobals.ToonJumpForce,
                                       self.currentMovementMode[self.REVERSE_NORMAL_SPEED_ENUM], self.currentMovementMode[self.ROTATE_NORMAL_SPEED_ENUM])
 
-        if base.WANT_FOV_EFFECTS:
-            self.lerpFov(self.fov, self.fallbackFov)
+        #if base.WANT_FOV_EFFECTS:
+            #self.lerpFov(self.fov, self.fallbackFov)
 
         self.isSprinting = 0
 

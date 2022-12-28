@@ -15,6 +15,7 @@ class BRTownLoader(TownLoader.TownLoader):
         TownLoader.TownLoader.load(self, zoneId)
         Suit.loadSuits(3)
         dnaFile = 'phase_8/dna/the_burrrgh_' + str(self.canonicalBranchZone) + '.dna'
+        self.battleMusic = base.loader.loadMusic('phase_8/audio/bgm/laff_ara_br_battle.ogg')
         self.createHood(dnaFile)
 
     def unload(self):
