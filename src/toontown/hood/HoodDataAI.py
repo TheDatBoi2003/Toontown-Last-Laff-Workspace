@@ -36,6 +36,15 @@ class HoodDataAI:
         self.createBuildingManagers()
         self.createSuitPlanners()
 
+        # Every 5 minutes send a message about the global quest
+        self.air.globalQuestManager.sendGlobalQuestMessage()
+        taskMgr.doMethodLater(300, self.sendGlobalQuestMessage, 'global-quest-message')
+
+    def sendGlobalQuestMessage(self, task):
+        if self.air.globalQuestManager:
+            self.air.globalQuestManager.sendGlobalQuestMessage()
+        return task.again
+
     def shutdown(self):
         self.setRedirect(None)
         if self.treasurePlanner:

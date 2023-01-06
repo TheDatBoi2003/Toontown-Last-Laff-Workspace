@@ -86,6 +86,8 @@ def getBattleExperience(numToons, activeToons, toonExp, toonSkillPtsGained, toon
     for deathRecord in suitsKilled:
         level = deathRecord['level']
         type = deathRecord['type']
+        for toonQuester in activeToons:
+            simbase.air.globalQuestManager.toonContributed(0, 1)
         if deathRecord['isVP'] or deathRecord['isCFO']:
             level = 0
             typeNum = SuitDNA.suitDepts.index(deathRecord['track'])

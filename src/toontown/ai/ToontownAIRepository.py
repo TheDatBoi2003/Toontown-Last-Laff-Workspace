@@ -45,6 +45,7 @@ from toontown.hood.TTHoodDataAI import TTHoodDataAI
 from toontown.parties.ToontownTimeManager import ToontownTimeManager
 from toontown.pets.PetManagerAI import PetManagerAI
 from toontown.quest.QuestManagerAI import QuestManagerAI
+from toontown.globalquests.GlobalQuestManagerAI import GlobalQuestManagerAI
 from toontown.racing import RaceGlobals
 from toontown.racing.DistributedLeaderBoardAI import DistributedLeaderBoardAI
 from toontown.racing.DistributedRacePadAI import DistributedRacePadAI
@@ -174,6 +175,11 @@ class ToontownAIRepository(ToontownInternalRepository):
 
         # Create our quest manager...
         self.questManager = QuestManagerAI(self)
+
+        # Create our global quest manager...
+        self.globalQuestManager = GlobalQuestManagerAI(self)
+        self.globalQuestManager.addRandomGlobalQuest()
+
 
         # Create our Cog page manager...
         self.cogPageManager = CogPageManagerAI(self)

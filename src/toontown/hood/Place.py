@@ -221,6 +221,7 @@ class Place(StateData.StateData, FriendsListManager.FriendsListManager):
         self.walkStateData.fsm.request('walking')
         self.enablePeriodTimer()
 
+
     def exitWalk(self):
         self.exitFLM()
         if base.cr.productName in ['DisneyOnline-US', 'ES'] and not base.cr.isPaid() and base.localAvatar.tutorialAck and not base.cr.whiteListChatEnabled:

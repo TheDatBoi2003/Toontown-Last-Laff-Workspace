@@ -279,6 +279,9 @@ class NewsManagerAI(DistributedObjectAI):
     def getRelativelyCalendarHolidays(self):
         return self.relativelyCalendarHolidays
 
+    def shoutOutMessage(self, message, style):
+        self.sendUpdate('sendSystemMessage', [message, style])
+
     def setMultipleStartHolidays(self, multipleStartHolidays):
         self.multipleStartHolidays = multipleStartHolidays
 

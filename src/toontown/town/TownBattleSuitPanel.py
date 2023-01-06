@@ -44,6 +44,16 @@ class TownBattleSuitPanel(DirectFrame):
         self.glow = glow
         self.head = None
         self.blinkTask = None
+        self.healthColors = (Vec4(0, 1, 0, 1),
+                        Vec4(1, 1, 0, 1),
+                        Vec4(1, 0.5, 0, 1),
+                        Vec4(1, 0, 0, 1),
+                        Vec4(0.3, 0.3, 0.3, 1))
+        self.healthGlowColors = (Vec4(0.25, 1, 0.25, 0.5),
+                            Vec4(1, 1, 0.25, 0.5),
+                            Vec4(1, 0.5, 0.25, 0.5),
+                            Vec4(1, 0.25, 0.25, 0.5),
+                            Vec4(0.3, 0.3, 0.3, 0))
         self.hide()
         healthGui.removeNode()
         gui.removeNode()
@@ -77,6 +87,8 @@ class TownBattleSuitPanel(DirectFrame):
 
     def updateHealthBar(self):
         condition = self.cog.healthCondition
+        if condition >= 5:
+            condition = 4
         if condition == 9:
             self.blinkTask = Task.loop(Task(self.__blinkRed), Task.pause(0.75), Task.pause(0.1))
             taskMgr.add(self.blinkTask, self.uniqueName('blink-task'))

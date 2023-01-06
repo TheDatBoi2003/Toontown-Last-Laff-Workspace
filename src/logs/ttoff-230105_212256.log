@@ -1,0 +1,217 @@
+
+
+Starting Toontown Online...
+Current time: Thu Jan  5 21:22:56 2023 Eastern Standard Time
+sys.path =  ['', 'C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\python27.zip', 'C:\\Panda3D-1.11.0-x64', 'C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\DLLs', 'C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib', 'C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\plat-win', 'C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\lib-tk', 'C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python', 'C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64', 'C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\bin', 'C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\Panda3D-1.11.0-x64\\python\\lib\\site-packages']
+sys.argv =  ['C:\\Toontown\\Toontown - Programming\\SuitopiaUpdateLastLaff\\Toontown-Last-Laff-Workspace\\src\\toontown\\launcher\\TTOffQuickStartLauncher.py']
+generating standard configrc
+os.environ =  {'TMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'COMPUTERNAME': 'DESKTOP-7054VC9', 'PROCESSOR_LEVEL': '6', 'USERDOMAIN': 'DESKTOP-7054VC9', 'NEKO_INSTPATH': 'C:\\HaxeToolkit\\neko', 'INTEL_DEV_REDIST': 'C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\', 'PSMODULEPATH': 'C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules', 'COMMONPROGRAMFILES': 'C:\\Program Files\\Common Files', 'PROCESSOR_IDENTIFIER': 'Intel64 Family 6 Model 158 Stepping 13, GenuineIntel', 'PROGRAMFILES': 'C:\\Program Files', 'PROCESSOR_REVISION': '9e0d', 'PATH': 'C:\\Panda3D-1.11.0-x64\\panda3d\\..\\bin;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Python38\\Scripts\\;C:\\Program Files\\Python38\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files\\NVIDIA Corporation\\NVIDIA NvDLISR;C:\\Program Files\\dotnet\\;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39;C:\\Users\\theph\\AppData\\Local\\Programs\\Python\\Python39\\Scripts;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Git\\cmd;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\HaxeToolkit\\haxe;C:\\HaxeToolkit\\neko;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Users\\theph\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\theph\\.dotnet\\tools;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2020.3.3\\bin;C:\\Users\\theph\\AppData\\Local\\atom\\bin;C:\\Users\\theph\\AppData\\Local\\GitHubDesktop\\bin;C:\\Panda3D-1.9.0-x64\\python;C:\\Panda3D-1.9.0-x64\\python\\Scripts;C:\\Panda3D-1.9.0-x64\\bin;C:\\Panda3D-1.9.0\\python;C:\\Panda3D-1.9.0\\python\\Scripts;C:\\Panda3D-1.9.0\\bin;C:\\Panda3D-1.10.0\\python;C:\\Panda3D-1.10.0\\python\\Scripts;C:\\Panda3D-1.10.0\\bin;C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin;;C:\\Users\\theph\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Panda3D-1.11.0\\python;C:\\Panda3D-1.11.0\\python\\Scripts;C:\\Panda3D-1.11.0\\bin;C:\\Users\\theph\\.dotnet\\tools;C:\\Panda3D-1.10.11-x64\\python;C:\\Panda3D-1.10.11-x64\\python\\Scripts;C:\\Panda3D-1.10.11-x64\\bin;C:\\Panda3D-1.11.0-x64\\python;C:\\Panda3D-1.11.0-x64\\python\\Scripts;C:\\Panda3D-1.11.0-x64\\bin;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python;C:\\EventHorizon-battle-ng-teaser\\dependencies\\panda\\python\\Scripts;C:\\EventHorizon-battle-ng-teaser\\depe', 'SYSTEMROOT': 'C:\\WINDOWS', 'PROGRAMFILES(X86)': 'C:\\Program Files (x86)', 'COMSPEC': 'C:\\WINDOWS\\system32\\cmd.exe', 'DRIVERDATA': 'C:\\Windows\\System32\\Drivers\\DriverData', 'PPYTHON_PATH': '"Panda3D-1.11.0-x64\\python\\ppython.exe"', 'TEMP': 'C:\\Users\\theph\\AppData\\Local\\Temp', 'FPS_BROWSER_APP_PROFILE_STRING': 'Internet Explorer', 'COMMONPROGRAMFILES(X86)': 'C:\\Program Files (x86)\\Common Files', 'PROCESSOR_ARCHITECTURE': 'AMD64', 'ALLUSERSPROFILE': 'C:\\ProgramData', 'USERPROFILE': 'C:\\Users\\theph', 'LOCALAPPDATA': 'C:\\Users\\theph\\AppData\\Local', 'FPS_BROWSER_USER_PROFILE_STRING': 'Default', 'HOMEPATH': '\\Users\\theph', 'USERDOMAIN_ROAMINGPROFILE': 'DESKTOP-7054VC9', 'PROGRAMW6432': 'C:\\Program Files', 'USERNAME': 'theph', 'LOGONSERVER': '\\\\DESKTOP-7054VC9', 'PROMPT': '$P$G', 'SESSIONNAME': 'Console', 'PROGRAMDATA': 'C:\\ProgramData', 'ONEDRIVE': 'C:\\Users\\theph\\OneDrive', 'ADSK_3DSMAX_X64_2019': 'C:\\Program Files\\Autodesk\\3ds Max 2019\\', 'ZES_ENABLE_SYSMAN': '1', 'HAXEPATH': 'C:\\HaxeToolkit\\haxe', 'PATHEXT': '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW', 'TTOFF_LOGIN_TOKEN': 'dev', 'WINDIR': 'C:\\WINDOWS', 'PYCHARM COMMUNITY EDITION': 'C:\\Program Files\\JetBrains\\PyCharm Community Edition 2022.2.2\\bin;', 'HOMEDRIVE': 'C:', 'SYSTEMDRIVE': 'C:', 'PUBLIC': 'C:\\Users\\Public', 'NUMBER_OF_PROCESSORS': '16', 'APPDATA': 'C:\\Users\\theph\\AppData\\Roaming', 'IDK2': 'C:\\Program Files\\Python38', 'COMMONPROGRAMW6432': 'C:\\Program Files\\Common Files', 'OS': 'Windows_NT', 'ADSK_CLM_WPAD_PROXY_CHECK': 'FALSE', 'IDK': 'C:\\Program Files\\Python38\\Scripts'}
+:01-05-2023 21:22:56 TTOffLauncher: isTestServer: 0
+:01-05-2023 21:22:56 TTOffLauncher: Game Server 127.0.0.1
+:01-05-2023 21:22:56 TTOffLauncher: Starting Toontown Online... 
+:01-05-2023 21:22:56 TTOffLauncher: foreground: Launcher now operating in foreground
+useTTOffSpecificLogin=True
+:01-05-2023 21:22:56 TTOffLauncher: maybeStartGame: starting game
+:01-05-2023 21:22:56 TTOffLauncher: Starting Toontown Online...
+:01-05-2023 21:22:56 TTOffLauncher: background: Launcher now operating in background
+ToontownStart: Polling for game2 to finish...
+ToontownStart: Game2 is finished.
+ToontownStart: Starting the game.
+ToontownStart: setting default font
+:01-05-2023 21:22:57 TTOffLauncher: setting panda error code to 7
+Known pipe types:
+  wglGraphicsPipe
+(all display modules loaded.)
+:01-05-2023 21:22:57 ToonBase: Default graphics pipe is wglGraphicsPipe (OpenGL).
+:01-05-2023 21:22:58 :display(warning): FrameBufferProperties available less than requested.
+  requested: depth_bits=24 color_bits=3 red_bits=1 green_bits=1 blue_bits=1 alpha_bits=1 multisamples=70 back_buffers=1 force_hardware 
+  got: depth_bits=24 color_bits=24 red_bits=8 green_bits=8 blue_bits=8 alpha_bits=8 accum_bits=64 multisamples=16 back_buffers=1 force_hardware 
+:01-05-2023 21:22:58 ToonBase: Successfully opened window of type wglGraphicsWindow (OpenGL)
+:01-05-2023 21:22:58 ShowBase: __dev__ == False
+:01-05-2023 21:22:58 TTOffLauncher: setting panda error code to 11
+:01-05-2023 21:22:58 TTOffLauncher: setting panda error code to 0
+ToontownStart: Loading default gui sounds
+ToontownStart: serverVersion:  tto-dev
+:01-05-2023 21:22:58 Loader: starting bulk load of block 'init'
+:01-05-2023 21:23:04 :nativenet(error): Buffered_DatagramConnection Constructor rbufsize = 4096000 wbufsize = 4096000 write_flush_point = 1400
+:01-05-2023 21:23:04 OTPClientRepository: Using connect method 'http'
+:01-05-2023 21:23:09 TTOffLauncher: getRegistry ('DEPLOYMENT', None)
+:01-05-2023 21:23:09 TTOffLauncher: checking env
+:01-05-2023 21:23:09 TTOffLauncher: getRegistry ('GAME_DEPLOYMENT', None)
+:01-05-2023 21:23:09 TTOffLauncher: checking env
+:01-05-2023 21:23:09 OTPClientRepository: reg_deployment=
+:01-05-2023 21:23:09 OTPClientRepository: required-login auto.
+:01-05-2023 21:23:09 OTPClientRepository: loginInterface: LoginTTOffAccount
+:01-05-2023 21:23:09 TTOffLauncher: getNeedPwForSecretKey using ttoff-specific-login
+:01-05-2023 21:23:09 Loader: At end of block 'init', expected 138, loaded 14, duration=11.0128591
+:01-05-2023 21:23:09 OTPClientRepository: Connecting to gameserver directly (no proxy).
+:01-05-2023 21:23:09 OTPClientRepository: Connecting to //127.0.0.1:7198 via HTTP interface.
+:01-05-2023 21:23:09 TTOffLauncher: Stopping mini task manager.
+:01-05-2023 21:23:09 OTPClientRepository: Successfully connected to //127.0.0.1:7198.
+:01-05-2023 21:23:09 TTOffLauncher: Setting Disconnect Details normal
+{402000001: <toontown.distributed.ToontownDistrict.ToontownDistrict instance at 0x0000000020BC0C88>}
+:01-05-2023 21:23:11 StateData: AvatarChooser.enter
+:01-05-2023 21:23:11 DisplayOptions: settingsFullScreen = False, embedded = False width=800 height=600
+:01-05-2023 21:23:11 StateData: calling self.displayOptions.restrictToEmbedded(False)
+:01-05-2023 21:23:13 OTPClientRepository: ================
+:01-05-2023 21:23:13 OTPClientRepository: Chose avatar id: 100000001
+:01-05-2023 21:23:13 OTPClientRepository: Chose avatar name: Prof. Alvin Flippenhopper
+:01-05-2023 21:23:13 OTPClientRepository: Chose avatar dna: ('dls', 'ss', 's', 'm', 15, 0, 15, 15, 1, 8, 1, 8, 1, 1)
+:01-05-2023 21:23:13 OTPClientRepository: Chose avatar position: 1
+:01-05-2023 21:23:13 OTPClientRepository: isPaid: 1
+:01-05-2023 21:23:13 OTPClientRepository: freeTimeLeft: 0
+:01-05-2023 21:23:13 OTPClientRepository: allowSecretChat: True
+:01-05-2023 21:23:13 OTPClientRepository: ================
+:01-05-2023 21:23:13 Loader: starting bulk load of block 'localAvatarPlayGame'
+:01-05-2023 21:23:13 ToontownTimeManager(warning): error parsing date string=
+local
+:01-05-2023 21:23:14 NewsPageButtonManager(warning): Should not get here. NewsPageButtonManager.exitOff
+:01-05-2023 21:23:15 :pnmimage:png(warning): iCCP: known incorrect sRGB profile
+:01-05-2023 21:23:18 OTPClientRepository: Entering shard 402000001
+:01-05-2023 21:23:18 StreetSign: Street sign url is https://ttoffline.com/images/
+:01-05-2023 21:23:19 TimeManager: Clock sync: TimeManager.announceGenerate
+:01-05-2023 21:23:19 InGameNewsMgr: latestIssue=2013-08-22 16:49:46.000003-07:00
+cpu info: GenuineIntel|Intel(R) Core(TM) i9-9900K CPU @ 3.60GHz|591597|0|3.600,3.600|8,16 cpus
+:01-05-2023 21:23:21 OTPClientRepository: No sync from TimeManager.
+:01-05-2023 21:23:21 OTPClientRepository: gotTimeSync
+:01-05-2023 21:23:21 Loader: At end of block 'localAvatarPlayGame', expected 400, loaded 24, duration=8.1511667
+:01-05-2023 21:23:21 OTPClientRepository: Sending heartbeat mid-frame.
+:01-05-2023 21:23:21 TimeManager: Clock sync roundtrip took 2120.800 ms
+:01-05-2023 21:23:21 TimeManager: AI time delta is -0:02 from server delta
+:01-05-2023 21:23:21 TimeManager: Local clock uncertainty +/- 1.061 s
+:01-05-2023 21:23:21 TimeManager: Uncertainty is too high, trying again.
+:01-05-2023 21:23:21 PlayGame: QA-REGRESSION: NEIGHBORHOODS: Visit Cashbot HQ
+:01-05-2023 21:23:21 Loader: starting bulk load of block 'hood'
+:01-05-2023 21:23:23 TownBattleSuitPanel: Loading Suit Battle Panel!
+:01-05-2023 21:23:23 TownBattleSuitPanel: Loading Suit Battle Panel!
+:01-05-2023 21:23:23 TownBattleSuitPanel: Loading Suit Battle Panel!
+:01-05-2023 21:23:23 TownBattleSuitPanel: Loading Suit Battle Panel!
+:01-05-2023 21:23:23 TownBattleSuitPanel: Loading Suit Battle Panel!
+:01-05-2023 21:23:23 TownBattleSuitPanel: Loading Suit Battle Panel!
+:01-05-2023 21:23:23 TownBattleSuitPanel: Loading Suit Battle Panel!
+:01-05-2023 21:23:23 TownBattleSuitPanel: Loading Suit Battle Panel!
+:01-05-2023 21:23:23 :pnmimage:png(warning): Interlace handling should be turned on when using png_read_image
+:01-05-2023 21:23:23 CashbotCogHQLoader: loadPlaceGeom: 12000
+:01-05-2023 21:23:24 TimeManager: Clock sync roundtrip took 2798.244 ms
+:01-05-2023 21:23:24 TimeManager: AI time delta is -0:03 from server delta
+:01-05-2023 21:23:24 ClockDelta: previous delta at -4.372 s, +/- 1.061 s.
+:01-05-2023 21:23:24 ClockDelta: new delta at -4.021 s, +/- 1.399 s.
+:01-05-2023 21:23:24 ClockDelta: intersection at -4.366 s, +/- 1.055 s.
+:01-05-2023 21:23:24 TimeManager: Local clock uncertainty +/- 1.055 s
+:01-05-2023 21:23:24 TimeManager: Uncertainty is too high, trying again.
+:01-05-2023 21:23:24 DistributedObject: DistributedSuitPlanner 402002974: generating
+:01-05-2023 21:23:24 DistributedToon: calling LocalAvatar.startchat
+:01-05-2023 21:23:24 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_cashbot_maps.bam: not found on model path (currently: "/;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+:01-05-2023 21:23:24 Loader: At end of block 'hood', expected 2, loaded 15, duration=3.2179567
+:01-05-2023 21:23:24 TimeManager: Clock sync roundtrip took 418.093 ms
+:01-05-2023 21:23:24 TimeManager: AI time delta is -0:00 from server delta
+:01-05-2023 21:23:24 ClockDelta: previous delta at -4.366 s, +/- 1.055 s.
+:01-05-2023 21:23:24 ClockDelta: new delta at -5.200 s, +/- 0.209 s.
+:01-05-2023 21:23:24 ClockDelta: intersection at -5.200 s, +/- 0.209 s.
+:01-05-2023 21:23:24 TimeManager: Local clock uncertainty +/- 0.209 s
+:01-05-2023 21:23:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:01-05-2023 21:23:24 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:01-05-2023 21:23:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/bc.png
+:01-05-2023 21:23:24 :gobj(error): Unable to find texture "phase_3/maps/hands/bc.png" on model-path /;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:01-05-2023 21:23:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:01-05-2023 21:23:24 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:01-05-2023 21:23:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:01-05-2023 21:23:24 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:01-05-2023 21:23:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:01-05-2023 21:23:24 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:01-05-2023 21:23:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:01-05-2023 21:23:24 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:01-05-2023 21:23:24 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/mb.png
+:01-05-2023 21:23:24 :gobj(error): Unable to find texture "phase_3/maps/hands/mb.png" on model-path /;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:01-05-2023 21:23:25 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:01-05-2023 21:23:25 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:01-05-2023 21:23:25 :gobj(error): Texture::read() - couldn't read: phase_3/maps/hands/nc.png
+:01-05-2023 21:23:25 :gobj(error): Unable to find texture "phase_3/maps/hands/nc.png" on model-path /;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models
+Assertion failed: other._error_type == ET_ok at line 395 of panda/src/pgraph/nodePath.cxx
+:01-05-2023 21:23:25 Teleport(debug): teleportInDone: walk
+:01-05-2023 21:23:26 :loader(error): Couldn't load file phase_4/models/questmap/cog_hq_cashbot_maps.bam: not found on model path (currently: "/;/c/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown/launcher;/c/Panda3D-1.11.0-x64/etc/..;/c/Panda3D-1.11.0-x64/etc/../models")
+Traceback (most recent call last):
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 131, in __doPythonCallbacks
+    self.MyEventmanager.doEvents()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 43, in doEvents
+    processFunc(dequeueFunc())
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 99, in processEvent
+    messenger.send(eventName, paramList)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Messenger.py", line 333, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Messenger.py", line 418, in __dispatch
+    result = method (*(extraArgs + sentArgs))
+  File "toontown\hood\Place.py", line 775, in teleportInDone
+    self.fsm.request(self.nextState, [1])
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\battle\BattlePlace.py", line 24, in enterWalk
+    Place.Place.enterWalk(self, flag)
+  File "toontown\hood\Place.py", line 228, in enterWalk
+    if quest['type'] == global_quests.GLOBAL_QUEST_COGS:
+AttributeError: 'dict' object has no attribute 'GLOBAL_QUEST_COGS'
+:01-05-2023 21:23:26 :task(error): Exception occurred in PythonTask ivalLoop
+:01-05-2023 21:23:26 TTOffLauncher: setting panda error code to 12
+:01-05-2023 21:23:26 TTOffLauncher(warning): Handling Python exception.
+:01-05-2023 21:23:26 TimeManager: Client disconnect reason 3.
+:01-05-2023 21:23:26 TimeManager: Client exception: toontown.hood.Place:228, toontown.battle.BattlePlace:24, direct.fsm.State:202, direct.fsm.ClassicFSM:214, AttributeError: 'dict' object has no attribute 'GLOBAL_QUEST_COGS'
+:01-05-2023 21:23:26 OTPClientRepository: Sent disconnect message to server
+:01-05-2023 21:23:26 OTPClientRepository: Closing connection to server.
+:01-05-2023 21:23:26 TTOffLauncher: Exception exit.
+
+Traceback (most recent call last):
+  File "otp\launcher\LauncherBase.py", line 1081, in mainLoop
+    self._runTaskManager()
+  File "otp\launcher\LauncherBase.py", line 1052, in _runTaskManager
+    taskMgr.run()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 528, in run
+    self.step()
+  File "C:\Panda3D-1.11.0-x64\direct\task\Task.py", line 482, in step
+    self.mgr.poll()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\ShowBase.py", line 1943, in __ivalLoop
+    IntervalManager.ivalMgr.step()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 95, in step
+    self.__doPythonCallbacks()
+  File "C:\Panda3D-1.11.0-x64\direct\interval\IntervalManager.py", line 131, in __doPythonCallbacks
+    self.MyEventmanager.doEvents()
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 43, in doEvents
+    processFunc(dequeueFunc())
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\EventManager.py", line 99, in processEvent
+    messenger.send(eventName, paramList)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Messenger.py", line 333, in send
+    self.__dispatch(acceptorDict, event, sentArgs, foundWatch)
+  File "C:\Panda3D-1.11.0-x64\direct\showbase\Messenger.py", line 418, in __dispatch
+    result = method (*(extraArgs + sentArgs))
+  File "toontown\hood\Place.py", line 775, in teleportInDone
+    self.fsm.request(self.nextState, [1])
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 281, in request
+    exitArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 228, in __transition
+    self.__enter(aState, enterArgList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\ClassicFSM.py", line 214, in __enter
+    aState.enter(argList)
+  File "C:\Panda3D-1.11.0-x64\direct\fsm\State.py", line 202, in enter
+    self.__enterFunc(*argList)
+  File "toontown\battle\BattlePlace.py", line 24, in enterWalk
+    Place.Place.enterWalk(self, flag)
+  File "toontown\hood\Place.py", line 228, in enterWalk
+    if quest['type'] == global_quests.GLOBAL_QUEST_COGS:
+AttributeError: 'dict' object has no attribute 'GLOBAL_QUEST_COGS'

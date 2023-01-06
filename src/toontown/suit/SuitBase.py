@@ -55,6 +55,10 @@ class SuitBase:
             self.maxHP = attributes['hp'][self.level]
         except:
             self.maxHP = (self.getActualLevel() + 1) * (self.getActualLevel() + 2)
+        if self.getActualLevel() == 1:
+            self.maxHP = 5
+        else:
+            self.maxHP = round(self.maxHP/10)*10
         self.currHP = self.maxHP
 
     def getSkelecog(self):

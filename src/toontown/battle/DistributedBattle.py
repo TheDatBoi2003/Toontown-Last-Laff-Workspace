@@ -12,6 +12,7 @@ from direct.actor import Actor
 from toontown.toon import TTEmote
 from otp.avatar import Emote
 import SuitBattleGlobals
+import BattleProps
 from toontown.distributed import DelayDelete
 import random
 
@@ -93,6 +94,7 @@ class DistributedBattle(DistributedBattleBase.DistributedBattleBase):
         toonTrack = Sequence()
         suitTrack.append(Func(suit.loop, 'neutral'))
         suitTrack.append(Func(suit.headsUp, toon))
+        suitTrack.append(Func(suit.wrtReparentTo, self))
         taunt = SuitBattleGlobals.getFaceoffTaunt(suit.getStyleName(), suit.doId)
         suitTrack.append(Func(suit.setChatAbsolute, taunt, CFSpeech | CFTimeout))
         toonTrack.append(Func(toon.loop, 'neutral'))
@@ -101,15 +103,6 @@ class DistributedBattle(DistributedBattleBase.DistributedBattleBase):
         suitOffsetPnt = Point3(0, 0, suitHeight)
         faceoffTime = self.calcFaceoffTime(self.getPos(), self.initialSuitPos)
         faceoffTime = max(faceoffTime, BATTLE_SMALL_VALUE)
-        npcToon = None
-        from toontown.toon.DistributedCombatNPCToon import DistributedCombatNPCToon
-        for do in base.cr.doId2do.values():
-            if isinstance(do, DistributedCombatNPCToon):        
-                npcToon = do
-                break
-        if npcToon:
-            npcToon.reparentTo(self)
-            npcToon.setPos(0, 0, 0)
         delay = FACEOFF_TAUNT_T
         if self.hasLocalToon():
             MidTauntCamHeight = suitHeight * 0.66
@@ -135,30 +128,82 @@ class DistributedBattle(DistributedBattleBase.DistributedBattleBase):
                 camTrack.append(Wait(FACEOFF_LOOK_AT_PROP_T))
         suitTrack.append(Wait(delay))
         toonTrack.append(Wait(delay))
-        suitTrack.append(Func(suit.headsUp, self, suitPos))
-        suitTrack.append(Func(suit.clearChat))
-        toonTrack.append(Func(toon.headsUp, self, toonPos))
-        suitTrack.append(Func(suit.loop, 'walk'))
-        suitTrack.append(LerpPosInterval(suit, faceoffTime, suitPos, other=self))
-        suitTrack.append(Func(suit.loop, 'neutral'))
-        suitTrack.append(Func(suit.setHpr, self, suitHpr))
-        toonTrack.append(Func(toon.loop, 'run'))
-        toonTrack.append(LerpPosInterval(toon, faceoffTime, toonPos, other=self))
-        toonTrack.append(Func(toon.loop, 'neutral'))
-        toonTrack.append(Func(toon.setHpr, self, toonHpr))
-        if base.localAvatar == toon:
-            soundTrack = Sequence(Wait(delay), SoundInterval(base.localAvatar.soundRun, loop=1, duration=faceoffTime, node=base.localAvatar))
+        if faceoffTime >= 8.0:
+            suitTrack.append(Func(suit.headsUp, self, suitPos))
+            suitTrack.append(Func(suit.clearChat))
+            destPos, h = self.suitPoints[0][0]
+            toonTrack.append(Func(toon.enterTeleportOut))
+            toonTrack.append(Wait(4))
+            toonTrack.append(Func(toon.hide))
+            moveIval = Sequence(Func(suit.headsUp, self), Func(suit.pose, 'landing', 0),
+                                ProjectileInterval(suit, duration=faceoffTime / 3, endPos=destPos, gravityMult=0.1),
+                                ActorInterval(suit, 'landing'), Func(suit.loop, 'neutral'))
+            if suit.prop is None:
+                suit.prop = BattleProps.globalPropPool.getProp('propeller')
+            suit.prop.hide()
+            propDur = suit.prop.getDuration('propeller')
+            landingDur = suit.getDuration('landing')
+            lastSpinFrame = 8
+            fr = suit.prop.getFrameRate('propeller')
+            spinTime = lastSpinFrame / fr
+            openTime = (lastSpinFrame + 1) / fr
+            suit.attachPropeller()
+            propTrack = Parallel(Func(suit.prop.show),
+                                 SoundInterval(suit.propInSound, duration=faceoffTime / 3, node=suit), Sequence(
+                    ActorInterval(suit.prop, 'propeller', constrainedLoop=1, duration=faceoffTime / 3 + 1,
+                                  startTime=0.0,
+                                  endTime=spinTime),
+                    ActorInterval(suit.prop, 'propeller', duration=landingDur, startTime=openTime),
+                    Func(suit.detachPropeller)))
+            result = Parallel(moveIval, propTrack)
+            suitTrack.append(Func(suit.setHpr, h))
+            suitTrack.append(result)
+            toonTrack.append(Func(toon.setHpr, self, toonHpr))
+            toonTrack.append(Func(toon.setPos, self, toonPos))
+            toonTrack.append(Func(toon.show))
+            toonTrack.append(Func(toon.enterTeleportIn))
+            if base.localAvatar == toon:
+                soundTrack = Sequence(Wait(delay))
+            else:
+                soundTrack = Wait(delay + faceoffTime)
+            mtrack = Parallel(suitTrack, toonTrack, soundTrack)
+            if self.hasLocalToon():
+                NametagGlobals.setMasterArrowsOn(0)
+                mtrack = Parallel(mtrack, camTrack)
+            done = Func(callback)
+            track = Sequence(mtrack, done, name=name)
+            track.delayDeletes = [DelayDelete.DelayDelete(toon, '__faceOff'),
+                                  DelayDelete.DelayDelete(suit, '__faceOff')]
+            track.start(ts)
+            self.storeInterval(track, name)
         else:
-            soundTrack = Wait(delay + faceoffTime)
-        mtrack = Parallel(suitTrack, toonTrack, soundTrack)
-        if self.hasLocalToon():
-            NametagGlobals.setMasterArrowsOn(0)
-            mtrack = Parallel(mtrack, camTrack)
-        done = Func(callback)
-        track = Sequence(mtrack, done, name=name)
-        track.delayDeletes = [DelayDelete.DelayDelete(toon, '__faceOff'), DelayDelete.DelayDelete(suit, '__faceOff')]
-        track.start(ts)
-        self.storeInterval(track, name)
+            suitTrack.append(Func(suit.headsUp, self, suitPos))
+            suitTrack.append(Func(suit.clearChat))
+            toonTrack.append(Func(toon.headsUp, self, toonPos))
+            suitTrack.append(Func(suit.loop, 'walk'))
+            suitTrack.append(LerpPosInterval(suit, faceoffTime, suitPos, other=self))
+            suitTrack.append(Func(suit.loop, 'neutral'))
+            suitTrack.append(Func(suit.setHpr, self, suitHpr))
+            toonTrack.append(Func(toon.loop, 'run'))
+            toonTrack.append(LerpPosInterval(toon, faceoffTime, toonPos, other=self))
+            toonTrack.append(Func(toon.loop, 'neutral'))
+            toonTrack.append(Func(toon.setHpr, self, toonHpr))
+            if base.localAvatar == toon:
+                soundTrack = Sequence(Wait(delay),
+                                      SoundInterval(base.localAvatar.soundRun, loop=1, duration=faceoffTime,
+                                                    node=base.localAvatar))
+            else:
+                soundTrack = Wait(delay + faceoffTime)
+            mtrack = Parallel(suitTrack, toonTrack, soundTrack)
+            if self.hasLocalToon():
+                NametagGlobals.setMasterArrowsOn(0)
+                mtrack = Parallel(mtrack, camTrack)
+            done = Func(callback)
+            track = Sequence(mtrack, done, name=name)
+            track.delayDeletes = [DelayDelete.DelayDelete(toon, '__faceOff'),
+                                  DelayDelete.DelayDelete(suit, '__faceOff')]
+            track.start(ts)
+            self.storeInterval(track, name)
 
     def enterFaceOff(self, ts):
         self.notify.debug('enterFaceOff()')

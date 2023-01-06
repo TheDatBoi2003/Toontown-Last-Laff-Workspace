@@ -55,6 +55,8 @@ class DistributedBattleAI(DistributedBattleBaseAI.DistributedBattleBaseAI):
         self.runableFsm.request('Unrunable')
         self.suits[0].releaseControl()
         timeForFaceoff = self.calcFaceoffTime(self.pos, self.initialSuitPos) + FACEOFF_TAUNT_T + SERVER_BUFFER_TIME
+        if timeForFaceoff >= 8.0 + FACEOFF_TAUNT_T + SERVER_BUFFER_TIME:
+            timeForFaceoff /= 1.5
         if self.interactivePropTrackBonus >= 0:
             timeForFaceoff += FACEOFF_LOOK_AT_PROP_T
         self.timer.startCallback(timeForFaceoff, self.__serverFaceOffDone)

@@ -55,6 +55,10 @@ class DistributedSuitBaseAI(DistributedAvatarAI.DistributedAvatarAI, SuitBase.Su
             hp = attributes['hp'][self.level]
         except:
             hp = (lvl + 1) * (lvl + 2)
+        if lvl == 1:
+            hp = 5
+        else:
+            hp = round(hp/10)*10
         self.maxHP = hp
         self.currHP = hp
 
@@ -169,12 +173,6 @@ class DistributedSuitBaseAI(DistributedAvatarAI.DistributedAvatarAI, SuitBase.Su
 
     def setSkelecog(self, flag):
         SuitBase.SuitBase.setSkelecog(self, flag)
-        if flag:
-            percent = randFloat(0.70, 1.40)
-            newHealth = int(self.maxHP * percent)
-            self.maxHP = newHealth
-            self.currHP = self.maxHP
-
 
     def d_setSkelecog(self, flag):
         self.sendUpdate('setSkelecog', [flag])

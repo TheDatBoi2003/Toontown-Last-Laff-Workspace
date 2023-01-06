@@ -53,6 +53,7 @@ class BattleCalculatorAI:
         self.tutorialFlag = tutorialFlag
         self.trainTrapTriggered = False
         self.promoRounds = 0
+        self.knockBack2Suit = [0, 0, 0, 0]
 
     def setSkillCreditMultiplier(self, mult):
         self.__skillCreditMultiplier = mult
@@ -564,13 +565,14 @@ class BattleCalculatorAI:
                     attackIdx = currTgt[currAtkType][numDmgs - 1][0]
                     attackerId = self.toonAtkOrder[attackIdx]
                     attack = self.battle.toonAttacks[attackerId]
+                    attackLevel = attack[TOON_LVL_COL]
                     if hp:
                         if attack[TOON_TRACK_COL] != SOUND:
                             attack[TOON_HPBONUS_COL] = math.ceil(totalDmgs * (self.DamageBonuses[numDmgs - 1] * 0.01))
                         if self.notify.getDebug():
                             self.notify.debug('Applying hp bonus to track ' + str(attack[TOON_TRACK_COL]) + ' of ' + str(attack[TOON_HPBONUS_COL]))
                     elif len(attack[TOON_KBBONUS_COL]) > tgtPos:
-                        attack[TOON_KBBONUS_COL][tgtPos] = totalDmgs * 0.5
+                        attack[TOON_KBBONUS_COL][tgtPos] = self.knockBack2Suit[tgtPos]
                         if self.notify.getDebug():
                             self.notify.debug('Applying kb bonus to track ' + str(attack[TOON_TRACK_COL]) + ' of ' + str(attack[TOON_KBBONUS_COL][tgtPos]) + ' to target ' + str(tgtPos))
                     else:
@@ -1261,6 +1263,9 @@ class BattleCalculatorAI:
             credit = 0
         else:
             credit = self.itemIsCredit(LURE, lureLvl)
+        suit = self.battle.findSuit(suitId)
+        suitIndex = self.battle.activeSuits.index(suit)
+        self.knockBack2Suit[suitIndex] = ((lureLvl+1) * 10)
         if suitId in self.currentlyLuredSuits:
             lureInfo = self.currentlyLuredSuits[suitId]
             if lurer not in lureInfo[3]:
