@@ -2,38 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b06248f-a488-484a-b2db-eb3454d7a262" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/toontown/globalquests/GlobalQuestManagerAI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toontown/globalquests/GlobalQuests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toontown/globalquests/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_1100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_1100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_1200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_1200_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_1300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_1300_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_3100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_3100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_3300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_3300_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_4100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_4100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_4300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_4300_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_5100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_5100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_5200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_5200_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_5300_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_5300_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_9100_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_9100_buildings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backups/402000001_9200_buildings.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/402000001_9200_buildings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backups/pets/pets_402000001.json" beforeDir="false" afterPath="$PROJECT_DIR$/backups/pets/pets_402000001.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/ai/NewsManagerAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/ai/NewsManagerAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/ai/ToontownAIRepository.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/ai/ToontownAIRepository.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/battle/BattleCalculatorAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/battle/BattleCalculatorAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/battle/BattleExperienceAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/battle/BattleExperienceAI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toontown/battle/DistributedBattle.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/battle/DistributedBattle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toontown/battle/DistributedBattleAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/battle/DistributedBattleAI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/toontown/hood/HoodDataAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/hood/HoodDataAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/hood/Place.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/hood/Place.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedSuitBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedSuitBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/DistributedSuitBaseAI.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/DistributedSuitBaseAI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/suit/SuitBase.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/suit/SuitBase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/toon/DistributedToon.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/toon/DistributedToon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/toonbase/ToontownBattleGlobals.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/toonbase/ToontownBattleGlobals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/toontown/town/TownBattleSuitPanel.py" beforeDir="false" afterPath="$PROJECT_DIR$/toontown/town/TownBattleSuitPanel.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +36,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Toontown/Toontown - Programming/SuitopiaUpdateLastLaff/Toontown-Last-Laff-Workspace/src/toontown&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
   </component>

@@ -38,7 +38,7 @@ class HoodDataAI:
 
         # Every 5 minutes send a message about the global quest
         self.air.globalQuestManager.sendGlobalQuestMessage()
-        taskMgr.doMethodLater(300, self.sendGlobalQuestMessage, 'global-quest-message')
+
 
     def sendGlobalQuestMessage(self, task):
         if self.air.globalQuestManager:

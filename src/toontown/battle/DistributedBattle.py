@@ -128,7 +128,7 @@ class DistributedBattle(DistributedBattleBase.DistributedBattleBase):
                 camTrack.append(Wait(FACEOFF_LOOK_AT_PROP_T))
         suitTrack.append(Wait(delay))
         toonTrack.append(Wait(delay))
-        if faceoffTime >= 8.0:
+        if faceoffTime >= 5.0:
             suitTrack.append(Func(suit.headsUp, self, suitPos))
             suitTrack.append(Func(suit.clearChat))
             destPos, h = self.suitPoints[0][0]
