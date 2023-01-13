@@ -1,7 +1,7 @@
 {
     "game": {
         "interpolate-animations": true, 
-        "FOV": 130, 
+        "FOV": 87, 
         "antialiasing": 70, 
         "customKeybinds": true, 
         "movement_mode": 0, 

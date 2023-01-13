@@ -1,11 +1,11 @@
 {
     "25": {
-        "becameSuitTime": 1671589006.857, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "l", 
         "numFloors": 2, 
         "difficulty": 2, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 25
     }, 
     "26": {
@@ -27,12 +27,12 @@
         "block": 27
     }, 
     "20": {
-        "becameSuitTime": 1671856722.191, 
+        "becameSuitTime": 0, 
         "savedBy": null, 
         "track": "s", 
         "numFloors": 3, 
         "difficulty": 2, 
-        "state": "suit", 
+        "state": "toon", 
         "block": 20
     }, 
     "21": {
@@ -99,21 +99,21 @@
         "block": 7
     }, 
     "6": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1673574924.922, 
         "savedBy": null, 
         "track": "c", 
-        "numFloors": 1, 
-        "difficulty": 1, 
-        "state": "toon", 
+        "numFloors": 3, 
+        "difficulty": 4, 
+        "state": "suit", 
         "block": 6
     }, 
     "9": {
-        "becameSuitTime": 0, 
+        "becameSuitTime": 1673575596.359, 
         "savedBy": null, 
         "track": "l", 
-        "numFloors": 4, 
-        "difficulty": 5, 
-        "state": "toon", 
+        "numFloors": 2, 
+        "difficulty": 4, 
+        "state": "suit", 
         "block": 9
     }, 
     "8": {
